@@ -1,2 +1,5 @@
 langchain_groq
+langchain_core
 langchain_ollama
+opencv-python
+python-dotenv
