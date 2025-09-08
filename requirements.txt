@@ -1,5 +1,10 @@
 langchain_groq
 langchain_core
 langchain_ollama
+langchain_community
 opencv-python
 python-dotenv
+moondream
+chroma
+sentence-transformers
+vllm
