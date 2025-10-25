@@ -5,6 +5,8 @@ langchain_community
 opencv-python
 python-dotenv
 moondream
-chroma
+chromadb
 sentence-transformers
-vllm
+gTTs
+ipykernel
+h5py
