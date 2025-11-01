@@ -1,2 +1,7 @@
 venv/
 .env
+venvL/
+.venv/
+vllm/
+MAD/
+video_captions_db/
