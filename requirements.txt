@@ -4,9 +4,11 @@ langchain_ollama
 langchain_community
 opencv-python
 python-dotenv
+pandas
 moondream
 chromadb
 sentence-transformers
 gTTs
 ipykernel
 h5py
+groq 
