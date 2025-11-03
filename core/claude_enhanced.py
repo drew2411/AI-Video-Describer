@@ -28,6 +28,12 @@ try:
 except Exception as e:
     Groq = None  # will raise later if used
 
+# CLIP DECODE Requirement
+from clip_interrogator import Config as CIConfig, Interrogator
+
+ci_config = CIConfig(clip_model_name="ViT-L-14/openai")
+ci = Interrogator(ci_config)
+
 # ----------------------------
 # Config (edit these values)
 # ----------------------------
@@ -164,6 +170,22 @@ def aggregate_shot_embedding(embeddings: np.ndarray, start: int, end: int) -> np
     pooled = pooled / (np.linalg.norm(pooled) + 1e-8)
     return pooled.astype(np.float32)
 
+
+def decode_clip_embedding_to_text(embedding: np.ndarray) -> str:
+    """
+    Converts a CLIP embedding (from .h5) to an approximate caption.
+    """
+    # ensure torch tensor
+    import torch
+    emb_tensor = torch.tensor(embedding).unsqueeze(0)
+    # Use CLIP Interrogator's flavor-to-text feature
+    try:
+        # You can use ci.rank_top_tags or ci.interrogate, but we use a text-only approach:
+        prompt = ci.interrogate_embeds(emb_tensor, mode="best")
+    except Exception as e:
+        prompt = f"[decode failed: {e}]"
+    return prompt.strip()
+
 # ----------------------------
 # ChromaDB helper
 # ----------------------------
@@ -219,51 +241,79 @@ def init_groq_client():
     print("Loaded API key")
     return client
 
-def generate_ad_with_groq(client: Any, model: str, shot_meta: Dict[str,Any], context_text: str, max_tokens: int = 150) -> str:
+def generate_ad_with_groq(
+    client: Any,
+    model: str,
+    shot_meta: Dict[str, Any],
+    context_text: str,
+    max_tokens: int = 150
+) -> str:
     """
-    client: Groq client
-    model: string model id
-    shot_meta: dict with keys like start/end/duration/characters etc
-    context_text: optional textual context (subtitles + retrieved shots text)
+    Generate an Audio Description (AD) sentence for a given shot using Groq LLM.
+    
+    Combines:
+    - decoded CLIP caption (visual content)
+    - neighbor context (from ChromaDB)
+    - subtitle snippets (temporal text)
+    into one coherent prompt for a single-sentence AD output.
     """
+
+    # --- System message ---
     sys_msg = (
         "You are an expert describer who writes vivid, factual audio descriptions (AD) "
-        "for blind and low-vision audiences. Focus on visible actions, key objects, "
-        "and emotional expressions, but avoid technical or camera terms."
+        "for blind and low-vision audiences. Focus strictly on visible actions, key objects, "
+        "and emotional expressions. Avoid camera directions or interpretive language."
     )
 
+    # --- Gather components ---
+    decoded_caption = shot_meta.get("decoded_caption", "").strip()
+    duration = shot_meta.get("duration", 0.0)
+
+    # If no visual text at all, add fallback
+    if not decoded_caption:
+        decoded_caption = "[No visual context decoded from this shot’s frames.]"
+
+    # --- Build prompt ---
     user_prompt = (
-        f"Duration: {shot_meta['duration']:.2f}s. "
-        f"Visual context: {context_text}\n\n"
-        "Describe what happens in this shot in one sentence, "
-        "capturing the main action, objects, and emotional tone."
+        f"Duration: {duration:.2f} seconds.\n\n"
+        f"Visual summary (from CLIP embeddings): {decoded_caption}\n\n"
+        f"Additional context (from subtitles or nearby shots): {context_text}\n\n"
+        "Describe what happens visually in this shot in one sentence. "
+        "Focus on what can be *seen*, not inferred or assumed."
     )
 
-
-    # Retry loop
+    # --- Retry loop for robustness ---
     for attempt in range(3):
         try:
-            resp = client.chat.completions.create(
+            response = client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role":"system", "content": sys_msg},
-                    {"role":"user", "content": user_prompt}
+                    {"role": "system", "content": sys_msg},
+                    {"role": "user", "content": user_prompt},
                 ],
                 temperature=0.6,
-                max_tokens=max_tokens
+                max_tokens=max_tokens,
             )
-            # extract text
+
+            # Extract clean text from response
             out = ""
             try:
-                out = resp.choices[0].message.content.strip()
+                out = response.choices[0].message.content.strip()
             except Exception:
-                # fallback if different shape
-                out = getattr(resp, "output_text", "") or str(resp)
-            return out.strip()
+                out = getattr(response, "output_text", "") or str(response)
+
+            # Post-process to ensure valid sentence
+            out = out.replace("\n", " ").strip()
+            if not out or out.lower().startswith("unfortunately"):
+                raise ValueError("Groq returned unhelpful fallback text.")
+            return out
+
         except Exception as e:
             print(f"[Groq] attempt {attempt+1} failed: {e}")
-            time.sleep(2 * (attempt+1))
-    return "[AD generation failed]"
+            time.sleep(2 * (attempt + 1))
+
+    return "[AD generation failed after retries]"
+
 
 # ----------------------------
 # Pipeline main
@@ -302,6 +352,10 @@ def run_single_movie_pipeline(
     for i, (s,e) in enumerate(shots):
         pooled = aggregate_shot_embedding(embeddings, s, e)
         duration = (e - s) / Config.FPS
+
+        # Decode to short caption
+        decoded_caption = decode_clip_embedding_to_text(pooled)
+
         shot_meta = {
             "shot_id": i,
             "start_frame": int(s),
@@ -309,7 +363,7 @@ def run_single_movie_pipeline(
             "start_time_sec": round(s / Config.FPS, 2),
             "end_time_sec": round(e / Config.FPS, 2),
             "duration": float(duration),
-            "characters": [],  # stub; later can be filled via NER on CSV if desired
+            "decoded_caption": decoded_caption,
         }
         shot_list.append((pooled, shot_meta))
 
@@ -432,7 +486,7 @@ if __name__ == "__main__":
     # Edit this identifier to either:
     # - exact HDF5 key (e.g. "0001_American_Beauty"), OR
     # - numeric movie id (e.g. "10142" or 10142)
-    MOVIE_IDENTIFIER = "10142"   # <--- change to the movie you want to run
+    MOVIE_IDENTIFIER = "6656"   # <--- change to the movie you want to run
 
     # how many shots to process for quick runs
     MAX_SHOTS_TO_PROCESS = 20
