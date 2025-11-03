@@ -1,0 +1,73 @@
+Next Steps to Enhance:
+
+Add Real Shot Scale Classifier
+
+Fine-tune DINOv2 on MovieShots dataset
+Replace classify_shot_scale() stub
+
+
+Character Recognition
+
+Integrate InsightFace for face detection
+Match against IMDb cast photos
+Replace _extract_cast_stub()
+
+
+Implement Evaluation Metrics
+
+CIDEr calculation
+CRITIC score (character accuracy)
+Action Score (from Shot-by-Shot)
+
+
+Thread Structure Detection
+
+Dense feature matching (from paper)
+RANSAC-based clustering
+
+
+Emotion Detection
+
+Add FER2013 model
+Store in vector DB
+Use in Stage I prompts
+
+
+
+//
+
+Embeddings normalization & pooling choice
+
+Default: per-shot mean pooling and L2 normalize. 
+If you prefer max-pooling or weighted pooling, tell me (default mean is standard).
+
+//
+
+Next steps I can do for you (pick any)
+
+Run through the script and make any small edits (e.g., change MOVIE_IDENTIFIER or H5_PATH) and I’ll update the file text for you.
+
+Add an optional NER-based character bank that extracts names from AD CSV and attaches them into characters metadata for shots.
+
+Add evaluation code that matches generated ADs to AD CSV rows by time and computes simple overlap metrics (e.g., fraction aligned).
+
+Add TTS generation as later step (you said secondary).
+
+If you want, I can now:
+
+Drop the file into the canvas for you, or
+
+Paste the file again with any small edits you want (HDF5 path, default MOVIE_IDENTIFIER), or
+
+Walk through running it locally and troubleshooting errors you may hit.
+
+Which would you like me to do next?
+
+//
+Later, you can improve realism by:
+
+Adding temporal smoothing over decoded captions (so they’re stable over adjacent shots)
+
+Feeding a few nearest neighbor captions together into Groq for richer summaries
+
+Weighting CLIP similarity by subtitles alignment if needed
