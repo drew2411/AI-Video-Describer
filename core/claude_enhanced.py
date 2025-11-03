@@ -226,16 +226,19 @@ def generate_ad_with_groq(client: Any, model: str, shot_meta: Dict[str,Any], con
     shot_meta: dict with keys like start/end/duration/characters etc
     context_text: optional textual context (subtitles + retrieved shots text)
     """
-    sys_msg = "You are an assistant that writes concise, factual audio descriptions (AD) for blind and low-vision users. Output must be a single sentence suitable for narration, avoid mentioning camera or technical terms."
-    # craft user prompt - include shot metadata and context_text
-    user_prompt = (
-        f"Shot duration: {shot_meta.get('duration', 0):.2f}s. "
-        f"Characters (if known): {', '.join(shot_meta.get('characters', [])) or 'Unknown'}. "
-        f"Nearby scene labels: {shot_meta.get('labels','')}. "
-        f"Context subtitles / nearby AD (short): {context_text}\n\n"
-        "Task: Write ONE concise, narration-ready audio description sentence (<= 25 words) that describes the main visual action(s) in this shot. "
-        "Do not include extra commentary, do not mention camera, do not include timestamps."
+    sys_msg = (
+        "You are an expert describer who writes vivid, factual audio descriptions (AD) "
+        "for blind and low-vision audiences. Focus on visible actions, key objects, "
+        "and emotional expressions, but avoid technical or camera terms."
     )
+
+    user_prompt = (
+        f"Duration: {shot_meta['duration']:.2f}s. "
+        f"Visual context: {context_text}\n\n"
+        "Describe what happens in this shot in one sentence, "
+        "capturing the main action, objects, and emotional tone."
+    )
+
 
     # Retry loop
     for attempt in range(3):
@@ -432,9 +435,9 @@ if __name__ == "__main__":
     MOVIE_IDENTIFIER = "10142"   # <--- change to the movie you want to run
 
     # how many shots to process for quick runs
-    MAX_SHOTS_TO_PROCESS = 10
+    MAX_SHOTS_TO_PROCESS = 20
 
-    OFFSET_SHOT =10
+    OFFSET_SHOT =0
     # run
     print("Starting MAD -> Groq pipeline")
     results = run_single_movie_pipeline(str(MOVIE_IDENTIFIER), Config.H5_PATH, max_shots=MAX_SHOTS_TO_PROCESS, offset_shot=OFFSET_SHOT)
