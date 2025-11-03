@@ -5,3 +5,5 @@ venvL/
 vllm/
 MAD/
 video_captions_db/
+chroma_db_mad/
+mad_groq_outputs/
