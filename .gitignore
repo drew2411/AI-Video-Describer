@@ -8,3 +8,4 @@ video_captions_db/
 chroma_db_mad/
 mad_groq_outputs/
 sample_videos/
+MODULE_DESIGN.md
