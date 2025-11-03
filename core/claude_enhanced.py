@@ -415,7 +415,7 @@ def run_single_movie_pipeline(
             pass
 
     # save results file
-    out_file = Config.OUTPUT_DIR / f"{mapped_key}_ads_{int(time.time())}.json"
+    out_file = Config.OUTPUT_DIR / f"{mapped_key}_{OFFSET_SHOT}_{OFFSET_SHOT+MAX_SHOTS_TO_PROCESS}.json"
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump({"movie_key": mapped_key, "movie_numeric_id": movie_numeric_id, "results": results}, f, indent=2, ensure_ascii=False)
     print(f"\nSaved results to: {out_file}")
@@ -434,7 +434,8 @@ if __name__ == "__main__":
     # how many shots to process for quick runs
     MAX_SHOTS_TO_PROCESS = 10
 
+    OFFSET_SHOT =10
     # run
     print("Starting MAD -> Groq pipeline")
-    results = run_single_movie_pipeline(str(MOVIE_IDENTIFIER), Config.H5_PATH, max_shots=MAX_SHOTS_TO_PROCESS)
+    results = run_single_movie_pipeline(str(MOVIE_IDENTIFIER), Config.H5_PATH, max_shots=MAX_SHOTS_TO_PROCESS, offset_shot=OFFSET_SHOT)
     print("Done.")
