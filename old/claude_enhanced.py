@@ -28,11 +28,20 @@ try:
 except Exception as e:
     Groq = None  # will raise later if used
 
-# CLIP DECODE Requirement
+
+# CLIP Visual Captioning
+import torch
+from PIL import Image
+import open_clip
 from clip_interrogator import Config as CIConfig, Interrogator
 
+import cv2
+
+# Initialize CLIP Interrogator + model
 ci_config = CIConfig(clip_model_name="ViT-L-14/openai")
 ci = Interrogator(ci_config)
+clip_model, _, preprocess = open_clip.create_model_and_transforms('ViT-L-14', pretrained='openai')
+clip_model.eval()
 
 # ----------------------------
 # Config (edit these values)
@@ -170,6 +179,36 @@ def aggregate_shot_embedding(embeddings: np.ndarray, start: int, end: int) -> np
     pooled = pooled / (np.linalg.norm(pooled) + 1e-8)
     return pooled.astype(np.float32)
 
+def generate_caption_from_frame(video_path: str, frame_index: int) -> str:
+    """
+    Extracts a single frame from the video and generates a visual caption using CLIP Interrogator.
+    """
+    try:
+        cap = cv2.VideoCapture(video_path)
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        frame_index = min(max(0, frame_index), total_frames - 1)
+        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
+        success, frame = cap.read()
+        cap.release()
+
+        if not success or frame is None:
+            return "[Frame not available for captioning]"
+
+        # Convert BGR (OpenCV) → RGB (PIL)
+        image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+
+        # Get CLIP image embedding
+        with torch.no_grad(), torch.cuda.amp.autocast():
+            image_tensor = preprocess(image).unsqueeze(0)
+            image_features = clip_model.encode_image(image_tensor)
+            image_features /= image_features.norm(dim=-1, keepdim=True)
+
+        # Interrogate to generate caption
+        caption = ci.interrogate_embeds(image_features, mode="best")
+        return caption.strip()
+
+    except Exception as e:
+        return f"[Error generating caption: {e}]"
 
 def decode_clip_embedding_to_text(embedding: np.ndarray) -> str:
     """
@@ -353,8 +392,11 @@ def run_single_movie_pipeline(
         pooled = aggregate_shot_embedding(embeddings, s, e)
         duration = (e - s) / Config.FPS
 
-        # Decode to short caption
-        decoded_caption = decode_clip_embedding_to_text(pooled)
+        # Get representative frame (middle frame of the shot)
+        representative_frame = (s + e) // 2
+        video_path = f"C:\\Users\\nikhi\\projects\\AI-Video-Describer\\MAD\\videos\\{mapped_key}.mp4"  # adjust path
+        decoded_caption = generate_caption_from_frame(video_path, representative_frame)
+
 
         shot_meta = {
             "shot_id": i,

@@ -13,3 +13,6 @@ ipykernel
 h5py
 groq 
 clip-interrogator==0.6.0
+open_clip_torch
+nltk
+rouge_score
