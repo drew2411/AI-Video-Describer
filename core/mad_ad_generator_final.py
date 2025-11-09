@@ -635,7 +635,7 @@ def print_sample_results(results: List[Dict], n: int = 3):
             print(f"   Retrieval distances: [{dists}]")
         
         if r['combined_context']:
-            print(f"   Top context: {r['context_ads'][0][:80]}...")
+            print(f"   Top context: {r['combined_context'][0][:80]}...")
 
 
 # ----------------------------
