@@ -12,10 +12,10 @@
       "shot_id": 0,
       "start_frame": 0,
       "end_frame": 74,
-      "start_time": 0.0, 
+      "start_time": 0.0,
       "end_time": 14.8,
       "duration": 14.8,
-      "generated_ad": "In a starry night sky, massive block letters of gold and Silver Orbit appear, set against a backdrop of the Earth.",
+      "generated_ad": "In a starry night sky, massive block letters of gold and Silver Orbit appear, set against the curvature of the Earth.",
       "ground_truth": "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
       "ground_truth_id": "104108",
       "visual_context": [
@@ -50,7 +50,7 @@
       "start_time": 14.8,
       "end_time": 26.0,
       "duration": 11.2,
-      "generated_ad": "The screen fades in to reveal the Earth, with the massive, gold and silver block letters of \"Silver Orbit\" emerging from the globe, as the company name is displayed prominently against a starry night sky.",
+      "generated_ad": "The screen fades in to reveal the Earth, with the massive, golden words \"Silver Orbit\" emerging from the globe, as the camera pans out to show the company name in a starry night sky.",
       "ground_truth": "The earth eclipses the sun and a massive word hovers front and center universal, a Comcast company.",
       "ground_truth_id": "104109",
       "visual_context": [
@@ -85,7 +85,7 @@
       "start_time": 26.0,
       "end_time": 27.6,
       "duration": 1.6000000000000014,
-      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" appearing prominently, followed by a list of producers including Jason Blumenthal, Steve Tisch, and others.",
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" appearing in bold text, followed by the presentation and production credits listing the producers, including Jason Blumenthal, Steve Tisch, and others.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -120,7 +120,7 @@
       "start_time": 27.6,
       "end_time": 42.8,
       "duration": 15.199999999999996,
-      "generated_ad": "The production logo features the company name, \"Luminaria Films\", with the text emerging from a stylized, glowing globe, as shimmering starlight and subtle animations of light rays dancing across the globe's surface illuminate the surrounding blackness.",
+      "generated_ad": "In a starry night sky, the company name \"Black Star\" emerges as glowing rays of light shoot off the continents of a three-dimensional world, set against a backdrop of twinkling celestial bodies.",
       "ground_truth": "In another logo, four children waved sparklers, tracing out capital letters. The letters hover over a grassy hill at twilight as the kids run past. The first one, underlines the words. Good universe.",
       "ground_truth_id": "104110",
       "visual_context": [
@@ -155,7 +155,7 @@
       "start_time": 42.8,
       "end_time": 44.4,
       "duration": 1.6000000000000014,
-      "generated_ad": "A person, seated at a table with a leader, remains still as someone, possibly Kraus, wheels into the dining room.",
+      "generated_ad": "A person, possibly a leader, sits still at a table in a dining room as someone else is seated across from them, with Kraus entering the room in a wheelchair.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -190,7 +190,7 @@
       "start_time": 44.4,
       "end_time": 45.0,
       "duration": 0.6000000000000014,
-      "generated_ad": "The production logo, likely for a film or series, appears on screen with a simple text-based title, possibly \"SOMEONE\", as the scene transitions from a woman's morning routine to a man purchasing a revolver, setting a dramatic tone.",
+      "generated_ad": "The production logo, likely for a film or television series, appears on screen with no distinctive visual elements, instead transitioning directly into a live-action sequence showing a character preparing for a potentially dangerous situation, with a person purchasing a revolver and ammunition from a clerk.",
       "ground_truth": "The lid of a school desk closes and animated scene of card sketches and scribbled words appears on the wooden surface. Words in the center, Reed point grey.",
       "ground_truth_id": "104111",
       "visual_context": [
@@ -260,7 +260,7 @@
       "start_time": 54.4,
       "end_time": 55.6,
       "duration": 1.2000000000000028,
-      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" prominently featured, followed by a list of production credits including producers Jason Blumenthal, Steve Tisch, and executive producers David Householder, Jason Segel, and Jake Kasdan.",
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" prominently featured, followed by a list of production credits including producers Jason Blumenthal, Steve Tisch, and executive producers.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -295,7 +295,7 @@
       "start_time": 55.6,
       "end_time": 71.0,
       "duration": 15.399999999999999,
-      "generated_ad": "The screen displays the production company logos, including Appoint Grape Production and Good Universe, in association with Universal Pictures, against a backdrop of a boy's bedroom with various personal items and a framed photo.",
+      "generated_ad": "The production logo appears on screen, displaying the text \"Universal Pictures\" and \"Amblin Entertainment\" is not shown, instead \"good universe\" and \"appoint grape production\" are presented in a straightforward, non-animated format.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -365,7 +365,7 @@
       "start_time": 79.6,
       "end_time": 80.8,
       "duration": 1.2000000000000028,
-      "generated_ad": "He selects a character avatar and makes adjustments to its appearance, enlarging its body and modifying its armor.",
+      "generated_ad": "A character avatar is selected and appears on screen with an axe in hand and glowing eyes.",
       "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
       "ground_truth_id": "104116",
       "visual_context": [
@@ -400,7 +400,7 @@
       "start_time": 80.8,
       "end_time": 83.0,
       "duration": 2.200000000000003,
-      "generated_ad": "The boy navigates through a character selection or customization screen, where he chooses and modifies an avatar's appearance, interacting with on-screen options and sliders to alter its physical attributes.",
+      "generated_ad": "The boy interacts with a character customization screen, modifying the appearance of a female character avatar by adjusting her body size and altering her breastplate to a more mesh-like design.",
       "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
       "ground_truth_id": "104116",
       "visual_context": [
@@ -435,7 +435,7 @@
       "start_time": 83.0,
       "end_time": 83.8,
       "duration": 0.7999999999999972,
-      "generated_ad": "The boy ties one end of his laptop power cord to his doorknob and the other end to his bed, then climbs back onto his bed and looks at his laptop.",
+      "generated_ad": "The boy quickly shuts the door as it opens inward, with a laptop and a bed visible in the scene.",
       "ground_truth": "The boy switches to a green.",
       "ground_truth_id": "104117",
       "visual_context": [
@@ -470,7 +470,7 @@
       "start_time": 83.8,
       "end_time": 85.2,
       "duration": 1.4000000000000057,
-      "generated_ad": "The boy clicks on a character avatar, and its appearance changes, with the breastplate transforming into a more mesh-like design.",
+      "generated_ad": "The boy's hands move quickly over a digital interface, selecting and modifying a character avatar, as the on-screen figure's appearance changes, with alterations to its body and attire visible in rapid succession.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -505,7 +505,7 @@
       "start_time": 85.2,
       "end_time": 87.0,
       "duration": 1.7999999999999972,
-      "generated_ad": "A figure is seen dropping someone, then quickly grabbing and engaging with nearby guards, amidst the swift motion of limbs and blades.",
+      "generated_ad": "A figure ducks and dodges as guards approach, and a knife is thrown through the air towards one of the guards.",
       "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
       "ground_truth_id": "104118",
       "visual_context": [
@@ -540,7 +540,7 @@
       "start_time": 87.0,
       "end_time": 87.8,
       "duration": 0.7999999999999972,
-      "generated_ad": "In a brief flash, a character's body is enlarged, with a focus on their breasts, and their breastplate is altered to a more mesh-like material.",
+      "generated_ad": "A female character's body is enlarged, with a focus on her breasts, and her breastplate is modified to a more mesh-like design.",
       "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
       "ground_truth_id": "104118",
       "visual_context": [
@@ -575,7 +575,7 @@
       "start_time": 87.8,
       "end_time": 89.8,
       "duration": 2.0,
-      "generated_ad": "A woman walks toward a gate, passing by guards who turn their heads to look at her as she moves by.",
+      "generated_ad": "A woman walks towards a gate, passing by guards who turn their heads to look at her as she moves by.",
       "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
       "ground_truth_id": "104118",
       "visual_context": [
@@ -610,7 +610,7 @@
       "start_time": 89.8,
       "end_time": 91.0,
       "duration": 1.2000000000000028,
-      "generated_ad": "The boy quickly looks around his room, then ties one end of his laptop power cord to his doorknob and the other end to his bed.",
+      "generated_ad": "The boy quickly looks at his laptop, then turns his attention to the door as it opens inward, prompting him to shut it.",
       "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
       "ground_truth_id": "104118",
       "visual_context": [
@@ -645,7 +645,7 @@
       "start_time": 91.0,
       "end_time": 91.8,
       "duration": 0.7999999999999972,
-      "generated_ad": "A female character's body is visually enhanced, with her breasts enlarging and her breastplate changing to a more mesh-like appearance.",
+      "generated_ad": "A female character's body is briefly seen being enhanced, with her breasts enlarging and her breastplate changing to a more mesh-like appearance.",
       "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
       "ground_truth_id": "104118",
       "visual_context": [
@@ -680,7 +680,7 @@
       "start_time": 91.8,
       "end_time": 94.0,
       "duration": 2.200000000000003,
-      "generated_ad": "A woman walks towards a gate, passing by guards who turn their heads to look at her as she moves by.",
+      "generated_ad": "As she walks towards the gate, she slightly wavers and passes by guards who turn their heads to stare after her.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -750,7 +750,7 @@
       "start_time": 96.0,
       "end_time": 101.4,
       "duration": 5.400000000000006,
-      "generated_ad": "The boy ties one end of his laptop power cord to his doorknob and the other end to his bed, then looks at his laptop and smiles as the door opens inward.",
+      "generated_ad": "The brown-haired boy ties one end of his laptop power cord to his doorknob and the other end to his bed, then climbs back onto his bed, looks at his laptop, and smiles as the door opens inward.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -785,7 +785,7 @@
       "start_time": 101.4,
       "end_time": 104.8,
       "duration": 3.3999999999999915,
-      "generated_ad": "There is no visible production logo or opening credits sequence, only a descriptive scene of a brown-haired boy in his room.",
+      "generated_ad": "The production logo or opening credits are not visible, instead, the scene opens with a brown-haired boy in his room, interacting with his laptop power cord.",
       "ground_truth": "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
       "ground_truth_id": "104119",
       "visual_context": [
@@ -855,7 +855,7 @@
       "start_time": 105.4,
       "end_time": 107.0,
       "duration": 1.5999999999999943,
-      "generated_ad": "The boy, with brown hair, ties one end of his laptop power cord to the doorknob and the other end to his bed, as he prepares to possibly restrict the door's movement.",
+      "generated_ad": "The boy quickly shuts the door as it opens inward, while he is on his bed with his laptop.",
       "ground_truth": "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
       "ground_truth_id": "104119",
       "visual_context": [
@@ -890,7 +890,7 @@
       "start_time": 107.0,
       "end_time": 108.2,
       "duration": 1.2000000000000028,
-      "generated_ad": "A dark-haired young man bends at the waist, reaching for something, as another person opens a closet in the background.",
+      "generated_ad": "A dark-haired young man bends at the waist, while another person opens a closet, and various electronics are visible.",
       "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
       "ground_truth_id": "104120",
       "visual_context": [
@@ -960,7 +960,7 @@
       "start_time": 109.8,
       "end_time": 112.8,
       "duration": 3.0,
-      "generated_ad": "The boy quickly shuts his laptop and looks towards the door as it opens inward, his eyes widening in a brief expression of surprise or concern.",
+      "generated_ad": "The boy quickly shuts his laptop and turns his attention to the door as it opens inward, his movements swift in response to the sudden entrance.",
       "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
       "ground_truth_id": "104120",
       "visual_context": [
@@ -995,7 +995,7 @@
       "start_time": 112.8,
       "end_time": 113.6,
       "duration": 0.7999999999999972,
-      "generated_ad": "The boy climbs back onto his bed, looks at his laptop, and smiles, as the door opens inward and he quickly shuts it.",
+      "generated_ad": "The boy quickly shuts the door as it opens inward while he is on his bed.",
       "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
       "ground_truth_id": "104120",
       "visual_context": [
@@ -1030,7 +1030,7 @@
       "start_time": 113.6,
       "end_time": 115.0,
       "duration": 1.4000000000000057,
-      "generated_ad": "The boy, with brown hair, is seen in his room, where a laptop and a bed with a footboard are present, as he interacts with his surroundings.",
+      "generated_ad": "The boy, with brown hair, is seen quickly shutting his door, which opens inward, as he sits on his bed with his laptop.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1065,7 +1065,7 @@
       "start_time": 115.0,
       "end_time": 116.2,
       "duration": 1.2000000000000028,
-      "generated_ad": "As the dialogue is exchanged, the father is seen standing near the doorway, looking at his daughter, while the power cord is visibly tied between the bed and the doorknob.",
+      "generated_ad": "As the dialogue is spoken, the father is seen standing in the doorway, looking at his daughter, with a power cord visibly tied between the bed and the doorknob.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1100,7 +1100,7 @@
       "start_time": 116.2,
       "end_time": 119.0,
       "duration": 2.799999999999997,
-      "generated_ad": "As the boy, with brown hair, speaks, he ties one end of his laptop power cord to the doorknob and the other end to his bed, while his dad stands near the partially opened door.",
+      "generated_ad": "As the boy, with brown hair, speaks, he ties one end of his laptop power cord to the doorknob and the other end to his bed, while standing in his room with a bed and a door visible in the scene.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1135,7 +1135,7 @@
       "start_time": 119.0,
       "end_time": 124.4,
       "duration": 5.400000000000006,
-      "generated_ad": "As the boy speaks, he is shown tying a laptop power cord between the doorknob and his bed, while his father looks on.",
+      "generated_ad": "As the boy speaks, he is shown tying a laptop power cord between the doorknob and his bed, while his father looks on, a brown-haired boy in the midst of preparing to leave, with a drone somehow visible in the scene.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1170,7 +1170,7 @@
       "start_time": 124.4,
       "end_time": 126.8,
       "duration": 2.3999999999999915,
-      "generated_ad": "As the person speaks, they hold up a Christmas sweater with a reindeer on it, having pulled it out of a dresser drawer, while appearing to be in a state of contemplation.",
+      "generated_ad": "As the person speaks, they hold up a Christmas sweater with a reindeer on it, having just pulled it out of a dresser drawer.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1204,7 +1204,7 @@
       "start_time": 126.8,
       "end_time": 128.8,
       "duration": 2.000000000000014,
-      "generated_ad": "A person holds out their hand and closes their eyes, as they speak directly to someone, likely a child, given the context of the dialogue mentioning a sister and a mom.",
+      "generated_ad": "A person holds out their hand and closes their eyes, as they speak directly to someone, likely a child, given the mention of a sister and a mom, in a brief, serious moment.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1239,7 +1239,7 @@
       "start_time": 128.8,
       "end_time": 131.2,
       "duration": 2.3999999999999773,
-      "generated_ad": "As the person speaks, they are shown to be standing and giving instructions, with a drone visible, while also gesturing with their hands, emphasizing the importance of their words.",
+      "generated_ad": "As the person speaks, they gesture and glance downward, while in the same room, a drone is visible, and the speaker's hand moves toward their pocket or possibly to emphasize a point.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1273,7 +1273,7 @@
       "start_time": 131.2,
       "end_time": 132.8,
       "duration": 1.6000000000000227,
-      "generated_ad": "As the boy speaks, he is visible on screen, and his father is present, guiding him out of the room, while the boy's laptop is noticeable in the scene.",
+      "generated_ad": "As the boy speaks, he stands in his room, near his bed, and interacts with his father, who is also present, while a laptop is visible nearby.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1308,7 +1308,7 @@
       "start_time": 132.8,
       "end_time": 136.2,
       "duration": 3.3999999999999773,
-      "generated_ad": "As the boy speaks to his father, he gives him a hug, while the laptop and the power cord tied between the bed and the doorknob are visible in the room.",
+      "generated_ad": "As the boy speaks to his father, he gives him a hug, and the scene shows the boy's laptop and the power cord tied between the bed and the doorknob in the background.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1378,7 +1378,7 @@
       "start_time": 138.4,
       "end_time": 146.0,
       "duration": 7.599999999999994,
-      "generated_ad": "As the father speaks, he opens his arms for a hug, while the brown-haired boy, with a smile on his face, stands near a bed with a power cord tied between the bed and the doorknob.",
+      "generated_ad": "As the father speaks, he opens his arms for a hug and the brown-haired boy, smiling, approaches him, with a laptop power cord visibly tied between the bed and the doorknob in the background.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1413,7 +1413,7 @@
       "start_time": 146.0,
       "end_time": 147.2,
       "duration": 1.1999999999999886,
-      "generated_ad": "The boy, with a smile on his face, looks at his laptop, then turns his attention to the person speaking to him, as he sits on his bed.",
+      "generated_ad": "The boy, with brown hair, looks at someone, possibly smiling, as he lies on his bed, with his laptop nearby.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1448,7 +1448,7 @@
       "start_time": 147.2,
       "end_time": 150.8,
       "duration": 3.6000000000000227,
-      "generated_ad": "As the person speaks, they look downward, then somberly tap a key on the electronic piano in front of them, while another person, likely a parent, walks into the room.",
+      "generated_ad": "As the mother walks into the room, the son looks down, his fingers poised over the electronic piano, and then he somberly taps a key, while his mother observes him with a gentle smile.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1482,7 +1482,7 @@
       "start_time": 150.8,
       "end_time": 152.4,
       "duration": 1.5999999999999943,
-      "generated_ad": "The boy, with brown hair, looks at someone, likely a person standing in the doorway, and stops smiling as they speak to him.",
+      "generated_ad": "The boy, with brown hair, looks at someone, smiles, and then stops smiling as he lies in his bed, surrounded by the familiar objects of his room, including his laptop and a night stand.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1517,7 +1517,7 @@
       "start_time": 152.4,
       "end_time": 157.8,
       "duration": 5.400000000000006,
-      "generated_ad": "As the father sits on the bed, he looks at his son with a nostalgic expression, while the son, a brown-haired boy, is near the bed with a laptop power cord tied between the bed and the doorknob.",
+      "generated_ad": "As the father sits on the bed, he looks around the room where a laptop power cord is tied between the bed and the doorknob.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1552,7 +1552,7 @@
       "start_time": 157.8,
       "end_time": 160.8,
       "duration": 3.0,
-      "generated_ad": "As the boy sits on the bed, he looks down, a faint smile on his face, while his hands remain still, surrounded by the familiar objects of his bedroom, including his laptop.",
+      "generated_ad": "The boy sits on his bed as he speaks, surrounded by the familiar objects of his room, including his laptop and bed, with the door nearby.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1587,7 +1587,7 @@
       "start_time": 160.8,
       "end_time": 164.6,
       "duration": 3.799999999999983,
-      "generated_ad": "As the mother speaks, she stands in the room where her son sits with his electronic piano, his gaze directed downward as he somberly taps a key.",
+      "generated_ad": "As the mother speaks, she stands in the room where her child sits, possibly near an electronic piano, with a somber atmosphere, while the child's gaze is directed downward.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1621,7 +1621,7 @@
       "start_time": 164.6,
       "end_time": 165.8,
       "duration": 1.200000000000017,
-      "generated_ad": "The boy, with brown hair, is seen on his bed, looking at his laptop, as the door opens inward.",
+      "generated_ad": "The boy, with brown hair, is on his bed, looking at his laptop, as the door opens inward.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1656,7 +1656,7 @@
       "start_time": 165.8,
       "end_time": 166.8,
       "duration": 1.0,
-      "generated_ad": "The scene shows a person speaking, with their lips moving, as they address someone, but the context of the scene is unclear and doesn't match the provided dialogue, however, based on similar scenes, it can be inferred that the scene might be set in a living room with a TV, but in this 1-second scene, the only clear visual is the person speaking.",
+      "generated_ad": "The father is seen shaking his head, as he sits on the couch with his family, including Nora, who is wriggling excitedly beside her mom, while they all gather around the TV.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1691,7 +1691,7 @@
       "start_time": 166.8,
       "end_time": 168.4,
       "duration": 1.5999999999999943,
-      "generated_ad": "As the dialogue begins, a boy is seen in a room, possibly near or on a bed, looking at something that prompts a reaction, while another character, likely the speaker, is present and interacting with him.",
+      "generated_ad": "As the dialogue begins, a boy is visible, and his actions and the scene's context are briefly shown, but the short duration only allows for a glimpse of him and possibly someone else, before the scene cuts.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [
@@ -1725,7 +1725,7 @@
       "start_time": 168.4,
       "end_time": 171.8,
       "duration": 3.4000000000000057,
-      "generated_ad": "As the dialogue is spoken, a person somberly taps a key on an electronic piano, their gaze fixed downward, while another person, likely a family member, enters the room.",
+      "generated_ad": "As the character speaks, he gazes downward, his fingers somberly tapping a key on his electronic piano, while his mother walks into the room.",
       "ground_truth": null,
       "ground_truth_id": null,
       "visual_context": [

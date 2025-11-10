@@ -1,0 +1,1792 @@
+{
+  "movie_id": "5335",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 15,
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "duration": 3.0,
+      "movie_id": "5335",
+      "generated_ad": "The production logo, likely for a dark fantasy or sci-fi series, features flashes of a figure in white body armor with black fabric joints, interspersed with quick shots of a bladed weapon being thrown and a creature falling to the ground.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Flashes revealed glimpses of white body armor over black fabric joints.",
+        "The lichens in a corridor she throws a bladed, a charging like a piercing it between the eyes. It falls in skids to a halt and."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Flashes revealed glimpses of white body armor over black fabric joints.",
+        "The lichens in a corridor she throws a bladed, a charging like a piercing it between the eyes. It falls in skids to a halt and.",
+        " SOMEONE lifts the floor mat and opens a trapdoor beneath it."
+      ],
+      "combined_distances": [
+        0.0007081270217895508,
+        0.0008995532989501952,
+        0.000910651683807373
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 15,
+      "end_frame": 54,
+      "start_time": 3.0,
+      "end_time": 10.8,
+      "duration": 7.800000000000001,
+      "movie_id": "5335",
+      "generated_ad": "The production opens with the Warner Brothers Pictures logo, featuring rusted letters \"WB\" in a shield-shaped frame, accompanied by the text \"a Time Warner company\" as the image flickers in and out.",
+      "ground_truth": "A shield shaped metal frame with the letters WB within appears glowing red hot on an encircling band. The words Warner Brothers Pictures and below a Time Warner company.",
+      "ground_truth_id": "259596",
+      "visual_context": [
+        "The rusted letters WB appear in a shield shaped frame. The picture flickers in and out. Warner Brothers Pictures a Time Warner company.",
+        "The rusted letters WB appear in a shield shaped frame. The picture flickers in and out. Warner Brothers Pictures a Time Warner company."
+      ],
+      "cross_modal_context": [
+        "Warner Brothers is the author of this motion picture for purposes of copyright and other laws.",
+        "The words Warner Brothers Pictures and below a Time Warner company overlapping static video images of a muscular man aiming a bow and arrow come to life as he draws back."
+      ],
+      "combined_context": [
+        "The rusted letters WB appear in a shield shaped frame. The picture flickers in and out. Warner Brothers Pictures a Time Warner company.",
+        "The rusted letters WB appear in a shield shaped frame. The picture flickers in and out. Warner Brothers Pictures a Time Warner company.",
+        "Then rotates to become the letters WB within a shield shaped frame on an encircling band."
+      ],
+      "combined_distances": [
+        0.03197432160377502,
+        0.03240469694137573,
+        0.032492274045944215
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 54,
+      "end_frame": 65,
+      "start_time": 10.8,
+      "end_time": 13.0,
+      "duration": 2.1999999999999993,
+      "movie_id": "5335",
+      "generated_ad": "As the scene briefly unfolds, a figure, presumably Uther, quickly moves through a dimly lit environment, his eyes fixed intently ahead, possibly following a sound.",
+      "ground_truth": "A shield shaped metal frame with the letters WB within appears glowing red hot on an encircling band. The words Warner Brothers Pictures and below a Time Warner company.",
+      "ground_truth_id": "259596",
+      "visual_context": [
+        "Hero comes into their workshop.",
+        "An underwater view slowly drifts ahead in darkness."
+      ],
+      "cross_modal_context": [
+        "He raises his blazing torches, sky, rending explosions across the way revealed the silhouette of Kong SOMEONE watches across the water, his skin shining by the torch and his stare cold.",
+        "The embers soar into the night sky, seeming to flow as one toward an inky black tableau where they gradually come together and fill in rows of lights on a surface."
+      ],
+      "combined_context": [
+        "Hero comes into their workshop.",
+        "An underwater view slowly drifts ahead in darkness.",
+        "Bob's eyes follow the noises."
+      ],
+      "combined_distances": [
+        0.03245806097984314,
+        0.03602105975151062,
+        0.036178398132324215
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 65,
+      "end_frame": 90,
+      "start_time": 13.0,
+      "end_time": 18.0,
+      "duration": 5.0,
+      "movie_id": "5335",
+      "generated_ad": "Six curved silver elements, resembling ivis, swoop into place in a nested pattern from smallest to largest, set against a bright backdrop, as the Village Roadshow Pictures logo forms.",
+      "ground_truth": "The orange incandescence dissipates, leaving behind ancient letters glowing on the steel logo.",
+      "ground_truth_id": "259597",
+      "visual_context": [
+        "Six curved steel vise cradle each other, largest to smallest as a sweeping reflection moves along the shiny surface.",
+        "Silhouetted against a floodlight, 6 silver ivis swoop into place, set one inside the next from smallest to largest village Roadshow Pictures."
+      ],
+      "cross_modal_context": [
+        "Village Roadshow Films BVI Limited and Ratpac Dune Entertainment LLC all other territories.",
+        "Village Roadshow films North America, Inc and Ratpac Dune Entertainment, LLC U S Canada, Bahamas and Bermuda."
+      ],
+      "combined_context": [
+        "Six curved steel vise cradle each other, largest to smallest as a sweeping reflection moves along the shiny surface.",
+        "Silhouetted against a floodlight, 6 silver ivis swoop into place, set one inside the next from smallest to largest village Roadshow Pictures.",
+        "A silver V made up of six smaller V's village Roadshow Pictures."
+      ],
+      "combined_distances": [
+        0.039488512277603145,
+        0.04722362756729126,
+        0.050890851020812984
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 90,
+      "end_frame": 105,
+      "start_time": 18.0,
+      "end_time": 21.0,
+      "duration": 3.0,
+      "movie_id": "5335",
+      "generated_ad": "The production logo features a stylized globe with continents illuminated by a speckled electrified glow, as the earth eclipses the sun and the company name, likely in a bold font, hovers prominently at the center.",
+      "ground_truth": "Six curved steel vise cradle each other largest to smallest.",
+      "ground_truth_id": "259598",
+      "visual_context": [
+        "On the conveyor belt, SOMEONE nears the powerful chopping cleaver with his arms still welded down.",
+        "The continents showed the speckled electrified glow of hundreds of cities. The earth eclipses the sun and a massive word hovers front and center."
+      ],
+      "cross_modal_context": [
+        "As the metal burns with heat beneath, it are the words village roadshow pictures from the darkness appears a stylized letter R it's orange glow fades as the metal letter rotates apart.",
+        "Three metallic curves nestling within each other against a black background equity pictures. The logo for Emmett Furla films, letters, sweet pasta, Rocky Gray planet, and come to rest. The letters form the words the donners company."
+      ],
+      "combined_context": [
+        "On the conveyor belt, SOMEONE nears the powerful chopping cleaver with his arms still welded down.",
+        "The continents showed the speckled electrified glow of hundreds of cities. The earth eclipses the sun and a massive word hovers front and center.",
+        "Universal a Comcast company."
+      ],
+      "combined_distances": [
+        0.06779544353485106,
+        0.06988352537155151,
+        0.06988352537155151
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 105,
+      "end_frame": 109,
+      "start_time": 21.0,
+      "end_time": 21.8,
+      "duration": 0.8000000000000007,
+      "movie_id": "5335",
+      "generated_ad": "A figure flies toward the aftermath of an explosion.",
+      "ground_truth": "Six curved steel vise cradle each other largest to smallest.",
+      "ground_truth_id": "259598",
+      "visual_context": [
+        "The ball soars through the night sky and lands directly in an outfielders Mitt.",
+        "His teammates charge out from the dugout to celebrate on the field."
+      ],
+      "cross_modal_context": [
+        "As a first order officer presses a control, the rims of the dreadnought cannons glow red on board the cruiser layer stairs gravely page shuts her eyes.",
+        "A projection of snokes ship crackles then disappears as she glides through it. Pof in the lieutenant and bb eight reached the bridges doors just as they open now. Adroid puts an oxygen mask to leah's, face."
+      ],
+      "combined_context": [
+        "The ball soars through the night sky and lands directly in an outfielders Mitt.",
+        "His teammates charge out from the dugout to celebrate on the field.",
+        "Now SOMEONE flies toward the aftermath of the explosion."
+      ],
+      "combined_distances": [
+        0.04396283030509948,
+        0.04396283030509948,
+        0.056662011146545406
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 109,
+      "end_frame": 156,
+      "start_time": 21.8,
+      "end_time": 31.2,
+      "duration": 9.399999999999999,
+      "movie_id": "5335",
+      "generated_ad": "The screen displays the Ratpac Entertainment logo, featuring beams of light coalescing into two triangles that form a stylized letter R, followed by a disclaimer stating that the California Highway Patrol does not endorse this film.",
+      "ground_truth": "As the metal burns with heat beneath, it are the words village roadshow pictures from the darkness appears a stylized letter R it's orange glow fades as the metal letter rotates apart.",
+      "ground_truth_id": "259599",
+      "visual_context": [
+        "Beams of light shoot out from a central point and pivot to form 2 triangles, then a stylized letter R Ratpac Entertainment.",
+        "Text appears the California Highway Patrol does not endorse this film."
+      ],
+      "cross_modal_context": [
+        "Are forced red, domed, head spins, two rear hatches swing open on the ship and debris floats out as the starfighter squeezes between two asteroids. The missile detonates django watches the explosion from his cockpit.",
+        "Reluctantly, cole flips the cigarette away. It leaves his fingers in slow motion and lands on the ground vent a fireball rises from the event we've returned to see. Colon mills hit the deck nearly emulated."
+      ],
+      "combined_context": [
+        "Beams of light shoot out from a central point and pivot to form 2 triangles, then a stylized letter R Ratpac Entertainment.",
+        "Text appears the California Highway Patrol does not endorse this film.",
+        "Beams of light shoot out from a central point and pivot to form 2 triangles, then a stylized letter R Ratpac Entertainment."
+      ],
+      "combined_distances": [
+        0.0664006769657135,
+        0.0664006769657135,
+        0.07113397121429443
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 156,
+      "end_frame": 195,
+      "start_time": 31.2,
+      "end_time": 39.0,
+      "duration": 7.800000000000001,
+      "movie_id": "5335",
+      "generated_ad": "The screen fades in to reveal the TK films logo, a gold coin flipping and glinting with light, as the company name \"TK films\" appears in bold, golden text alongside it.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Underwater, a necklace with a pendant shaped in the outline of a heart sinks deeper its chain broken.",
+        "A gold coin flips light, glinting off it, in association with TK films."
+      ],
+      "cross_modal_context": [
+        "The truck pulls onto the paved road in front of the bus and speeds ahead on board. The teen with dirty blonde hair sits sullenly among noticeably younger students.",
+        "The truck comes to a stop, its headlight shining bright. A title appears in weathered turquoise letters over the vehicles grill monster trucks."
+      ],
+      "combined_context": [
+        "Underwater, a necklace with a pendant shaped in the outline of a heart sinks deeper its chain broken.",
+        "A gold coin flips light, glinting off it, in association with TK films.",
+        "Six vise swoop into place. Set one inside the next from smallest to largest village Roadshow Pictures."
+      ],
+      "combined_distances": [
+        0.13876698613166807,
+        0.14960155487060545,
+        0.15718629956245422
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 195,
+      "end_frame": 365,
+      "start_time": 39.0,
+      "end_time": 73.0,
+      "duration": 34.0,
+      "movie_id": "5335",
+      "generated_ad": "As bolts of lightning streak through the sky, a figure jogs toward a castle, with a drawbridge connecting the island and mainland visible in the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He switches his focus to the drawbridge connecting the island and mainland, then jogs toward the castle.",
+        "Bolts of lightning streaked through the sky above the Bay."
+      ],
+      "cross_modal_context": [
+        "Nighttime torches burn atop knock Mars. Many turrets. Several of their soldiers ride around their camp just outside the castle walls. Bev Morta and the Druids joined some of her soldiers on the battlements. She looks down at the camp.",
+        "A steadily receding aerial view shows harnan Chuy's tiny figures on the clifftop with SOMEONE s body sprawled nearby. Keira stairs downward lips parted. She blinked. Sadly, a tear forming in her eye harm stares upward longingly."
+      ],
+      "combined_context": [
+        "He switches his focus to the drawbridge connecting the island and mainland, then jogs toward the castle.",
+        "Bolts of lightning streaked through the sky above the Bay.",
+        "Meanwhile, one of terpenes associates holds SOMEONE "
+      ],
+      "combined_distances": [
+        0.05716878175735473,
+        0.05716878175735473,
+        0.05716878175735473
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 365,
+      "end_frame": 439,
+      "start_time": 73.0,
+      "end_time": 87.8,
+      "duration": 14.799999999999997,
+      "movie_id": "5335",
+      "generated_ad": "The screen fades to black, with no visible company name or logo present, only a brief, enigmatic phrase \"Regards swings, a pallet toward myself, this drawing\" appearing before the cut to black.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Regards swings, a pallet toward myself, this drawing.",
+        "Cut to black."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "As the silhouette of a man wearing a fedora walks with crutches closer and closer, the opening credits appear. Fred Macmurray, Barbara Stanwyck, Edward G. Robinson in."
+      ],
+      "combined_context": [
+        "Regards swings, a pallet toward myself, this drawing.",
+        "Cut to black.",
+        "Pulling a flap aside, SOMEONE looks through an entryway."
+      ],
+      "combined_distances": [
+        0.006436729431152343,
+        0.006436729431152343,
+        0.006436729431152343
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 439,
+      "end_frame": 654,
+      "start_time": 87.8,
+      "end_time": 130.8,
+      "duration": 43.000000000000014,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a knight, silhouetted against a burning sky, rides a horse across a desolate battlefield.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "in France he lies face up in the grave. A dark, shadowy mass creeps past him. The images from the spinning Lantern pass over a wall. A horses hooves sinks slightly in the mud.",
+        "The spinning lanterns images Passover young Tolkiens shadow on the wall."
+      ],
+      "cross_modal_context": [
+        "A distant view shows the three silhouetted heads moving across the apocalyptic ruins. Eudora vaults up, toppling a skyscraper. SOMEONE shuts her eyes resign edly. He Dora breeds volts of electricity, striking the vehicle.",
+        "In the past, the Templar in Black looks down at Aguilar and the Prince, hanging helplessly above the abyss."
+      ],
+      "combined_context": [
+        "in France he lies face up in the grave. A dark, shadowy mass creeps past him. The images from the spinning Lantern pass over a wall. A horses hooves sinks slightly in the mud.",
+        "The spinning lanterns images Passover young Tolkiens shadow on the wall.",
+        "On the desolate battlefield, the knight rides his horse, silhouetted against the Burning Sky."
+      ],
+      "combined_distances": [
+        0.05222102999687195,
+        0.05222102999687195,
+        0.05222102999687195
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 654,
+      "end_frame": 666,
+      "start_time": 130.8,
+      "end_time": 133.2,
+      "duration": 2.3999999999999773,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a figure sprints up the spiraling stairs.",
+      "ground_truth": "Inside a wooden structure of man with a headdress of sticks raises his arms, sending up a burst of fire in the tower of fire.",
+      "ground_truth_id": "259612",
+      "visual_context": [
+        " SOMEONE rolls aside, then sprints farther up the spiraling stairs.",
+        "Climbing over the ruins."
+      ],
+      "cross_modal_context": [
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind.",
+        "A Crimson Dawn member pulls off the Horned battle helmet to find the old woman from the canteen underneath the real enfys nest jumps down from a roof, slamming her stave into the ground."
+      ],
+      "combined_context": [
+        " SOMEONE rolls aside, then sprints farther up the spiraling stairs.",
+        "Climbing over the ruins.",
+        "The Jabberwocky cuts her off and snaps his jaws."
+      ],
+      "combined_distances": [
+        0.0640978455543518,
+        0.0640978455543518,
+        0.0640978455543518
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 666,
+      "end_frame": 689,
+      "start_time": 133.2,
+      "end_time": 137.8,
+      "duration": 4.600000000000023,
+      "movie_id": "5335",
+      "generated_ad": "As a figure on horseback rides into the scene, a person is knocked down, and in the background, a barrel is visible with oil spilling out of it, meeting a flame.",
+      "ground_truth": "Surges in slow motion, flaming soldiers on a battlement leaned forward, then at regular speed, blow backwards as they disintegrate into cinders.",
+      "ground_truth_id": "259613",
+      "visual_context": [
+        "The gates shatter, knocking people down. Radue rides into the city on horseback.",
+        "Ojeda draws his sword, Aguilar flings a blade into a barrel, spilling oil as it meets a flame."
+      ],
+      "cross_modal_context": [
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Aguilar and Maria sneak up behind Templars, twisting and stabbing their necks in the haze Ojeda and Torquemada, Pure around anxiously."
+      ],
+      "combined_context": [
+        "The gates shatter, knocking people down. Radue rides into the city on horseback.",
+        "Ojeda draws his sword, Aguilar flings a blade into a barrel, spilling oil as it meets a flame.",
+        "Takes on two Templars as the soldier in black leaps onto a second moving wagon and assassin throws a sword while another delivers a spinning kick."
+      ],
+      "combined_distances": [
+        0.05621356964111328,
+        0.05955973267555236,
+        0.0630849301815033
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 689,
+      "end_frame": 692,
+      "start_time": 137.8,
+      "end_time": 138.4,
+      "duration": 0.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "An explosion occurs, sending a person flying through the air.",
+      "ground_truth": "Surges in slow motion, flaming soldiers on a battlement leaned forward, then at regular speed, blow backwards as they disintegrate into cinders.",
+      "ground_truth_id": "259613",
+      "visual_context": [
+        "It explodes near SOMEONE  sending him flying.",
+        "More falling equipment fuels an explosion which decimates the drill shack with Jason and the others still inside."
+      ],
+      "cross_modal_context": [
+        "A blast from above strikes the officer Han Shields his face from the sparks and debris, dodging heavy fire, he leaps into a blast crater where soldiers tend to a wounded comrade.",
+        "Gomorrah flips nebula and her back, but nebula kicks her off. They fight at close quarters."
+      ],
+      "combined_context": [
+        "It explodes near SOMEONE  sending him flying.",
+        "More falling equipment fuels an explosion which decimates the drill shack with Jason and the others still inside.",
+        "A crane art practice through the wall, SOMEONE falls to the floor."
+      ],
+      "combined_distances": [
+        0.041183519363403316,
+        0.042075729370117186,
+        0.043775534629821776
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 692,
+      "end_frame": 700,
+      "start_time": 138.4,
+      "end_time": 140.0,
+      "duration": 1.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "As the cloud spreads and destroys everything in its path, someone bolts for a waiting basket.",
+      "ground_truth": "Surges in slow motion, flaming soldiers on a battlement leaned forward, then at regular speed, blow backwards as they disintegrate into cinders.",
+      "ground_truth_id": "259613",
+      "visual_context": [
+        "Got ta go. He winds up at cabins doorway as she continues on the kitty corner skyscraper keels over.",
+        "Meanwhile, Outriders overwhelmed Spiderman."
+      ],
+      "cross_modal_context": [
+        "the heroes charged with war machine, valkary rescue and various ships soaring overhead as giant Ant man runs with huge strides. Phanos points his sword toward the approaching Avengers, and his henchman lead his forces straight at them.",
+        "Ant-Man leaps from it onto rubble, then grabs the pencil which catapults him through a gap in the debris."
+      ],
+      "combined_context": [
+        "Got ta go. He winds up at cabins doorway as she continues on the kitty corner skyscraper keels over.",
+        "Meanwhile, Outriders overwhelmed Spiderman.",
+        "As the cloud spreads, SOMEONE Bolts for the waiting basket. The cloud destroys everything in its path, closing in on her. It overtakes her mere feet from the basket and billows upward."
+      ],
+      "combined_distances": [
+        0.06691149473190307,
+        0.0701231837272644,
+        0.0713474690914154
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 700,
+      "end_frame": 737,
+      "start_time": 140.0,
+      "end_time": 147.4,
+      "duration": 7.400000000000006,
+      "movie_id": "5335",
+      "generated_ad": "As Ray approaches the tree, the haze clears, revealing a hollow at the base of its thick trunk, with thick ridges in the bark visible along the trunk and branches.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Ray rises as she heads toward the mist. Luke turns to find her walking away from him. A little later, Ray reaches a rift in the rocky terrain and discovers an old tree with thick branches that taper into points.",
+        "The haze clears from in front of it and she approaches her wide eyes, taking in a hollow at the base of the tree's thick trunk."
+      ],
+      "cross_modal_context": [
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind.",
+        "He runs along the partially opened door and launching off the end with his arms outstretched in the enemas, Cal lands on the ground in a role as Aguilar does the same atop a stone bridge, Aguilar looks around, finding himself surrounded by soldiers from a nearby battlement Templars, aimed crossbows, as Torquemada blood staining his white."
+      ],
+      "combined_context": [
+        "Ray rises as she heads toward the mist. Luke turns to find her walking away from him. A little later, Ray reaches a rift in the rocky terrain and discovers an old tree with thick branches that taper into points.",
+        "The haze clears from in front of it and she approaches her wide eyes, taking in a hollow at the base of the tree's thick trunk.",
+        "As she draws near thick ridges in the bark, running up the trunk and along the broad branches come into view, she steps up to the hollow, then hesitates."
+      ],
+      "combined_distances": [
+        0.048743355274200435,
+        0.048743355274200435,
+        0.048743355274200435
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 737,
+      "end_frame": 749,
+      "start_time": 147.4,
+      "end_time": 149.8,
+      "duration": 2.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As the character's gaze lifts, a rust-colored stain spreads over her pale bodice and blood runs down her gold corset.",
+      "ground_truth": "Standing on the front steps of a castle, a bearded man in a crown watches the destruction grimly.",
+      "ground_truth_id": "259615",
+      "visual_context": [
+        "A rust colored stains spreads over her pale bodice and blood runs down her gold corset breathing through parted lips, she lifts her wide eyed gaze then falls, blinking mournfully, her brother faces SOMEONE  SOMEONE stumbles and the demon catches him.",
+        "Exiting the tunnel, the three companions approach a stout armour clad man."
+      ],
+      "cross_modal_context": [
+        "In asgard frigger halts as she walks through the palace with her handmaiden's lady.",
+        "As he reaches his free hand out heimdall summons the bitfrost light shines from his palm growing into a stream of brilliance that surrounds the hulk and transports him away from the ship."
+      ],
+      "combined_context": [
+        "A rust colored stains spreads over her pale bodice and blood runs down her gold corset breathing through parted lips, she lifts her wide eyed gaze then falls, blinking mournfully, her brother faces SOMEONE  SOMEONE stumbles and the demon catches him.",
+        "Exiting the tunnel, the three companions approach a stout armour clad man.",
+        " SOMEONE peels off his gloves and grinds of vertical gear down to several horizontal ones."
+      ],
+      "combined_distances": [
+        0.08999133706092834,
+        0.09238595962524414,
+        0.09251242280006408
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 749,
+      "end_frame": 763,
+      "start_time": 149.8,
+      "end_time": 152.6,
+      "duration": 2.799999999999983,
+      "movie_id": "5335",
+      "generated_ad": "As someone hurries across a rickety bridge, they hold up a sword, with another person close behind.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind.",
+        "King Island steps back."
+      ],
+      "combined_context": [
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind.",
+        "King Island steps back.",
+        "Escorted by two of The Kingsmen SOMEONE comes in. He surrenders Excalibur to a guard who bring today SOMEONE "
+      ],
+      "combined_distances": [
+        0.7923011064529419,
+        0.7931630253791809,
+        0.7934798359870912
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 763,
+      "end_frame": 770,
+      "start_time": 152.6,
+      "end_time": 154.0,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a figure quickly rolls aside and sprints up the spiraling stairs.",
+      "ground_truth": "The elephants with wooden fortresses on their backs walk alongside a bridge. Soldiers running along it burst into flame and break into cinders.",
+      "ground_truth_id": "259616",
+      "visual_context": [
+        "The Jabberwocky cuts her off and snaps his jaws.",
+        " SOMEONE rolls aside, then sprints farther up the spiraling stairs."
+      ],
+      "cross_modal_context": [
+        "Alphonse opens the gate arader shambles through Alphonse closes the gate.",
+        "He runs along the partially opened door and launching off the end with his arms outstretched in the enemas, Cal lands on the ground in a role as Aguilar does the same atop a stone bridge, Aguilar looks around, finding himself surrounded by soldiers from a nearby battlement Templars, aimed crossbows, as Torquemada blood staining his white."
+      ],
+      "combined_context": [
+        "The Jabberwocky cuts her off and snaps his jaws.",
+        " SOMEONE rolls aside, then sprints farther up the spiraling stairs.",
+        "Climbing over the ruins."
+      ],
+      "combined_distances": [
+        0.09724563360214233,
+        0.09766733050346374,
+        0.09766733050346374
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 770,
+      "end_frame": 792,
+      "start_time": 154.0,
+      "end_time": 158.4,
+      "duration": 4.400000000000006,
+      "movie_id": "5335",
+      "generated_ad": "As Radue rides into the city on horseback, the gates shatter, knocking people down.",
+      "ground_truth": "The elephants with wooden fortresses on their backs walk alongside a bridge. Soldiers running along it burst into flame and break into cinders.",
+      "ground_truth_id": "259616",
+      "visual_context": [
+        "The gates shatter, knocking people down. Radue rides into the city on horseback.",
+        "They clashed with SOMEONE s army, a group of Archers releases their arrows."
+      ],
+      "cross_modal_context": [
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Aguilar stares down at his adversary before driving both grounded blades just above ojeda's clavicle. He pulls them out and the Templar drops back."
+      ],
+      "combined_context": [
+        "The gates shatter, knocking people down. Radue rides into the city on horseback.",
+        "They clashed with SOMEONE s army, a group of Archers releases their arrows.",
+        "Scowling Cal lowers his skull mask and Bev modest chamber."
+      ],
+      "combined_distances": [
+        0.045941722393035886,
+        0.046305757761001584,
+        0.046305757761001584
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 792,
+      "end_frame": 798,
+      "start_time": 158.4,
+      "end_time": 159.6,
+      "duration": 1.1999999999999886,
+      "movie_id": "5335",
+      "generated_ad": "As a figure slams a soldier to the street, another is pushed through a wall nearby.",
+      "ground_truth": "The elephants with wooden fortresses on their backs walk alongside a bridge. Soldiers running along it burst into flame and break into cinders.",
+      "ground_truth_id": "259616",
+      "visual_context": [
+        "Cal easily dispatches two of X men and knocks a third of his horse social leads SOMEONE and rosella, from stairs as a row of men with shield, crouches artist behind them, fire a horse and its rider collapse above the courtyard, Eric slices the neck of a soldier guarding a steaming VAT below a group of not more soldiers advance in a tight formation, Eric pulls a rope and the vet tips dosing then below it steaming red liquid.",
+        "Radu attacks a scaffold on a building."
+      ],
+      "cross_modal_context": [
+        "Aguilar stares down at his adversary before driving both grounded blades just above ojeda's clavicle. He pulls them out and the Templar drops back.",
+        "The Heroes watch as Steppenwolf completely surrounded by Parademons, is carried upward through the cylinder. The portal disappears and steppenwolf's empty horned helmet drops to the floor."
+      ],
+      "combined_context": [
+        "Cal easily dispatches two of X men and knocks a third of his horse social leads SOMEONE and rosella, from stairs as a row of men with shield, crouches artist behind them, fire a horse and its rider collapse above the courtyard, Eric slices the neck of a soldier guarding a steaming VAT below a group of not more soldiers advance in a tight formation, Eric pulls a rope and the vet tips dosing then below it steaming red liquid.",
+        "Radu attacks a scaffold on a building.",
+        "He slams one soldier to the street and pushes another through a wall."
+      ],
+      "combined_distances": [
+        0.0882923662662506,
+        0.08984609842300414,
+        0.08984609842300414
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 798,
+      "end_frame": 805,
+      "start_time": 159.6,
+      "end_time": 161.0,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a woman is dragged away by two men with shields.",
+      "ground_truth": "The elephants with wooden fortresses on their backs walk alongside a bridge. Soldiers running along it burst into flame and break into cinders.",
+      "ground_truth_id": "259616",
+      "visual_context": [
+        "The soldier in black releases, the woman and two men with shields, drag her away aguilar moves into position now. Amanda."
+      ],
+      "cross_modal_context": [
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face.",
+        "The rows of Knights move aside as the Bandersnatch galops out with SOMEONE on its back, the SOMEONE grins the Whitewing steps forward, the dormouse climbs up on Bayard's head for a better look."
+      ],
+      "combined_context": [
+        "The soldier in black releases, the woman and two men with shields, drag her away aguilar moves into position now. Amanda.",
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face.",
+        "The rows of Knights move aside as the Bandersnatch galops out with SOMEONE on its back, the SOMEONE grins the Whitewing steps forward, the dormouse climbs up on Bayard's head for a better look."
+      ],
+      "combined_distances": [
+        0.12359933257102966,
+        0.7177755415439606,
+        0.7468592405319214
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 805,
+      "end_frame": 811,
+      "start_time": 161.0,
+      "end_time": 162.2,
+      "duration": 1.1999999999999886,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a figure is tossed high into the air by the Jabberwocky.",
+      "ground_truth": "An elephant's eye glows fiery orange and the wooden fortress. The sorcerers eyes matched the animals. As the king is handed a sword, a man with an angular face steps up to him.",
+      "ground_truth_id": "259617",
+      "visual_context": [
+        "On the battlefield, the SOMEONE raises his sword over a helpless Stein. Meanwhile, the Jabberwocky tosses SOMEONE High in the air. She raises her sword.",
+        "The Jabberwocky cuts her off and snaps his jaws."
+      ],
+      "cross_modal_context": [
+        "Several Templars on horseback surround the wagons as they approach a curve in the road. Aguilar rides his horse onto higher ground beside the others.",
+        "Aguilar and Maria sneak up behind Templars, twisting and stabbing their necks in the haze Ojeda and Torquemada, Pure around anxiously."
+      ],
+      "combined_context": [
+        "On the battlefield, the SOMEONE raises his sword over a helpless Stein. Meanwhile, the Jabberwocky tosses SOMEONE High in the air. She raises her sword.",
+        "The Jabberwocky cuts her off and snaps his jaws.",
+        "With glowing red eyes red on his horse transform into a wingless dragon."
+      ],
+      "combined_distances": [
+        0.11793235540390014,
+        0.11931427121162413,
+        0.12142066955566405
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 811,
+      "end_frame": 823,
+      "start_time": 162.2,
+      "end_time": 164.6,
+      "duration": 2.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As Uther and the child navigate their escape, a figure's face looks up, showing no fear, while the other's eyes regard them intensely.",
+      "ground_truth": "An elephant's eye glows fiery orange and the wooden fortress. The sorcerers eyes matched the animals. As the king is handed a sword, a man with an angular face steps up to him.",
+      "ground_truth_id": "259617",
+      "visual_context": [
+        "Moving back along her arm, her face can be seen looking up to him, showing No Fear. Her hand stays in place, his eyes regard her.",
+        "He blinks and his eyes grow glassy with tears, his brows moving up and down as she watches him her eyes flutter and she smiles almost breaking into a laugh."
+      ],
+      "cross_modal_context": [
+        "The Heroes watch as Steppenwolf completely surrounded by Parademons, is carried upward through the cylinder. The portal disappears and steppenwolf's empty horned helmet drops to the floor.",
+        "Now a monitor shows Godzilla doing battle with another huge beast as a bearded man holds forth."
+      ],
+      "combined_context": [
+        "Moving back along her arm, her face can be seen looking up to him, showing No Fear. Her hand stays in place, his eyes regard her.",
+        "He blinks and his eyes grow glassy with tears, his brows moving up and down as she watches him her eyes flutter and she smiles almost breaking into a laugh.",
+        "The Indominus is amber. Eyes stares directly at them, her eyelid blinking sideways."
+      ],
+      "combined_distances": [
+        0.09040798544883727,
+        0.09040798544883727,
+        0.10005565285682677
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 823,
+      "end_frame": 835,
+      "start_time": 164.6,
+      "end_time": 167.0,
+      "duration": 2.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "A figure punches another, whose body hangs limp, impaled on a steel bar.",
+      "ground_truth": "An elephant's eye glows fiery orange and the wooden fortress. The sorcerers eyes matched the animals. As the king is handed a sword, a man with an angular face steps up to him.",
+      "ground_truth_id": "259617",
+      "visual_context": [
+        " SOMEONE stares at SOMEONE  who frowns as his gaze turns to Prometheus, stomping around the ground floor of the tower with a snarl unfazed by the fires.",
+        "Imagining the spinks rises to smash them, tothe, backrolls and horace."
+      ],
+      "cross_modal_context": [
+        "From the swamp he will come, Vigo sings the masked men, traversed the roof and gain entry to the house, aiming their weapons as they move, Vigo leans into the fire singing and take the children that don't behave.",
+        "This SOMEONE leaves his red Cape billows behind him. Bright daylight silhouettes the Asgardian, framed by the huts doorway. The view of him blurs as he descends the steps."
+      ],
+      "combined_context": [
+        " SOMEONE stares at SOMEONE  who frowns as his gaze turns to Prometheus, stomping around the ground floor of the tower with a snarl unfazed by the fires.",
+        "Imagining the spinks rises to smash them, tothe, backrolls and horace.",
+        "He punches Wade whose body hangs limp impaled on his steel bar."
+      ],
+      "combined_distances": [
+        0.10993392467498779,
+        0.11011475324630736,
+        0.11024534702301024
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 835,
+      "end_frame": 852,
+      "start_time": 167.0,
+      "end_time": 170.4,
+      "duration": 3.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "A figure emerges and is immediately struck in the head, sending him flying.",
+      "ground_truth": "An elephant's eye glows fiery orange and the wooden fortress. The sorcerers eyes matched the animals. As the king is handed a sword, a man with an angular face steps up to him.",
+      "ground_truth_id": "259617",
+      "visual_context": [
+        "Weapon in his hand and lets it fall to the ground.",
+        "Down below Angel walks over to the prone SOMEONE and loops a length of thick steel cable around his neck, choking him back up top. Vanessa saws her restrained against the blade, cutting through the chamber. She frees her hand."
+      ],
+      "cross_modal_context": [
+        "Excalibur is not from Luther's hands, and young SOMEONE lifted by its tip as his father grabbed the hilt and pulls it away.",
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus."
+      ],
+      "combined_context": [
+        "Weapon in his hand and lets it fall to the ground.",
+        "Down below Angel walks over to the prone SOMEONE and loops a length of thick steel cable around his neck, choking him back up top. Vanessa saws her restrained against the blade, cutting through the chamber. She frees her hand.",
+        "Cabs again and the Demon ducks underneath two gears as SOMEONE emerges, the SOMEONE wax and in the head sending him flying."
+      ],
+      "combined_distances": [
+        0.061383789777755736,
+        0.06731600165367126,
+        0.06873722076416015
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 852,
+      "end_frame": 860,
+      "start_time": 170.4,
+      "end_time": 172.0,
+      "duration": 1.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "As the character speaks, expressing concern about the outcome of the fight, a person, likely Luca, is visible, possibly turning or looking around, with no clear actions or specific objects in view.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Big SOMEONE leaves him and heads into a tavern."
+      ],
+      "cross_modal_context": [
+        "Excalibur is not from Luther's hands, and young SOMEONE lifted by its tip as his father grabbed the hilt and pulls it away.",
+        "The mentor places Aguilar's hand and ornate wooden cylinder. He sets a two pronged blade around Aguilar's ring finger."
+      ],
+      "combined_context": [
+        "Big SOMEONE leaves him and heads into a tavern.",
+        "Excalibur is not from Luther's hands, and young SOMEONE lifted by its tip as his father grabbed the hilt and pulls it away.",
+        "The mentor places Aguilar's hand and ornate wooden cylinder. He sets a two pronged blade around Aguilar's ring finger."
+      ],
+      "combined_distances": [
+        0.10805208086967467,
+        0.7478722214698792,
+        0.7610175013542176
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Luca, I don't think we can win this fight."
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 860,
+      "end_frame": 869,
+      "start_time": 172.0,
+      "end_time": 173.8,
+      "duration": 1.8000000000000114,
+      "movie_id": "5335",
+      "generated_ad": "As the character speaks, he looks up, his eyes glistening, and turns to face the front, his expression conveying concern.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Looks up at him."
+      ],
+      "cross_modal_context": [
+        "His eyes glisten as he turns from SOMEONE to the front.",
+        "He stares off pensively, then takes off his helmet and rubs his forehead."
+      ],
+      "combined_context": [
+        "Looks up at him.",
+        "His eyes glisten as he turns from SOMEONE to the front.",
+        "He stares off pensively, then takes off his helmet and rubs his forehead."
+      ],
+      "combined_distances": [
+        0.16291310787200927,
+        0.8308671593666077,
+        0.8331881642341614
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Luca, I don't think we can win this fight. I know Mordred, he would accept surrender."
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 869,
+      "end_frame": 886,
+      "start_time": 173.8,
+      "end_time": 177.2,
+      "duration": 3.3999999999999773,
+      "movie_id": "5335",
+      "generated_ad": "As the character holds up the crown, they appear concerned, and someone stands close behind them, while a sword is visible, being held by another character nearby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "So he leans back in his chair."
+      ],
+      "cross_modal_context": [
+        "The mentor places Aguilar's hand and ornate wooden cylinder. He sets a two pronged blade around Aguilar's ring finger.",
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind."
+      ],
+      "combined_context": [
+        "So he leans back in his chair.",
+        "The mentor places Aguilar's hand and ornate wooden cylinder. He sets a two pronged blade around Aguilar's ring finger.",
+        "Holding up a sword in his whip and he hurries across the rickety bridge. Shortround approaches the other side with SOMEONE Close behind."
+      ],
+      "combined_distances": [
+        0.10638527870178222,
+        0.7672244846820832,
+        0.7747822403907777
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Luca, I don't think we can win this fight. I know Mordred, he would accept surrender. Hold the crown."
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 886,
+      "end_frame": 894,
+      "start_time": 177.2,
+      "end_time": 178.8,
+      "duration": 1.6000000000000227,
+      "movie_id": "5335",
+      "generated_ad": "As the character holds up the crown, they appear to be preparing to offer it in surrender, their hand extended in a gesture of submission.",
+      "ground_truth": "The king hands of the crown and hold.",
+      "ground_truth_id": "259618",
+      "visual_context": [
+        "Ferro Honda uses 4 swords to cut through his enemies.",
+        "Second, produce smashes through a building and onto the street."
+      ],
+      "cross_modal_context": [
+        "Escorted by two of The Kingsmen SOMEONE comes in. He surrenders Excalibur to a guard who bring today SOMEONE ",
+        "Excalibur is presented to author. He tosses more to its head, dress off the bridge. Now and the camelot castle."
+      ],
+      "combined_context": [
+        "Ferro Honda uses 4 swords to cut through his enemies.",
+        "Second, produce smashes through a building and onto the street.",
+        "As Adam are Gallup stored SOMEONE at an even speed."
+      ],
+      "combined_distances": [
+        0.1350373864173889,
+        0.1350373864173889,
+        0.1382108151912689
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "I know Mordred, he would accept surrender. Hold the crown."
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 894,
+      "end_frame": 898,
+      "start_time": 178.8,
+      "end_time": 179.6,
+      "duration": 0.799999999999983,
+      "movie_id": "5335",
+      "generated_ad": "As the character holds the crown steady, they turn to face the front, their eyes fixed on something ahead, while another person stands nearby, possibly Maggie, at a table with someone, likely Bill.",
+      "ground_truth": "The king hands of the crown and hold.",
+      "ground_truth_id": "259618",
+      "visual_context": [],
+      "cross_modal_context": [
+        " SOMEONE nods subtely, then picks up excalibur and SOMEONE s cave the night enters to find maggie at the table with bill.",
+        "His eyes glisten as he turns from SOMEONE to the front."
+      ],
+      "combined_context": [
+        " SOMEONE nods subtely, then picks up excalibur and SOMEONE s cave the night enters to find maggie at the table with bill.",
+        "His eyes glisten as he turns from SOMEONE to the front.",
+        "He stares at SOMEONE with a furrowed brow, then averts his gaze."
+      ],
+      "combined_distances": [
+        0.818636578321457,
+        0.8266092956066132,
+        0.8281586647033692
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I know Mordred, he would accept surrender. Hold the crown. and hold it steady."
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 898,
+      "end_frame": 904,
+      "start_time": 179.6,
+      "end_time": 180.8,
+      "duration": 1.200000000000017,
+      "movie_id": "5335",
+      "generated_ad": "A person holds a crown steady, as instructed, in a brief moment of stillness.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Do roth puts on his crown and removes his cloak. He wears a noble white tunic beneath and hits a medallion strapped to his chest. He bursts suddenly into flame beck crouches behind horace.",
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face."
+      ],
+      "combined_context": [
+        "Do roth puts on his crown and removes his cloak. He wears a noble white tunic beneath and hits a medallion strapped to his chest. He bursts suddenly into flame beck crouches behind horace.",
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face.",
+        "Excalibur is not from Luther's hands, and young SOMEONE lifted by its tip as his father grabbed the hilt and pulls it away."
+      ],
+      "combined_distances": [
+        0.795906925201416,
+        0.8032540202140809,
+        0.8033894121646882
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Hold the crown. and hold it steady."
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 904,
+      "end_frame": 912,
+      "start_time": 180.8,
+      "end_time": 182.4,
+      "duration": 1.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "As the instruction \"and hold it steady\" is given, a character's hand moves to grasp something, likely a sword, given the medieval fantasy context.",
+      "ground_truth": "A knight in Chainmail armor arrives just in time to exchange a look with King SOMEONE before he walks onto the bridge.",
+      "ground_truth_id": "259619",
+      "visual_context": [],
+      "cross_modal_context": [
+        " SOMEONE nods subtely, then picks up excalibur and SOMEONE s cave the night enters to find maggie at the table with bill.",
+        " SOMEONE averts his gaze, tears glistening Clint's eyes."
+      ],
+      "combined_context": [
+        " SOMEONE nods subtely, then picks up excalibur and SOMEONE s cave the night enters to find maggie at the table with bill.",
+        " SOMEONE averts his gaze, tears glistening Clint's eyes.",
+        "His eyes glisten as he turns from SOMEONE to the front."
+      ],
+      "combined_distances": [
+        0.831712555885315,
+        0.8339630782604218,
+        0.8403364658355713
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "and hold it steady."
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 912,
+      "end_frame": 920,
+      "start_time": 182.4,
+      "end_time": 184.0,
+      "duration": 1.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "As someone holds something steady, a figure emerges from the darkness, their face becoming visible.",
+      "ground_truth": "A knight in Chainmail armor arrives just in time to exchange a look with King SOMEONE before he walks onto the bridge.",
+      "ground_truth_id": "259619",
+      "visual_context": [
+        "Brock's face appears from the dark. She swings her ex. He blocks to hit with his sword."
+      ],
+      "cross_modal_context": [
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Michael K Williams as Musa Dinniman O'Shea as McGowan Aryan lebec as Maria."
+      ],
+      "combined_context": [
+        "Brock's face appears from the dark. She swings her ex. He blocks to hit with his sword.",
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Michael K Williams as Musa Dinniman O'Shea as McGowan Aryan lebec as Maria."
+      ],
+      "combined_distances": [
+        0.12808837890625,
+        0.7543503165245057,
+        0.7547235786914827
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "and hold it steady."
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 920,
+      "end_frame": 932,
+      "start_time": 184.0,
+      "end_time": 186.4,
+      "duration": 2.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "The production logo or opening credits display a series of actor names, including Eddie Marsan, Stephen Moyer, and others, in a straightforward text-based format, likely against a plain background, without any elaborate animations or distinctive visual elements.",
+      "ground_truth": "A knight in Chainmail armor arrives just in time to exchange a look with King SOMEONE before he walks onto the bridge.",
+      "ground_truth_id": "259619",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Eddie Marsan Stephen Moyer Bitsy Tulloch Matthew Willig Dan siskey.",
+        "'til Schweiger, Eddie Marsan, Sofia Boutella, Roland Muller, Johannes Haukur, Johannesson, James Faulkner, Barbara Sukowa and Toby Jones, casting by Mary Vernou, CSA."
+      ],
+      "combined_context": [
+        "Eddie Marsan Stephen Moyer Bitsy Tulloch Matthew Willig Dan siskey.",
+        "'til Schweiger, Eddie Marsan, Sofia Boutella, Roland Muller, Johannes Haukur, Johannesson, James Faulkner, Barbara Sukowa and Toby Jones, casting by Mary Vernou, CSA.",
+        "Produced by Ridley Scott PGA Mark Gordon, PGA Simon Kinberg, PGA."
+      ],
+      "combined_distances": [
+        0.7970808029174805,
+        0.8008152604103089,
+        0.8026519358158112
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 932,
+      "end_frame": 942,
+      "start_time": 186.4,
+      "end_time": 188.4,
+      "duration": 2.0,
+      "movie_id": "5335",
+      "generated_ad": "As a figure emerges from the darkness, a sword is raised in preparation to strike, and a blocking motion is made in response.",
+      "ground_truth": "A knight in Chainmail armor arrives just in time to exchange a look with King SOMEONE before he walks onto the bridge.",
+      "ground_truth_id": "259619",
+      "visual_context": [
+        "Brock's face appears from the dark. She swings her ex. He blocks to hit with his sword.",
+        "She spies a huge double bladed axe leaning against the castle wall."
+      ],
+      "cross_modal_context": [
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face."
+      ],
+      "combined_context": [
+        "Brock's face appears from the dark. She swings her ex. He blocks to hit with his sword.",
+        "She spies a huge double bladed axe leaning against the castle wall.",
+        "The boys barbosa returns the stair."
+      ],
+      "combined_distances": [
+        0.10768395662307739,
+        0.11871212124824523,
+        0.12418375015258788
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 942,
+      "end_frame": 974,
+      "start_time": 188.4,
+      "end_time": 194.8,
+      "duration": 6.400000000000006,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a character's brows are tensed, conveying a sense of strain or concern, amidst a backdrop that suggests a dynamic and potentially violent interaction.",
+      "ground_truth": "More elephants approach one with a large stone hanging from its trunk by a rope, like a Wrecking Ball. Another swings its trunk, demolishing a battlement.",
+      "ground_truth_id": "259620",
+      "visual_context": [
+        "Get IRA tracks the Blades, but quickly extends them back through the Earth's neck.",
+        "The cadet players ahead with his brows tensed as the Earth."
+      ],
+      "cross_modal_context": [
+        "The creature leaves through the glass, collapsing several logs within the diorama. SOMEONE gets pinned underneath them. The Indo Raptor thrusts its head between the logs, snapping at SOMEONE and Maisie SOMEONE ushers Maisie away.",
+        "The Indominus flails wildly and the T. Rex jumps onto her neck. As the fight continues down, the promenade, clearing the guys rushed through a gift shop."
+      ],
+      "combined_context": [
+        "Get IRA tracks the Blades, but quickly extends them back through the Earth's neck.",
+        "The cadet players ahead with his brows tensed as the Earth.",
+        "Again, it pulls away from the building snapping the roots on its back."
+      ],
+      "combined_distances": [
+        0.034648990631103514,
+        0.034648990631103514,
+        0.03487938642501831
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 974,
+      "end_frame": 984,
+      "start_time": 194.8,
+      "end_time": 196.8,
+      "duration": 2.0,
+      "movie_id": "5335",
+      "generated_ad": "As a figure, possibly Uther, charges forward with swords drawn, he cuts down a soldier in the midst of a chaotic street scene.",
+      "ground_truth": "More elephants approach one with a large stone hanging from its trunk by a rope, like a Wrecking Ball. Another swings its trunk, demolishing a battlement.",
+      "ground_truth_id": "259620",
+      "visual_context": [
+        "in the courtyard. SOMEONE sets up a smaller catapult in the woods. The tree falls.",
+        "He draws his swords and cuts down a soldier from atop a building sarokin in leopard form pounces onto soldiers in the street."
+      ],
+      "cross_modal_context": [
+        "Aguilar charges a Templar, grabs his arm and flips him to the ground in the animus.",
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus."
+      ],
+      "combined_context": [
+        "in the courtyard. SOMEONE sets up a smaller catapult in the woods. The tree falls.",
+        "He draws his swords and cuts down a soldier from atop a building sarokin in leopard form pounces onto soldiers in the street.",
+        "Aguilar charges a Templar, grabs his arm and flips him to the ground in the animus."
+      ],
+      "combined_distances": [
+        0.09405651688575745,
+        0.09483828544616699,
+        0.7079900145530701
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 984,
+      "end_frame": 997,
+      "start_time": 196.8,
+      "end_time": 199.4,
+      "duration": 2.5999999999999943,
+      "movie_id": "5335",
+      "generated_ad": "As the drawbridge rises in the courtyard, a figure slows to a stop outside, coming to a halt on horseback.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "With glowing red eyes red on his horse transform into a wingless dragon.",
+        "As he crosses a drawbridge, it starts to rise in a courtyard. He slows to a stop outside. SOMEONE  SOMEONE and SOMEONE arrived, finding the drawbridge up and the castle sealed."
+      ],
+      "cross_modal_context": [
+        "The rows of Knights move aside as the Bandersnatch galops out with SOMEONE on its back, the SOMEONE grins the Whitewing steps forward, the dormouse climbs up on Bayard's head for a better look.",
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face."
+      ],
+      "combined_context": [
+        "With glowing red eyes red on his horse transform into a wingless dragon.",
+        "As he crosses a drawbridge, it starts to rise in a courtyard. He slows to a stop outside. SOMEONE  SOMEONE and SOMEONE arrived, finding the drawbridge up and the castle sealed.",
+        "She leaps onto his neck."
+      ],
+      "combined_distances": [
+        0.09024993777275085,
+        0.09453499913215636,
+        0.09878138303756713
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 997,
+      "end_frame": 1001,
+      "start_time": 199.4,
+      "end_time": 200.2,
+      "duration": 0.799999999999983,
+      "movie_id": "5335",
+      "generated_ad": "A woman is dragged away by two men with shields as a figure moves into position.",
+      "ground_truth": "The King rides past fleeing men just before an elephant smashes through the center of the bridge, creating a chasm between the two sides.",
+      "ground_truth_id": "259621",
+      "visual_context": [
+        "The soldier in black releases, the woman and two men with shields, drag her away aguilar moves into position now. Amanda.",
+        "It be much longer pilot faces, the."
+      ],
+      "cross_modal_context": [
+        "Aragon Rams his Lance into Williams helmet visor, splinters of wood fly as SOMEONE Reels back what turns away, but SOMEONE remains in the saddle and official raises 2 white flags and Roland in walk run over to their slouching limp friend.",
+        "Aguilar and Maria sneak up behind Templars, twisting and stabbing their necks in the haze Ojeda and Torquemada, Pure around anxiously."
+      ],
+      "combined_context": [
+        "The soldier in black releases, the woman and two men with shields, drag her away aguilar moves into position now. Amanda.",
+        "It be much longer pilot faces, the.",
+        "Cal gets to his feet, leaving behind the ghostly image of the soldier in the village."
+      ],
+      "combined_distances": [
+        0.1164455473423004,
+        0.1265530467033386,
+        0.1298314094543457
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 1001,
+      "end_frame": 1028,
+      "start_time": 200.2,
+      "end_time": 205.6,
+      "duration": 5.400000000000006,
+      "movie_id": "5335",
+      "generated_ad": "As the building collapses, the group falls through a gaping hole in the floor, surrounded by flames and debris, with broken pipes and twisted metal visible amidst the chaos.",
+      "ground_truth": "The King rides past fleeing men just before an elephant smashes through the center of the bridge, creating a chasm between the two sides.",
+      "ground_truth_id": "259621",
+      "visual_context": [
+        "Inside the group gets knocked off their feet as the building tilts, they drop through a gaping hole in the floor. A missile hits the building, flames and smoke billow out in a giant cloud. Hiding headquarters from sight.",
+        "Have you descend through the roiling fire gliding past broken pipes, cascading water amidst twisted metal, and chunks of concrete water pours down through the ruins onto Bruce, who holds a jacket slab of concrete on his back."
+      ],
+      "cross_modal_context": [
+        "Godzilla drops from view as he rolls into the blast Crater Monster 0 descends on the fleeing Graham before SOMEONE Size 1 head plucks her up in its jaws gaping SOMEONE sinks to his knees.",
+        "A colossus with a Ghidorah head on Godzilla's body emerges from the dusty ruins."
+      ],
+      "combined_context": [
+        "Inside the group gets knocked off their feet as the building tilts, they drop through a gaping hole in the floor. A missile hits the building, flames and smoke billow out in a giant cloud. Hiding headquarters from sight.",
+        "Have you descend through the roiling fire gliding past broken pipes, cascading water amidst twisted metal, and chunks of concrete water pours down through the ruins onto Bruce, who holds a jacket slab of concrete on his back.",
+        "Nozzles at fulbourn. The Argo speeds forward, followed by a cohort of jets and Ospreys."
+      ],
+      "combined_distances": [
+        0.037059676647186277,
+        0.037059676647186277,
+        0.041998916864395136
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 1028,
+      "end_frame": 1040,
+      "start_time": 205.6,
+      "end_time": 208.0,
+      "duration": 2.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "A bearded soldier in black armor stands attentively among villagers and soldiers on horseback outside a flat-roofed dwelling.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "Carrying a machine gunner in back, the truck veers away and one of those things man shoots the Taliban standardbearer a Birds Eye view shows the horses galloping at full speed as they penetrate the enemy ranks, picking off insurgents.",
+        "Our mission is the boy aguilar gazes down a rectangular cluster of blots tattooed below his right eye."
+      ],
+      "cross_modal_context": [
+        "Several Templars on horseback surround the wagons as they approach a curve in the road. Aguilar rides his horse onto higher ground beside the others.",
+        "Now the assassins reached the top and climb over a large wooden wheel to a platform. Ojeda grabs a crossbow from another templare and aims it at the duo."
+      ],
+      "combined_context": [
+        "Carrying a machine gunner in back, the truck veers away and one of those things man shoots the Taliban standardbearer a Birds Eye view shows the horses galloping at full speed as they penetrate the enemy ranks, picking off insurgents.",
+        "Our mission is the boy aguilar gazes down a rectangular cluster of blots tattooed below his right eye.",
+        "Below, villagers stand among soldiers on horseback outside a flat roof, dwelling a bearded British soldier in black armor watches the door attentively."
+      ],
+      "combined_distances": [
+        0.11527712941169738,
+        0.11660071611404418,
+        0.11660071611404418
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 1040,
+      "end_frame": 1047,
+      "start_time": 208.0,
+      "end_time": 209.4,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a figure, possibly Uther, is seen swinging or falling through the air, amidst a backdrop of destruction, with debris or cables visible around him.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "The explosion breaks several of the suspension cables sending prometheus swinging across the atrium. He hits near the platform as.",
+        "A woman in her nightclothes flees from her house, followed by the Pirate SOMEONE equips himself with an arsenal of weapons from the Smitty and comes out into the street."
+      ],
+      "cross_modal_context": [
+        "Aguilar pulls the blade from the man's neck as the mentor attacks the Templar and Black assassins slit the throats and snap the necks of several soldiers throughout the crowd in the animus.",
+        "Aguilar leaps onto the top of a wall, throwing a blade into a Templar before passing over Maria on the lower level."
+      ],
+      "combined_context": [
+        "The explosion breaks several of the suspension cables sending prometheus swinging across the atrium. He hits near the platform as.",
+        "A woman in her nightclothes flees from her house, followed by the Pirate SOMEONE equips himself with an arsenal of weapons from the Smitty and comes out into the street.",
+        "He has a hatchet into the wild eyed stalkers back."
+      ],
+      "combined_distances": [
+        0.06314217448234558,
+        0.07058334946632384,
+        0.07058334946632384
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 1047,
+      "end_frame": 1054,
+      "start_time": 209.4,
+      "end_time": 210.8,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "A figure throws an attacker over his shoulder, with blood visible on his face and arm, as his tunic is torn, revealing his muscular frame.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "Why i resist SOMEONE throws the food cart, knocking down the soldiers taking off his cloak. He reveals his muscular frame. He drops into the storeroom.",
+        "The coachman pulls on the reins bell, holding the Magic Mirror dismounts and runs to the door for carriage. SOMEONE Franz, with displeasure."
+      ],
+      "cross_modal_context": [
+        "Now SOMEONE rides on horseback wearing Sir Ector's armor quad and Roland lead him toward the Justin Fields. Roland alerts SOMEONE to his uncovered face.",
+        "As Williams here and tuning trail freely in the wind, ademar charges with rigid precision clad in full armor, SOMEONE Ames is Lance holding it close to his shoulder. His mouth opens as he nears the barriers, midpoint."
+      ],
+      "combined_context": [
+        "Why i resist SOMEONE throws the food cart, knocking down the soldiers taking off his cloak. He reveals his muscular frame. He drops into the storeroom.",
+        "The coachman pulls on the reins bell, holding the Magic Mirror dismounts and runs to the door for carriage. SOMEONE Franz, with displeasure.",
+        "Glaring SOMEONE throws the attacker over his shoulder with blood on his face and arm. Same thing rips away the top of his tunic."
+      ],
+      "combined_distances": [
+        0.056395733356475825,
+        0.06455329656600951,
+        0.066420578956604
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 1054,
+      "end_frame": 1065,
+      "start_time": 210.8,
+      "end_time": 213.0,
+      "duration": 2.1999999999999886,
+      "movie_id": "5335",
+      "generated_ad": "The production logo appears on screen, displaying the company name in bold text above a stylized image of a bearded British soldier in black armor standing guard outside a flat-roofed dwelling, as villagers and soldiers on horseback milling about in the background.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "Our mission is the boy aguilar gazes down a rectangular cluster of blots tattooed below his right eye.",
+        "Below, villagers stand among soldiers on horseback outside a flat roof, dwelling a bearded British soldier in black armor watches the door attentively."
+      ],
+      "cross_modal_context": [
+        "'til Schweiger, Eddie Marsan, Sofia Boutella, Roland Muller, Johannes Haukur, Johannesson, James Faulkner, Barbara Sukowa and Toby Jones, casting by Mary Vernou, CSA.",
+        "Stunt coordinator sword master Nick Gillard, Previsualization effects supervisor David Dorer, its construction manager David Bob post production supervisors Michael Blanchard and Jamie Forrester, special visual effects and animation by industrial light and Magic, a division of Lucas Digital Limited."
+      ],
+      "combined_context": [
+        "Our mission is the boy aguilar gazes down a rectangular cluster of blots tattooed below his right eye.",
+        "Below, villagers stand among soldiers on horseback outside a flat roof, dwelling a bearded British soldier in black armor watches the door attentively.",
+        "A row of uniform drummers plays as the boisterous horde, some with painted faces pumped their fists and crosses in the air."
+      ],
+      "combined_distances": [
+        0.09587026834487915,
+        0.09587026834487915,
+        0.10338437557220459
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 1065,
+      "end_frame": 1070,
+      "start_time": 213.0,
+      "end_time": 214.0,
+      "duration": 1.0,
+      "movie_id": "5335",
+      "generated_ad": "As Uther sprints down the corridor with a child, stone doors close behind them, while Amazon Guards wield sledgehammers to support posts.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "As the SOMEONE sprints down the corridor with the box, the Amazon Guards take sledgehammers to support posts, closing a series of stone doors.",
+        "He donkey kicks SOMEONE  sending him sailing down towards the chasm below. SOMEONE spirals head over front, wailing and flailing."
+      ],
+      "cross_modal_context": [
+        "He leads a group of armed figures through a shadowy tunnel, then out to the landing area. L, three and keira in an elegant red cape are followed down the falcons ramp by harnan chewy, who wear manacles wilbeck attacks as their guard.",
+        "The narrow cylindrical portal appears behind Steppenwolf seeming to cascade from the sky as the Amazons unleash a slew of arrows. Steppenwolf in the portal disappear."
+      ],
+      "combined_context": [
+        "As the SOMEONE sprints down the corridor with the box, the Amazon Guards take sledgehammers to support posts, closing a series of stone doors.",
+        "He donkey kicks SOMEONE  sending him sailing down towards the chasm below. SOMEONE spirals head over front, wailing and flailing.",
+        "As it swoops low over the barren ground, Tweedledee and Tweedledum exchange frightened looks."
+      ],
+      "combined_distances": [
+        0.07659220695495605,
+        0.0846368670463562,
+        0.08812609910964965
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 1070,
+      "end_frame": 1077,
+      "start_time": 214.0,
+      "end_time": 215.4,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "As the scene unfolds, a character, likely Uther, is seen quickly reacting to an imminent threat, possibly covering himself or another, such as a child, from harm, amidst a backdrop of chaos and potential explosion.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "As the grenade ignites, an enormous explosion blasts him apart and rips through the warehouse debris. Rains down on chance net and duvet as they lie on the ground.",
+        "The woman covers her head from the razor sharp projectiles."
+      ],
+      "cross_modal_context": [
+        "A blast from above strikes the officer Han Shields his face from the sparks and debris, dodging heavy fire, he leaps into a blast crater where soldiers tend to a wounded comrade.",
+        "Gomorrah flips nebula and her back, but nebula kicks her off. They fight at close quarters."
+      ],
+      "combined_context": [
+        "As the grenade ignites, an enormous explosion blasts him apart and rips through the warehouse debris. Rains down on chance net and duvet as they lie on the ground.",
+        "The woman covers her head from the razor sharp projectiles.",
+        "Suddenly missiles hit the garbage dump and explode, tossing scavengers in the air elsewhere, and I watches a live feed in the lens of a spectacle."
+      ],
+      "combined_distances": [
+        0.041413831710815426,
+        0.04609735012054443,
+        0.046198236942291256
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 1077,
+      "end_frame": 1084,
+      "start_time": 215.4,
+      "end_time": 216.8,
+      "duration": 1.4000000000000057,
+      "movie_id": "5335",
+      "generated_ad": "A figure zooms through the air.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "The Jedi meets him in the air and lands a powerful kick to his chest.",
+        "Kane zooms under bent archways and broken pillars."
+      ],
+      "cross_modal_context": [
+        "A long jagged cleft runs from between snoke's eyes to the crown of his bald head. SOMEONE removes his helmet to reveal the slash on his face, still healing.",
+        "His inactive lightsaber rolls away at the ships controls both fires at Obi-wan knocking him off his feet again, the boy peers out the window at him."
+      ],
+      "combined_context": [
+        "The Jedi meets him in the air and lands a powerful kick to his chest.",
+        "Kane zooms under bent archways and broken pillars.",
+        " SOMEONE whips his head around to see SOMEONE zooming through the air holding SOMEONE "
+      ],
+      "combined_distances": [
+        0.038163924217224116,
+        0.04440000653266907,
+        0.04668001532554626
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 1084,
+      "end_frame": 1088,
+      "start_time": 216.8,
+      "end_time": 217.6,
+      "duration": 0.799999999999983,
+      "movie_id": "5335",
+      "generated_ad": "A figure wearing armor and a helmet with a long plume directs someone and struggles to push heavy wooden doors closed.",
+      "ground_truth": "God lonely as interweaves past retreating men the top of the wooden fortress flares and flames burst through a palace gate exploding several men into black ash.",
+      "ground_truth_id": "259622",
+      "visual_context": [
+        "Ojeda draws his sword, Aguilar flings a blade into a barrel, spilling oil as it meets a flame.",
+        "Wearing the armor and a helmet topped with a long plume SOMEONE directs SOMEONE then struggles to push the castles heavy wooden doors closed. He shuts one side as kales troops draw closer."
+      ],
+      "cross_modal_context": [
+        "The rows of Knights move aside as the Bandersnatch galops out with SOMEONE on its back, the SOMEONE grins the Whitewing steps forward, the dormouse climbs up on Bayard's head for a better look.",
+        "Aguilar charges a Templar, grabs his arm and flips him to the ground in the animus."
+      ],
+      "combined_context": [
+        "Ojeda draws his sword, Aguilar flings a blade into a barrel, spilling oil as it meets a flame.",
+        "Wearing the armor and a helmet topped with a long plume SOMEONE directs SOMEONE then struggles to push the castles heavy wooden doors closed. He shuts one side as kales troops draw closer.",
+        "Heretics and executioner swings his axe inadvertently cutting maria's arm."
+      ],
+      "combined_distances": [
+        0.09501615166664124,
+        0.10002436041831969,
+        0.10061428546905517
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 1088,
+      "end_frame": 1092,
+      "start_time": 217.6,
+      "end_time": 218.4,
+      "duration": 0.8000000000000114,
+      "movie_id": "5335",
+      "generated_ad": "A horse rears up and bolts forward.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Had a Mars horse rears up, then bolts forward, walked Roland and Cape, run behind Williams worst, urging him ahead in slow motion.",
+        "The chute waiting to come out into the arena with a cowboy hat atop his head."
+      ],
+      "cross_modal_context": [
+        "Later, a horse bears its cloaked rider with Excalibur on his back across the bridge leading to the Camelot Castle in the throne room. SOMEONE eats as the doors open.",
+        "Other humanoid horses stick their heads out from behind curtains as SOMEONE freaks out and runs."
+      ],
+      "combined_context": [
+        "Had a Mars horse rears up, then bolts forward, walked Roland and Cape, run behind Williams worst, urging him ahead in slow motion.",
+        "The chute waiting to come out into the arena with a cowboy hat atop his head.",
+        "The horses rains and pulls hard - they slowed to a stop in the chariot, keeps going SOMEONE "
+      ],
+      "combined_distances": [
+        0.08442908525466919,
+        0.09473835825920104,
+        0.09849958419799804
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    }
+  ]
+}

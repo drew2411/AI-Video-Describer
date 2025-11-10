@@ -20,6 +20,8 @@ from tqdm import tqdm
 import chromadb
 from dotenv import load_dotenv
 from groq import Groq
+from datetime import datetime
+
 
 
 # ----------------------------
@@ -152,6 +154,11 @@ def verify_chroma_structure():
             print(f"  - {c.name}")
         return None
     
+    #Test to see if movie key is a string or not
+    sample = collection.get(limit=5, include=["metadatas"])
+    for m in sample["metadatas"]:
+        print(m.get("movie"), type(m.get("movie")))
+
     total = collection.count()
     print(f"\n{'='*60}")
     print(f"ChromaDB Collection: {Config.COLLECTION_NAME}")
@@ -224,10 +231,26 @@ def retrieve_hybrid_context(
     try:
         visual_retrieval = collection.query(
             query_embeddings=[shot_emb.tolist()],
-            n_results=visual_k * 4,  # Fetch extra
-            where={"type": "frame_shot"},
+            n_results=visual_k * 10,  # Over-fetch to allow manual filtering
+            where={
+                "$and": [
+                    {"type": "frame_shot"},
+                    {"movie_key": {"$ne": str(shot_info.get("movie_id", shot_info.get("movie", None)))}}
+                ]
+            },
             include=["metadatas", "distances"]
         )
+        
+        # Start of debugging for movie id check
+        current_movie = str(shot_info.get("movie_id", shot_info.get("movie", None)))
+        if visual_retrieval.get("metadatas") and visual_retrieval["metadatas"] and visual_retrieval["metadatas"][0]:
+            vis_movies = []
+            for m in visual_retrieval["metadatas"][0]:
+                vis_movies.append(str(m.get("movie_key", m.get("movie"))))
+            print(f"[DEBUG] Visual retrieved movies (current={current_movie}): {vis_movies}")
+            if current_movie in vis_movies:
+                print(f"[DEBUG] Visual retrieval contains current movie: {current_movie}")
+        #end of debugging for movie id check
         
         if visual_retrieval["ids"] and visual_retrieval["ids"][0]:
             for idx, shot_id in enumerate(visual_retrieval["ids"][0]):
@@ -236,6 +259,9 @@ def retrieve_hybrid_context(
                 
                 # Extract movie and temporal info
                 movie_key = meta.get("movie_key", meta.get("movie"))
+                meta_movie = str(meta.get("movie_key", meta.get("movie", meta.get("movie_id", None))))
+                if meta_movie == current_movie:
+                    continue
                 shot_start = meta.get("start_frame", 0) / Config.FPS
                 shot_end = meta.get("end_frame", 0) / Config.FPS
                 
@@ -270,15 +296,35 @@ def retrieve_hybrid_context(
     try:
         text_retrieval = collection.query(
             query_embeddings=[shot_emb.tolist()],
-            n_results=text_k * 2,
-            where={"type": "text_caption"},
+            n_results=text_k * 10,
+            where={
+                "$and": [
+                    {"type": "text_caption"},
+                    {"movie": {"$ne": str(shot_info.get("movie_id", shot_info.get("movie", None)))}}
+                ]
+            },
             include=["metadatas", "distances"]
         )
-        
+
+        # Start of debugging for movie id check
+        current_movie = str(shot_info.get("movie_id", shot_info.get("movie", None)))
+        if text_retrieval.get("metadatas") and text_retrieval["metadatas"] and text_retrieval["metadatas"][0]:
+            txt_movies = []
+            for m in text_retrieval["metadatas"][0]:
+                txt_movies.append(str(m.get("movie", m.get("movie_key"))))
+            print(f"[DEBUG] Text retrieved movies (current={current_movie}): {txt_movies}")
+            if current_movie in txt_movies:
+                print(f"[DEBUG] Text retrieval contains current movie: {current_movie}")
+        #end of debugging for movie id check
+
         if text_retrieval["ids"] and text_retrieval["ids"][0]:
             for idx, text_id in enumerate(text_retrieval["ids"][0]):
+                meta = text_retrieval["metadatas"][0][idx]
+                meta_movie = str(meta.get("movie", meta.get("movie_key", meta.get("movie_id", None))))
+                if meta_movie == current_movie:
+                    continue
                 clean_id = text_id.replace("text_", "")
-                
+
                 if clean_id in mad_data:
                     sentence = mad_data[clean_id]["sentence"]
                     distance = text_retrieval["distances"][0][idx]
@@ -376,12 +422,57 @@ def classify_shot_type(context_ads: List[str], subtitle_text: str) -> str:
     return "generic_scene"
 
 
+def derive_movie_context(client: Groq, subs_df: pd.DataFrame) -> Dict[str, str]:
+    """Derive movie name guess and short synopsis from early subtitles."""
+    try:
+        if subs_df is None or subs_df.empty:
+            return {"movie_name": "", "movie_synopsis": ""}
+        first_subs = subs_df.sort_values(by="start").head(50)["text"].astype(str).tolist()
+        seed_text = " \n".join(first_subs)[:2000]
+        if not seed_text.strip():
+            return {"movie_name": "", "movie_synopsis": ""}
+        system_prompt = (
+            "You analyze movie subtitles and infer metadata." 
+            " Given a few early subtitle lines, guess the movie name if possible"
+            " (or leave blank if uncertain) and write a concise 1-2 sentence synopsis."
+        )
+        user_prompt = (
+            "Early subtitles (may be noisy):\n" + seed_text +
+            "\n\nReturn as JSON with keys movie_name, movie_synopsis."
+        )
+        resp = client.chat.completions.create(
+            model=Config.GROQ_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.3,
+            max_tokens=150,
+        )
+        content = resp.choices[0].message.content.strip()
+        try:
+            parsed = json.loads(content)
+            # Debugging for movie context
+            print(f"[DEBUG] Movie context: {parsed}")
+            return {
+                "movie_name": str(parsed.get("movie_name", ""))[:120],
+                "movie_synopsis": str(parsed.get("movie_synopsis", ""))[:400],
+            }
+        except Exception:
+            # Fallback: treat whole output as synopsis
+            return {"movie_name": "", "movie_synopsis": content[:400]}
+    except Exception:
+        return {"movie_name": "", "movie_synopsis": ""}
+
+
 def generate_ad(
     client: Groq,
     shot_info: Dict,
     context_ads: List[str],
     context_sources: List[str],
-    subtitle_text: str = ""
+    subtitle_text: str = "",
+    movie_name: str = "",
+    movie_synopsis: str = ""
 ) -> str:
     """Generate AD using Groq LLM with improved prompting."""
     
@@ -405,7 +496,8 @@ Generate one sentence describing this logo or credit sequence."""
         system_prompt = """You are an expert audio description writer for blind audiences.
 Generate ONE vivid, factual sentence describing the visual content of a movie scene.
 Focus on: visible actions, key objects, character appearances, emotional expressions.
-CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent specific details."""
+CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent specific details.
+Before writing, silently decide which provided context items are actually relevant (some may be off-topic). Do NOT output your reasoning; only output the final description."""
         
         # Build context with source indicators
         context_parts = []
@@ -417,6 +509,11 @@ CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent 
         
         if subtitle_text:
             context_parts.append(f"\nDialogue: {subtitle_text[:200]}")
+        if movie_name or movie_synopsis:
+            meta_line = "Movie: " + (movie_name or "Unknown")
+            if movie_synopsis:
+                meta_line += f" | Synopsis: {movie_synopsis}"
+            context_parts.append(meta_line)
         
         context_text = "\n".join(context_parts) if context_parts else "No context available."
         
@@ -424,8 +521,12 @@ CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent 
 
 {context_text}
 
-Generate one sentence describing what happens visually. Stay close to the context provided.
-Focus on observable actions and objects, not interpretations."""
+Instructions:
+- The provided context ADs might include irrelevant or misleading items. First, internally choose the 1-2 most relevant items (if any) and ignore the rest.
+- Give priority to items marked with 🎬 (visual) over 📝 (cross-modal) if relevance is similar.
+- Then generate ONE sentence describing what happens visually, grounded in the chosen context and the dialogue.
+- Focus on observable actions and objects, not interpretations.
+- Do NOT include your reasoning in the output."""
         
         temperature = 0.5  # Moderate creativity
     
@@ -488,6 +589,8 @@ def process_movie(
     except Exception as e:
         print(f"⚠️  Could not load subtitles: {e}")
         subs_df = pd.DataFrame()
+    # Derive movie context once per movie
+    movie_ctx = derive_movie_context(groq_client, subs_df)
     
     # Process each shot
     results = []
@@ -506,7 +609,8 @@ def process_movie(
             "end_frame": int(end_frame),
             "start_time": float(start_time),
             "end_time": float(end_time),
-            "duration": float(duration)
+            "duration": float(duration),
+            "movie_id": str(movie_id)
         }
         
         # Choose embedding strategy based on shot duration
@@ -551,7 +655,9 @@ def process_movie(
                 shot_info, 
                 context_ads, 
                 sources,
-                subtitle_text
+                subtitle_text,
+                movie_ctx.get("movie_name", ""),
+                movie_ctx.get("movie_synopsis", "")
             )
         else:
             generated_ad = f"[Skipped: {reason}]"
@@ -597,7 +703,8 @@ def process_movie(
 
 def save_results(movie_id: str, results: List[Dict]):
     """Save results to JSON."""
-    output_file = Config.OUTPUT_DIR / f"{movie_id}_results.json"
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    output_file = Config.OUTPUT_DIR / f"{movie_id}_results_{timestamp}.json"
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump({
