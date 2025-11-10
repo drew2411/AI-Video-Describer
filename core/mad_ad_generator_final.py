@@ -425,11 +425,15 @@ def classify_shot_type(context_ads: List[str], subtitle_text: str) -> str:
 def derive_movie_context(client: Groq, subs_df: pd.DataFrame) -> Dict[str, str]:
     """Derive movie name guess and short synopsis from early subtitles."""
     try:
+        print(f"[DEBUG] derive_movie_context: subs_df empty={subs_df is None or subs_df.empty}")
         if subs_df is None or subs_df.empty:
+            print("[DEBUG] derive_movie_context: no subtitles available, returning empty context")
             return {"movie_name": "", "movie_synopsis": ""}
         first_subs = subs_df.sort_values(by="start").head(50)["text"].astype(str).tolist()
         seed_text = " \n".join(first_subs)[:2000]
+        print(f"[DEBUG] derive_movie_context: seed_text_len={len(seed_text)}")
         if not seed_text.strip():
+            print("[DEBUG] derive_movie_context: seed_text is blank, returning empty context")
             return {"movie_name": "", "movie_synopsis": ""}
         system_prompt = (
             "You analyze movie subtitles and infer metadata." 
@@ -450,6 +454,7 @@ def derive_movie_context(client: Groq, subs_df: pd.DataFrame) -> Dict[str, str]:
             max_tokens=150,
         )
         content = resp.choices[0].message.content.strip()
+        print(f"[DEBUG] derive_movie_context: raw_response_preview={content[:200]}")
         try:
             parsed = json.loads(content)
             # Debugging for movie context
@@ -460,8 +465,10 @@ def derive_movie_context(client: Groq, subs_df: pd.DataFrame) -> Dict[str, str]:
             }
         except Exception:
             # Fallback: treat whole output as synopsis
+            print("[DEBUG] derive_movie_context: JSON parse failed, using fallback synopsis")
             return {"movie_name": "", "movie_synopsis": content[:400]}
-    except Exception:
+    except Exception as e:
+        print(f"[DEBUG] derive_movie_context: exception={e}")
         return {"movie_name": "", "movie_synopsis": ""}
 
 
@@ -591,6 +598,7 @@ def process_movie(
         subs_df = pd.DataFrame()
     # Derive movie context once per movie
     movie_ctx = derive_movie_context(groq_client, subs_df)
+    print(f"[DEBUG] derive_movie_context: final_context={movie_ctx}")
     
     # Process each shot
     results = []
