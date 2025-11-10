@@ -36,6 +36,13 @@ except ImportError:
     print("⚠️  rouge-score not installed. Install: pip install rouge-score")
     rouge_scorer = None
 
+# BERTScore (optional)
+try:
+    from bert_score import score as bertscore_score
+except ImportError:
+    print("⚠️  BERTScore not installed. Install: pip install bert-score")
+    bertscore_score = None
+
 
 class ADEvaluator:
     """Evaluator for Audio Descriptions."""
@@ -43,6 +50,76 @@ class ADEvaluator:
     def __init__(self):
         self.smoothing = SmoothingFunction().method1 if sentence_bleu else None
         self.rouge_scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True) if rouge_scorer else None
+        self.idf_stats = None  # for CIDEr
+        self.num_refs = 0
+
+    # ----------------------------
+    # CIDEr (simplified implementation)
+    # ----------------------------
+    def _ngrams(self, tokens: List[str], n: int) -> List[tuple]:
+        return [tuple(tokens[i:i+n]) for i in range(len(tokens) - n + 1)] if n <= len(tokens) else []
+
+    def _build_idf(self, references: List[List[str]]):
+        """Build document frequency (DF) and IDF for 1..4-grams over reference corpus."""
+        df = {1: defaultdict(int), 2: defaultdict(int), 3: defaultdict(int), 4: defaultdict(int)}
+        num_docs = len(references)
+        for ref in references:
+            ref_tokens = ref
+            for n in (1, 2, 3, 4):
+                seen = set(self._ngrams(ref_tokens, n))
+                for ng in seen:
+                    df[n][ng] += 1
+        # idf: log((N+1)/(df+1))
+        idf = {n: {} for n in (1, 2, 3, 4)}
+        for n in (1, 2, 3, 4):
+            for ng, cnt in df[n].items():
+                idf[n][ng] = np.log((num_docs + 1.0) / (cnt + 1.0))
+        self.idf_stats = idf
+        self.num_refs = num_docs
+
+    def _cider(self, gen_tokens: List[str], ref_tokens: List[str]) -> float:
+        """Compute a simple CIDEr-D-like score using TF-IDF cosine over 1..4-grams."""
+        if not self.idf_stats or self.num_refs == 0:
+            return 0.0
+        sims = []
+        for n in (1, 2, 3, 4):
+            # TF
+            g_ngrams = self._ngrams(gen_tokens, n)
+            r_ngrams = self._ngrams(ref_tokens, n)
+            if len(g_ngrams) == 0 or len(r_ngrams) == 0:
+                sims.append(0.0)
+                continue
+            g_tf = defaultdict(float)
+            r_tf = defaultdict(float)
+            for ng in g_ngrams:
+                g_tf[ng] += 1.0
+            for ng in r_ngrams:
+                r_tf[ng] += 1.0
+            # L1 normalize TF
+            g_len = sum(g_tf.values())
+            r_len = sum(r_tf.values())
+            for k in list(g_tf.keys()):
+                g_tf[k] /= max(g_len, 1e-9)
+            for k in list(r_tf.keys()):
+                r_tf[k] /= max(r_len, 1e-9)
+            # Apply IDF weights
+            def weighted(vec):
+                out = {}
+                for k, v in vec.items():
+                    idf = self.idf_stats[n].get(k, np.log((self.num_refs + 1.0) / 1.0))
+                    out[k] = v * idf
+                return out
+            g_w = weighted(g_tf)
+            r_w = weighted(r_tf)
+            # Cosine similarity
+            common = set(g_w.keys()) & set(r_w.keys())
+            dot = sum(g_w[k] * r_w[k] for k in common)
+            g_norm = np.sqrt(sum(v*v for v in g_w.values()))
+            r_norm = np.sqrt(sum(v*v for v in r_w.values()))
+            sim = dot / (g_norm * r_norm + 1e-9)
+            sims.append(sim)
+        # Average and scale similar to CIDEr (×10 for readability)
+        return float(np.mean(sims) * 10.0)
     
     def evaluate_single(self, generated: str, reference: str) -> Dict:
         """Evaluate single generated AD against reference."""
@@ -77,6 +154,20 @@ class ADEvaluator:
             metrics['rouge1'] = rouge_scores['rouge1'].fmeasure
             metrics['rouge2'] = rouge_scores['rouge2'].fmeasure
             metrics['rougeL'] = rouge_scores['rougeL'].fmeasure
+        
+        # BERTScore (F1)
+        if bertscore_score:
+            try:
+                P, R, F1 = bertscore_score([generated], [reference], lang='en', rescale_with_baseline=True)
+                metrics['bertscore_f1'] = float(F1[0].item())
+            except Exception:
+                metrics['bertscore_f1'] = 0.0
+        
+        # CIDEr (simplified)
+        try:
+            metrics['cider'] = self._cider(gen_tokens, ref_tokens)
+        except Exception:
+            metrics['cider'] = 0.0
         
         # Token overlap (simple)
         gen_set = set(gen_tokens)
@@ -124,6 +215,11 @@ class ADEvaluator:
             print("\n⚠️  No shots with ground truth found - cannot compute metrics!")
             return {}
         
+        # Build IDF corpus for CIDEr using references
+        references_corpus = [r['ground_truth'].lower().split() for r in with_gt]
+        if references_corpus:
+            self._build_idf(references_corpus)
+
         # Compute metrics
         all_scores = []
         for result in with_gt:
@@ -149,7 +245,7 @@ class ADEvaluator:
         print(f"{'='*70}")
         
         print("\n📊 Language Similarity:")
-        for metric in ['bleu1', 'bleu2', 'bleu4', 'meteor']:
+        for metric in ['bleu1', 'bleu2', 'bleu4', 'meteor', 'bertscore_f1', 'cider']:
             if metric in avg_scores:
                 print(f"  {metric:15s}: {avg_scores[metric]:.4f} ± {std_scores[metric]:.4f}")
         
