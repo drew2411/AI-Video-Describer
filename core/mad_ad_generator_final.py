@@ -562,7 +562,8 @@ def process_movie(
     groq_client: Groq,
     mad_data: Dict,
     max_shots: Optional[int] = None,
-    start_time: float = 0.0
+    start_time: float = 0.0,
+    shot_offset: int = 0
 ) -> List[Dict]:
     """Process one movie: detect shots → retrieve context → generate ADs."""
     
@@ -582,6 +583,12 @@ def process_movie(
     if start_time > 0:
         shots = [(s, e) for s, e in shots if (e / Config.FPS) >= start_time]
         print(f"  Filtered to {len(shots)} shots after {start_time}s")
+    
+    # Apply shot offset
+    if shot_offset and shot_offset > 0:
+        prev = len(shots)
+        shots = shots[shot_offset:]
+        print(f"  Skipping first {shot_offset} shots ({prev} -> {len(shots)})")
     
     if max_shots:
         shots = shots[:max_shots]
@@ -761,6 +768,7 @@ def main():
     parser.add_argument("--movie", type=str, default="10142", help="Movie ID to process")
     parser.add_argument("--max_shots", type=int, default=20, help="Max shots to process (None = all)")
     parser.add_argument("--start_time", type=float, default=0.0, help="Start time in seconds (skip intro)")
+    parser.add_argument("--shot_offset", type=int, default=0, help="Number of detected shots to skip from the start")
     parser.add_argument("--verify_only", action="store_true", help="Only verify ChromaDB structure")
     args = parser.parse_args()
     
@@ -788,7 +796,8 @@ def main():
         groq_client=groq_client,
         mad_data=mad_data,
         max_shots=args.max_shots,
-        start_time=args.start_time
+        start_time=args.start_time,
+        shot_offset=args.shot_offset
     )
     
     # Save and display

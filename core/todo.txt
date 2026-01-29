@@ -71,3 +71,17 @@ Adding temporal smoothing over decoded captions (so they’re stable over adjace
 Feeding a few nearest neighbor captions together into Groq for richer summaries
 
 Weighting CLIP similarity by subtitles alignment if needed
+
+
+//good movies 
+Top suggestions:
+  movie=3042_KARATE_KID | total_ads=1883 | best_window_count=112 | start_time≈6126.0s
+  movie=3072_THE_GIRL_WITH_THE_DRAGON_TATTOO | total_ads=1469 | best_window_count=89 | start_time≈6544.4s
+  movie=0011_Gandhi | total_ads=1453 | best_window_count=71 | start_time≈692.3s
+  movie=1010_TITANIC | total_ads=1291 | best_window_count=62 | start_time≈5322.3s
+  movie=3089_XMEN_FIRST_CLASS | total_ads=1282 | best_window_count=82 | start_time≈5891.7s
+  movie=5758 | total_ads=1227 | best_window_count=74 | start_time≈252.3s
+  movie=3036_IN_TIME | total_ads=1207 | best_window_count=79 | start_time≈4560.8s
+  movie=12132 | total_ads=1159 | best_window_count=49 | start_time≈3226.7s
+  movie=3408 | total_ads=1099 | best_window_count=50 | start_time≈9185.2s
+  movie=5900 | total_ads=1092 | best_window_count=58 | start_time≈4289.5s

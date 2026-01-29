@@ -1,0 +1,1722 @@
+{
+  "movie_id": "5758",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 964,
+      "end_frame": 1304,
+      "start_time": 192.8,
+      "end_time": 260.8,
+      "duration": 68.0,
+      "movie_id": "5758",
+      "generated_ad": "As Jamie Bernstein thunders out onto a rooftop car park, he moves with urgency, his face set in a determined expression, amidst the backdrop of cars parked around him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The taxi T bones, the sedan's driver's side bulldozing it along the pavement tumbling from beneath the shelter of the bridge.",
+        "He rubs his eyes with the knuckles of his thumbs. I have."
+      ],
+      "cross_modal_context": [
+        "Holding a cigarette between his fingers, a wiry, slick haired man gets out of the newly arrived truck. He glances around and knocks on Flip's passenger window.",
+        "Meaning, from the sedans passenger window, the dark haired man fires a pistol who flinches from a shower of flying debris, then resumed shooting as the taxi zigzags away, the view ascends from beneath the freeway to atop it vehicles, carom off one another, like cars in a demolition Derby than lightning strikes, destroy a section of K Rail."
+      ],
+      "combined_context": [
+        "The taxi T bones, the sedan's driver's side bulldozing it along the pavement tumbling from beneath the shelter of the bridge.",
+        "He rubs his eyes with the knuckles of his thumbs. I have.",
+        " SOMEONE pulls the minivan out passing the police cruisers unnoticed, colorful baby toys litter the dashboard."
+      ],
+      "combined_distances": [
+        0.060890662670135494,
+        0.06508643627166748,
+        0.06553571224212647
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Pro-corp can't. JB thunders out onto a rooftop car park. Paul Carter, please. Paul, hey, Jamie Bernstein. I'm great, thank you. Um, no, uh, the reason I'm calling is because I wanted to let you know that I, uh, can't get you that check this week."
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 1304,
+      "end_frame": 1362,
+      "start_time": 260.8,
+      "end_time": 272.4,
+      "duration": 11.599999999999966,
+      "movie_id": "5758",
+      "generated_ad": "A person, likely the sports agent, stands still, possibly in an office or on the phone, with a concerned expression, as they speak into the phone, gesticulating slightly with their hands.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Then parks the Coopers modest family car alongside a row of flash sports cars.",
+        "The sedan drifts around another corner and the cops take the turn too wide smashing into."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "Production manager Helen Ross first assistant director Michael J Moore second assistant director Lawrence Mercier Visual effects supervisor Dan Schrecker visual effects producer Tom Ford cast Nicholas Hoult as our Teresa Palmer as SOMEONE Analeigh Tipton as SOMEONE Rob Cordrey as M Dave Franco as SOMEONE  John Malkevich as Grigio, Cory hardrict."
+      ],
+      "combined_context": [
+        "Then parks the Coopers modest family car alongside a row of flash sports cars.",
+        "The sedan drifts around another corner and the cops take the turn too wide smashing into.",
+        "To a halt and gets out with the thieves."
+      ],
+      "combined_distances": [
+        0.06901355385780333,
+        0.08059571981430053,
+        0.08493210077285766
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Um, no, uh, the reason I'm calling is because I wanted to let you know that I, uh, can't get you that check this week. No, no, no, no, we still want the office space. Uh, just a couple more months. I didn't even know he was talking to Pro Court."
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 1362,
+      "end_frame": 1432,
+      "start_time": 272.4,
+      "end_time": 286.4,
+      "duration": 14.0,
+      "movie_id": "5758",
+      "generated_ad": "As the characters speak, they stand in an office, likely Stanley's, with a door visible in the background, possibly the one that swung closed, while they gesticulate and express concern through their facial expressions and body language.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Spies another door swinging closed.",
+        "Stan linchan sister walked with them into stanley's office."
+      ],
+      "cross_modal_context": [
+        "Executive producers Lou Rivane Henning Wolf enter Timothy Burrell, associate producer Reiner Shopper. More credits follow.",
+        "Second assistant Director Penny Charter cast Mark Ruffalo as SOMEONE  Michael Keaton as SOMEONE Robbie SOMEONE  Rachel McAdams as SOMEONE  Liev Schreiber as SOMEONE John Slattery as Ben SOMEONE junior Brian D'Arcy James as Matt Carroll."
+      ],
+      "combined_context": [
+        "Spies another door swinging closed.",
+        "Stan linchan sister walked with them into stanley's office.",
+        "Will be open now outside."
+      ],
+      "combined_distances": [
+        0.09815983176231384,
+        0.10006412267684936,
+        0.10013855695724487
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Uh, just a couple more months. I didn't even know he was talking to Pro Court. Well, they got you. Yeah, you know what, they're doing this completely unethical, OK? We've been booming the guy for six months, I mean, six months, come on! The goofy's gone, they've bought it! Speaking of the devil."
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 1432,
+      "end_frame": 1449,
+      "start_time": 286.4,
+      "end_time": 289.8,
+      "duration": 3.400000000000034,
+      "movie_id": "5758",
+      "generated_ad": "As the dialogue \"Speaking of the devil\" is spoken, a caption appears on a massive video screen showing Johnny Depp and Al Pacino.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A caption appears on a massive video screen celebrity camp Johnny Depp and Al Pacino appear on the screen ALS wearing a ridiculous big black false beard.",
+        " SOMEONE gets the ball."
+      ],
+      "cross_modal_context": [
+        "In Los Angeles, bar gay men in short sleeve shirts and jackets sit with a defeated air around tables with checked tablecloths.",
+        "Jason Bateman, Kathryn Hahn, Rohan Chand, Ben Falcone with Phillip Baker Hall and Allison Janney."
+      ],
+      "combined_context": [
+        "A caption appears on a massive video screen celebrity camp Johnny Depp and Al Pacino appear on the screen ALS wearing a ridiculous big black false beard.",
+        " SOMEONE gets the ball.",
+        "The others go up at him. Oh, come on."
+      ],
+      "combined_distances": [
+        0.09103466868400573,
+        0.10455020666122436,
+        0.10671881437301635
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Speaking of the devil."
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 1449,
+      "end_frame": 1474,
+      "start_time": 289.8,
+      "end_time": 294.8,
+      "duration": 5.0,
+      "movie_id": "5758",
+      "generated_ad": "A man, wearing a gray suit and glasses, stands beside an older man in a suit, watching with an expression of disdain as he says, \"I hate them so much.\"",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit.",
+        "Executive producers, robert j dorman nate tuck rick rosner, michael pena, dax shepard executive producer steven mnuchin, produced by andrew panay, pga."
+      ],
+      "combined_distances": [
+        0.7517420709133149,
+        0.7733693778514863,
+        0.7815273165702821
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I hate them so much."
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 1474,
+      "end_frame": 1495,
+      "start_time": 294.8,
+      "end_time": 299.0,
+      "duration": 4.199999999999989,
+      "movie_id": "5758",
+      "generated_ad": "As Jack and Jill watch the basketball teams warming up on the court, Jill's gaze is fixed intently on the players, her facial expression conveying disgust, while Jack stands beside her, his mouth curled into a scowl as he utters his disdain.",
+      "ground_truth": "JP and Asher courtside at an LA Lakers. Atlanta Hawks basketball games.",
+      "ground_truth_id": "283759",
+      "visual_context": [
+        "Seats in the stand and watched the game like the marching.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "cross_modal_context": [
+        "Tapping his head in a signal to Chad SOMEONE crossover dribbles, then fakes the shot. He passes to an open Chad who shoots in scores.",
+        "Bounces off the rim and sinks it."
+      ],
+      "combined_context": [
+        "Seats in the stand and watched the game like the marching.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "combined_distances": [
+        0.06264767050743103,
+        0.06286771893501282,
+        0.09417325854301452
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "I hate them so much."
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 1495,
+      "end_frame": 1502,
+      "start_time": 299.0,
+      "end_time": 300.4,
+      "duration": 1.3999999999999773,
+      "movie_id": "5758",
+      "generated_ad": "As Jack and Jill arrive at the Lakers stadium, she looks at the basketball players on the court with a gaze of admiration.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Need to be next to you.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "cross_modal_context": [
+        "The teams rush onto the floor, pairing up. They shimmy, twirl and bounce. Judy and Frenchy slide their hands down the length of each others arms, then grab hands and jive.",
+        "Finn thrusts his hips as he slides up to his blonde partner, than inches behind her as they danced together. As Angie wiggles her hips. SOMEONE curls his hands like claws and playfully leans toward her chest."
+      ],
+      "combined_context": [
+        "Need to be next to you.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "combined_distances": [
+        0.14223919510841368,
+        0.14277012348175047,
+        0.14498621225357056
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 1502,
+      "end_frame": 1516,
+      "start_time": 300.4,
+      "end_time": 303.2,
+      "duration": 2.8000000000000114,
+      "movie_id": "5758",
+      "generated_ad": "As the camera pans across the scene for 2.8 seconds, two basketball teams are visible on the court, warming up.",
+      "ground_truth": "They're in their seats in the crowded stadium as the Hawks score.",
+      "ground_truth_id": "283760",
+      "visual_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "Seats in the stand and watched the game like the marching."
+      ],
+      "cross_modal_context": [
+        "Tapping his head in a signal to Chad SOMEONE crossover dribbles, then fakes the shot. He passes to an open Chad who shoots in scores.",
+        "On the champion, bounces the ball in the court as margaret waits ready on the other side."
+      ],
+      "combined_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "Seats in the stand and watched the game like the marching.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "combined_distances": [
+        0.05738736987113952,
+        0.07145599126815795,
+        0.08038564324378966
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 1516,
+      "end_frame": 1522,
+      "start_time": 303.2,
+      "end_time": 304.4,
+      "duration": 1.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "The screen fades in to display the production company logo, but since no specific details about the logo are provided, the scene instead shows the Lakers stadium with two basketball teams warming up on the court.",
+      "ground_truth": "They're in their seats in the crowded stadium as the Hawks score.",
+      "ground_truth_id": "283760",
+      "visual_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "cross_modal_context": [
+        "Executive producers Glenn Ficarra, Phil Lord Christopher Miller, John Requa, Jared Stern, executive producer Steven Mnuchin photos show a baby tossed in the air and another reaching for toy scissors.",
+        "Executive producers, Georgia Candace, Alexandra Milczyn, Rick Yorn, Irwin Winkler, Danny Dim Board and Joel Gotler, director of photography Rodrigo Prieto, ASC AMC production designer Bob Shaw."
+      ],
+      "combined_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "combined_distances": [
+        0.13019919991493226,
+        0.14439499378204346,
+        0.1540925621986389
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 1522,
+      "end_frame": 1533,
+      "start_time": 304.4,
+      "end_time": 306.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "5758",
+      "generated_ad": "As the camera pans across the scene for 2.2 seconds, two basketball teams are visible on the court, warming up, while Jack and Jill arrive and Jill looks at the players with a gaze of admiration.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "Seats in the stand and watched the game like the marching."
+      ],
+      "cross_modal_context": [
+        "Tapping his head in a signal to Chad SOMEONE crossover dribbles, then fakes the shot. He passes to an open Chad who shoots in scores.",
+        "He slams it on the table."
+      ],
+      "combined_context": [
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players.",
+        "Seats in the stand and watched the game like the marching.",
+        "The Lakers stadium the two basketball teams are on the court warming up. Jack and Jill arrive and she gorps at the players."
+      ],
+      "combined_distances": [
+        0.09579153656959533,
+        0.10142642855644225,
+        0.10529951453208923
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 1533,
+      "end_frame": 1564,
+      "start_time": 306.6,
+      "end_time": 312.8,
+      "duration": 6.199999999999989,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, one of them makes a zero with his thumb, while their faces express concern and urgency, reflecting the tension in their discussion about not having another play.",
+      "ground_truth": "We just need another play. We don't have another play OK, they just bought our play and we can't compete with them. They're too big. You want to go back.",
+      "ground_truth_id": "283761",
+      "visual_context": [
+        "Mark makes a zero with his thumb.",
+        "As SOMEONE follows keller."
+      ],
+      "cross_modal_context": [
+        "Back in the present, David stares across the concourse at the man in the blue jacket. As the guy joins the rear of a concession stand line.",
+        "As the other three men restrained SOMEONE  reilly wraps."
+      ],
+      "combined_context": [
+        "Mark makes a zero with his thumb.",
+        "As SOMEONE follows keller.",
+        "The objects on SOMEONE s."
+      ],
+      "combined_distances": [
+        0.10719763040542601,
+        0.10873454809188843,
+        0.10873454809188843
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "We don't have another play, okay? They just bought our play. And we can't compete with them."
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 1564,
+      "end_frame": 1572,
+      "start_time": 312.8,
+      "end_time": 314.4,
+      "duration": 1.599999999999966,
+      "movie_id": "5758",
+      "generated_ad": "As the characters stand together, one of them gestures emphatically with their arms, while others nearby react with concerned expressions, amidst a backdrop that likely includes a sports-related setting.",
+      "ground_truth": "We just need another play. We don't have another play OK, they just bought our play and we can't compete with them. They're too big. You want to go back.",
+      "ground_truth_id": "283761",
+      "visual_context": [
+        " SOMEONE gets the ball.",
+        "A caption appears on a massive video screen celebrity camp Johnny Depp and Al Pacino appear on the screen ALS wearing a ridiculous big black false beard."
+      ],
+      "cross_modal_context": [
+        "Recoils in the arena, angela watches tensely from his seat as duran gets in several hits.",
+        "Broderick and SOMEONE have switched seats with SOMEONE  Now behind his mom. He looks around glumly then picks up the bag of cheese puffs."
+      ],
+      "combined_context": [
+        " SOMEONE gets the ball.",
+        "A caption appears on a massive video screen celebrity camp Johnny Depp and Al Pacino appear on the screen ALS wearing a ridiculous big black false beard.",
+        "The others go up at him. Oh, come on."
+      ],
+      "combined_distances": [
+        0.1434586405754089,
+        0.1528851330280304,
+        0.15358587503433227
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "They just bought our play. And we can't compete with them. They're too big. You want to go back?"
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 1572,
+      "end_frame": 1762,
+      "start_time": 314.4,
+      "end_time": 352.4,
+      "duration": 38.0,
+      "movie_id": "5758",
+      "generated_ad": "As the character speaks about not wanting to work at the Death Star, he shifts his gaze and sits up, his movements and expressions conveying his emotional response to the conversation.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit.",
+        " SOMEONE  Reggie and a man in a blue suit stand in front of a middle aged man in a light Gray suit."
+      ],
+      "combined_context": [
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit.",
+        " SOMEONE  Reggie and a man in a blue suit stand in front of a middle aged man in a light Gray suit.",
+        "Watch a movie SOMEONE shifts his gaze and sits up."
+      ],
+      "combined_distances": [
+        0.7746933341026306,
+        0.7908355295658113,
+        0.7927415728569032
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "And we can't compete with them. They're too big. You want to go back? Huh? You want to work at the Death Star? No, I don't want to work at the Death Star. I hated the Death Star. I want to work for us. I want to work for you. But look, come on. This is not really working. Yet. It's not working yet. "
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 1762,
+      "end_frame": 1910,
+      "start_time": 352.4,
+      "end_time": 382.0,
+      "duration": 29.600000000000023,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, one of them appears unwell, with a concerned expression, while others nearby seem engaged in discussion, possibly over a meal or snacks, with one person mentioning a baseball order.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Megan Fox, Will Arnett William Fichtner Danny Woodburn Abby Elliott Noel Fisher Jeremy Howard Pete Ploszek Alan Richman casting by Debra Zane CSA and Kathleen Chopin, CSA a Platinum dunes production a gamma entertainment Mednick productions heavy metal production a Jonathan Liebesman film."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Megan Fox, Will Arnett William Fichtner Danny Woodburn Abby Elliott Noel Fisher Jeremy Howard Pete Ploszek Alan Richman casting by Debra Zane CSA and Kathleen Chopin, CSA a Platinum dunes production a gamma entertainment Mednick productions heavy metal production a Jonathan Liebesman film.",
+        "Greg Tiernan as potato noodle Soup, Vincent Tong as piglets chips, juice box, Jamaican rum, Scott digs, Underwood as gum ***** crankless chips pizza, Conrad Vernon as toilet paper sauerkraut, catcall sausage grape number one beer can pop bottle."
+      ],
+      "combined_distances": [
+        0.7728217124938965,
+        0.776334035396576,
+        0.7815191864967347
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I feel sick. Can we go? How about that baseball order, you know? What's his name? William Chang. Big money guy out of San Francisco looking for investment opportunities in Asia. Asia, except we don't have anything in Asia. Maybe we should find something. Think about Yao Ming, after it's worth 100 mi"
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 1910,
+      "end_frame": 1929,
+      "start_time": 382.0,
+      "end_time": 385.8,
+      "duration": 3.8000000000000114,
+      "movie_id": "5758",
+      "generated_ad": "A person, likely a sports agent, is seen speaking on the phone, possibly standing or sitting in an office setting, as they discuss setting up a meeting and developing young talent.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7443814039230348,
+        0.7742448687553406,
+        0.7802370607852936
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "North Korea. Great, I'll set up a meeting. All right, well then this. What if we go young, find some kid, develop the talent, get on the ground floor."
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 1929,
+      "end_frame": 1935,
+      "start_time": 385.8,
+      "end_time": 387.0,
+      "duration": 1.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "As the sports agent speaks, he gestures, possibly sitting or standing in a setting that may include a chair or other furniture, but his exact movements and surroundings are not clearly defined in this brief moment.",
+      "ground_truth": "What if we go young, find some kid, develop the talent, get on the ground floor? Hey, the Red Sox just signed an 8 year old.",
+      "ground_truth_id": "283781",
+      "visual_context": [],
+      "cross_modal_context": [
+        "He gets up and walks out of the living room, passing his wife and young Alma, junior on a couch and it returns to his seat by the window with another beer, he lights, a new smoke, his brow, furrowed.",
+        "He gulps down the rest of the liquor and slumps back in his chair, closing his eyes."
+      ],
+      "combined_context": [
+        "He gets up and walks out of the living room, passing his wife and young Alma, junior on a couch and it returns to his seat by the window with another beer, he lights, a new smoke, his brow, furrowed.",
+        "He gulps down the rest of the liquor and slumps back in his chair, closing his eyes.",
+        "Now he plops onto a bench and goes to take a sip of beer, a single drop."
+      ],
+      "combined_distances": [
+        0.8055481433868409,
+        0.8117603719234467,
+        0.814211916923523
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "All right, well then this. What if we go young, find some kid, develop the talent, get on the ground floor."
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 1935,
+      "end_frame": 1957,
+      "start_time": 387.0,
+      "end_time": 391.4,
+      "duration": 4.399999999999977,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they shake their head, tapping their glasses in their hand.",
+      "ground_truth": "What if we go young, find some kid, develop the talent, get on the ground floor? Hey, the Red Sox just signed an 8 year old.",
+      "ground_truth_id": "283781",
+      "visual_context": [
+        "At the ceiling.",
+        "Kate taps her glasses in her hand and shakes her head."
+      ],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_context": [
+        "At the ceiling.",
+        "Kate taps her glasses in her hand and shakes her head.",
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton."
+      ],
+      "combined_distances": [
+        0.0723694384098053,
+        0.07358295917510986,
+        0.7777133941650392
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "What if we go young, find some kid, develop the talent, get on the ground floor. Hey, the Red Sox just signed an eight year old."
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 1957,
+      "end_frame": 1982,
+      "start_time": 391.4,
+      "end_time": 396.4,
+      "duration": 5.0,
+      "movie_id": "5758",
+      "generated_ad": "A person, likely a sports agent, is seen speaking and gesturing, possibly standing or sitting near a desk with a briefcase, as they discuss finding and developing young talent.",
+      "ground_truth": "Right, maybe we hang up maternity wards. Yeah, last time I did that I came home with twins, right?",
+      "ground_truth_id": "283782",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_distances": [
+        0.7621440410614014,
+        0.7625694274902345,
+        0.7714537620544434
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "What if we go young, find some kid, develop the talent, get on the ground floor. Hey, the Red Sox just signed an eight year old. Maybe we hang up maternity wards. Yeah, last time I did that, I came home with twins."
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 1982,
+      "end_frame": 1990,
+      "start_time": 396.4,
+      "end_time": 398.0,
+      "duration": 1.6000000000000227,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, Kate is seen tapping her glasses in her hand and shaking her head.",
+      "ground_truth": "Right, maybe we hang up maternity wards. Yeah, last time I did that I came home with twins, right?",
+      "ground_truth_id": "283782",
+      "visual_context": [
+        "At the ceiling.",
+        "Kate taps her glasses in her hand and shakes her head."
+      ],
+      "cross_modal_context": [
+        "Cast Mark Wahlberg as SOMEONE Taylor Kitsch as SOMEONE  Emile Hirsch as SOMEONE Deeds, Ben Foster as SOMEONE Axe, SOMEONE Yousuf azami.",
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson."
+      ],
+      "combined_context": [
+        "At the ceiling.",
+        "Kate taps her glasses in her hand and shakes her head.",
+        "He spots Dave."
+      ],
+      "combined_distances": [
+        0.07077919840812683,
+        0.08094894886016846,
+        0.08399916887283325
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Maybe we hang up maternity wards. Yeah, last time I did that, I came home with twins."
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 1990,
+      "end_frame": 2008,
+      "start_time": 398.0,
+      "end_time": 401.6,
+      "duration": 3.6000000000000227,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, one of them appears to be sitting or standing in a position that blocks the way, with their legs dangling, while others are nearby, engaged in discussion.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7430320084095002,
+        0.7662017345428468,
+        0.7686621308326722
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Maybe we hang up maternity wards. Yeah, last time I did that, I came home with twins. Right. Bad idea. Hey, listen."
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 2008,
+      "end_frame": 2039,
+      "start_time": 401.6,
+      "end_time": 407.8,
+      "duration": 6.199999999999989,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they gesture, and someone waits patiently with their fingers laced on their knee.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Kate taps her glasses in her hand and shakes her head.",
+        "At the ceiling."
+      ],
+      "cross_modal_context": [
+        "Michael Ray, left, Brett Rosenberg, AKA Johnny White, Seth Troxler Sebastian Zeitz, AKA sea bass.",
+        "Jimmy tatro, caroline aaron, craig roberts, marc evan jackson, casting by gene mccarthy, csa nicole abellera."
+      ],
+      "combined_context": [
+        "Kate taps her glasses in her hand and shakes her head.",
+        "At the ceiling.",
+        " SOMEONE SOMEONE waits patiently his fingers laced on his knee these."
+      ],
+      "combined_distances": [
+        0.07118996381759643,
+        0.07364583611488341,
+        0.0770532488822937
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Right. Bad idea. Hey, listen. You are going to love it when it happens to you. You just need to jump on in."
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 2039,
+      "end_frame": 2055,
+      "start_time": 407.8,
+      "end_time": 411.0,
+      "duration": 3.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they gesture for someone to jump in, while looking at a television showing a game, with no visible reaction from others, amidst an otherwise empty and calm environment.",
+      "ground_truth": "Ah, look at that crickets.",
+      "ground_truth_id": "283785",
+      "visual_context": [
+        "A pork and beans company and and three in SOMEONE s.",
+        "Office a tv shows the game."
+      ],
+      "cross_modal_context": [
+        "He slips the disc into the TV and grabs the remote holding the knife loosely in his hand as he plops onto the couch.",
+        "In the apartment, the tv shows the second tower crumble, shedding thick dust and smoke oscar stares at it then collapses to the floor."
+      ],
+      "combined_context": [
+        "A pork and beans company and and three in SOMEONE s.",
+        "Office a tv shows the game.",
+        "Arjun rushes to the door. He pulls away a filing cabinet blocking it, then runs into the smoke filled hallway."
+      ],
+      "combined_distances": [
+        0.16237483620643614,
+        0.16237483620643614,
+        0.17040435075759885
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "You just need to jump on in. Ah, look at that. Crickets."
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 2055,
+      "end_frame": 2063,
+      "start_time": 411.0,
+      "end_time": 412.6,
+      "duration": 1.6000000000000227,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they gaze at something, likely a scene with crickets, and their facial expression appears relaxed.",
+      "ground_truth": "Oh, come on, come on.",
+      "ground_truth_id": "283786",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7544600069522859,
+        0.772015655040741,
+        0.785651558637619
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Ah, look at that. Crickets. Oh, come on. Come on. It relaxes me, all right?"
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 2063,
+      "end_frame": 2080,
+      "start_time": 412.6,
+      "end_time": 416.0,
+      "duration": 3.3999999999999773,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they appear to be watching a game, possibly football, given the context of the movie, with a calm and nostalgic expression, while someone else is present, looking unimpressed.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Second assistant Director Penny Charter cast Mark Ruffalo as SOMEONE  Michael Keaton as SOMEONE Robbie SOMEONE  Rachel McAdams as SOMEONE  Liev Schreiber as SOMEONE John Slattery as Ben SOMEONE junior Brian D'Arcy James as Matt Carroll.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison."
+      ],
+      "combined_context": [
+        "Second assistant Director Penny Charter cast Mark Ruffalo as SOMEONE  Michael Keaton as SOMEONE Robbie SOMEONE  Rachel McAdams as SOMEONE  Liev Schreiber as SOMEONE John Slattery as Ben SOMEONE junior Brian D'Arcy James as Matt Carroll.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison.",
+        "Production manager Richard Middleton first assistant director Donald Murphy, second assistant director Pete dress cast Benicio del Toro as SOMEONE Josh Brolin as SOMEONE  Isabela Moner as SOMEONE Jeffrey Donovan as SOMEONE forcing Catherine Keener as SOMEONE Fords Manuel Garcia Rulfo as ghio."
+      ],
+      "combined_distances": [
+        0.7958631277084351,
+        0.7973654210567475,
+        0.7978224754333497
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Crickets. Oh, come on. Come on. It relaxes me, all right? I used to watch this with my dad. It's a great game. It's not a great game."
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 2080,
+      "end_frame": 2107,
+      "start_time": 416.0,
+      "end_time": 421.4,
+      "duration": 5.399999999999977,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, one of them appears to be watching a game, likely a football game, given the context of the sports management industry.",
+      "ground_truth": "It looks like an insane asylum was opened up and all the inmates were allowed to create a sport.",
+      "ground_truth_id": "283792",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7535253763198854,
+        0.7700076580047608,
+        0.7707189738750458
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "It relaxes me, all right? I used to watch this with my dad. It's a great game. It's not a great game. It is a great game. It looks like an insane asylum was opened up, and all the inmates were allowed to create a sport."
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 2107,
+      "end_frame": 2123,
+      "start_time": 421.4,
+      "end_time": 424.6,
+      "duration": 3.2000000000000455,
+      "movie_id": "5758",
+      "generated_ad": "As the dialogue suggests a chaotic scene, a person, likely a sports agent, is seen speaking emphatically, possibly to someone off-screen, with a mix of frustration and persuasion on their face, as they try to convey their point about the sport.",
+      "ground_truth": "OK, a billion people play this game care.",
+      "ground_truth_id": "283794",
+      "visual_context": [],
+      "cross_modal_context": [
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico.",
+        "Omid Zader, Rick Fong, Big Eyes, Norman Lau Yonghwa hung sandy UT Ashley Wilkes chunk it Yan Irvine Chang warns earn additional music by Ryan Amon, associate producers Brian H SOMEONE Maggie Chiefo, supervising location manager."
+      ],
+      "combined_context": [
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico.",
+        "Omid Zader, Rick Fong, Big Eyes, Norman Lau Yonghwa hung sandy UT Ashley Wilkes chunk it Yan Irvine Chang warns earn additional music by Ryan Amon, associate producers Brian H SOMEONE Maggie Chiefo, supervising location manager.",
+        "Jason Bateman, Kathryn Hahn, Rohan Chand, Ben Falcone with Phillip Baker Hall and Allison Janney."
+      ],
+      "combined_distances": [
+        0.7770374178886414,
+        0.7852331876754761,
+        0.7935579895973206
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "It looks like an insane asylum was opened up, and all the inmates were allowed to create a sport. That is just not true. Okay? A billion people play this game."
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 2123,
+      "end_frame": 2137,
+      "start_time": 424.6,
+      "end_time": 427.4,
+      "duration": 2.7999999999999545,
+      "movie_id": "5758",
+      "generated_ad": "As the character speaks, he pulls off the upper portion of his suit, dropping it onto a briefcase, while his face contorts in a wincing expression.",
+      "ground_truth": "It's because anybody can play it.",
+      "ground_truth_id": "283795",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "He puts his feet up on the coffee table and hits a switch to dim the lights in the office where an elevated toy train track curves around above head height."
+      ],
+      "combined_distances": [
+        0.7500801920890808,
+        0.7809906661510468,
+        0.7817982316017151
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "That is just not true. Okay? A billion people play this game. I don't care. It's because anybody can play it. There's no discernible rules."
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 2137,
+      "end_frame": 2148,
+      "start_time": 427.4,
+      "end_time": 429.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "5758",
+      "generated_ad": "As the character speaks, they gesticulate, apparently expressing their frustration or disbelief about the game, with no other notable visual details present in the brief 2.2-second scene.",
+      "ground_truth": "There's no discernible rules.",
+      "ground_truth_id": "283796",
+      "visual_context": [
+        "Saber stands and claps, happily.",
+        "Haroons in a dark mood."
+      ],
+      "cross_modal_context": [
+        "In the chambers club lounge over roy faces the guests. Ladies.",
+        "In a dressing room watching the game on tv SOMEONE smokes in front of a no smoking sign."
+      ],
+      "combined_context": [
+        "Saber stands and claps, happily.",
+        "Haroons in a dark mood.",
+        "She checks her messy black hair which is dotted with silver leaves. The nervous bride dressed in a red saree with thick eyeliner and bedecked in jewelry is steadily walked towards the stage by her proud father."
+      ],
+      "combined_distances": [
+        0.21112520098686216,
+        0.21112520098686216,
+        0.21228373050689697
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A billion people play this game. I don't care. It's because anybody can play it. There's no discernible rules. You hit the ball anywhere you want, and it's apparently fair, and then you run back and forth and tag each other with bats."
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 2148,
+      "end_frame": 2161,
+      "start_time": 429.6,
+      "end_time": 432.2,
+      "duration": 2.599999999999966,
+      "movie_id": "5758",
+      "generated_ad": "As the character speaks, he gestures with his arms, possibly mimicking the action of hitting a ball or running, while a bat is potentially visible nearby, given the context of the dialogue about playing a sport with minimal rules.",
+      "ground_truth": "You hit the ball anywhere you want, and it's apparently fair and then you run back and forth and tag each other with bats.",
+      "ground_truth_id": "283797",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7486555933952332,
+        0.7771987080574037,
+        0.7916117548942566
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "It's because anybody can play it. There's no discernible rules. You hit the ball anywhere you want, and it's apparently fair, and then you run back and forth and tag each other with bats."
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 2161,
+      "end_frame": 2171,
+      "start_time": 432.2,
+      "end_time": 434.2,
+      "duration": 2.0,
+      "movie_id": "5758",
+      "generated_ad": "As the characters discuss the rules of a game, a bat is visible, and people are shown running back and forth, tagging each other.",
+      "ground_truth": "You hit the ball anywhere you want, and it's apparently fair and then you run back and forth and tag each other with bats.",
+      "ground_truth_id": "283797",
+      "visual_context": [],
+      "cross_modal_context": [
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison."
+      ],
+      "combined_context": [
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison.",
+        "Produced by Dean Devlin, PGA Harold closer. PGA Roland Emmerich, PGA Executive producers Larry Franco, who to Emmerich Carsten Lorenz."
+      ],
+      "combined_distances": [
+        0.7705005764961244,
+        0.7933635234832764,
+        0.795302414894104
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You hit the ball anywhere you want, and it's apparently fair, and then you run back and forth and tag each other with bats."
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 2171,
+      "end_frame": 2190,
+      "start_time": 434.2,
+      "end_time": 438.0,
+      "duration": 3.8000000000000114,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they appear to be in a state of disagreement, possibly frustration, while in a room, but the specific actions and objects in the scene are not clearly indicated by the provided context.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "He puts his feet up on the coffee table and hits a switch to dim the lights in the office where an elevated toy train track curves around above head height."
+      ],
+      "combined_distances": [
+        0.7545710742473603,
+        0.773122262954712,
+        0.7850391149520874
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You hit the ball anywhere you want, and it's apparently fair, and then you run back and forth and tag each other with bats. This is nonsense. Toddlers can play this game. Okay. Are you even listening to yourself right now?"
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 2190,
+      "end_frame": 2234,
+      "start_time": 438.0,
+      "end_time": 446.8,
+      "duration": 8.800000000000011,
+      "movie_id": "5758",
+      "generated_ad": "A person, likely a sports agent, stands and gesticulates emphatically as they argue with someone, their facial expression conveying frustration and incredulity.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison."
+      ],
+      "combined_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "John Francis Daley as Carter Michael Cyril, Creighton Azbill, Brooke J Taylor as Linda Jonathan Goldstein as Dan Charlotte Hazard as nurse Chad Lail as Bulgarian goon Natasha Hall as Madison.",
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico."
+      ],
+      "combined_distances": [
+        0.7792935132980348,
+        0.782064425945282,
+        0.7845006942749024
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "This is nonsense. Toddlers can play this game. Okay. Are you even listening to yourself right now? Do you realize how stupid you sound? This is a brilliant game. And I am in trouble."
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 2234,
+      "end_frame": 2247,
+      "start_time": 446.8,
+      "end_time": 449.4,
+      "duration": 2.599999999999966,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they pull off the upper portion of their suit, dropping it onto a briefcase, while another character's legs dangle, blocking the space under a desk.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wincing, he pulls off the upper portion of his suit. His gaze lands on his father's briefcase. He drops his costume on top of it, clicks her remote and lies down on his bed.",
+        "Then he appears out, then crawls under the desk he finds the way blocked by a pair of dangling legs. As Margie straddles Lyle on the end of the desk, they changed position again, blocking SOMEONE s escape."
+      ],
+      "combined_distances": [
+        0.7600155353546143,
+        0.7832502365112305,
+        0.7851179242134095
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "And I am in trouble. No, you're not driving."
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 2247,
+      "end_frame": 2275,
+      "start_time": 449.4,
+      "end_time": 455.0,
+      "duration": 5.600000000000023,
+      "movie_id": "5758",
+      "generated_ad": "As the car comes to a stop, one of the guards looks at the others and they approach the vehicle.",
+      "ground_truth": "Oh my wife loves it when I have to take a cab home 'cause I'm so intoxicated. Hey brunette comes by.",
+      "ground_truth_id": "283803",
+      "visual_context": [
+        "The car drives along the wooden fence of an opulent estate. The many windows have sculpted edges and the manicured lawn is dotted with lamps.",
+        "They pull up to a grand gate with two huge sculpted earns. As the gate opens 3 armed guards and suits watched the car come to a stop halfway through the entrance."
+      ],
+      "cross_modal_context": [
+        "Later, Angelo arrives outside Bo's house with his cohorts. The thin man holds a baseball bat, and the burly man leads the way.",
+        "He passes a row of sunny, identical suburban homes, then reaches a towering charcoal grey mansion with a parched lawn."
+      ],
+      "combined_context": [
+        "The car drives along the wooden fence of an opulent estate. The many windows have sculpted edges and the manicured lawn is dotted with lamps.",
+        "They pull up to a grand gate with two huge sculpted earns. As the gate opens 3 armed guards and suits watched the car come to a stop halfway through the entrance.",
+        "One of the guards looks at the other two. They approached the car."
+      ],
+      "combined_distances": [
+        0.08693848848342894,
+        0.08693848848342894,
+        0.08693848848342894
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "And I am in trouble. No, you're not driving. Oh, my wife loves it when I have to take a cab home because I'm so intoxicated. Hey. Hey."
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 2275,
+      "end_frame": 2281,
+      "start_time": 455.0,
+      "end_time": 456.2,
+      "duration": 1.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "As the man speaks, he appears intoxicated, and his actions are slightly unsteady, while another person approaches or interacts with him, but the exact nature of their interaction is not clearly visible within the brief 1.2-second scene.",
+      "ground_truth": "Oh my wife loves it when I have to take a cab home 'cause I'm so intoxicated. Hey brunette comes by.",
+      "ground_truth_id": "283803",
+      "visual_context": [
+        "She steps across his body and strides out of the living room. SOMEONE pulls up in the driveway and gets out.",
+        "She runs to the front door, which is opened a crack, letting through a sliver of light."
+      ],
+      "cross_modal_context": [
+        "Forcing her down on the car Heather thrusts into her violently from behind Bill stands right next to him, watching.",
+        "Or wrenches the wheel side to side, Mindy tumbles, losing her gun, jamming her fingers into bullet holes in the roof. She hangs on as the van swerves wildly."
+      ],
+      "combined_context": [
+        "She steps across his body and strides out of the living room. SOMEONE pulls up in the driveway and gets out.",
+        "She runs to the front door, which is opened a crack, letting through a sliver of light.",
+        " SOMEONE now lays the tray at SOMEONE side."
+      ],
+      "combined_distances": [
+        0.0817148208618164,
+        0.0817148208618164,
+        0.08810991048812866
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Oh, my wife loves it when I have to take a cab home because I'm so intoxicated. Hey. Hey."
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 2281,
+      "end_frame": 2287,
+      "start_time": 456.2,
+      "end_time": 457.4,
+      "duration": 1.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "A person, likely intoxicated, is seen interacting with someone, possibly a friend or acquaintance, as they exchange greetings, with the context suggesting a social setting, possibly near or involving a cab.",
+      "ground_truth": "Oh my wife loves it when I have to take a cab home 'cause I'm so intoxicated. Hey brunette comes by.",
+      "ground_truth_id": "283803",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Executive producers William Sadler, David Dinerstein, Jason Resnick, executive producer, Swam Tamil executive producer Adam Shankman, executive producers Brian Pit Sarah George, Leon SOMEONE  Carol Ian Brearton, Eric Lerman.",
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton."
+      ],
+      "combined_context": [
+        "Executive producers William Sadler, David Dinerstein, Jason Resnick, executive producer, Swam Tamil executive producer Adam Shankman, executive producers Brian Pit Sarah George, Leon SOMEONE  Carol Ian Brearton, Eric Lerman.",
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Jennifer Aniston as SOMEONE  Ty Burrell as SOMEONE SOMEONE  Anton Starkman as Nate SOMEONE Keegan Michael Key as Alpha Wolf Jordan Peele as Beowulf Danny Trejo as Jasper, Stephen Kramer Glickman as pigeon toady. Chris Smith as Doug Lind."
+      ],
+      "combined_distances": [
+        0.7605917215347291,
+        0.7729656934738159,
+        0.7738508224487305
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, my wife loves it when I have to take a cab home because I'm so intoxicated. Hey. Hey."
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 2287,
+      "end_frame": 2298,
+      "start_time": 457.4,
+      "end_time": 459.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "5758",
+      "generated_ad": "As someone walks out into the hallway, they glance back and say \"Good night, guys\" while passing by others, including a nurse and possibly a slender young woman, before the scene quickly ends.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Be ok, SOMEONE walks out into the hospital hallway and glances back at lauren elsewhere, emts whelan unconscious man passed a slender young woman in a lab coat.",
+        "She passes a nurse what."
+      ],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "Later, Susanna, wearing a hospital gown and a skullcap with electrodes, sneaks out of her room. She tries the hallway door and finds it locked."
+      ],
+      "combined_context": [
+        "Be ok, SOMEONE walks out into the hospital hallway and glances back at lauren elsewhere, emts whelan unconscious man passed a slender young woman in a lab coat.",
+        "She passes a nurse what.",
+        "Be embarrassed, we're."
+      ],
+      "combined_distances": [
+        0.10344746112823486,
+        0.1036862015724182,
+        0.1036862015724182
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Hey. Good night, guys. Good night."
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 2298,
+      "end_frame": 2305,
+      "start_time": 459.6,
+      "end_time": 461.0,
+      "duration": 1.3999999999999773,
+      "movie_id": "5758",
+      "generated_ad": "As someone says \"Good night, guys, Good night\", a person walks away, ignoring others, and exits the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Be ok, SOMEONE walks out into the hospital hallway and glances back at lauren elsewhere, emts whelan unconscious man passed a slender young woman in a lab coat.",
+        "The next day."
+      ],
+      "cross_modal_context": [
+        "Remaining opening credits. Marisa Tomei, Mark Feuerstein, Lauren Holly, Ashley Johnson, Judy Greer, and Alan Alda. Delta Burke, Valerie Perrine, Lisa Adelstein, Sarah Paulson.",
+        "Turning back, she pauses about 20 yards away. A light shines over a Barnes opened door. The woman gets her shotgun, then marches across her lawn to the shadowy structure."
+      ],
+      "combined_context": [
+        "Be ok, SOMEONE walks out into the hospital hallway and glances back at lauren elsewhere, emts whelan unconscious man passed a slender young woman in a lab coat.",
+        "The next day.",
+        "Hey he ignores SOMEONE and runs past her."
+      ],
+      "combined_distances": [
+        0.1480078101158142,
+        0.15516618490219114,
+        0.15658802986145018
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Good night, guys. Good night."
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 2305,
+      "end_frame": 2335,
+      "start_time": 461.0,
+      "end_time": 467.0,
+      "duration": 6.0,
+      "movie_id": "5758",
+      "generated_ad": "As the person says \"Good night, guys\" and heads inside, another individual, presumably the tenant, is visible in the background, near the bungalow in the backyard.",
+      "ground_truth": "What is my tenant shows in the bungalow Outback backyard hottie?",
+      "ground_truth_id": "283805",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Catfish productions at James Keach film production manager Don how are first assistant director Nicholas Hipsley Cox, second assistant director Michelbach associate producers Roger Carey, Deborah Pearl, Christopher Theo Costa John Theo Post production supervisor Robert Hackl additional editor Axel Hubert ASCE technical advisor Tom Sullivan assistant to James Keach Richard Keith assistant to producers London Maria melons, Sheena.",
+        "Wessler Bradley Thomas, produced by Bobby Fairly, and Peter Farrelly, produced by Reza Aziz and Joey McFarland, executive producers Brad Krevoy, Steve Stabler, executive producers Mark S Fisher, David Copeland executive producers, Danny DIM board, Christian Mercury."
+      ],
+      "combined_context": [
+        "Catfish productions at James Keach film production manager Don how are first assistant director Nicholas Hipsley Cox, second assistant director Michelbach associate producers Roger Carey, Deborah Pearl, Christopher Theo Costa John Theo Post production supervisor Robert Hackl additional editor Axel Hubert ASCE technical advisor Tom Sullivan assistant to James Keach Richard Keith assistant to producers London Maria melons, Sheena.",
+        "Wessler Bradley Thomas, produced by Bobby Fairly, and Peter Farrelly, produced by Reza Aziz and Joey McFarland, executive producers Brad Krevoy, Steve Stabler, executive producers Mark S Fisher, David Copeland executive producers, Danny DIM board, Christian Mercury.",
+        "Stepping onto the porch, he turns to face them. Natasha gives Tony a nod, which he returns before heading inside."
+      ],
+      "combined_distances": [
+        0.763633680343628,
+        0.767493498325348,
+        0.7690277218818665
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Good night, guys. Good night. Who's that? What? She's my tenant. She lives in the bungalow back. Oh, backyard honey."
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 2335,
+      "end_frame": 2344,
+      "start_time": 467.0,
+      "end_time": 468.8,
+      "duration": 1.8000000000000114,
+      "movie_id": "5758",
+      "generated_ad": "As the person speaks, they gesture towards the backyard, likely indicating the location of the bungalow where their tenant lives.",
+      "ground_truth": "What is my tenant shows in the bungalow Outback backyard hottie?",
+      "ground_truth_id": "283805",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Associate producers Tony Pucella, Andrew Sweat production supervisor Jennifer Chapman, cast Kyle Mooney as SOMEONE  Jorge Lendeborg as SOMEONE  Matt Walsh as SOMEONE  Michaela Watkins as SOMEONE SOMEONE Claire Danes as SOMEONE Ryan Simpkins as Aubrey SOMEONE  SOMEONE Kinnear as detective Vogel Mark Hamill as Ted Alexa demie as Meredith Beck, Bennett's deputy bander"
+      ],
+      "combined_context": [
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Associate producers Tony Pucella, Andrew Sweat production supervisor Jennifer Chapman, cast Kyle Mooney as SOMEONE  Jorge Lendeborg as SOMEONE  Matt Walsh as SOMEONE  Michaela Watkins as SOMEONE SOMEONE Claire Danes as SOMEONE Ryan Simpkins as Aubrey SOMEONE  SOMEONE Kinnear as detective Vogel Mark Hamill as Ted Alexa demie as Meredith Beck, Bennett's deputy bander",
+        "As any Adisa, Andy Garcia as President Andrew Palma, Ed Harris as Leonard Dekom, Robert Sheehan as Duncan Taylor, Richard Schiff as senator cross mare Winningham as Doctor Cassandra Jennings Zazie Beetz as Dana Talitha Bateman as Hannah SOMEONE  Daniela Garcia as Mickey Ritchie Montgomery as Mike David Ashley as Rico."
+      ],
+      "combined_distances": [
+        0.7514549612998963,
+        0.7756223917007447,
+        0.7806410074234009
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "She's my tenant. She lives in the bungalow back. Oh, backyard honey."
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 2344,
+      "end_frame": 2355,
+      "start_time": 468.8,
+      "end_time": 471.0,
+      "duration": 2.1999999999999886,
+      "movie_id": "5758",
+      "generated_ad": "As the man speaks, he glances towards the bungalow, his gaze directed at the backyard.",
+      "ground_truth": "No, she's not my type. Oh really, why? Because she's not a model.",
+      "ground_truth_id": "283806",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "The man with slicked back Gray hair walks up to a bar near a brunette with a tray of chips."
+      ],
+      "combined_distances": [
+        0.7693445324897766,
+        0.7889823317527772,
+        0.7893092393875123
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "She lives in the bungalow back. Oh, backyard honey. No, she's not my type."
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 2355,
+      "end_frame": 2375,
+      "start_time": 471.0,
+      "end_time": 475.0,
+      "duration": 4.0,
+      "movie_id": "5758",
+      "generated_ad": "As the characters stand in the backyard, one of them gestures or looks in a direction, while another appears to be engaged in a conversation, with their facial expressions possibly indicating surprise or curiosity.",
+      "ground_truth": "No, she's not my type. Oh really, why? Because she's not a model.",
+      "ground_truth_id": "283806",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer."
+      ],
+      "combined_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Megan Fox, Will Arnett William Fichtner Danny Woodburn Abby Elliott Noel Fisher Jeremy Howard Pete Ploszek Alan Richman casting by Debra Zane CSA and Kathleen Chopin, CSA a Platinum dunes production a gamma entertainment Mednick productions heavy metal production a Jonathan Liebesman film."
+      ],
+      "combined_distances": [
+        0.7723311543464662,
+        0.7755359113216401,
+        0.7764250397682191
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, backyard honey. No, she's not my type. Oh, really? Why? Because she's not a model."
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 2375,
+      "end_frame": 2392,
+      "start_time": 475.0,
+      "end_time": 478.4,
+      "duration": 3.3999999999999773,
+      "movie_id": "5758",
+      "generated_ad": "A suited man, likely the sports agent, is seen reacting with frustration, as he speaks into an earpiece, while another man and a woman are present in the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "He passes a barefoot woman in a short silk robe who kisses a man in his suit. The angular faced man in the white suit smacks the other man as he passes."
+      ],
+      "combined_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "He passes a barefoot woman in a short silk robe who kisses a man in his suit. The angular faced man in the white suit smacks the other man as he passes.",
+        "The clean cut suited man hangs up on his earpiece."
+      ],
+      "combined_distances": [
+        0.7781871676445008,
+        0.7913783431053162,
+        0.7968921065330506
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Why? Because she's not a model. Yeah, because it's not a model. What is wrong with you?"
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 2392,
+      "end_frame": 2399,
+      "start_time": 478.4,
+      "end_time": 479.8,
+      "duration": 1.400000000000034,
+      "movie_id": "5758",
+      "generated_ad": "As someone looks at a woman, they slightly smile and nod in appreciation, while another person stands nearby, looking displeased.",
+      "ground_truth": "What is wrong with you? OK, she's cute.",
+      "ground_truth_id": "283808",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on."
+      ],
+      "combined_context": [
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "Megan Fox, Will Arnett William Fichtner Danny Woodburn Abby Elliott Noel Fisher Jeremy Howard Pete Ploszek Alan Richman casting by Debra Zane CSA and Kathleen Chopin, CSA a Platinum dunes production a gamma entertainment Mednick productions heavy metal production a Jonathan Liebesman film."
+      ],
+      "combined_distances": [
+        0.7606753826141358,
+        0.7702551007270814,
+        0.7799107432365419
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yeah, because it's not a model. What is wrong with you? Okay, she's cute."
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 2399,
+      "end_frame": 2403,
+      "start_time": 479.8,
+      "end_time": 480.6,
+      "duration": 0.8000000000000114,
+      "movie_id": "5758",
+      "generated_ad": "A man, likely a sports agent, looks at someone, possibly a colleague or Popo, with a mixture of confusion and annoyance on his face as he gestures while talking.",
+      "ground_truth": "Have you seen her? She's cute and and and what does she do? She's starting to be a doctor.",
+      "ground_truth_id": "283809",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "Straightens his cuffs then leaves fox cox and eyebrow at SOMEONE  who hangs his head."
+      ],
+      "combined_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "Straightens his cuffs then leaves fox cox and eyebrow at SOMEONE  who hangs his head.",
+        "Dell wears a khaki shirt and Gray trousers. He already has a bald patch on top of his head. Dean brutal and SOMEONE come to his cell. Brutal opens the door and steps back."
+      ],
+      "combined_distances": [
+        0.789425551891327,
+        0.7928759157657624,
+        0.7954600334167481
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yeah, because it's not a model. What is wrong with you? Okay, she's cute. Yeah, have you seen her?"
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 2403,
+      "end_frame": 2421,
+      "start_time": 480.6,
+      "end_time": 484.2,
+      "duration": 3.599999999999966,
+      "movie_id": "5758",
+      "generated_ad": "A man, wearing a suit and glasses, stands beside an older man, also in a suit, as they watch something together, their facial expressions conveying interest and attention.",
+      "ground_truth": "Have you seen her? She's cute and and and what does she do? She's starting to be a doctor.",
+      "ground_truth_id": "283809",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit."
+      ],
+      "combined_context": [
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside.",
+        "Still wearing his gray suit and glasses stands watching the drama beside an older man, also in a suit.",
+        "He picks up a pair of glasses with tortoiseshell frames and puts them on. Connor quickly takes them off and blinks heavily."
+      ],
+      "combined_distances": [
+        0.7839338839054109,
+        0.7886482119560242,
+        0.7906274914741517
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "What is wrong with you? Okay, she's cute. Yeah, have you seen her? She's cute, and what does she do? I don't know. She's studying to be a doctor. Oh, she's studying to be a doctor."
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 2421,
+      "end_frame": 2439,
+      "start_time": 484.2,
+      "end_time": 487.8,
+      "duration": 3.6000000000000227,
+      "movie_id": "5758",
+      "generated_ad": "As one person speaks, another listens with a reaction of disgust, expressed through their facial expression, in response to the mention of someone studying to be a doctor.",
+      "ground_truth": "Oh, she's studying to be a doctor.",
+      "ground_truth_id": "283810",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer."
+      ],
+      "combined_context": [
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Carlos saldana, as screaming matadore, jeremy sisto as SOMEONE s SOMEONE bobby cannavale, as SOMEONE s SOMEONE  raul esparza as moreno luis, carlos de la lambana, as ranch."
+      ],
+      "combined_distances": [
+        0.767018085718155,
+        0.7766760885715486,
+        0.7812466979026795
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "She's cute, and what does she do? I don't know. She's studying to be a doctor. Oh, she's studying to be a doctor. Oh, my God, ew!"
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 2439,
+      "end_frame": 2444,
+      "start_time": 487.8,
+      "end_time": 488.8,
+      "duration": 1.0,
+      "movie_id": "5758",
+      "generated_ad": "A person reacts with a look of distaste, as indicated by the expression \"ew\", while another person is nearby, possibly the subject of the conversation, but their actions and appearance are not clearly visible in this brief scene.",
+      "ground_truth": "Oh my God, you yeah.",
+      "ground_truth_id": "283811",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "The man with slicked back Gray hair walks up to a bar near a brunette with a tray of chips."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "The man with slicked back Gray hair walks up to a bar near a brunette with a tray of chips.",
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside."
+      ],
+      "combined_distances": [
+        0.7735709249973298,
+        0.7812093257904054,
+        0.7895200312137605
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, she's studying to be a doctor. Oh, my God, ew! Yeah, stay away from that, because she's not a model and she's smart."
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 2444,
+      "end_frame": 2464,
+      "start_time": 488.8,
+      "end_time": 492.8,
+      "duration": 4.0,
+      "movie_id": "5758",
+      "generated_ad": "As the characters converse, one of them reacts with a look of disgust, saying \"Oh, my God, ew!\" while others appear to be engaged in the conversation, their facial expressions reflecting their opinions about someone studying to be a doctor.",
+      "ground_truth": "Stay away from that because she's not a model and she's smart, that's terrible.",
+      "ground_truth_id": "283812",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Co starring Jimmy Smits, Peter Mayhew, Ahmed Best, Oliver Ford, Davies, Tamira Morrison, Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer."
+      ],
+      "combined_context": [
+        "Co starring Jimmy Smits, Peter Mayhew, Ahmed Best, Oliver Ford, Davies, Tamira Morrison, Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku.",
+        "Chris Pratt as SOMEONE  Michael Sheen as SOMEONE Laurence Fishburne as SOMEONE  Andy Garcia as SOMEONE SOMEONE  Vince Foster as executive officer, Kara Flowers as communications officer.",
+        "Anna kendrick sarah clark, christian camargo gil birmingham, julia jones, boo, boo stewart via my astro casey labou, maggie grace, my anna barrino, a temple hill production in association with sunswept entertainment summit, entertainment presents the twilight saga breaking dawn part one now, a tall slender woman in a Dark sheath, dress and high heeled shoes carries a card on."
+      ],
+      "combined_distances": [
+        0.7670317888259889,
+        0.7699517309665681,
+        0.7725722372531891
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, she's studying to be a doctor. Oh, my God, ew! Yeah, stay away from that, because she's not a model and she's smart. That's terrible."
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 2464,
+      "end_frame": 2481,
+      "start_time": 492.8,
+      "end_time": 496.2,
+      "duration": 3.3999999999999773,
+      "movie_id": "5758",
+      "generated_ad": "A man, likely the sports agent, walks away from someone, possibly giving a warning or parting advice, as he says \"get home safe\".",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "The man with slicked back Gray hair walks up to a bar near a brunette with a tray of chips."
+      ],
+      "combined_context": [
+        "Cast JV Jon Hamm, SOMEONE Deepesh Solanki Peter Basch SOMEONE Sir I Sharma SOMEONE Madam metal ash Asif Manvi Vivek Darshan Jariwala Brenda Lake Bell Ray Alan Arkin Tom House Bill Paxton.",
+        "The man with slicked back Gray hair walks up to a bar near a brunette with a tray of chips.",
+        "Wearing a dress shirt and slacks, SOMEONE paces on the bungalow deck, he glances inside."
+      ],
+      "combined_distances": [
+        0.7599491834640504,
+        0.7683723986148835,
+        0.7796393036842347
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yeah, stay away from that, because she's not a model and she's smart. That's terrible. Manyata, bro. All right, get home safe."
+    }
+  ]
+}

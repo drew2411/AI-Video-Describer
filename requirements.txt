@@ -17,3 +17,5 @@ open_clip_torch
 nltk
 rouge_score
 bert-score
+matplotlib
+seaborn
