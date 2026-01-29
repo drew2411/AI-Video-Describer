@@ -1,0 +1,732 @@
+{
+  "movie_id": "10142",
+  "total_shots": 20,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 74,
+      "start_time": 0.0,
+      "end_time": 14.8,
+      "duration": 14.8,
+      "movie_id": "10142",
+      "generated_ad": "The production opens with a celestial view of the Earth from space, transitioning to the dark side of the planet where the continents are visible, before introducing the company logo, Silver Orbit, in bold, metallic letters.",
+      "ground_truth": "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+      "ground_truth_id": "104108",
+      "visual_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth as massive block letters of gold and Silver Orbit interview.",
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities."
+      ],
+      "cross_modal_context": [
+        "Columbia Pictures presents our views speeds through space toward Earth, in association with Tencent Pictures and Amblin Entertainment production.",
+        "Now in space, light shines upon a Milky blue planet as spaceships jet over a vast city. At night, 2 black cloaked figures walk along a terrorist."
+      ],
+      "combined_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth as massive block letters of gold and Silver Orbit interview.",
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities.",
+        "In a Black Star sprinkled skywise or backward over Earth as massive block letters of gold and Silver Orbit interview, we passed to the dark side of the planet where the continents show the speckled electrified glow of hundreds of cities."
+      ],
+      "combined_distances": [
+        0.002380019426345825,
+        0.002380019426345825,
+        0.0031033754348754883
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 74,
+      "end_frame": 130,
+      "start_time": 14.8,
+      "end_time": 26.0,
+      "duration": 11.2,
+      "movie_id": "10142",
+      "generated_ad": "The screen fades in to reveal the earth eclipsing the sun, with the massive words \"Universal\" hovering front and center, followed by the text \"A Comcast Company\".",
+      "ground_truth": "The earth eclipses the sun and a massive word hovers front and center universal, a Comcast company.",
+      "ground_truth_id": "104109",
+      "visual_context": [
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities.",
+        "The earth eclipses the sun and the massive words hover front and center universal, a Comcast company."
+      ],
+      "cross_modal_context": [
+        "Opening titles, Universal Pictures, and Emmett Furla films present a film 44 Spikings entertainment, single Berry production, and Emmett Furla films, Herrick Entertainment envisioned entertainment production.",
+        "Animated Universal Studios logo copyright 2013 Universal Studios cDNA Film Holdings 2 LLC is the author of this motion picture for purposes of the Bearing Convention and all national laws giving effect there to the characters and events depicted in this photo."
+      ],
+      "combined_context": [
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities.",
+        "The earth eclipses the sun and the massive words hover front and center universal, a Comcast company.",
+        "In another logo, a low sun shines through distant skyscrapers. A train speeds from the city in Russia's past."
+      ],
+      "combined_distances": [
+        0.0017240047454833982,
+        0.0017240047454833982,
+        0.0017240047454833982
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 130,
+      "end_frame": 138,
+      "start_time": 26.0,
+      "end_time": 27.6,
+      "duration": 1.6000000000000014,
+      "movie_id": "10142",
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" prominently featured, followed by a list of production credits including producers Jason Blumenthal, Steve Tisch, and executive producers David Householder, Jason Segel, and Jake Kasdan.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "Cut to black."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.0
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 138,
+      "end_frame": 214,
+      "start_time": 27.6,
+      "end_time": 42.8,
+      "duration": 15.199999999999996,
+      "movie_id": "10142",
+      "generated_ad": "The production opens with a division of NBC Universal displayed below a stylized, three-dimensional representation of the earth, set against a starry sky with rays of sunlight emanating from the continents.",
+      "ground_truth": "In another logo, four children waved sparklers, tracing out capital letters. The letters hover over a grassy hill at twilight as the kids run past. The first one, underlines the words. Good universe.",
+      "ground_truth_id": "104110",
+      "visual_context": [
+        "Now in a Black Star sprinkled sky, a sliver of sunlight crests the earth glowing rays of light shoot off the continents in a three dimensional world orbits the planet Universal.",
+        "Words appear below a division of NBC Universal."
+      ],
+      "cross_modal_context": [
+        "Opening titles, Universal Pictures, and Emmett Furla films present a film 44 Spikings entertainment, single Berry production, and Emmett Furla films, Herrick Entertainment envisioned entertainment production.",
+        "When the remaining opening titles Universal Pictures presents in association with Perfect World Pictures and Apatow Company Lonely Island production, a Lonely island film, Andy Samberg, Jorma Taccone, Akiva Schaffer, Sarah Silverman, Tim Meadows, Maya Rudolph Joan Cusack Imogen Poots Chris read Edgar Blackmon James Buckley."
+      ],
+      "combined_context": [
+        "Now in a Black Star sprinkled sky, a sliver of sunlight crests the earth glowing rays of light shoot off the continents in a three dimensional world orbits the planet Universal.",
+        "Words appear below a division of NBC Universal.",
+        "In a Black Star sprinkled skywise or backward over Earth's massive block, letters of gold and Silver Orbit interview, we passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities."
+      ],
+      "combined_distances": [
+        0.07351528406143187,
+        0.07351528406143187,
+        0.07377455234527587
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 214,
+      "end_frame": 222,
+      "start_time": 42.8,
+      "end_time": 44.4,
+      "duration": 1.6000000000000014,
+      "movie_id": "10142",
+      "generated_ad": "As the scene briefly unfolds, a person is seated at a table with a leader who remains still.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Tannishtha Chatterjee, Michelle Dockery, Steve Evets, holiday Grainger, Shirley Henderson Susanne Lothar Raphael personas.",
+        "The next day, kraus wheels into a dining room. SOMEONE is seated at a table with a leader who still."
+      ],
+      "cross_modal_context": [
+        "Iris is out into a view of the Star Destroyer as three TIE fighters saw toward it in a holding cell, the bloodied pilot awakes to find himself shackled to a torture rack.",
+        "In the shadows, Obi-wan watches the craft X at the top of the crater."
+      ],
+      "combined_context": [
+        "Tannishtha Chatterjee, Michelle Dockery, Steve Evets, holiday Grainger, Shirley Henderson Susanne Lothar Raphael personas.",
+        "The next day, kraus wheels into a dining room. SOMEONE is seated at a table with a leader who still.",
+        "Executive producer Lisa Chase and Co. Producer Alexandra Ferguson."
+      ],
+      "combined_distances": [
+        0.003090900182723999,
+        0.0052527904510498045,
+        0.005544310808181762
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 222,
+      "end_frame": 225,
+      "start_time": 44.4,
+      "end_time": 45.0,
+      "duration": 0.6000000000000014,
+      "movie_id": "10142",
+      "generated_ad": "The production logo, likely for a film or show with a dramatic or intense theme, appears on screen with no explicit visual elements or company names mentioned, instead the scene unfolds with a character preparing themselves and a separate individual purchasing a weapon.",
+      "ground_truth": "The lid of a school desk closes and animated scene of card sketches and scribbled words appears on the wooden surface. Words in the center, Reed point grey.",
+      "ground_truth_id": "104111",
+      "visual_context": [
+        "Crossing her glasses on a counter she puts in contact lenses. She applies lipstick and adjusts her hair around her face.",
+        "Inside a man places a small revolver and ammo box on a counter. Knitting his brow. SOMEONE paced the clerk some cash and takes the weapon."
+      ],
+      "cross_modal_context": [
+        "Natasha, Charles Parker as SOMEONE s mom Kat Altman as Lucinda Maribeth, Monroe's teacher, Missy Pyle as coach Webb Michael Shacket as Phos Feld Jameer and L as male gym teacher Marc Evan Jackson as principal Bentley car lease.",
+        "Unit production managers Marcus Pacitti, Erica K first assistant director Steven X Apicella second assistant director Matt Power cast Dakota Johnson as SOMEONE Rebel Wilson as SOMEONE Leslie Mann as SOMEONE Damon Wayans junior as SOMEONE Anders Holm as SOMEONE Alison Brie as Lucy Nicholas Braun as Josh Jake Lacy as Ken Jason man Zukas as George."
+      ],
+      "combined_context": [
+        "Crossing her glasses on a counter she puts in contact lenses. She applies lipstick and adjusts her hair around her face.",
+        "Inside a man places a small revolver and ammo box on a counter. Knitting his brow. SOMEONE paced the clerk some cash and takes the weapon.",
+        "In here he dumps its contents out on the floor."
+      ],
+      "combined_distances": [
+        0.1958754777908325,
+        0.2039637804031372,
+        0.204836505651474
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 225,
+      "end_frame": 272,
+      "start_time": 45.0,
+      "end_time": 54.4,
+      "duration": 9.399999999999999,
+      "movie_id": "10142",
+      "generated_ad": "The production logo appears on screen, featuring the company name in a simple, scratched font, reminiscent of the worn student desks, with handwritten notes and scribbles surrounding the text.",
+      "ground_truth": "The lid of a school desk closes and animated scene of card sketches and scribbled words appears on the wooden surface. Words in the center, Reed point grey.",
+      "ground_truth_id": "104111",
+      "visual_context": [
+        "The shabby student desks and chairs are marred with scratches and writing.",
+        "I was too harsh when I told him I thought he hated Bach. A breeze flips the page, revealing more writing. I thought he didn't like me. The name all of her graces, the sides of the page."
+      ],
+      "cross_modal_context": [
+        "Credits roll unit production manager Matthew Heart cast Stephen Lang as SOMEONE Jane Levy as SOMEONE Dylan Minnette as SOMEONE Daniels of Otto as SOMEONE Emma Bercovici as SOMEONE Francisca to cheek as Cindy Christians aghia as Raul, Katia Bokor as ginger Sergei Jobko as Trevor, Olivia jellies as SOMEONE man's daughter young Emma.",
+        "Credits roll cast andrew Garfield is Spiderman Peter Parker, Emma Stone as SOMEONE  Jamie Foxx, Electro Max Dillon, Dane de Haan as Green Goblin, Harry Osborn, Comfi or as Don mentioned, Felicity Jones is SOMEONE Paul Giamatti is Alexis, said Savage Sally Field as SOMEONE May and that dab it, says Mary Parker Campbell Scott is Richard Parker."
+      ],
+      "combined_context": [
+        "The shabby student desks and chairs are marred with scratches and writing.",
+        "I was too harsh when I told him I thought he hated Bach. A breeze flips the page, revealing more writing. I thought he didn't like me. The name all of her graces, the sides of the page.",
+        "Animated food items tumbled to the floor. Scribbled words appear on the desk point grey."
+      ],
+      "combined_distances": [
+        0.12297348380088806,
+        0.1381497323513031,
+        0.13867878317832946
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 272,
+      "end_frame": 278,
+      "start_time": 54.4,
+      "end_time": 55.6,
+      "duration": 1.2000000000000028,
+      "movie_id": "10142",
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" appearing in bold text, followed by the presentation and production credits listing the producers, including Jason Blumenthal, Steve Tisch, and others.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "Cut to black."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.0
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 278,
+      "end_frame": 355,
+      "start_time": 55.6,
+      "end_time": 71.0,
+      "duration": 15.399999999999999,
+      "movie_id": "10142",
+      "generated_ad": "The production logo, likely for a photography or film company, features a simple text-based design with the company name, possibly accompanied by a subtle visual element, such as a camera icon or a pair of photographs, including a man with a smiling brunette.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "To more photos.",
+        "Man with a smiling brunette."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "Miller Wrecker on stereo supervisor John Rhe Benson, stereo compositing supervisor Baignoire Filippo, pipeline supervisors, Pierrick broke van dam Damien Belen Tang, head of technology Bruno Mahe illumination Macguff senior executive shockblade character animation and computer graphics provided by Illumination Mac Guff illumination Mac Guff had a production Crystal Balcone assistant computer graphics supervisors Jerome are threes."
+      ],
+      "combined_context": [
+        "To more photos.",
+        "Man with a smiling brunette.",
+        "A neon, budweiser sign, hangs on one wall and a dartboard hangs on another."
+      ],
+      "combined_distances": [
+        0.0793046772480011,
+        0.0793046772480011,
+        0.0793046772480011
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 355,
+      "end_frame": 398,
+      "start_time": 71.0,
+      "end_time": 79.6,
+      "duration": 8.599999999999994,
+      "movie_id": "10142",
+      "generated_ad": "The production logo, likely for a film or television show, appears on screen as a lamp turns on in a bedroom, illuminating the surroundings, with no explicit company name or text visible in this initial scene.",
+      "ground_truth": "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed.",
+      "ground_truth_id": "104114",
+      "visual_context": [
+        "A slim teenager plays a video game. His bedroom.",
+        " SOMEONE sits up in bed and turns on a lamp."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "As Asterid Jonah Hill as snout loud Christopher Mintz, plasse as Fishlegs TJ Miller as Tuffnut, Kristen Wiig as Ruffnut and others description created by NCI described media. This is Carl nubile."
+      ],
+      "combined_context": [
+        "A slim teenager plays a video game. His bedroom.",
+        " SOMEONE sits up in bed and turns on a lamp.",
+        " SOMEONE goes upstairs."
+      ],
+      "combined_distances": [
+        0.04436683654785156,
+        0.04454190731048584,
+        0.04577516317367553
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 398,
+      "end_frame": 404,
+      "start_time": 79.6,
+      "end_time": 80.8,
+      "duration": 1.2000000000000028,
+      "movie_id": "10142",
+      "generated_ad": "The production logo or opening credits feature a surveillance photo of a middle-aged man, followed by a digital window displaying \"Initialize System\" and a prompt to reboot, after which the servers restart.",
+      "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
+      "ground_truth_id": "104116",
+      "visual_context": [
+        "A profile comes up, showing a surveillance photo of a middle aged man.",
+        "OK, a window reads initialize system. Reboot SOMEONE clicks yes, the servers restart."
+      ],
+      "cross_modal_context": [
+        "His laptop with the paused video chase zooms in on his brother's face.",
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel."
+      ],
+      "combined_context": [
+        "A profile comes up, showing a surveillance photo of a middle aged man.",
+        "OK, a window reads initialize system. Reboot SOMEONE clicks yes, the servers restart.",
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully."
+      ],
+      "combined_distances": [
+        0.029980158805847167,
+        0.033217549324035645,
+        0.03335527777671814
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 404,
+      "end_frame": 415,
+      "start_time": 80.8,
+      "end_time": 83.0,
+      "duration": 2.200000000000003,
+      "movie_id": "10142",
+      "generated_ad": "As the scene unfolds for 2.2 seconds, no clear visual actions or objects are directly indicated from the provided context that aligns with the movie \"Eighth Grade\", which is about a teenager navigating middle school challenges.",
+      "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
+      "ground_truth_id": "104116",
+      "visual_context": [
+        "Boggards hammer nuff this is wings onto his back.",
+        "All he yanks hookup."
+      ],
+      "cross_modal_context": [
+        "Embers glow beneath set skin as he transforms into a giant dog man.",
+        "Gideon flickers and his image blinks like a bad television reception."
+      ],
+      "combined_context": [
+        "Boggards hammer nuff this is wings onto his back.",
+        "All he yanks hookup.",
+        "Still dripping in lava set steps off a metal scaffold in his half dog form, ursua bows before him."
+      ],
+      "combined_distances": [
+        0.23306299448013304,
+        0.23767771124839782,
+        0.23966824412345886
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 415,
+      "end_frame": 419,
+      "start_time": 83.0,
+      "end_time": 83.8,
+      "duration": 0.7999999999999972,
+      "movie_id": "10142",
+      "generated_ad": "The boy walks past someone towards the back of the room and takes a seat against the back wall.",
+      "ground_truth": "The boy switches to a green.",
+      "ground_truth_id": "104117",
+      "visual_context": [
+        "The boy looks angry as he walks past SOMEONE towards the back of the room. SOMEONE turns and watches the boy take a seat against the back wall.",
+        "Then he returns to his coloring."
+      ],
+      "cross_modal_context": [
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is.",
+        "A boy awake in bed in his room in elf behind a curtain shuts off a night light."
+      ],
+      "combined_context": [
+        "The boy looks angry as he walks past SOMEONE towards the back of the room. SOMEONE turns and watches the boy take a seat against the back wall.",
+        "Then he returns to his coloring.",
+        "Seated across from."
+      ],
+      "combined_distances": [
+        0.07048346400260924,
+        0.07048346400260924,
+        0.07169932126998901
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 419,
+      "end_frame": 426,
+      "start_time": 83.8,
+      "end_time": 85.2,
+      "duration": 1.4000000000000057,
+      "movie_id": "10142",
+      "generated_ad": "The production logo or opening credits are not explicitly described, but the scene fades into a title or credit sequence is not mentioned, instead, a heartfelt moment between a daughter and her dad is shown, with no visible company names or logos.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back."
+      ],
+      "cross_modal_context": [
+        "His fingers walk up the keys, he notices Hirota and beams.",
+        "His laptop with the paused video chase zooms in on his brother's face."
+      ],
+      "combined_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back.",
+        "Her now teenage daughter opens an email it reads, hey, SOMEONE haven't heard from you guys in a few months."
+      ],
+      "combined_distances": [
+        0.05568155646324157,
+        0.05568155646324157,
+        0.0561894953250885
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 426,
+      "end_frame": 435,
+      "start_time": 85.2,
+      "end_time": 87.0,
+      "duration": 1.7999999999999972,
+      "movie_id": "10142",
+      "generated_ad": "As the scene unfolds, a figure quickly dodges and ducks, avoiding the attacks of approaching guards.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "The guards carrying Lauraline drop her the disguise duo, grab the guards, knife slashes his leg, then throws the knife right between an approaching guards.",
+        "Eyes as more guards attacked the impostor ducks and dodges there."
+      ],
+      "cross_modal_context": [
+        "Turns it off.",
+        "Turns from the SOMEONE "
+      ],
+      "combined_context": [
+        "The guards carrying Lauraline drop her the disguise duo, grab the guards, knife slashes his leg, then throws the knife right between an approaching guards.",
+        "Eyes as more guards attacked the impostor ducks and dodges there.",
+        "Lounging fears, then grabs the blades on each guards belts and stabs both of them."
+      ],
+      "combined_distances": [
+        0.21985967159271239,
+        0.21985967159271239,
+        0.21985967159271239
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 435,
+      "end_frame": 439,
+      "start_time": 87.0,
+      "end_time": 87.8,
+      "duration": 0.7999999999999972,
+      "movie_id": "10142",
+      "generated_ad": "The production logo or opening credits are not explicitly described, but the scene fades into a title or production company name, possibly including a simple text-based presentation of the company name, such as a studio or production company logo, although the exact details are not provided.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back."
+      ],
+      "cross_modal_context": [
+        "Now, iview glides over a sun drenched corn field to the SOMEONE farm house. Movers carry items into the house and Clark approaches Bruce.",
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel."
+      ],
+      "combined_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back.",
+        "A profile comes up, showing a surveillance photo of a middle aged man."
+      ],
+      "combined_distances": [
+        0.03398083448410034,
+        0.03398083448410034,
+        0.03936342597007751
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 439,
+      "end_frame": 449,
+      "start_time": 87.8,
+      "end_time": 89.8,
+      "duration": 2.0,
+      "movie_id": "10142",
+      "generated_ad": "As she walks toward the gate, she exhibits a slightly awkward gait, while the guards nearby stare after her.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but."
+      ],
+      "cross_modal_context": [
+        "Turns it off.",
+        "Turns off the light."
+      ],
+      "combined_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but.",
+        "She passes guards who stare after her watching her slightly awkward gate."
+      ],
+      "combined_distances": [
+        0.20670620799064635,
+        0.20670620799064635,
+        0.20670620799064635
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 449,
+      "end_frame": 455,
+      "start_time": 89.8,
+      "end_time": 91.0,
+      "duration": 1.2000000000000028,
+      "movie_id": "10142",
+      "generated_ad": "As the scene briefly unfolds, a teenager quickly gets out of bed and accidentally steps on a skateboard.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        " SOMEONE gets out of bed and steps on a skateboard causing him to knock over a beaker of milk.",
+        "As he mops up the mess, he activates a laptop on the floor."
+      ],
+      "cross_modal_context": [
+        "Ty Simpkins as Dalton Lambert Rose Byrne as Renee Lambert, Patrick Wilson as Josh Lambert.",
+        "Ben O'Toole as Flynn, Jack Reynor as demmons, Jacob Latimore as Fred Ashley Richardson as elderly woman, Barton Bund as desk SOMEONE Justin main as SOMEONE SOMEONE number one Dennis sterile Selsky as Detective Jones Darren Goldstein as detective Tanchak Bensville as Nate Conyers, John Boyega."
+      ],
+      "combined_context": [
+        " SOMEONE gets out of bed and steps on a skateboard causing him to knock over a beaker of milk.",
+        "As he mops up the mess, he activates a laptop on the floor.",
+        "Mr Rogue, he's met with a look of blank indifference from the rest of the class."
+      ],
+      "combined_distances": [
+        0.08394847512245178,
+        0.08394847512245178,
+        0.09158053398132324
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 455,
+      "end_frame": 459,
+      "start_time": 91.0,
+      "end_time": 91.8,
+      "duration": 0.7999999999999972,
+      "movie_id": "10142",
+      "generated_ad": "The production logo and opening credits are not explicitly shown, but the scene fades into a title card, likely displaying the company name, as the protagonist reminisces about her past with her dad.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back."
+      ],
+      "cross_modal_context": [
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel.",
+        "His laptop with the paused video chase zooms in on his brother's face."
+      ],
+      "combined_context": [
+        " SOMEONE scrolls through the pictures along with another showing her fishing with her dad, then smiles wistfully.",
+        "She replies, hey dad, sorry I haven't written back.",
+        "A profile comes up, showing a surveillance photo of a middle aged man."
+      ],
+      "combined_distances": [
+        0.032317537069320675,
+        0.032317537069320675,
+        0.03286836743354797
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 459,
+      "end_frame": 470,
+      "start_time": 91.8,
+      "end_time": 94.0,
+      "duration": 2.200000000000003,
+      "movie_id": "10142",
+      "generated_ad": "As she walks toward the gate, she passes guards who stare after her, their eyes fixed on her slightly awkward gait.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but."
+      ],
+      "cross_modal_context": [
+        "her clothes are gone. She checks under a footstool. Then darts into the next room, she rushes out to the waiting area and scours the floor.",
+        " SOMEONE removes her wig, revealing her bald head."
+      ],
+      "combined_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but.",
+        "She passes guards who stare after her watching her slightly awkward gate."
+      ],
+      "combined_distances": [
+        0.19254408478736876,
+        0.19254408478736876,
+        0.19254408478736876
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    }
+  ]
+}

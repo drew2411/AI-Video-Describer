@@ -1,0 +1,198 @@
+Sample Code Snippets — MAD AD Generation Pipeline
+
+1) Configuration
+----------------
+class Config:
+    H5_FRAMES = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\features\CLIP_L14_frames_features_5fps.h5"
+    H5_TEXT = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\features\CLIP_L14_language_tokens_features.h5"
+    JSON_TRAIN = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\annotations\MAD-v1\MAD_train.json"
+    JSON_VAL = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\annotations\MAD-v1\MAD_val.json"
+    JSON_TEST = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\annotations\MAD-v1\MAD_test.json"
+    CSV_AD = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\annotations\MAD-v2\mad-v2-ad-unnamed.csv"
+    CSV_SUBS = r"C:\Users\nikhi\projects\AI-Video-Describer\MAD\annotations\MAD-v2\mad-v2-subs.csv"
+    CHROMA_DIR = "./chroma_db_mad_joint"
+    COLLECTION_NAME = "mad_joint_clip_L14"
+    SIM_THRESHOLD = 0.80
+    MIN_SHOT_LEN = 3
+    FPS = 5.0
+    TEXT_CONTEXT_K = 5
+    VISUAL_CONTEXT_K = 3
+    GROQ_MODEL = "llama-3.3-70b-versatile"
+    OUTPUT_DIR = Path("./mad_generated_ads")
+
+2) Shot Detection
+-----------------
+def normalize_rows(x: np.ndarray, eps: float = 1e-8) -> np.ndarray:
+    norms = np.linalg.norm(x, axis=1, keepdims=True)
+    return x / np.maximum(norms, eps)
+
+
+def detect_shots(embeddings: np.ndarray, threshold: float, min_len: int) -> List[Tuple[int, int]]:
+    if len(embeddings) == 0:
+        return []
+    emb_norm = normalize_rows(embeddings)
+    sims = np.sum(emb_norm[:-1] * emb_norm[1:], axis=1)
+    cuts = np.where(sims < threshold)[0]
+    boundaries = [0]
+    for pos in cuts:
+        if pos + 1 - boundaries[-1] >= min_len:
+            boundaries.append(pos + 1)
+    boundaries.append(len(embeddings))
+    shots = [(boundaries[i], boundaries[i+1]) for i in range(len(boundaries)-1)]
+    merged = []
+    for s, e in shots:
+        if not merged:
+            merged.append((s, e))
+            continue
+        prev_s, prev_e = merged[-1]
+        if (e - s) < min_len and len(merged) > 0:
+            merged[-1] = (prev_s, e)
+        else:
+            merged.append((s, e))
+    return merged
+
+3) Hybrid Retrieval (ChromaDB)
+------------------------------
+def retrieve_hybrid_context(
+    collection: chromadb.Collection,
+    shot_emb: np.ndarray,
+    shot_info: Dict,
+    mad_data: Dict,
+    visual_k: int = 3,
+    text_k: int = 5
+) -> Dict:
+    results = {
+        "visual_context": [],
+        "visual_distances": [],
+        "cross_modal_context": [],
+        "cross_modal_distances": [],
+        "combined_context": [],
+        "combined_distances": [],
+        "combined_sources": []
+    }
+    # Stage 1: Visual similarity (frame_shot)
+    visual_retrieval = collection.query(
+        query_embeddings=[shot_emb.tolist()],
+        n_results=visual_k * 10,
+        where={"$and": [{"type": "frame_shot"}, {"movie_key": {"$ne": str(shot_info.get("movie_id", shot_info.get("movie", None)))}}]},
+        include=["metadatas", "distances"]
+    )
+    # Map retrieved shots to overlapping ADs
+    # ... (filter by movie and temporal overlap) ...
+
+    # Stage 2: Cross-modal retrieval (text_caption)
+    text_retrieval = collection.query(
+        query_embeddings=[shot_emb.tolist()],
+        n_results=text_k * 10,
+        where={"$and": [{"type": "text_caption"}, {"movie": {"$ne": str(shot_info.get("movie_id", shot_info.get("movie", None)))}}]},
+        include=["metadatas", "distances"]
+    )
+    # Merge, weight, and sort results
+    # visual_weighted = [...]; cross_modal_weighted = [...]
+    # results["combined_context"] = ...
+    return results
+
+4) AD Generation (Groq)
+-----------------------
+def generate_ad(
+    client: Groq,
+    shot_info: Dict,
+    context_ads: List[str],
+    context_sources: List[str],
+    subtitle_text: str = "",
+    movie_name: str = "",
+    movie_synopsis: str = ""
+) -> str:
+    shot_type = classify_shot_type(context_ads, subtitle_text)
+    if shot_type == "logo_or_credits":
+        system_prompt = """You are an expert audio description writer.
+Generate ONE sentence describing a production logo or opening credits.
+Focus on: company names, visual elements (logos, text, animations).
+Be factual and concise. DO NOT invent details not in the context."""
+        user_prompt = f"""Context from similar logos/credits:\n{chr(10).join(f"- {ad[:150]}" for ad in context_ads[:2])}\n\nGenerate one sentence describing this logo or credit sequence."""
+        temperature = 0.3
+    else:
+        system_prompt = """You are an expert audio description writer for blind audiences.
+Generate ONE vivid, factual sentence describing the visual content of a movie scene.
+Focus on: visible actions, key objects, character appearances, emotional expressions.
+CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent specific details.
+Before writing, silently decide which provided context items are actually relevant (some may be off-topic). Do NOT output your reasoning; only output the final description."""
+        # Build context from retrieved items, subtitles, and movie metadata
+        # context_text = ...
+        user_prompt = f"""Scene duration: {shot_info['duration']:.1f} seconds\n\n{{context_text}}\n\nInstructions:\n- Select relevant items.\n- Prefer 🎬 (visual) over 📝 (cross-modal) if similar.\n- Generate ONE grounded sentence.\n- No reasoning in output."""
+        temperature = 0.5
+    response = client.chat.completions.create(
+        model=Config.GROQ_MODEL,
+        messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}],
+        temperature=temperature,
+        max_tokens=100
+    )
+    return response.choices[0].message.content.strip()
+
+5) Main Pipeline
+----------------
+def process_movie(
+    movie_id: str,
+    collection: chromadb.Collection,
+    groq_client: Groq,
+    mad_data: Dict,
+    max_shots: Optional[int] = None,
+    start_time: float = 0.0,
+    shot_offset: int = 0
+) -> List[Dict]:
+    embeddings = load_frame_embeddings(movie_id)
+    shots = detect_shots(embeddings, Config.SIM_THRESHOLD, Config.MIN_SHOT_LEN)
+    if start_time > 0:
+        shots = [(s, e) for s, e in shots if (e / Config.FPS) >= start_time]
+    if shot_offset and shot_offset > 0:
+        shots = shots[shot_offset:]
+    if max_shots:
+        shots = shots[:max_shots]
+    try:
+        subs_df = pd.read_csv(Config.CSV_SUBS)
+        subs_df = subs_df[subs_df['movie'] == int(movie_id)]
+    except Exception:
+        subs_df = pd.DataFrame()
+    movie_ctx = derive_movie_context(groq_client, subs_df)
+
+    results = []
+    for shot_idx, (start_frame, end_frame) in enumerate(shots):
+        start_time = start_frame / Config.FPS
+        end_time = end_frame / Config.FPS
+        duration = end_time - start_time
+        shot_info = {"shot_id": shot_idx, "start_frame": int(start_frame), "end_frame": int(end_frame), "start_time": float(start_time), "end_time": float(end_time), "duration": float(duration), "movie_id": str(movie_id)}
+        shot_emb = get_representative_frame_embedding(embeddings, start_frame, end_frame) if duration < 3.0 else pool_shot_embedding(embeddings, start_frame, end_frame)
+        retrieval_results = retrieve_hybrid_context(collection, shot_emb, shot_info, mad_data, visual_k=Config.VISUAL_CONTEXT_K, text_k=Config.TEXT_CONTEXT_K)
+        context_ads = retrieval_results["combined_context"]
+        distances = retrieval_results["combined_distances"]
+        sources = retrieval_results["combined_sources"]
+        subtitle_text = ""
+        if not subs_df.empty:
+            mask = (subs_df['start'] <= end_time) & (subs_df['end'] >= start_time - 3)
+            subtitle_text = " ".join(str(s) for s in subs_df[mask]['text'].tolist())[:300]
+        should_gen, reason = should_generate_ad(distances, threshold=0.7)
+        generated_ad = generate_ad(groq_client, shot_info, context_ads, sources, subtitle_text, movie_ctx.get("movie_name", ""), movie_ctx.get("movie_synopsis", "")) if should_gen else f"[Skipped: {reason}]"
+        results.append({**shot_info, "generated_ad": generated_ad, "combined_context": context_ads[:3], "combined_distances": [float(d) for d in distances[:3]], "combined_sources": sources[:3], "subtitle_context": subtitle_text})
+    return results
+
+6) CLI Entrypoint
+-----------------
+def main():
+    parser = argparse.ArgumentParser(description="Generate Audio Descriptions for MAD movies")
+    parser.add_argument("--movie", type=str, default="10142", help="Movie ID to process")
+    parser.add_argument("--max_shots", type=int, default=20, help="Max shots to process (None = all)")
+    parser.add_argument("--start_time", type=float, default=0.0, help="Start time in seconds (skip intro)")
+    parser.add_argument("--shot_offset", type=int, default=0, help="Number of detected shots to skip from the start")
+    parser.add_argument("--verify_only", action="store_true", help="Only verify ChromaDB structure")
+    args = parser.parse_args()
+    collection = verify_chroma_structure()
+    if collection is None or args.verify_only:
+        return
+    groq_client = init_groq()
+    mad_data = load_mad_json("train")
+    results = process_movie(args.movie, collection, groq_client, mad_data, max_shots=args.max_shots, start_time=args.start_time, shot_offset=args.shot_offset)
+    save_results(args.movie, results)
+    print_sample_results(results, n=3)
+
+if __name__ == "__main__":
+    main()

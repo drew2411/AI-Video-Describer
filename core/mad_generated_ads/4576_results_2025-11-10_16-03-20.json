@@ -1,0 +1,1812 @@
+{
+  "movie_id": "4576",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 7,
+      "start_time": 0.0,
+      "end_time": 1.4,
+      "duration": 1.4,
+      "movie_id": "4576",
+      "generated_ad": "The screen fades in to reveal the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" prominently displayed in a straightforward text format, followed by the presentation and production credits.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "Cut to black."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.0
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 7,
+      "end_frame": 39,
+      "start_time": 1.4,
+      "end_time": 7.8,
+      "duration": 6.4,
+      "movie_id": "4576",
+      "generated_ad": "Against a blue background, a shimmering louvered image of a castle forms, then flares to reveal the words \"Walt Disney\" in a magical sequence.",
+      "ground_truth": "Against a blue background, a shimmering louvered image of a castle forms the space beneath the castle.",
+      "ground_truth_id": "222480",
+      "visual_context": [
+        "Against the blue background, a shimmering louvered image of a castle forms the space beneath the castle. Flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch.",
+        "Against a blue background, a shimmering louvered image of the castle forms the space beneath the Capitol. Flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch."
+      ],
+      "cross_modal_context": [
+        "A louvered image of a castle against the blue background. The space beneath the castle flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch.",
+        "Against a blue background, a shimmering louvered image of a castle forms the space beneath the castle. Flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch over the logo."
+      ],
+      "combined_context": [
+        "Against the blue background, a shimmering louvered image of a castle forms the space beneath the castle. Flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch.",
+        "Against a blue background, a shimmering louvered image of the castle forms the space beneath the Capitol. Flares magically to reveal the words Walt Disney Pictures as a shooting star creates an arch.",
+        "Against a blue background, a shimmering image of a castle forms the space beneath the castle."
+      ],
+      "combined_distances": [
+        0.04137853384017944,
+        0.04498425722122192,
+        0.051140481233596796
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 39,
+      "end_frame": 110,
+      "start_time": 7.8,
+      "end_time": 22.0,
+      "duration": 14.2,
+      "movie_id": "4576",
+      "generated_ad": "On a blue background, a glowing pinpoint of light arcs over the light blue outline of a castle with spires and flags, as words appear in a flash.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Read by Mark Elliott a logo on a blue background, a glowing pinpoint of light arcs over the light blue outline of a castle with Spires and flags.",
+        "Words appear in a flash."
+      ],
+      "cross_modal_context": [
+        "Walt Disney Pictures and Image Movers digital present the view through a Garland lined window shows snowflakes gently falling on a London St A Robertson Meckes film.",
+        "Words appear Walt Disney Pictures a flashing pinpoint of light arcs over the castle, then a green spotlight shines on the logo."
+      ],
+      "combined_context": [
+        "Read by Mark Elliott a logo on a blue background, a glowing pinpoint of light arcs over the light blue outline of a castle with Spires and flags.",
+        "Words appear in a flash.",
+        "Floating is encircled by tarot cards and a Candelabra against a blue background. A louvered image of a castle and dark shoots over it. Walt Disney pictures."
+      ],
+      "combined_distances": [
+        0.007248455286026001,
+        0.007248455286026001,
+        0.012601464986801147
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 110,
+      "end_frame": 165,
+      "start_time": 22.0,
+      "end_time": 33.0,
+      "duration": 11.0,
+      "movie_id": "4576",
+      "generated_ad": "The screen fades in to reveal fireworks exploding over a stadium, with the company name, such as Sony Pictures Animation, appearing in bold, blue letters that bounce into place.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Now, blue letters bounce into place. Spelling out Sony Pictures animation in another logo. Fireworks explode above a stadium. We pulled back past a woman holding a boy's hand as they watch the Kerner Entertainment company.",
+        "In black and white, fireworks explode over a large Olympic Stadium as an old woman and a little boy hold hands looking on from a balcony."
+      ],
+      "cross_modal_context": [
+        "Warner Brothers and Metro Goldwyn Mayer Pictures, Inc.",
+        "Warner Brothers Pictures, a Time Warner company, now a cloudless baby blue sky, fades into view, buffeted by wind."
+      ],
+      "combined_context": [
+        "Now, blue letters bounce into place. Spelling out Sony Pictures animation in another logo. Fireworks explode above a stadium. We pulled back past a woman holding a boy's hand as they watch the Kerner Entertainment company.",
+        "In black and white, fireworks explode over a large Olympic Stadium as an old woman and a little boy hold hands looking on from a balcony.",
+        "Zooming out words appear."
+      ],
+      "combined_distances": [
+        0.0680623471736908,
+        0.07019782662391662,
+        0.07019782662391662
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 165,
+      "end_frame": 194,
+      "start_time": 33.0,
+      "end_time": 38.8,
+      "duration": 5.799999999999997,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, a small blue creature is visible, pushing a wheelbarrow filled with berry slips through a forest setting.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Blocks the smurfs and monte locks down a tree house SOMEONE punches another.",
+        "A butterfly grins, then flaps away."
+      ],
+      "cross_modal_context": [
+        "Chris Sanders is the voice of Dulcedo feen, Toby Longworth.",
+        "Visual effects Supervisor John Nelson, costume designer Leisy Crystal Edgar Ramirez Luke Bracey, Teresa Palmer Clemens Schick, Matthias Varela, Tobias Santelmann Max Teriade with Delroy Lindo and Ray Winstone casting by John Patsy."
+      ],
+      "combined_context": [
+        "Blocks the smurfs and monte locks down a tree house SOMEONE punches another.",
+        "A butterfly grins, then flaps away.",
+        "Forest, a small blue creature, pushing a wheelbarrow of berry slips."
+      ],
+      "combined_distances": [
+        0.06355072855949402,
+        0.06865644454956055,
+        0.06865644454956055
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 194,
+      "end_frame": 202,
+      "start_time": 38.8,
+      "end_time": 40.4,
+      "duration": 1.6000000000000014,
+      "movie_id": "4576",
+      "generated_ad": "As George plays coconut ball, he runs through the jungle, visibly swinging his arms and jumping, with a big smile on his face.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The frog knocks the red orb into the waterfall and it turns into a winged creature.",
+        "Another orb falls off the sandcastle into a wave and transforms into a creature with a drill bit tail."
+      ],
+      "cross_modal_context": [
+        "Michael Sanders, Lilou, supervising animator andreas Day high voice Davi Chase noni supervising animators Steven Sampla voice Tia Carrere cobra bubbles supervising animator Byron Howard, voice Ving Rhames Jamba, supervising animator Boland Bouchiba voice David Ogden, Stiers SOMEONE and David Cohen a supervising animator Ruben a Aquino voice of SOMEONE Kevin McDonald.",
+        "The cockpit canopy swings open and Obi Wan climbs out onto the wing."
+      ],
+      "combined_context": [
+        "The frog knocks the red orb into the waterfall and it turns into a winged creature.",
+        "Another orb falls off the sandcastle into a wave and transforms into a creature with a drill bit tail.",
+        "They run on through the corn with the angry aliens buzzing them, their whirling blades chopping lanes through the corn."
+      ],
+      "combined_distances": [
+        0.09055919051170348,
+        0.09055919051170348,
+        0.09311895370483397
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 202,
+      "end_frame": 217,
+      "start_time": 40.4,
+      "end_time": 43.4,
+      "duration": 3.0,
+      "movie_id": "4576",
+      "generated_ad": "The production logo features a whimsical animation of a small, blue creature, reminiscent of Forest, pushing a wheelbarrow filled with berry slips, before the company name appears on screen.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A butterfly grins, then flaps away.",
+        "Forest, a small blue creature, pushing a wheelbarrow of berry slips."
+      ],
+      "cross_modal_context": [
+        "Directed by George Miller. Written by George Miller, Brendan McCarthy, Nicole atheris. Produced by Doug Mitchell, George Miller, PJ Voeten, director of photography John Seal, ASC ACS editor Margaret Sixel.",
+        "George Drakuli's, costume designer Sophie de Rakoff, editors Jamie Gross, Craig Alpert, Stacy Schroeder, production designer John Billington, director of photography Brandon Trust at the CMC office."
+      ],
+      "combined_context": [
+        "A butterfly grins, then flaps away.",
+        "Forest, a small blue creature, pushing a wheelbarrow of berry slips.",
+        "Get in the game with the hand he flings the gorilla off the page."
+      ],
+      "combined_distances": [
+        0.19792000055313108,
+        0.19792000055313108,
+        0.2075295329093933
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 217,
+      "end_frame": 237,
+      "start_time": 43.4,
+      "end_time": 47.4,
+      "duration": 4.0,
+      "movie_id": "4576",
+      "generated_ad": "As George, a jungle hero, plays a game of coconut ball, he is seen swinging his arms and running, while his wife Ursula and their son watch him with smiling faces.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The minions sob and walk away, one of them wax another.",
+        "Caveman takes a rock from a monkey and bites. It then punches the monkey."
+      ],
+      "cross_modal_context": [
+        "In a stop motion animation, a group of five neanderthals are trying to break open a coconut one of them with bright, pink lips, turns from the group and speaks since the.",
+        "Bruxish cliffs his foot over SOMEONE  Batido bashes him with a rocket hammer. Hugo hurls a firebomb setting. One side of the hulking Cyborg torso ablaze."
+      ],
+      "combined_context": [
+        "The minions sob and walk away, one of them wax another.",
+        "Caveman takes a rock from a monkey and bites. It then punches the monkey.",
+        "The Big Bad wolf flows on a DVD player and it plays a movie in it and Owl watches Minnie and SOMEONE Skip hand in hand over a hill."
+      ],
+      "combined_distances": [
+        0.0969236135482788,
+        0.0969236135482788,
+        0.09754537343978881
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 237,
+      "end_frame": 251,
+      "start_time": 47.4,
+      "end_time": 50.2,
+      "duration": 2.8000000000000043,
+      "movie_id": "4576",
+      "generated_ad": "The screen fades in to reveal the Columbia Pictures logo, a woman holding a torch, with the text \"Columbia Pictures presents\" appearing below, followed by the company names of the production partners, including L Star Capital.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In a sunny forest AB plus his past, his titles appear.",
+        "Columbia Pictures presents in association with L Star capital."
+      ],
+      "cross_modal_context": [
+        "As he reaches a tree, axe pulls himself to sitting and leans back against the trunk, keeping his good eye open. He fires in a haphazard arc.",
+        "Ben climbs a tree and doggy tosses him a sack which he dangles over a high branch on a rope. SOMEONE pretends to pee on SOMEONE with a water bottle. As he digs his pit."
+      ],
+      "combined_context": [
+        "In a sunny forest AB plus his past, his titles appear.",
+        "Columbia Pictures presents in association with L Star capital.",
+        "In association with Wanda Pictures, a Kerner entertainment company, production, a snail climbs, a mushroom, then slides down the other side with a smile."
+      ],
+      "combined_distances": [
+        0.1488006770610809,
+        0.1488006770610809,
+        0.1488006770610809
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 251,
+      "end_frame": 270,
+      "start_time": 50.2,
+      "end_time": 54.0,
+      "duration": 3.799999999999997,
+      "movie_id": "4576",
+      "generated_ad": "The production logo features the company name \"Lilou Pictures\" with a stylized, animated flashlight beam sweeping across the screen, illuminating a fleeting glimpse of a figure scurrying through a dark forest landscape.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Dance who raises his brow.",
+        "In the forest, lilou scans the area with a flashlight as SOMEONE scampers around her."
+      ],
+      "cross_modal_context": [
+        "In slow motion, Ramses towers over Ignacia, who rips his fruit with both hands pain contorts his face, then his gaze turns to the side.",
+        "He fires it at two minions who stand on the back of bruce alligator couch. One jumps off the other shrinks to only a few inches, his friend flicks him, but grew catches. The small fry."
+      ],
+      "combined_context": [
+        "Dance who raises his brow.",
+        "In the forest, lilou scans the area with a flashlight as SOMEONE scampers around her.",
+        "In slow motion, Ramses towers over Ignacia, who rips his fruit with both hands pain contorts his face, then his gaze turns to the side."
+      ],
+      "combined_distances": [
+        0.1008585751056671,
+        0.1008585751056671,
+        0.772988772392273
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 270,
+      "end_frame": 280,
+      "start_time": 54.0,
+      "end_time": 56.0,
+      "duration": 2.0,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds for 2 seconds, a gorilla is flung off, and someone is pushed.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Get in the game with the hand he flings the gorilla off the page.",
+        "It turns the color and flies up, landing on zombie."
+      ],
+      "cross_modal_context": [
+        "He grabs the flattened ball and holds it up. Defeated Hobnob joins him.",
+        "He grabs an item and pulls it off the rack."
+      ],
+      "combined_context": [
+        "Get in the game with the hand he flings the gorilla off the page.",
+        "It turns the color and flies up, landing on zombie.",
+        " SOMEONE pushes him off."
+      ],
+      "combined_distances": [
+        0.1420862376689911,
+        0.1420862376689911,
+        0.1420862376689911
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 280,
+      "end_frame": 291,
+      "start_time": 56.0,
+      "end_time": 58.2,
+      "duration": 2.200000000000003,
+      "movie_id": "4576",
+      "generated_ad": "As George plays a game of coconut ball, he runs and jumps, surrounded by lush jungle foliage and colorful objects, with a big smile on his face.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE in Twilight sleep on her bed.",
+        "He gets his head stuck in a can of blue. A can sticks to his rear end. It explodes, sending peed into the air."
+      ],
+      "cross_modal_context": [
+        "He tosses away gideon's.",
+        "He touches the tip of his tongue to the pink bowling ball he selected and licks it."
+      ],
+      "combined_context": [
+        " SOMEONE in Twilight sleep on her bed.",
+        "He gets his head stuck in a can of blue. A can sticks to his rear end. It explodes, sending peed into the air.",
+        "The campers run as Glorioso grows more brambles, one starts to fall on two girls rarely stops it with a shield. Rainbow speeds them to safety."
+      ],
+      "combined_distances": [
+        0.22224536538124082,
+        0.22312147021293638,
+        0.22346831560134886
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 291,
+      "end_frame": 302,
+      "start_time": 58.2,
+      "end_time": 60.4,
+      "duration": 2.1999999999999957,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, Hamsterviel jumps on a button, triggering the machine to lift the bell jar, which contains an orange blob resembling a partially formed creature.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Written by kristine songco.",
+        "Hamsterviel jumps on a button and the bell jar rises from the machine. The orange blob inside resembles a partially formed creature."
+      ],
+      "cross_modal_context": [
+        "Now SOMEONE sleeps face down on her twin bed in the bathroom. Beverly pulls a striped halter dress over a one piece swimsuit. Sheahon tucks her hair and opens her dresser.",
+        "She removes her bulky backpack and drops it to the ground beside her."
+      ],
+      "combined_context": [
+        "Written by kristine songco.",
+        "Hamsterviel jumps on a button and the bell jar rises from the machine. The orange blob inside resembles a partially formed creature.",
+        "Prairie dogs come back down."
+      ],
+      "combined_distances": [
+        0.25190212726593014,
+        0.25311623215675355,
+        0.2588253915309906
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 302,
+      "end_frame": 308,
+      "start_time": 60.4,
+      "end_time": 61.6,
+      "duration": 1.2000000000000028,
+      "movie_id": "4576",
+      "generated_ad": "As the boy beckons George, he turns and begins to move towards the boy, his expression and movements indicating a response to the summons.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "It grabs the basket, then drops toward the ground, struggling to take the basket out, barely avoiding fairy houses."
+      ],
+      "cross_modal_context": [
+        "Michael Sanders, Lilou, supervising animator andreas Day high voice Davi Chase noni supervising animators Steven Sampla voice Tia Carrere cobra bubbles supervising animator Byron Howard, voice Ving Rhames Jamba, supervising animator Boland Bouchiba voice David Ogden, Stiers SOMEONE and David Cohen a supervising animator Ruben a Aquino voice of SOMEONE Kevin McDonald.",
+        "Supervisors modeling Francois Loughnane surfacing baby Impala compositing supervisors Celine Alegre Antonine say do stereo compositing supervisor Benoit Philippon credits, roll cast Steve Carell is groove Jason Segel is SOMEONE "
+      ],
+      "combined_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "It grabs the basket, then drops toward the ground, struggling to take the basket out, barely avoiding fairy houses.",
+        "Handset down trays of food on a table on the beach. A smiling man serves volleyball. A blonde toddler creates a sandcastle with a bucket. A banner reads, INA luau. The table of food lies underneath it."
+      ],
+      "combined_distances": [
+        0.14376038312911987,
+        0.15242467522621153,
+        0.1620682954788208
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 308,
+      "end_frame": 312,
+      "start_time": 61.6,
+      "end_time": 62.4,
+      "duration": 0.7999999999999972,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George, while in the background, a figure is visible, but the scene cuts away quickly, showing no other discernible actions or key objects.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In it, a figure kicks around object into the air. Doug examines closer.",
+        "He hands SOMEONE a spear."
+      ],
+      "cross_modal_context": [
+        "Production designer William Sandal director of photography Hiro Narita, ASC executive producer Ralph Winter. The boy runs barefoot, skipping over twigs and ducking under low branches. He reaches a slope and tumbles over the edge.",
+        "He finds tracker and climbs to him up there."
+      ],
+      "combined_context": [
+        "In it, a figure kicks around object into the air. Doug examines closer.",
+        "He hands SOMEONE a spear.",
+        "Raucci flux berry over his shoulder."
+      ],
+      "combined_distances": [
+        0.1267266571521759,
+        0.1267266571521759,
+        0.12996584177017212
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 312,
+      "end_frame": 319,
+      "start_time": 62.4,
+      "end_time": 63.8,
+      "duration": 1.3999999999999986,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Donald tries to run away, but the cauldron flips on top of him.",
+        "It bounces down a hill and Donald catches his hook hand on a tree branch."
+      ],
+      "cross_modal_context": [
+        "In the woods near the caves, SOMEONE  Percival, George and build stand around SOMEONE Wet Stick pours out water and SOMEONE uses it to rinse the mud from his arms.",
+        "Sprawled between the tree trunk and a boulder, SOMEONE groggily lifts his head. SOMEONE pushes himself up his face, bloody from several fresh cuts. Rolling over, he finds SOMEONE working his way to all fours."
+      ],
+      "combined_context": [
+        "Donald tries to run away, but the cauldron flips on top of him.",
+        "It bounces down a hill and Donald catches his hook hand on a tree branch.",
+        "Dance who raises his brow."
+      ],
+      "combined_distances": [
+        0.11458882093429565,
+        0.11458882093429565,
+        0.1149531066417694
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 319,
+      "end_frame": 324,
+      "start_time": 63.8,
+      "end_time": 64.8,
+      "duration": 1.0,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George, likely with a gesture of his arm, as he stands in the midst of a jungle environment.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Too, deep in the forest jump up old branches off a red metal object, SOMEONE grins. It's a spaceship.",
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage."
+      ],
+      "cross_modal_context": [
+        "The acorn shifts Scrat, wiggles his toes helplessly, scrap forces himself to his front paws.",
+        "Greasy haired man pours wine for Abner in himself."
+      ],
+      "combined_context": [
+        "Too, deep in the forest jump up old branches off a red metal object, SOMEONE grins. It's a spaceship.",
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage.",
+        "He swings his wand like a baseball bat, but spins out of control."
+      ],
+      "combined_distances": [
+        0.10704062581062317,
+        0.1121936559677124,
+        0.12096325755119323
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 324,
+      "end_frame": 333,
+      "start_time": 64.8,
+      "end_time": 66.6,
+      "duration": 1.7999999999999972,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George as he jumps up.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Two small children run to a brightly lit building. Keator, SOMEONE and the crew are welcomed in to share a meal.",
+        "Outplacement blast hit SOMEONE  jump up, ounces and cups."
+      ],
+      "cross_modal_context": [
+        "Beast snap at each other, wreaking havoc. Fallon crawls away between fallen trees when suddenly the first dinosaur gets equipped Elecsys throat and breaks its neck with a sharp twist.",
+        "A hand grasp smeagol shoulder Tigerlily knocks out a pirate and jumps over a railing. She looks at SOMEONE ship."
+      ],
+      "combined_context": [
+        "Two small children run to a brightly lit building. Keator, SOMEONE and the crew are welcomed in to share a meal.",
+        "Outplacement blast hit SOMEONE  jump up, ounces and cups.",
+        "Dance who raises his brow."
+      ],
+      "combined_distances": [
+        0.12757163643836975,
+        0.1301248490810394,
+        0.13018046617507933
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 333,
+      "end_frame": 337,
+      "start_time": 66.6,
+      "end_time": 67.4,
+      "duration": 0.8000000000000114,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George, his eyes and arm movements directing George's attention towards him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He nabs one mowing a lawn another from up. I stand and continues on capturing more and more cousins along a trail crash.",
+        "He sadly retrieves his rock picture of Brooke. He shuffles down the aisle, pocketing it, then his eyes widen. He spots broke in the crowd."
+      ],
+      "cross_modal_context": [
+        "To as SOMEONE follows the bald man hurley stairs after them later in a forest clearing, a group stands around hurley as he releases a guy from a hold.",
+        "The woman in yellow join Somones crew SOMEONE takes off her shades and glares the crowd, forms a circle around the two squads. Dean and SOMEONE do a synchronized routine, sidestepping and crisscrossing their feet to the beat."
+      ],
+      "combined_context": [
+        "He nabs one mowing a lawn another from up. I stand and continues on capturing more and more cousins along a trail crash.",
+        "He sadly retrieves his rock picture of Brooke. He shuffles down the aisle, pocketing it, then his eyes widen. He spots broke in the crowd.",
+        "For her mannion said turn to each other."
+      ],
+      "combined_distances": [
+        0.13157769441604614,
+        0.131761234998703,
+        0.13271135687828062
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 337,
+      "end_frame": 344,
+      "start_time": 67.4,
+      "end_time": 68.8,
+      "duration": 1.3999999999999915,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George, his arm outstretched in a summoning gesture.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "By a river he watches SOMEONE ",
+        "At the ballfield, Leroy pitches Annette at the critter with a baseball bat shaped tail later in a boat."
+      ],
+      "cross_modal_context": [
+        "Trapped in the crocodiles teeth, two more glowing mermaids appear and attacked the crocodile flickering as they shock it.",
+        " SOMEONE is lying on his back in a shallow pool of water at the bottom of the heffalump trap with his umbrella and briefcase floating next to him. He sits up and looks at the sun, dappled wood around him."
+      ],
+      "combined_context": [
+        "By a river he watches SOMEONE ",
+        "At the ballfield, Leroy pitches Annette at the critter with a baseball bat shaped tail later in a boat.",
+        "Later, a rainbow colored fairy floats to the desk."
+      ],
+      "combined_distances": [
+        0.12077233195304869,
+        0.13015843629837034,
+        0.13278962969779967
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 344,
+      "end_frame": 355,
+      "start_time": 68.8,
+      "end_time": 71.0,
+      "duration": 2.200000000000003,
+      "movie_id": "4576",
+      "generated_ad": "A boy beckons to George, who is likely in view, as the scene unfolds briefly.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The shirtless flame thrower twirls the fire sticks around in front of people sitting at outdoor tables.",
+        "He grabs a bottle and fills his mouth with its liquid as he spits the liquid into the fire and flames shoot."
+      ],
+      "cross_modal_context": [
+        " SOMEONE SOMEONE pulls the lever back and he opens the cage and releases SOMEONE Shackles. He pulls her out.",
+        " SOMEONE leads his men through a swamp covered with bright green algi high grass pushes through the fetid surface as they slog along."
+      ],
+      "combined_context": [
+        "The shirtless flame thrower twirls the fire sticks around in front of people sitting at outdoor tables.",
+        "He grabs a bottle and fills his mouth with its liquid as he spits the liquid into the fire and flames shoot.",
+        "High into the air part of the stages thatched roof catches fire and collapses as he bows SOMEONE watches who's the man stomps on it?"
+      ],
+      "combined_distances": [
+        0.16776193380355833,
+        0.16803593039512632,
+        0.16803593039512632
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 355,
+      "end_frame": 362,
+      "start_time": 71.0,
+      "end_time": 72.4,
+      "duration": 1.4000000000000057,
+      "movie_id": "4576",
+      "generated_ad": "As the boy beckons George, he extends his arm and gestures for George to come towards him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "At the ballfield, Leroy pitches Annette at the critter with a baseball bat shaped tail later in a boat.",
+        "Fixing his wig as she slides."
+      ],
+      "cross_modal_context": [
+        "He aims a gush of water at Berry, who tumbles into the toilet bowl.",
+        " SOMEONE is lying on his back in a shallow pool of water at the bottom of the heffalump trap with his umbrella and briefcase floating next to him. He sits up and looks at the sun, dappled wood around him."
+      ],
+      "combined_context": [
+        "At the ballfield, Leroy pitches Annette at the critter with a baseball bat shaped tail later in a boat.",
+        "Fixing his wig as she slides.",
+        "Meet you, the view shifts to the shadow of the birds soaring over the rocks."
+      ],
+      "combined_distances": [
+        0.1368933618068695,
+        0.13819541931152343,
+        0.1389548659324646
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 362,
+      "end_frame": 393,
+      "start_time": 72.4,
+      "end_time": 78.6,
+      "duration": 6.199999999999989,
+      "movie_id": "4576",
+      "generated_ad": "As the boy beckons George, a green animal with arms and legs swims upward, with creatures holding onto its tail.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Below SOMEONE Dodgers jumpers massive hands pletely swims over in scuba gear, brandishing a pair of handcuffs SOMEONE  grab them cuts his two pursuers together, and bites into weeklies oxygen tank.",
+        "Allison Janney the yellow cells shudder in fear as a large fish eats the tentacle creature. They sprout fins and follow the fish. Steve Coogan. Jennifer Saunders. The yellow oblong creatures follow several large fish, Pierre Coffin and Geoffrey Rush."
+      ],
+      "cross_modal_context": [
+        "Underwater SOMEONE swims to toothless and pulls on the thick chain as hiccups body goes limp, stoic swims down and pulls him up out of the water.",
+        "Underwater, stoic swims down to toothless and breaks his shackle into toothless. Grab stoic and zooms up out of the water, toothless places stoic beside SOMEONE on the rock and lands on a nearby boulder. Toothless nods to SOMEONE "
+      ],
+      "combined_context": [
+        "Below SOMEONE Dodgers jumpers massive hands pletely swims over in scuba gear, brandishing a pair of handcuffs SOMEONE  grab them cuts his two pursuers together, and bites into weeklies oxygen tank.",
+        "Allison Janney the yellow cells shudder in fear as a large fish eats the tentacle creature. They sprout fins and follow the fish. Steve Coogan. Jennifer Saunders. The yellow oblong creatures follow several large fish, Pierre Coffin and Geoffrey Rush.",
+        "The creatures hold onto the tail of a green animal with arms and legs as it swims upward."
+      ],
+      "combined_distances": [
+        0.10522795915603637,
+        0.10952616333961486,
+        0.10952616333961486
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A boy beckons George."
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 393,
+      "end_frame": 396,
+      "start_time": 78.6,
+      "end_time": 79.2,
+      "duration": 0.6000000000000085,
+      "movie_id": "4576",
+      "generated_ad": "As the view descends, an animated canopy of dark rounded treetops comes into view.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Artistic supervision animation line Anderson Anthony Gray John Hill Gabe Hordos artistic supervision lighting Eric Fernandez Michael McNeil Michael Necci Aaron Smith Pablo Valle artistic supervision modeling Artie Johnson, surfacing Sabrina and Regal affects Mahesh Ramasubramanian character effects Damon Crow artistic supervision final layout Richard Shiva character technical direction sandy cow Kevin Matthew Ox Technical direction Roberto A Calvo.",
+        "Brambles grow up through the holes, glorioso floats above and smiles. Pinky takes Sprinkles and throws him at the brambles, creating holes applejacks. That's the whole with the table."
+      ],
+      "cross_modal_context": [
+        "Daytime under bright sunlight. Little bear hurries over the dry forest floor. Hands clasped protectively near his waist as he continues on a view of his now open hands. Reveals a speckled birds egg cradled in one of his palms and Camp Rosalie sits with the other Cheyenne, letting Elk woman braid her hair as the boy returns.",
+        "In the woods near the caves, SOMEONE  Percival, George and build stand around SOMEONE Wet Stick pours out water and SOMEONE uses it to rinse the mud from his arms."
+      ],
+      "combined_context": [
+        "Artistic supervision animation line Anderson Anthony Gray John Hill Gabe Hordos artistic supervision lighting Eric Fernandez Michael McNeil Michael Necci Aaron Smith Pablo Valle artistic supervision modeling Artie Johnson, surfacing Sabrina and Regal affects Mahesh Ramasubramanian character effects Damon Crow artistic supervision final layout Richard Shiva character technical direction sandy cow Kevin Matthew Ox Technical direction Roberto A Calvo.",
+        "Brambles grow up through the holes, glorioso floats above and smiles. Pinky takes Sprinkles and throws him at the brambles, creating holes applejacks. That's the whole with the table.",
+        "The view descends to an animated canopy of dark rounded treetops."
+      ],
+      "combined_distances": [
+        0.08772785067558288,
+        0.09115942120552062,
+        0.09246385693550109
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 396,
+      "end_frame": 399,
+      "start_time": 79.2,
+      "end_time": 79.8,
+      "duration": 0.5999999999999943,
+      "movie_id": "4576",
+      "generated_ad": "As the scene flashes by, George, a jungle hero, is briefly visible, his face set in a determined expression, amidst a blurred backdrop of jungle foliage.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Directed by Genndy Tartakovsky. Produced by Michelle Murdocca, PGA the Magician dives into a hula hoop, then emerges from water. His assistant leaps out wearing a mermaid tale written by Roberts Michael and Adam Sandler.",
+        "Executive producers Adam Sandler, Fallon Colbert Roberts Michael Ben Waisbren."
+      ],
+      "cross_modal_context": [
+        "As he paddles, class finds his or being eaten up by wriggling leeches and throws it away into the water.",
+        "Lying on his stomach, Alex paddles the raft around as the black lab plays with its owner in the surf."
+      ],
+      "combined_context": [
+        "Directed by Genndy Tartakovsky. Produced by Michelle Murdocca, PGA the Magician dives into a hula hoop, then emerges from water. His assistant leaps out wearing a mermaid tale written by Roberts Michael and Adam Sandler.",
+        "Executive producers Adam Sandler, Fallon Colbert Roberts Michael Ben Waisbren.",
+        "Beam disintegrates the head."
+      ],
+      "combined_distances": [
+        0.2411103248596191,
+        0.2411103248596191,
+        0.24788455367088316
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 399,
+      "end_frame": 416,
+      "start_time": 79.8,
+      "end_time": 83.2,
+      "duration": 3.4000000000000057,
+      "movie_id": "4576",
+      "generated_ad": "The production logo and opening credits feature the names of the team members, including Chad L, Miss Kevin Jackson, and others, displayed in a serene and natural setting, with text appearing amidst a sunny forest backdrop.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Chad L, Miss Kevin Jackson, Jason Martinson, Valerie Morrison, Jeff Panko, Glen Sylvester, John fasola.",
+        "In a sunny forest AB plus his past, his titles appear."
+      ],
+      "cross_modal_context": [
+        "Jon Lovitz as Quasimodo Cee Lo Green's Murray the mummy Luenell is shrunken head, produced by Michelle Murdocca, Adam Sandler, Robert.",
+        "Another credit written and directed by Chris Sanders and Dean Deblois."
+      ],
+      "combined_context": [
+        "Chad L, Miss Kevin Jackson, Jason Martinson, Valerie Morrison, Jeff Panko, Glen Sylvester, John fasola.",
+        "In a sunny forest AB plus his past, his titles appear.",
+        "Columbia Pictures presents in association with L Star capital."
+      ],
+      "combined_distances": [
+        0.22536313533782956,
+        0.24443441629409787,
+        0.24443441629409787
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 416,
+      "end_frame": 425,
+      "start_time": 83.2,
+      "end_time": 85.0,
+      "duration": 1.7999999999999972,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, a person is seen swimming while another watches, set against the backdrop of a small oasis in the distance.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "They see a small Oasis in the distance shortly. SOMEONE swims while SOMEONE watches.",
+        "Ha ha ha ha."
+      ],
+      "cross_modal_context": [
+        " SOMEONE draws his blaster as Bubbles, Gurgle from the water surface. The Bog falls still trying not to slip. SOMEONE hurries closer to where he last saw to the X wings, landing lights cast and eerie glow through the mist.",
+        "Bubbles blow out of the barrel quill opens his eyes to find his entire blaster evaporating into bubbles."
+      ],
+      "combined_context": [
+        "They see a small Oasis in the distance shortly. SOMEONE swims while SOMEONE watches.",
+        "Ha ha ha ha.",
+        "Surrounded by a green aura, he whizzes by the school."
+      ],
+      "combined_distances": [
+        0.0761349618434906,
+        0.0761349618434906,
+        0.07771134972572326
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 425,
+      "end_frame": 432,
+      "start_time": 85.0,
+      "end_time": 86.4,
+      "duration": 1.4000000000000057,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, a coconut drops from a palm tree.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "It drops off the palm tree, catapulting Pleat Lee on the ocean.",
+        "Lilou SOMEONE and SOMEONE ride on one surfboard."
+      ],
+      "cross_modal_context": [
+        " SOMEONE and SOMEONE wade ashore and the tubby man braces himself on a boulder gleaming with neon splotches. SOMEONE takes two leaps up the riverbank.",
+        " SOMEONE is lying on his back in a shallow pool of water at the bottom of the heffalump trap with his umbrella and briefcase floating next to him. He sits up and looks at the sun, dappled wood around him."
+      ],
+      "combined_context": [
+        "It drops off the palm tree, catapulting Pleat Lee on the ocean.",
+        "Lilou SOMEONE and SOMEONE ride on one surfboard.",
+        "The wide eyed alien leans back on his front paws."
+      ],
+      "combined_distances": [
+        0.10522478818893433,
+        0.10522478818893433,
+        0.10522478818893433
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 432,
+      "end_frame": 438,
+      "start_time": 86.4,
+      "end_time": 87.6,
+      "duration": 1.1999999999999886,
+      "movie_id": "4576",
+      "generated_ad": "A blonde person shrugs, a simple and brief movement that is the only visible action in the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage.",
+        "Inland, a pink snouted creature hangs from an umbrella on an ice cream cart."
+      ],
+      "cross_modal_context": [
+        "The flubber flaps out of the canister and bounces into weebo and awful lamp, a rutland player slams another basket, making it forty two to three.",
+        "Oh no reaching a grassy patch. She tumbles onto her stomach and somersaults SOMEONE dashes after her as she rolls down the slope reaching the bottom."
+      ],
+      "combined_context": [
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage.",
+        "Inland, a pink snouted creature hangs from an umbrella on an ice cream cart.",
+        "Wear a blue alien with a spiky head."
+      ],
+      "combined_distances": [
+        0.08370572924613952,
+        0.08433128595352173,
+        0.08433128595352173
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A blonde shrugs."
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 438,
+      "end_frame": 444,
+      "start_time": 87.6,
+      "end_time": 88.8,
+      "duration": 1.2000000000000028,
+      "movie_id": "4576",
+      "generated_ad": "A blonde woman shrugs as George looks back and forth between her, a boy, and a toucan.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Behind SOMEONE  the digger breaks through the Rockwall and the other explorers join him.",
+        "Two small children run to a brightly lit building. Keator, SOMEONE and the crew are welcomed in to share a meal."
+      ],
+      "cross_modal_context": [
+        " SOMEONE looks up to find his handhold breaking loose. He attempts to climb the tumbling boulder as it drops a shooting cable, snatches his hood and SOMEONE lifts him to safety.",
+        "He fires it at two minions who stand on the back of bruce alligator couch. One jumps off the other shrinks to only a few inches, his friend flicks him, but grew catches. The small fry."
+      ],
+      "combined_context": [
+        "Behind SOMEONE  the digger breaks through the Rockwall and the other explorers join him.",
+        "Two small children run to a brightly lit building. Keator, SOMEONE and the crew are welcomed in to share a meal.",
+        "Off down a path as they disappear behind trees, SOMEONE runs out. Dajing plasma bursts. Jumbo follows."
+      ],
+      "combined_distances": [
+        0.1217035949230194,
+        0.12473574876785277,
+        0.13094838261604308
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A blonde shrugs. George's gaze shifts between the woman and boy and a toucan."
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 444,
+      "end_frame": 457,
+      "start_time": 88.8,
+      "end_time": 91.4,
+      "duration": 2.6000000000000085,
+      "movie_id": "4576",
+      "generated_ad": "As the blonde woman shrugs, George's gaze moves back and forth between her, a boy, and a colorful toucan.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "'s hog mob, more cave.",
+        "Executive producers Sean Clark, Paul Cooley, and Kerry lock."
+      ],
+      "cross_modal_context": [
+        "Inside a nameplate for Tigger lies on top of the cage. The father and son constructed for him. Allen sits on SOMEONE SOMEONE s bed with his hands folded in his lap.",
+        "In his bedroom, SOMEONE shakes his head then slowly re enters the wardrobe and pulls the doors behind him."
+      ],
+      "combined_context": [
+        "'s hog mob, more cave.",
+        "Executive producers Sean Clark, Paul Cooley, and Kerry lock.",
+        "Supervisors, sean hillier, alex."
+      ],
+      "combined_distances": [
+        0.2921355664730072,
+        0.31271193027496336,
+        0.32065520286560056
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "A blonde shrugs. George's gaze shifts between the woman and boy and a toucan."
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 457,
+      "end_frame": 466,
+      "start_time": 91.4,
+      "end_time": 93.2,
+      "duration": 1.7999999999999972,
+      "movie_id": "4576",
+      "generated_ad": "As George's gaze shifts between the woman, the boy, and a toucan, an elephant suddenly bounds into the scene and sits on him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Kita, she has stripped to a bikini.",
+        "Her basket rides up toward the platform and owl swoops down from the sky."
+      ],
+      "cross_modal_context": [
+        "In the woods near the caves, SOMEONE  Percival, George and build stand around SOMEONE Wet Stick pours out water and SOMEONE uses it to rinse the mud from his arms.",
+        "Conan SOMEONE emerged from the jungle on a rage. He watched the chopper flight Ord, a massive aviary Dome."
+      ],
+      "combined_context": [
+        "Kita, she has stripped to a bikini.",
+        "Her basket rides up toward the platform and owl swoops down from the sky.",
+        "In the woods near the caves, SOMEONE  Percival, George and build stand around SOMEONE Wet Stick pours out water and SOMEONE uses it to rinse the mud from his arms."
+      ],
+      "combined_distances": [
+        0.1291271209716797,
+        0.13923295140266417,
+        0.7810373485088349
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "George's gaze shifts between the woman and boy and a toucan. An elephant bounds over and sits on George."
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 466,
+      "end_frame": 472,
+      "start_time": 93.2,
+      "end_time": 94.4,
+      "duration": 1.2000000000000028,
+      "movie_id": "4576",
+      "generated_ad": "As George's gaze shifts between the woman, the boy, and a toucan, an elephant suddenly bounds into view and sits on top of him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Fairy trapped in a flower walks up.",
+        "They pushed down on the vibrating bug."
+      ],
+      "cross_modal_context": [
+        "Preparing right, mary magdalene dips, a bold in a cooking pot then passes it along with a piece of bread wearing a headscarf in.",
+        "The dining table. The WAVY haired woman sets a large bowl next to medical tools. The men Les SOMEONE on the table while the doctor hangs up his trench coat."
+      ],
+      "combined_context": [
+        "Fairy trapped in a flower walks up.",
+        "They pushed down on the vibrating bug.",
+        "She follows it."
+      ],
+      "combined_distances": [
+        0.16324580907821654,
+        0.16324580907821654,
+        0.17200819253921507
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "George's gaze shifts between the woman and boy and a toucan. An elephant bounds over and sits on George."
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 472,
+      "end_frame": 477,
+      "start_time": 94.4,
+      "end_time": 95.4,
+      "duration": 1.0,
+      "movie_id": "4576",
+      "generated_ad": "As George's gaze shifts between the woman, the boy, and the toucan, an elephant suddenly bounds into the scene and sits on him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Kita, she has stripped to a bikini.",
+        "Audrey kisses SOMEONE "
+      ],
+      "cross_modal_context": [
+        "Conan SOMEONE emerged from the jungle on a rage. He watched the chopper flight Ord, a massive aviary Dome.",
+        "He shrugs and joins my **** on the ground."
+      ],
+      "combined_context": [
+        "Kita, she has stripped to a bikini.",
+        "Audrey kisses SOMEONE ",
+        "The general rides toward the palace."
+      ],
+      "combined_distances": [
+        0.11646928787231445,
+        0.12222163081169128,
+        0.12354888916015624
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "George's gaze shifts between the woman and boy and a toucan. An elephant bounds over and sits on George."
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 477,
+      "end_frame": 483,
+      "start_time": 95.4,
+      "end_time": 96.6,
+      "duration": 1.1999999999999886,
+      "movie_id": "4576",
+      "generated_ad": "An elephant bounds into the scene and sits on George.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Fairy trapped in a flower walks up.",
+        "They pushed down on the vibrating bug."
+      ],
+      "cross_modal_context": [
+        "His flaxen locks blown wild by the wind. Runske strides up nearby and looks over at her.",
+        "Later, the blonde runs at the vault obstacle when he gets stuck on it, Josephine and Albert demonstrated tango. Then SOMEONE holds a rose between her teeth and wiggles her ****."
+      ],
+      "combined_context": [
+        "Fairy trapped in a flower walks up.",
+        "They pushed down on the vibrating bug.",
+        "Down a hall as a phantasm."
+      ],
+      "combined_distances": [
+        0.13254700899124144,
+        0.13254700899124144,
+        0.13265916109085082
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "An elephant bounds over and sits on George."
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 483,
+      "end_frame": 489,
+      "start_time": 96.6,
+      "end_time": 97.8,
+      "duration": 1.2000000000000028,
+      "movie_id": "4576",
+      "generated_ad": "As the scene briefly unfolds, a smiling man is seen serving volleyball on a beach.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Handset down trays of food on a table on the beach. A smiling man serves volleyball. A blonde toddler creates a sandcastle with a bucket. A banner reads, INA luau. The table of food lies underneath it.",
+        "David carries a surfboard ashore."
+      ],
+      "cross_modal_context": [
+        "He grabs them and rub them together then puts them on his bath.",
+        "He holds up handfuls of soil earth."
+      ],
+      "combined_context": [
+        "Handset down trays of food on a table on the beach. A smiling man serves volleyball. A blonde toddler creates a sandcastle with a bucket. A banner reads, INA luau. The table of food lies underneath it.",
+        "David carries a surfboard ashore.",
+        "Kita, she has stripped to a bikini."
+      ],
+      "combined_distances": [
+        0.1823370337486267,
+        0.1823370337486267,
+        0.18468964099884033
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 489,
+      "end_frame": 494,
+      "start_time": 97.8,
+      "end_time": 98.8,
+      "duration": 1.0,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, a smiling man is seen serving volleyball near a table with food trays on the beach, where a blonde toddler is building a sandcastle with a bucket.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Handset down trays of food on a table on the beach. A smiling man serves volleyball. A blonde toddler creates a sandcastle with a bucket. A banner reads, INA luau. The table of food lies underneath it.",
+        "David carries a surfboard ashore."
+      ],
+      "cross_modal_context": [
+        "Bouncing Deena pulls down her top revealing sequin pasties.",
+        "Dozens of photographers captured Daphne's arrival with Claude on her arm. The plunging neckline of her vibrant pink dress perfectly frames the dazzling necklace she poses with Rose, who wears dark sunglasses and a floral headdress."
+      ],
+      "combined_context": [
+        "Handset down trays of food on a table on the beach. A smiling man serves volleyball. A blonde toddler creates a sandcastle with a bucket. A banner reads, INA luau. The table of food lies underneath it.",
+        "David carries a surfboard ashore.",
+        "Tigerbelles drops a line down into a mouse drawn cart and rails up a batch of grass."
+      ],
+      "combined_distances": [
+        0.14321047067642212,
+        0.14321047067642212,
+        0.1547990620136261
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 494,
+      "end_frame": 502,
+      "start_time": 98.8,
+      "end_time": 100.4,
+      "duration": 1.6000000000000085,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds for 1.6 seconds, a figure, presumably George, is not visible, but the context does not provide clear relevant visual details, so the scene appears to be a brief, unremarkable moment.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Owls rose loses her blanket in the wind, a frost fairy snatches it out of the air and returns it to her. Thank.",
+        "Tink watches of the last towel grabs the last basket. She flies to the top of a hill to watch the Owls flying back to the snowy peaks in the distance."
+      ],
+      "cross_modal_context": [
+        "He takes Patsy by the arm and pulls her out of the room, passing SOMEONE along the way.",
+        "He brings another flower to Marsha slides back. Her dark WAVY hair and tucks it behind her ear."
+      ],
+      "combined_context": [
+        "Owls rose loses her blanket in the wind, a frost fairy snatches it out of the air and returns it to her. Thank.",
+        "Tink watches of the last towel grabs the last basket. She flies to the top of a hill to watch the Owls flying back to the snowy peaks in the distance.",
+        "Tink continues to watch as the Owls shrink into the distance."
+      ],
+      "combined_distances": [
+        0.1739867925643921,
+        0.18582576513290405,
+        0.18582576513290405
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 502,
+      "end_frame": 529,
+      "start_time": 100.4,
+      "end_time": 105.8,
+      "duration": 5.3999999999999915,
+      "movie_id": "4576",
+      "generated_ad": "As George and his family navigate their jungle surroundings, someone suddenly runs out from behind the trees.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Off down a path as they disappear behind trees, SOMEONE runs out. Dajing plasma bursts. Jumbo follows.",
+        "In the house lelow heads over to the stairs SOMEONE scurries in."
+      ],
+      "cross_modal_context": [
+        "Sprawled between the tree trunk and a boulder, SOMEONE groggily lifts his head. SOMEONE pushes himself up his face, bloody from several fresh cuts. Rolling over, he finds SOMEONE working his way to all fours.",
+        "The Mastodon like behemoth lowers his head respectfully beside her father SOMEONE stairs and on the Ospreys open rear door frames them along with Coleman, SOMEONE Chen and the other survivors as they take in the spectacle."
+      ],
+      "combined_context": [
+        "Off down a path as they disappear behind trees, SOMEONE runs out. Dajing plasma bursts. Jumbo follows.",
+        "In the house lelow heads over to the stairs SOMEONE scurries in.",
+        "Outplacement blast hit SOMEONE  jump up, ounces and cups."
+      ],
+      "combined_distances": [
+        0.08097652792930603,
+        0.08097652792930603,
+        0.08274334073066711
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 529,
+      "end_frame": 532,
+      "start_time": 105.8,
+      "end_time": 106.4,
+      "duration": 0.6000000000000085,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, a fairy trapped in a flower walks up, surrounded by the vibrant jungle environment.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "Fairy trapped in a flower walks up."
+      ],
+      "cross_modal_context": [
+        "In a stop motion animation, a group of five neanderthals are trying to break open a coconut one of them with bright, pink lips, turns from the group and speaks since the.",
+        "The boy rushes to a cave, stopping to grab the animal skin undies pinned to a clothesline with real."
+      ],
+      "combined_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "Fairy trapped in a flower walks up.",
+        "They pushed down on the vibrating bug."
+      ],
+      "combined_distances": [
+        0.15421593785285947,
+        0.16443959474563596,
+        0.16443959474563596
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 532,
+      "end_frame": 535,
+      "start_time": 106.4,
+      "end_time": 107.0,
+      "duration": 0.5999999999999943,
+      "movie_id": "4576",
+      "generated_ad": "As the scene flashes by, a figure is seen watching someone leave.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Lilou her face in her hands.",
+        "The symbol of Atlantis is reflected in the old King's eyes and formed by the stones on the surface of the pool."
+      ],
+      "cross_modal_context": [
+        "A caveman lets go of the drumstick and points the two dinosaurs.",
+        "The first caveman kicks the orb into the brief swearing opponent and is carried off the field by teammates. A portly, wild eyed player in a hairshirt stands beneath the cross beam of stone between two pillars."
+      ],
+      "combined_context": [
+        "Lilou her face in her hands.",
+        "The symbol of Atlantis is reflected in the old King's eyes and formed by the stones on the surface of the pool.",
+        " SOMEONE watches him leave."
+      ],
+      "combined_distances": [
+        0.08972873091697692,
+        0.09057275056838988,
+        0.09549162983894348
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 535,
+      "end_frame": 541,
+      "start_time": 107.0,
+      "end_time": 108.2,
+      "duration": 1.2000000000000028,
+      "movie_id": "4576",
+      "generated_ad": "The production logo features a stylized animation of Monty, a character, running away from a flaming arrow and storming fires, with the company name or text \"Monty Sores\" possibly appearing on screen.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "All as monty sores at them storming fires, the flaming arrow.",
+        "Monty runs, outta track."
+      ],
+      "cross_modal_context": [
+        "Executive producers Kip Nelson and Bruce Berman, a single wing tips up as the listing plane, takes on water Co, producers Jessica Mayer, Christina Rivera, director of photography Tom Stern, AFC AFC production, designed by James J Murakami.",
+        "Ignacio hops over his bench and leans his arms on a doorway, facing away from Mescalito. He braces himself, his eyes downcast and garner sehoand uh Massey, your."
+      ],
+      "combined_context": [
+        "All as monty sores at them storming fires, the flaming arrow.",
+        "Monty runs, outta track.",
+        "Village in the sky, monte dodges arrows. He unleashes his talents as he gains on the smurfs starting fires more arrows, but the bird bathes them."
+      ],
+      "combined_distances": [
+        0.14904692769050598,
+        0.15072253346443176,
+        0.15549479722976683
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 541,
+      "end_frame": 544,
+      "start_time": 108.2,
+      "end_time": 108.8,
+      "duration": 0.5999999999999943,
+      "movie_id": "4576",
+      "generated_ad": "As the scene briefly unfolds, a character is seen struggling to manage a basket, dropping toward the ground.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "It grabs the basket, then drops toward the ground, struggling to take the basket out, barely avoiding fairy houses."
+      ],
+      "cross_modal_context": [
+        "Mudbud climbs onto the cushions the boy and his mom stare at him, mudbud shakes his fur and mud flies everywhere. It's praised the boy and his mom.",
+        "The ground tilts beneath his mom and she slips over the edge. Connor catches her hand."
+      ],
+      "combined_context": [
+        "He carries off a green and purple tentacled cousin, then nabs the chef at the French Fry Cafe, a bat like alien and a drill tailed critter along a sidewalk.",
+        "It grabs the basket, then drops toward the ground, struggling to take the basket out, barely avoiding fairy houses.",
+        "Fairy trapped in a flower walks up."
+      ],
+      "combined_distances": [
+        0.16121046543121337,
+        0.16302525997161865,
+        0.17016485929489134
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 544,
+      "end_frame": 555,
+      "start_time": 108.8,
+      "end_time": 111.0,
+      "duration": 2.200000000000003,
+      "movie_id": "4576",
+      "generated_ad": "As the scene unfolds, Audrey is seen kissing someone.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Audrey kisses SOMEONE ",
+        "Have it she snatches it."
+      ],
+      "cross_modal_context": [
+        "He throws a sack to SOMEONE  then shuts his window and lowers the shade. SOMEONE shuts his window.",
+        "He pulls out a toothpick from between his lips and flicks it on the floor."
+      ],
+      "combined_context": [
+        "Audrey kisses SOMEONE ",
+        "Have it she snatches it.",
+        "Key to comes out of the palace, SOMEONE is rehearsing his speech behind a rock."
+      ],
+      "combined_distances": [
+        0.10514175891876221,
+        0.11276075839996337,
+        0.1174989342689514
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 555,
+      "end_frame": 571,
+      "start_time": 111.0,
+      "end_time": 114.2,
+      "duration": 3.200000000000003,
+      "movie_id": "4576",
+      "generated_ad": "As the carriage crashes, someone is pulled along, caught by a bandage on the wheel, amidst the commotion of the princess's carriage.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage.",
+        "Dance who raises his brow."
+      ],
+      "cross_modal_context": [
+        "Ignacio leaps whimsically around the room, grabs his leaps, and kicks Ignacio's legs, Ignacio falls and Ramses lifts him up by the neck.",
+        "Aslan Dogdu as Lily with Geraldine Chaplin as the head teacher and Liam Neeson as the monster direction First Lady Fernando Truels key second AD Rubin Goldfarb, Monica Sanchez Zaragoza second AD set."
+      ],
+      "combined_context": [
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage.",
+        "Dance who raises his brow.",
+        "In the forest, lilou scans the area with a flashlight as SOMEONE scampers around her."
+      ],
+      "combined_distances": [
+        0.06832290887832641,
+        0.0732802152633667,
+        0.0732802152633667
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 571,
+      "end_frame": 584,
+      "start_time": 114.2,
+      "end_time": 116.8,
+      "duration": 2.5999999999999943,
+      "movie_id": "4576",
+      "generated_ad": "The production logo appears on screen, displayed in a simple yet bold font with the company name \"Kitchen Reindeer Productions\" surrounded by colorful glowing lights that flicker and shine briefly before fading to black.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "With colorful glowing lights.",
+        "He flips to an entry about reindeer in the kitchen."
+      ],
+      "cross_modal_context": [
+        "John Locke was Amo as Rose Bill Pullman as Kruger, Tony Hale as PD Douglas Stewart Greer as Sheriff, Watts, Michael Papa, John Azotus, Monique Ganderton as Crane, Nash Edgerton as Beatle, Paul O'Connor as diesel, Freddie Poole as Potter, Erin Choi as Newton James beneficial as bourbon, Lavell Crawford as big Harold, Sam Malone as quinson.",
+        "John Isles as the ace. Quentin Kenehan as Corpus Colossus. Coco Jack Gillies. As glory the child, Chris Patten as more saw Steve Dunleavy as the rock rider chief."
+      ],
+      "combined_context": [
+        "With colorful glowing lights.",
+        "He flips to an entry about reindeer in the kitchen.",
+        "On the portal, brightly colored sparks of light appear, credits scroll. Executive producers Steven Davis, Kristen Newland."
+      ],
+      "combined_distances": [
+        0.24910658597946164,
+        0.2689910113811493,
+        0.2696593344211578
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 584,
+      "end_frame": 593,
+      "start_time": 116.8,
+      "end_time": 118.6,
+      "duration": 1.7999999999999972,
+      "movie_id": "4576",
+      "generated_ad": "As George navigates his jungle surroundings, he is seen capturing and gathering his cousins along a trail.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He nabs one mowing a lawn another from up. I stand and continues on capturing more and more cousins along a trail crash.",
+        "Suddenly the shadow rears the mammoth hunters make a helter skelter retreat, leaving behind some of their weapons of view reveals the Bunny rabbit casting a shadow with his hands."
+      ],
+      "cross_modal_context": [
+        "Or protecting them from the dreaded heffalump who hides under his blanket as the heffalump floats towards him trunk to the four SOMEONE and Pooh standby Heffalump and Woozle trap in the ground.",
+        "The wrinkled elephant, obediently curls up her long trunk, mcchesney peers at the broad thick tongue."
+      ],
+      "combined_context": [
+        "He nabs one mowing a lawn another from up. I stand and continues on capturing more and more cousins along a trail crash.",
+        "Suddenly the shadow rears the mammoth hunters make a helter skelter retreat, leaving behind some of their weapons of view reveals the Bunny rabbit casting a shadow with his hands.",
+        "He looks at us and laughs the picture."
+      ],
+      "combined_distances": [
+        0.11730079054832458,
+        0.13977193236351013,
+        0.13977193236351013
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 593,
+      "end_frame": 597,
+      "start_time": 118.6,
+      "end_time": 119.4,
+      "duration": 0.8000000000000114,
+      "movie_id": "4576",
+      "generated_ad": "A carriage crashes, with a person's bandage caught on the wheel, as it collides, surrounded by startled animals.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Wow, a floating elephant stairs with frightened eyes. A wide view shows the sleigh gliding past a full moon. As the animals continue to float higher into the sky.",
+        "Ran SOMEONE piloted through the sky. Now glittering with magic dust and filled with startled floating beasts."
+      ],
+      "cross_modal_context": [
+        "He gently pushes poo towards the hollow in the trunk and pull lowers his snout.",
+        "He emerges holding a trunk and heads out of the cabin. Helen stirs as he comes up. The SOMEONE winces as he touches his side."
+      ],
+      "combined_context": [
+        "Wow, a floating elephant stairs with frightened eyes. A wide view shows the sleigh gliding past a full moon. As the animals continue to float higher into the sky.",
+        "Ran SOMEONE piloted through the sky. Now glittering with magic dust and filled with startled floating beasts.",
+        " SOMEONE accidentally knocks the carriage forward his bandage catches on the wheel and pulls him along the princesses carriage crashes into yowling in chinpo who land on top of it and SOMEONE right alongside the carriage."
+      ],
+      "combined_distances": [
+        0.11013231873512268,
+        0.11013231873512268,
+        0.11315475106239319
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 597,
+      "end_frame": 611,
+      "start_time": 119.4,
+      "end_time": 122.2,
+      "duration": 2.799999999999997,
+      "movie_id": "4576",
+      "generated_ad": "As George crashes down, he lands among a throng of wild animals.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The sopping wet girl pulls out a camera, snaps the man's picture and runs off door to steep roof building back on stage, the dancers continue their hand movements outside.",
+        "The running girl wraps a grass skirt around her waist."
+      ],
+      "cross_modal_context": [
+        "He grabs a towel from a small Bureau attached to the inside of the closet door, then flips up the leaves of the table and sets out the kettle in an elegant world.",
+        "He grabs the rope and swings, catching his prosthetic foot in a loop at the end."
+      ],
+      "combined_context": [
+        "The sopping wet girl pulls out a camera, snaps the man's picture and runs off door to steep roof building back on stage, the dancers continue their hand movements outside.",
+        "The running girl wraps a grass skirt around her waist.",
+        "Kita, she has stripped to a bikini."
+      ],
+      "combined_distances": [
+        0.16553595662117004,
+        0.16553595662117004,
+        0.17327783107757566
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "George crashes down among a throng of wild animals."
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 611,
+      "end_frame": 630,
+      "start_time": 122.2,
+      "end_time": 126.0,
+      "duration": 3.799999999999997,
+      "movie_id": "4576",
+      "generated_ad": "As George crashes down, an elephant springs up, lifting a blonde woman and a boy into the air, surrounded by a throng of wild animals.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "On the portal, brightly colored sparks of light appear, credits scroll. Executive producers Steven Davis, Kristen Newland.",
+        "Sarah wall, a soft cookie, scored by william kevin anderson, additional music and."
+      ],
+      "cross_modal_context": [
+        "On Toothless is left as Zippleback 2 heads glare at SOMEONE and SOMEONE  Toothless follows the other Dragons as they swoop down through the fog and around rock columns. They fly over the ocean Torda huge towering mountain of rock.",
+        "Sprawled between the tree trunk and a boulder, SOMEONE groggily lifts his head. SOMEONE pushes himself up his face, bloody from several fresh cuts. Rolling over, he finds SOMEONE working his way to all fours."
+      ],
+      "combined_context": [
+        "On the portal, brightly colored sparks of light appear, credits scroll. Executive producers Steven Davis, Kristen Newland.",
+        "Sarah wall, a soft cookie, scored by william kevin anderson, additional music and.",
+        "Copyright 2016 Hasbro Studios. The girls look at their repaired dock."
+      ],
+      "combined_distances": [
+        0.1933017373085022,
+        0.1933017373085022,
+        0.1933017373085022
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "George crashes down among a throng of wild animals. The elephant springs up with the blonde and boy."
+    }
+  ]
+}

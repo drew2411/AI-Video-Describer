@@ -1,0 +1,1698 @@
+{
+  "movie_id": "2873",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 2452,
+      "end_frame": 2458,
+      "start_time": 490.4,
+      "end_time": 491.6,
+      "duration": 1.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the sisters speak, Princess Elizabeth and Margaret are visibly excited, with the scene briefly showing them in a setting that suggests they are preparing to or have just begun to celebrate, surrounded by the implication of luxury and formal attire.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy.",
+        "Matthew Hawksley as SOMEONE  Crispin Letts as headwaiter Yasmin Harrison as dining car sous chef Kate Tidman as chef Judi Dench as Princess Dragomir off Olivia Coleman as Hildegarde Schmidt, Willem Dafoe as Gerard Hardman, pip Jordan."
+      ],
+      "combined_distances": [
+        0.79320787191391,
+        0.7959324955940247,
+        0.8027669370174408
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "And for six years now, we've been positively cloistered. Like nuns. We understood the reference. Margaret and I deserve the right to celebrate, too."
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 2458,
+      "end_frame": 2487,
+      "start_time": 491.6,
+      "end_time": 497.4,
+      "duration": 5.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As the sisters discuss celebrating, Princess Elizabeth and Margaret are seen standing, likely in a luxurious interior such as Buckingham Palace, with no specific actions or objects clearly indicated in the given context.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "She motions toward the back of the room and max heads in that direction.",
+        "He passes wounded airmen smoking and playing various games at small tables."
+      ],
+      "cross_modal_context": [
+        "Cast in order of appearance. SOMEONE Sarah Gadon SOMEONE Bel Powley SOMEONE Emily Watson SOMEONE Rupert Everett SOMEONE Mark Hadfield. Lieutenant Price Jack Lasky. Lieutenant Barrage Jack Gordon.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_context": [
+        "She motions toward the back of the room and max heads in that direction.",
+        "He passes wounded airmen smoking and playing various games at small tables.",
+        "He enters the narrow Chapel where a man in a wheelchair faces an art stained glass window."
+      ],
+      "combined_distances": [
+        0.08518423438072203,
+        0.08518423438072203,
+        0.08518423438072203
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Like nuns. We understood the reference. Margaret and I deserve the right to celebrate, too. Outside I agree with her completely Besides, what's so special about going around?"
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 2487,
+      "end_frame": 2498,
+      "start_time": 497.4,
+      "end_time": 499.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the characters stand outside, one of them nods in agreement, while the surroundings are not clearly visible, but their mouths move to convey their conversation.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "As Mr. Dawson and George Neal peering below decks, Peter slides the lock. He opens the door to find the cabin vacant."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "As Mr. Dawson and George Neal peering below decks, Peter slides the lock. He opens the door to find the cabin vacant.",
+        "Now on the circular command battleship, the trade viceroy, and his aide confer with a hologram of Lord Sidious."
+      ],
+      "combined_distances": [
+        0.774107837677002,
+        0.7938174962997437,
+        0.7951386332511903
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Outside I agree with her completely Besides, what's so special about going around?"
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 2498,
+      "end_frame": 2550,
+      "start_time": 499.6,
+      "end_time": 510.0,
+      "duration": 10.399999999999977,
+      "movie_id": "2873",
+      "generated_ad": "As the dialogue unfolds, two women, presumably princesses, stand together, likely in a luxurious setting, as they engage in a conversation, with one of them possibly gesturing or turning to the other, amidst the mention of going out tonight and being with friends.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        " SOMEONE Starlet #1 Charlotte Beckett as Annie, SOMEONE starlet #2 Francesca Esposito as woman at Calabrian ruin Alessio Montagny as Italian reporter number one."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        " SOMEONE Starlet #1 Charlotte Beckett as Annie, SOMEONE starlet #2 Francesca Esposito as woman at Calabrian ruin Alessio Montagny as Italian reporter number one.",
+        "As Mr Jolly Elizabeth Marvel as Mrs Jolly Byron Jennings as Montgomery Blair Julie White as Elizabeth Blair Lee, Charmaine, Crowell White as Minerva Blair, servant Ralph Diablo has Leo Blair servant Grainger Hines as Gideon Welles."
+      ],
+      "combined_distances": [
+        0.7500906825065613,
+        0.7842969834804535,
+        0.7865988433361054
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Outside I agree with her completely Besides, what's so special about going around? I don't know, and I never will unless we go out tonight. Darlings, we have invited your closest friends to be with you tonight."
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 2550,
+      "end_frame": 2561,
+      "start_time": 510.0,
+      "end_time": 512.2,
+      "duration": 2.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the host speaks, saying \"Darlings, we have invited your closest friends to be with you tonight\", two princesses, presumably Princess Elizabeth and her sister Margaret, are likely visible, surrounded by their guests in a celebratory setting.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Richard Jenkins as Senator Willis."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Richard Jenkins as Senator Willis.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy."
+      ],
+      "combined_distances": [
+        0.7783070862293244,
+        0.7785597085952759,
+        0.7858060956001283
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Darlings, we have invited your closest friends to be with you tonight."
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 2561,
+      "end_frame": 2605,
+      "start_time": 512.2,
+      "end_time": 521.0,
+      "duration": 8.799999999999955,
+      "movie_id": "2873",
+      "generated_ad": "As the woman speaks, she gestures with her arms, and the scene shows a group of people, presumably the invited friends, standing or seated in the background, with some of them looking at the speaker.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "casting by Francine Mezler, CSA Arms, raised mother and daughter Bob from side to side with uninhibited movements. Emily throws her arms around Linda and gives her a big hug."
+      ],
+      "combined_distances": [
+        0.7889553844928742,
+        0.8045666337013245,
+        0.8047664761543275
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Darlings, we have invited your closest friends to be with you tonight. Suitable young people. My very close, my extremely suitable friends. You were always with me when I give my speeches."
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 2605,
+      "end_frame": 2612,
+      "start_time": 521.0,
+      "end_time": 522.4,
+      "duration": 1.3999999999999773,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks, they stand amidst a crowd, possibly addressing friends, with no clearly visible distinctive objects or characters from the provided context.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "A blue Ensign flag flutters behind Mr Dawson as he watches the British bomber fly north over other vessels on the sea."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "A blue Ensign flag flutters behind Mr Dawson as he watches the British bomber fly north over other vessels on the sea.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_distances": [
+        0.7858059644699097,
+        0.7863957881927491,
+        0.7882832765579224
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "My very close, my extremely suitable friends. You were always with me when I give my speeches."
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 2612,
+      "end_frame": 2618,
+      "start_time": 522.4,
+      "end_time": 523.6,
+      "duration": 1.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the woman speaks, she stands amidst a group of people, her face expressing a warm smile as she says \"My very close, my extremely suitable friends,\" while looking at those around her.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "Casting by Jane Jenkins and Janet Hirshenson. CSA costumes designed by Ruth Morley. Music by Maurice Jarre film edited by Walter Murch, production designer Jane Muskie."
+      ],
+      "combined_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "Casting by Jane Jenkins and Janet Hirshenson. CSA costumes designed by Ruth Morley. Music by Maurice Jarre film edited by Walter Murch, production designer Jane Muskie.",
+        "As Mr Jolly Elizabeth Marvel as Mrs Jolly Byron Jennings as Montgomery Blair Julie White as Elizabeth Blair Lee, Charmaine, Crowell White as Minerva Blair, servant Ralph Diablo has Leo Blair servant Grainger Hines as Gideon Welles."
+      ],
+      "combined_distances": [
+        0.8020918786525727,
+        0.80499005317688,
+        0.8092857480049134
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "My very close, my extremely suitable friends. You were always with me when I give my speeches."
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 2618,
+      "end_frame": 2638,
+      "start_time": 523.6,
+      "end_time": 527.6,
+      "duration": 4.0,
+      "movie_id": "2873",
+      "generated_ad": "As the characters stand together, they share a moment of togetherness, with a subtle smile on their faces, surrounded by an implied sense of familial bond.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "A blue Ensign flag flutters behind Mr Dawson as he watches the British bomber fly north over other vessels on the sea."
+      ],
+      "combined_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "A blue Ensign flag flutters behind Mr Dawson as he watches the British bomber fly north over other vessels on the sea.",
+        "With the Ensign flag billowing in between them, Peter and Collins look on, Ferrier pulls the cockpit roof strap, sliding the canopy open, then settles into his seat as he cruises at low altitude."
+      ],
+      "combined_distances": [
+        0.7810493469238282,
+        0.7820759654045105,
+        0.7855103969573975
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You were always with me when I give my speeches. We four, a family should be together tonight of all nights. We would be still, Papa, in a way."
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 2638,
+      "end_frame": 2667,
+      "start_time": 527.6,
+      "end_time": 533.4,
+      "duration": 5.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As the family members stand together, they exchange subdued expressions, with one of them, likely a father figure, speaking while the others listen, surrounded by an implied evening or nighttime setting.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast in order of appearance. SOMEONE Sarah Gadon SOMEONE Bel Powley SOMEONE Emily Watson SOMEONE Rupert Everett SOMEONE Mark Hadfield. Lieutenant Price Jack Lasky. Lieutenant Barrage Jack Gordon.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_context": [
+        "Cast in order of appearance. SOMEONE Sarah Gadon SOMEONE Bel Powley SOMEONE Emily Watson SOMEONE Rupert Everett SOMEONE Mark Hadfield. Lieutenant Price Jack Lasky. Lieutenant Barrage Jack Gordon.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        " SOMEONE Starlet #1 Charlotte Beckett as Annie, SOMEONE starlet #2 Francesca Esposito as woman at Calabrian ruin Alessio Montagny as Italian reporter number one."
+      ],
+      "combined_distances": [
+        0.7449941754341126,
+        0.7732029080390931,
+        0.7871265769004823
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "We four, a family should be together tonight of all nights. We would be still, Papa, in a way. But with us out there amongst the people. Hmm."
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 2667,
+      "end_frame": 2680,
+      "start_time": 533.4,
+      "end_time": 536.0,
+      "duration": 2.6000000000000227,
+      "movie_id": "2873",
+      "generated_ad": "As the sisters likely walk among the celebrating crowds, Princess Elizabeth and her sister Margaret are visible, with the princess possibly turning to her sister with a thoughtful expression as she says \"But with us out there amongst the people\".",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "With the Ensign flag billowing in between them, Peter and Collins look on, Ferrier pulls the cockpit roof strap, sliding the canopy open, then settles into his seat as he cruises at low altitude.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_context": [
+        "With the Ensign flag billowing in between them, Peter and Collins look on, Ferrier pulls the cockpit roof strap, sliding the canopy open, then settles into his seat as he cruises at low altitude.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Now on the circular command battleship, the trade viceroy, and his aide confer with a hologram of Lord Sidious."
+      ],
+      "combined_distances": [
+        0.7703815758228303,
+        0.7819810271263123,
+        0.7866469025611879
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "But with us out there amongst the people. Hmm. Hardly the same thing. I could tell you how it was received."
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 2680,
+      "end_frame": 2689,
+      "start_time": 536.0,
+      "end_time": 537.8,
+      "duration": 1.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As the character speaks, she presses her lips together, her expression subtly changing.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips.",
+        "Her lip and gives a brave nod."
+      ],
+      "combined_context": [
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips.",
+        "Her lip and gives a brave nod.",
+        "Pressing her lips together, Mindy hardens her fragile gaze."
+      ],
+      "combined_distances": [
+        0.7967603206634523,
+        0.8078948497772217,
+        0.8134655237197876
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Hmm. Hardly the same thing. I could tell you how it was received."
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 2689,
+      "end_frame": 2696,
+      "start_time": 537.8,
+      "end_time": 539.2,
+      "duration": 1.400000000000091,
+      "movie_id": "2873",
+      "generated_ad": "As the characters converse, with one person saying \"Hardly the same thing,\" they likely engage in subtle, brief reactions such as nodding or exchanging glances, within the short 1.4-second scene duration.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_distances": [
+        0.7859959721565247,
+        0.7877045989036561,
+        0.7933623433113098
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Hardly the same thing. I could tell you how it was received. What they really think."
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 2696,
+      "end_frame": 2704,
+      "start_time": 539.2,
+      "end_time": 540.8,
+      "duration": 1.599999999999909,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks, their lips move to form the words, and their face is visible, expressing a serious tone.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Rosalie's eyes go wide and her chest heaves and anticipation as the second tent flap opens, Joe emerges, blood covers his six inch knife blade.",
+        "Really rosalie reluctantly exits brushing past SOMEONE on her way out."
+      ],
+      "combined_context": [
+        "Rosalie's eyes go wide and her chest heaves and anticipation as the second tent flap opens, Joe emerges, blood covers his six inch knife blade.",
+        "Really rosalie reluctantly exits brushing past SOMEONE on her way out.",
+        "As Rosalie struggles to keep her composure, Elk woman sobs silently bruises, covering her face."
+      ],
+      "combined_distances": [
+        0.8060373902320862,
+        0.8151411712169648,
+        0.8196951925754548
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I could tell you how it was received. What they really think."
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 2704,
+      "end_frame": 2716,
+      "start_time": 540.8,
+      "end_time": 543.2,
+      "duration": 2.400000000000091,
+      "movie_id": "2873",
+      "generated_ad": "As the dialogue \"What they really think\" is spoken, Princess Elizabeth and her sister Margaret are seen walking amidst a crowd of people celebrating, with visible smiles and excitement on their faces.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Guy Williams as PM, Leighton Clarkson, Patrick Kennedy as MI five Intel John Lancaster Colin Salmon as chief hazard."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Guy Williams as PM, Leighton Clarkson, Patrick Kennedy as MI five Intel John Lancaster Colin Salmon as chief hazard.",
+        "Matthew Hawksley as SOMEONE  Crispin Letts as headwaiter Yasmin Harrison as dining car sous chef Kate Tidman as chef Judi Dench as Princess Dragomir off Olivia Coleman as Hildegarde Schmidt, Willem Dafoe as Gerard Hardman, pip Jordan."
+      ],
+      "combined_distances": [
+        0.7798495054244996,
+        0.7846285462379456,
+        0.790052616596222
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "What they really think."
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 2716,
+      "end_frame": 2776,
+      "start_time": 543.2,
+      "end_time": 555.2,
+      "duration": 12.0,
+      "movie_id": "2873",
+      "generated_ad": "As the woman speaks, a young princess, likely Princess Elizabeth, listens intently, her expression possibly wide-eyed, in a scene that suggests a regal setting, with no clear view of her surroundings or actions beyond her engaged demeanor.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "As he sets the mirror down, Edith, now a young woman with her hair pinned up, steps out, smiling. She follows Tolkeen down the stairs."
+      ],
+      "combined_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "As he sets the mirror down, Edith, now a young woman with her hair pinned up, steps out, smiling. She follows Tolkeen down the stairs.",
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips."
+      ],
+      "combined_distances": [
+        0.7815180063247681,
+        0.7842573821544648,
+        0.7890423893928529
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "One day, a lily-bed, far off in the future, you shall be queen. I know that, Mummy. And your subjects... My subjects? What do I know about them? Your subjects need to see you as incorporating in your person the very essence of royalty. One thing is about essences and all that, but one would still li"
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 2776,
+      "end_frame": 2787,
+      "start_time": 555.2,
+      "end_time": 557.4,
+      "duration": 2.199999999999932,
+      "movie_id": "2873",
+      "generated_ad": "As the regal man stands, someone shakes his hand, while he listens to the advice being given, a serious expression on his face.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "An equerry enters the room and.",
+        " SOMEONE shakes the regal man's hand."
+      ],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_context": [
+        "An equerry enters the room and.",
+        " SOMEONE shakes the regal man's hand.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_distances": [
+        0.12024227976799011,
+        0.12024227976799011,
+        0.7707632303237916
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "Your subjects need to see you as incorporating in your person the very essence of royalty. One thing is about essences and all that, but one would still like to have a dance from time to time."
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 2787,
+      "end_frame": 2809,
+      "start_time": 557.4,
+      "end_time": 561.8,
+      "duration": 4.399999999999977,
+      "movie_id": "2873",
+      "generated_ad": "As the woman speaks, she gives a reproachful look, while another woman, likely a princess, stands or sits nearby, possibly in a room with hints of royalty, as they discuss the essence of royalty and the desire for a dance.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Cast in order of appearance. SOMEONE Sarah Gadon SOMEONE Bel Powley SOMEONE Emily Watson SOMEONE Rupert Everett SOMEONE Mark Hadfield. Lieutenant Price Jack Lasky. Lieutenant Barrage Jack Gordon.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look."
+      ],
+      "combined_context": [
+        "Cast in order of appearance. SOMEONE Sarah Gadon SOMEONE Bel Powley SOMEONE Emily Watson SOMEONE Rupert Everett SOMEONE Mark Hadfield. Lieutenant Price Jack Lasky. Lieutenant Barrage Jack Gordon.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_distances": [
+        0.7705860078334809,
+        0.781693983078003,
+        0.7825173497200013
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Your subjects need to see you as incorporating in your person the very essence of royalty. One thing is about essences and all that, but one would still like to have a dance from time to time. The Lindy-hot, for example. The Watty-hot? Let them go."
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 2809,
+      "end_frame": 2816,
+      "start_time": 561.8,
+      "end_time": 563.2,
+      "duration": 1.400000000000091,
+      "movie_id": "2873",
+      "generated_ad": "As someone shakes the regal man's hand, he speaks with a subtle smile, surrounded by others in formal attire, amidst the faint suggestion of a celebratory atmosphere.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "An equerry enters the room and.",
+        " SOMEONE shakes the regal man's hand."
+      ],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_context": [
+        "An equerry enters the room and.",
+        " SOMEONE shakes the regal man's hand.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_distances": [
+        0.10677580833435057,
+        0.10677580833435057,
+        0.7817316830158234
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "One thing is about essences and all that, but one would still like to have a dance from time to time. The Lindy-hot, for example. The Watty-hot? Let them go."
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 2816,
+      "end_frame": 2831,
+      "start_time": 563.2,
+      "end_time": 566.2,
+      "duration": 3.0,
+      "movie_id": "2873",
+      "generated_ad": "As the characters discuss, a woman stands by a bedside, rolling up a garment, while others are likely present, given the multiple voices in the dialogue.",
+      "ground_truth": "Everyone looks at Albert in surprise.",
+      "ground_truth_id": "160354",
+      "visual_context": [],
+      "cross_modal_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "Now in her fully furnished quarters, Rosalie stands by the bedside. Rolling up a garment."
+      ],
+      "combined_context": [
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look.",
+        "Now in her fully furnished quarters, Rosalie stands by the bedside. Rolling up a garment.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_distances": [
+        0.7830860614776612,
+        0.788251805305481,
+        0.7888074040412903
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "The Lindy-hot, for example. The Watty-hot? Let them go."
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 2831,
+      "end_frame": 2848,
+      "start_time": 566.2,
+      "end_time": 569.6,
+      "duration": 3.3999999999999773,
+      "movie_id": "2873",
+      "generated_ad": "As the characters stand together, one of them gestures in emphasis, while another's facial expression conveys a mix of concern and hesitation, amidst the backdrop of a formal setting.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy."
+      ],
+      "combined_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_distances": [
+        0.7714400589466096,
+        0.7860527515411377,
+        0.7866328060626985
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "We should let them go. But they..."
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 2848,
+      "end_frame": 2877,
+      "start_time": 569.6,
+      "end_time": 575.4,
+      "duration": 5.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As the characters discuss letting someone go, a seated woman gives a reproachful look, while others appear to be engaged in the conversation, with one person possibly gesturing or leaning in to emphasize their point.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Second, ma'am and Tom's father lead Kate away from the battle strict spots them and sticks out his long cloven tongue.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1."
+      ],
+      "combined_context": [
+        "Second, ma'am and Tom's father lead Kate away from the battle strict spots them and sticks out his long cloven tongue.",
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look."
+      ],
+      "combined_distances": [
+        0.7903618216514589,
+        0.7913197934627534,
+        0.7947066903114319
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "We should let them go. But they... they might be recognized. We would be incognito. Why not?"
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 2877,
+      "end_frame": 2900,
+      "start_time": 575.4,
+      "end_time": 580.0,
+      "duration": 4.600000000000023,
+      "movie_id": "2873",
+      "generated_ad": "As the two women, likely Princess Elizabeth and her sister Margaret, walk together, they exchange conversation, their faces expressing a mix of nostalgia and amusement as they reminisce about their past experiences.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy."
+      ],
+      "combined_context": [
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_distances": [
+        0.7790041744709015,
+        0.7846445441246034,
+        0.795369291305542
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "they might be recognized. We would be incognito. Why not? After all, we had our fun, remember? It was different for us."
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 2900,
+      "end_frame": 2918,
+      "start_time": 580.0,
+      "end_time": 583.6,
+      "duration": 3.6000000000000227,
+      "movie_id": "2873",
+      "generated_ad": "As someone sits on the edge of the bed, they turn to Ted with a visible expression, while the surrounding environment and other characters' actions are not clearly indicated in this brief scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE sits on the edge of the bed, then turns to Ted.",
+        "Smirks gay lies the letter."
+      ],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "Mr SOMEONE Imelda Staunton, Bryony, Ashley Jensen, Peter Mark Wilson N. Bell computer Laura Linney."
+      ],
+      "combined_context": [
+        " SOMEONE sits on the edge of the bed, then turns to Ted.",
+        "Smirks gay lies the letter.",
+        "Yes, in robbins hospital ward, a nurse does paperwork at a desk SOMEONE strolls in breezing."
+      ],
+      "combined_distances": [
+        0.07545796036720276,
+        0.07883937954902648,
+        0.08104144930839538
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "After all, we had our fun, remember? It was different for us. You wet the air. This might be the only chance she gets."
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 2918,
+      "end_frame": 2930,
+      "start_time": 583.6,
+      "end_time": 586.0,
+      "duration": 2.3999999999999773,
+      "movie_id": "2873",
+      "generated_ad": "As the characters speak, Princess Elizabeth and her sister Margaret are visible, likely in a nighttime setting, with the sisters possibly looking at each other or their surroundings with expressions of concern or determination.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_context": [
+        "Richard Norton as premed imperatori Vince Roxburgh as imperatori, John Walton as imperatori Ben Smith Peterson as chanting war boy.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood."
+      ],
+      "combined_distances": [
+        0.7794685065746308,
+        0.7924276471138001,
+        0.7949318408966065
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "It was different for us. You wet the air. This might be the only chance she gets. And me."
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 2930,
+      "end_frame": 2991,
+      "start_time": 586.0,
+      "end_time": 598.2,
+      "duration": 12.200000000000045,
+      "movie_id": "2873",
+      "generated_ad": "As the character rolls up a garment by the bedside, another person stands nearby, their facial expression and body language conveying a sense of urgency or concern, amidst the fully furnished quarters.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "Second, ma'am and Tom's father lead Kate away from the battle strict spots them and sticks out his long cloven tongue."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "Second, ma'am and Tom's father lead Kate away from the battle strict spots them and sticks out his long cloven tongue.",
+        "Now in her fully furnished quarters, Rosalie stands by the bedside. Rolling up a garment."
+      ],
+      "combined_distances": [
+        0.7748280048370362,
+        0.7876327395439149,
+        0.792233443260193
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You wet the air. This might be the only chance she gets. And me. Well, what's that then? Good."
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 2991,
+      "end_frame": 3007,
+      "start_time": 598.2,
+      "end_time": 601.4,
+      "duration": 3.199999999999932,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks, they gesture to proceed, standing in a setting that appears to be a formal or official space, with an air of anticipation or expectation on their face.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head."
+      ],
+      "combined_context": [
+        "Nicholas Jones as Sir John Simon Samuel West as Sir Anthony Eden, David Schoefield as Clement Atlee Richard Lumsden as general Ismay, Malcolm story as General Ironside Hilton McRae as Arthur Greenwood.",
+        "Robert Forster as General, Edward Clegg, Melissa Leo as Defense Secretary Ruth McMillan Simon Connolly as Marine One pilot 1 Scott Sparrow as Marine One pilot two Ginny Holder as EMT Me department head Terence Beesley as fire department head.",
+        "As SOMEONE Christine Baranski as Tanya Hugh Skinner as SOMEONE Harry Pierce Brosnan as Sam Omaja Lily as Greek official Josh Dylan as SOMEONE bill Gerard, Monaco as Alexio Anna Antoniades Appolonia Jeremy Irvine as SOMEONE Sam Panos Murach S as Lazaros Maria back rats as Sofia now Komori as Yumiko Togo Igawa as Mr Tateyama Colin Firth."
+      ],
+      "combined_distances": [
+        0.7721235096454621,
+        0.7772769272327423,
+        0.7796213388442994
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Good. Can we please get on with my speech?"
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 3007,
+      "end_frame": 3023,
+      "start_time": 601.4,
+      "end_time": 604.6,
+      "duration": 3.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks, urging to proceed with a speech, they motion toward the back of the room, and another individual, Max, heads in that direction.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "She motions toward the back of the room and max heads in that direction.",
+        "He passes wounded airmen smoking and playing various games at small tables."
+      ],
+      "cross_modal_context": [
+        "In the adjoining room, olive rises from the edge of her already made bed and retrieves a small suitcase from underneath.",
+        "As she starts out of the room, K glances sadly between Connie and the nanny, she hugs Connie."
+      ],
+      "combined_context": [
+        "She motions toward the back of the room and max heads in that direction.",
+        "He passes wounded airmen smoking and playing various games at small tables.",
+        "He enters the narrow Chapel where a man in a wheelchair faces an art stained glass window."
+      ],
+      "combined_distances": [
+        0.0766381025314331,
+        0.0766381025314331,
+        0.0766381025314331
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Can we please get on with my speech?"
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 3023,
+      "end_frame": 3037,
+      "start_time": 604.6,
+      "end_time": 607.4,
+      "duration": 2.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As the French doors blow open, a caped figure enters from the storm outside, and the candles in the room sputter and begin to die.",
+      "ground_truth": " SOMEONE runs through the long run and passed a chandelier stored on the floor for protection.",
+      "ground_truth_id": "160356",
+      "visual_context": [
+        "A crystal chandeliers electric lights, flicker.",
+        "French doors blow open and a caped figure enters from the storm raging outside candles, sputter and dying. Then."
+      ],
+      "cross_modal_context": [
+        "The SOMEONE stirs and opens his eyes, farbelow down in the candle lit ballroom, cadenza the harpsichord and the other servants pick up the song and Lumiere walsers across the floor with his slender white peahen pre met in his arms.",
+        "Several chandeliers glow warmly overhead as he rushes through one section of a mazelike storage area filled with various mirrors and furniture, he heads down a fluorescently dial."
+      ],
+      "combined_context": [
+        "A crystal chandeliers electric lights, flicker.",
+        "French doors blow open and a caped figure enters from the storm raging outside candles, sputter and dying. Then.",
+        "As SOMEONE steps away, his carefree expression hardens. SOMEONE s smile fades as well as she turns her eyes toward the crystal drop chandelier on its brass rim is a tiny glowing dot."
+      ],
+      "combined_distances": [
+        0.08314154744148254,
+        0.09002484083175659,
+        0.09746217727661133
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 3037,
+      "end_frame": 3048,
+      "start_time": 607.4,
+      "end_time": 609.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the door slams shut behind someone, a hand reaches for a wooden box topped with a crucifix.",
+      "ground_truth": " SOMEONE runs through the long run and passed a chandelier stored on the floor for protection.",
+      "ground_truth_id": "160356",
+      "visual_context": [
+        "Her hand grasps for a wooden box, topped with a crucifix SOMEONE  runs in slamming the door behind.",
+        " SOMEONE puts Annabelle inside the glass case while SOMEONE keeps the demon at Bay with the crucifix."
+      ],
+      "cross_modal_context": [
+        "Wearing a silky blue robe, SOMEONE hobbles into his living room using his cane as SOMEONE  follows him.",
+        "Clad in a simple blue coat over a tunic and pants, SOMEONE follows the path she passes between rows of graceful sculptures and finds the blue Caterpillar puffing on a hookah pipe."
+      ],
+      "combined_context": [
+        "Her hand grasps for a wooden box, topped with a crucifix SOMEONE  runs in slamming the door behind.",
+        " SOMEONE puts Annabelle inside the glass case while SOMEONE keeps the demon at Bay with the crucifix.",
+        "Janice tries to stab the nun but punctures the doll and the girls eyes turn yellow."
+      ],
+      "combined_distances": [
+        0.08386945128440856,
+        0.08420732617378235,
+        0.08519937992095947
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 3048,
+      "end_frame": 3091,
+      "start_time": 609.6,
+      "end_time": 618.2,
+      "duration": 8.600000000000023,
+      "movie_id": "2873",
+      "generated_ad": "As the dialogue \"We're off, Mickey! We're off!\" is spoken, someone, likely a young woman, possibly Princess Elizabeth, heads out, perhaps downstairs, with a sense of excitement and urgency, moving towards an open doorway or into a corridor.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE leaves snuffing out his cigarette. The SOMEONE crosses the ornate room to an open doorway.",
+        "Elsewhere, another equerry leads SOMEONE through a grand hall into a corridor. The portly older man walks with his hands clasped behind his back."
+      ],
+      "cross_modal_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Rather, gets free of her chair on the stairs Florence and grabs hold of a baluster, but it breaks loose as the bear drags her back down to the hall and thrashes her violently."
+      ],
+      "combined_context": [
+        " SOMEONE leaves snuffing out his cigarette. The SOMEONE crosses the ornate room to an open doorway.",
+        "Elsewhere, another equerry leads SOMEONE through a grand hall into a corridor. The portly older man walks with his hands clasped behind his back.",
+        " SOMEONE heads downstairs."
+      ],
+      "combined_distances": [
+        0.0602965235710144,
+        0.0602965235710144,
+        0.07537747621536255
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "We're off, Mickey! We're off!"
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 3091,
+      "end_frame": 3138,
+      "start_time": 618.2,
+      "end_time": 627.6,
+      "duration": 9.399999999999977,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks into a device, they smile and say \"We're off, Mickey! We're off!\" while likely interacting with a telephone or communication equipment to connect with the Chelsea barracks.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "James solemn expression is replaced by a smile.",
+        "She drops her eyes."
+      ],
+      "cross_modal_context": [
+        "At British intelligence, the transcriber Dons her headphones and flicks a switch on a board, then starts the recorder. She readies her pen and notebook.",
+        "They discuss her disapprovingly. A seated woman gives her a reproachful look."
+      ],
+      "combined_context": [
+        "James solemn expression is replaced by a smile.",
+        "She drops her eyes.",
+        "At British intelligence, the transcriber Dons her headphones and flicks a switch on a board, then starts the recorder. She readies her pen and notebook."
+      ],
+      "combined_distances": [
+        0.10608099102973938,
+        0.10871581435203552,
+        0.7756620585918427
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "We're off, Mickey! We're off! Yes, what would be so kind as to connect me to the Chelsea barracks? The Colonel."
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 3138,
+      "end_frame": 3207,
+      "start_time": 627.6,
+      "end_time": 641.4,
+      "duration": 13.799999999999955,
+      "movie_id": "2873",
+      "generated_ad": "As Princess Elizabeth, dressed in a formal gown, speaks on the phone, she looks concerned while mentioning a tiara, and another person, likely her sister, stands nearby, observing her.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Now SOMEONE pulls SOMEONE away from the dance floor, up a grand staircase, and down the hall.",
+        "They duck into an open room. She closes that all doors behind them and jogs to SOMEONE "
+      ],
+      "cross_modal_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "As children on the sidelines clamp, the noble holds out a small pillow on it's it's a Peacock feather made of gold. Roland lifts Williams hand to receive the prize, and SOMEONE holds the feather high, showing the audience."
+      ],
+      "combined_context": [
+        "Now SOMEONE pulls SOMEONE away from the dance floor, up a grand staircase, and down the hall.",
+        "They duck into an open room. She closes that all doors behind them and jogs to SOMEONE ",
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks."
+      ],
+      "combined_distances": [
+        0.093809974193573,
+        0.093809974193573,
+        0.7195991039276124
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yes, what would be so kind as to connect me to the Chelsea barracks? The Colonel. We're going out incognito. Does the tiara rather give the game away, ma'am? Yes. Thanks, Mickey."
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 3207,
+      "end_frame": 3336,
+      "start_time": 641.4,
+      "end_time": 667.2,
+      "duration": 25.800000000000068,
+      "movie_id": "2873",
+      "generated_ad": "As someone, likely a woman, appears to be admiring something, possibly a person or an object, she smiles and expresses appreciation, while a conversation about plans for the night, including a visit to Trafalgar Square and the Curzon, takes place.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Now, Marion leaves Anna's room, pausing distractedly in the hallway.",
+        "At the far end of the hall, Annabelle walks into her bedroom while in the girls room draped in a blanket, Lily jumps on a bat, leaping to the floor."
+      ],
+      "combined_context": [
+        "Now, Marion leaves Anna's room, pausing distractedly in the hallway.",
+        "At the far end of the hall, Annabelle walks into her bedroom while in the girls room draped in a blanket, Lily jumps on a bat, leaping to the floor.",
+        " SOMEONE appears at the end of the hall. As Lily continues her tugging game, Annabelle exits her room and we see the shadow of Lily's opponent as it releases its grip."
+      ],
+      "combined_distances": [
+        0.7669511437416078,
+        0.7799405097961426,
+        0.7802914142608643
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Thanks, Mickey. What a stunner. Ennmoi, beautiful. I thought Trafalgar Square for a special fountain, then the Curzon, going onto that wizard all night to reach House of Valets. Whatever you want, tonight we're in charge. Oh, why didn't you look l- Captain Price and Lieutenant Burridge from the guar"
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 3336,
+      "end_frame": 3345,
+      "start_time": 667.2,
+      "end_time": 669.0,
+      "duration": 1.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As Princess Elizabeth listens to the announcement about Captain Price and Lieutenant Burridge being her chaperones, she looks wide-eyed, possibly concerned or surprised by the news.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips.",
+        "A trio of frightened cousins run from a herd of Leroy's Reuben fling sandwiches at the clones, who slip on them."
+      ],
+      "combined_context": [
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips.",
+        "A trio of frightened cousins run from a herd of Leroy's Reuben fling sandwiches at the clones, who slip on them.",
+        "Their mouths open, they rub against each other out of sync. Any persists with wide eyes and SOMEONE looks off with a frown."
+      ],
+      "combined_distances": [
+        0.7967524528503419,
+        0.8165199398994446,
+        0.817266857624054
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, why didn't you look l- Captain Price and Lieutenant Burridge from the guards at Chelsea Barracks will be your chaperones. Chaperones, they will escort you to the Ritz and stay with you all night long."
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 3345,
+      "end_frame": 3460,
+      "start_time": 669.0,
+      "end_time": 692.0,
+      "duration": 23.0,
+      "movie_id": "2873",
+      "generated_ad": "As the two individuals, likely Princess Elizabeth and her sister Margaret, stand and listen, two guards, Captain Price and Lieutenant Burridge from Chelsea Barracks, are visually present, preparing to escort them to the Ritz.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher.",
+        "Duty manager Tim Potter, Lady MacLeod, Anabel Levington Jeffers, Geoffrey Streatfeild Jack Jack Rayner, Clippy Deborah Penny, tough soldier Ricky Champ, pub landlord Jack Brady."
+      ],
+      "combined_distances": [
+        0.7449987649917603,
+        0.7736042976379395,
+        0.7737709641456605
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Oh, why didn't you look l- Captain Price and Lieutenant Burridge from the guards at Chelsea Barracks will be your chaperones. Chaperones, they will escort you to the Ritz and stay with you all night long. Ma'am, we are honored by this great and sacred charge. Lieutenant Burridge? Deeply, ma'am. Inex"
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 3460,
+      "end_frame": 3470,
+      "start_time": 692.0,
+      "end_time": 694.0,
+      "duration": 2.0,
+      "movie_id": "2873",
+      "generated_ad": "As the two women, likely mother and daughter, stand facing each other, the daughter looks unhappy, while the mother, dressed in a fancy outfit, possibly wearing an ermine stole and a fancy hat, gestures as they discuss the daughter's curfew.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips."
+      ],
+      "combined_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips.",
+        "Wearing an ermine stole and fancy hat, Anna sits in a train carriage, opposite a well dressed woman. In her 40s they exchanged smiles and Anna proffers a Locket containing a photo of city OSHA."
+      ],
+      "combined_distances": [
+        0.7776664495468141,
+        0.7877118110656739,
+        0.7985364794731141
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yes, Mummy. Back by midnight. That's not fair. Come on, darling, peace begins at midnight."
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 3470,
+      "end_frame": 3500,
+      "start_time": 694.0,
+      "end_time": 700.0,
+      "duration": 6.0,
+      "movie_id": "2873",
+      "generated_ad": "As the characters speak, a person, likely a royal figure given the context of the movie \"A Royal Night Out\", is visible, possibly interacting with others, while objects or surroundings suggestive of a nighttime celebration or a palace environment may be present.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher.",
+        "Mr SOMEONE Imelda Staunton, Bryony, Ashley Jensen, Peter Mark Wilson N. Bell computer Laura Linney."
+      ],
+      "combined_distances": [
+        0.7509562730789185,
+        0.7656772136688234,
+        0.7753207921981812
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Back by midnight. That's not fair. Come on, darling, peace begins at midnight. We'd like you to be out there watching us in the crowd. A little bit. I wouldn't know how they all really feel at that moment."
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 3500,
+      "end_frame": 3526,
+      "start_time": 700.0,
+      "end_time": 705.2,
+      "duration": 5.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the person speaks, they face someone, their wide eyes fixed on them, while gesturing slightly, amidst an unclear background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Anna wears a mauve dress, red fascinator and Pearl necklace. Matching Pearl earrings dangle from her ears as she struts at pace through the lobby."
+      ],
+      "combined_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Anna wears a mauve dress, red fascinator and Pearl necklace. Matching Pearl earrings dangle from her ears as she struts at pace through the lobby.",
+        "Wide eyed she faces the mirror, then wipes rosalind, smeared red lipstick from the edges of her glossy lips."
+      ],
+      "combined_distances": [
+        0.7732290029525758,
+        0.7870704531669618,
+        0.7967881202697754
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "We'd like you to be out there watching us in the crowd. A little bit. I wouldn't know how they all really feel at that moment. Hmm?"
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 3526,
+      "end_frame": 3545,
+      "start_time": 705.2,
+      "end_time": 709.0,
+      "duration": 3.7999999999999545,
+      "movie_id": "2873",
+      "generated_ad": "As Margaret is addressed, she looks up, her expression inquiring, while the person speaking glances at a timepiece, possibly a watch or a clock, on their wrist or nearby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher.",
+        "Mr SOMEONE Imelda Staunton, Bryony, Ashley Jensen, Peter Mark Wilson N. Bell computer Laura Linney."
+      ],
+      "combined_distances": [
+        0.745147466659546,
+        0.7583786368370057,
+        0.7653609275817872
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I wouldn't know how they all really feel at that moment. Hmm? One o'clock, or a minute later. Margaret?"
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 3545,
+      "end_frame": 3561,
+      "start_time": 709.0,
+      "end_time": 712.2,
+      "duration": 3.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As Margaret is addressed, she is seen with her hair done up perfectly, amidst a crowd, likely in a formal setting, given the context of a royal night out.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Anna wears a mauve dress, red fascinator and Pearl necklace. Matching Pearl earrings dangle from her ears as she struts at pace through the lobby."
+      ],
+      "combined_context": [
+        "Wearing a stately cream colored gown, Allison leads them to the crowded living room filled with guests in 18th century costumes. She brings back two glasses of cider and hands, one to SOMEONE  thanks.",
+        "Anna wears a mauve dress, red fascinator and Pearl necklace. Matching Pearl earrings dangle from her ears as she struts at pace through the lobby.",
+        "Gardner and Margaret slow dance. Her hair now done up perfectly like roses."
+      ],
+      "combined_distances": [
+        0.767611712217331,
+        0.7844707965850831,
+        0.7947488486766816
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "One o'clock, or a minute later. Margaret? Best behaviour, honestly."
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 3561,
+      "end_frame": 3567,
+      "start_time": 712.2,
+      "end_time": 713.4,
+      "duration": 1.1999999999999318,
+      "movie_id": "2873",
+      "generated_ad": "As the character speaks, saying \"Best behaviour, honestly,\" their facial expression likely conveys a mix of sincerity and caution, while their visible actions and surroundings are not explicitly indicated in the given context.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        "Roisin O'Neill as Agnus Dillon, John Locke as Oliver Wilson, Joanna Neary as Margaret Jerome Richard Glover as Brigadier Nicholson Tom Ashley as Ramsey staffer Joshua Higit as reporter image in SOMEONE s teenage girl at tube map Miles Gallant as naval map room officer fame arcea Sybil John Atterbury is Sir Alexander Cadogan James Harkness Azghadi nickel secretary #1.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher.",
+        "Mr SOMEONE Imelda Staunton, Bryony, Ashley Jensen, Peter Mark Wilson N. Bell computer Laura Linney."
+      ],
+      "combined_distances": [
+        0.746715521812439,
+        0.7677463829517365,
+        0.7767339825630188
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Best behaviour, honestly."
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 3567,
+      "end_frame": 3578,
+      "start_time": 713.4,
+      "end_time": 715.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "2873",
+      "generated_ad": "As the character speaks, they maintain a straight-faced expression, saying \"Best behaviour, honestly, no question.\"",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Anoushka drifts by Azzana unfastens the hooped red underskirt and lets it fall to the floor.",
+        " SOMEONE appears at the end of the hall. As Lily continues her tugging game, Annabelle exits her room and we see the shadow of Lily's opponent as it releases its grip."
+      ],
+      "combined_context": [
+        "Anoushka drifts by Azzana unfastens the hooped red underskirt and lets it fall to the floor.",
+        " SOMEONE appears at the end of the hall. As Lily continues her tugging game, Annabelle exits her room and we see the shadow of Lily's opponent as it releases its grip.",
+        "Hanim leans back eyes. Closed lila pulls a mitten off her bent hand."
+      ],
+      "combined_distances": [
+        0.8103976666927338,
+        0.8137841701507569,
+        0.8151900172233583
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Best behaviour, honestly. No question."
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 3578,
+      "end_frame": 3629,
+      "start_time": 715.6,
+      "end_time": 725.8,
+      "duration": 10.199999999999932,
+      "movie_id": "2873",
+      "generated_ad": "As the person says \"off you go\", a young couple, likely Princess Elizabeth and her companion, hurry down a grand staircase, while someone, possibly a chaperone, watches from the landing.",
+      "ground_truth": "You go albert and SOMEONE SOMEONE watched, their daughters across the large black and white checkered hall in their exquisite, pink dresses and white gloves in the city.",
+      "ground_truth_id": "160361",
+      "visual_context": [
+        "That happen now the mater d ushers them down a grand staircase. He stops on a landing and watches the young couple hurried down the rest of the way.",
+        "Edith takes Tolkiens hand as they walk out through a hotel lobby stifling smirks."
+      ],
+      "cross_modal_context": [
+        "Out in the hall, SOMEONE solemnly picks up an old-fashioned candle, stick style phone with a separate earpiece.",
+        "As SOMEONE strides down a corridor, leach spots her and immediately stands at attention. The MPs around her do the same."
+      ],
+      "combined_context": [
+        "That happen now the mater d ushers them down a grand staircase. He stops on a landing and watches the young couple hurried down the rest of the way.",
+        "Edith takes Tolkiens hand as they walk out through a hotel lobby stifling smirks.",
+        "Out in the hall, SOMEONE solemnly picks up an old-fashioned candle, stick style phone with a separate earpiece."
+      ],
+      "combined_distances": [
+        0.09063149690628051,
+        0.09063149690628051,
+        0.7766844153404237
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "No question. Well, off you go."
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 3629,
+      "end_frame": 3643,
+      "start_time": 725.8,
+      "end_time": 728.6,
+      "duration": 2.800000000000068,
+      "movie_id": "2873",
+      "generated_ad": "As the distinguished general gestures for her to take a seat with a smile, she complies, lowering herself into the chair.",
+      "ground_truth": "You go albert and SOMEONE SOMEONE watched, their daughters across the large black and white checkered hall in their exquisite, pink dresses and white gloves in the city.",
+      "ground_truth_id": "160361",
+      "visual_context": [],
+      "cross_modal_context": [
+        "11 clears his throat and she takes note of his presence rising deferentially she cuts his and shuffles aside with her eyes lowered. Levine sits down on his brother's bed.",
+        "Holding her foot, he stands with their eyes locked."
+      ],
+      "combined_context": [
+        "11 clears his throat and she takes note of his presence rising deferentially she cuts his and shuffles aside with her eyes lowered. Levine sits down on his brother's bed.",
+        "Holding her foot, he stands with their eyes locked.",
+        "The distinguished general gestures for her to take a seat smiling. She complies. SOMEONE resumes his seat facing her, a waitress approaches and hands them each a menu."
+      ],
+      "combined_distances": [
+        0.8026824235916138,
+        0.8088244318962098,
+        0.8130914747714997
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 3643,
+      "end_frame": 3646,
+      "start_time": 728.6,
+      "end_time": 729.2,
+      "duration": 0.6000000000000227,
+      "movie_id": "2873",
+      "generated_ad": "The production logo and opening credits display \"The Cantillon Co\" in bold text, followed by a list of the main cast, including Will Smith, Alec Baldwin, and Gugu Mbatha-Raw, among others, against a plain background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "The Japanese engage the Americans at close quarters, stabbing and slashing with their bayonets. Howell and his men fight a rearguard as they pull back further, pal reaches Captain Glover, who's on a field telephone.",
+        "The Cantillon Co production Will Smith, Alec Baldwin, Gugu Mbatha Raw Arliss Howard Paul Reiser, Luke Wilson, Odwalla Akinyooye Agbaji, Michael Malley with David Morse and Albert Brooks L Scott Caldwell hill Harper Richard T Jones."
+      ],
+      "combined_context": [
+        "The Japanese engage the Americans at close quarters, stabbing and slashing with their bayonets. Howell and his men fight a rearguard as they pull back further, pal reaches Captain Glover, who's on a field telephone.",
+        "The Cantillon Co production Will Smith, Alec Baldwin, Gugu Mbatha Raw Arliss Howard Paul Reiser, Luke Wilson, Odwalla Akinyooye Agbaji, Michael Malley with David Morse and Albert Brooks L Scott Caldwell hill Harper Richard T Jones.",
+        "In his attic at night, SOMEONE watches a video of Andrews being interviewed on a laptop computer. Hiram stands behind his son, whispering in his ear."
+      ],
+      "combined_distances": [
+        0.7602856636047364,
+        0.7739681839942932,
+        0.7755214214324951
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 3646,
+      "end_frame": 3715,
+      "start_time": 729.2,
+      "end_time": 743.0,
+      "duration": 13.799999999999955,
+      "movie_id": "2873",
+      "generated_ad": "The production logo and opening credits feature the names of the cast, including Charlie Hunnam, Annabelle Wallis, and others, as they appear on screen against a dark and ominous background, likely setting the tone for a horror or suspenseful film.",
+      "ground_truth": "Soldiers and civilians crowd the streets waving flags and blocking the road is an unmarked car carrying the princesses and officers tries to get through.",
+      "ground_truth_id": "160362",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Charlie Hunnam and Jim Beaver Arview rises through the dark features of Allerdale Hall, burn Gorman, Leslie Hope, Jonathan Hyde, Doug Jones, a legendary pictures and Universal Pictures.",
+        "Remaining opening titles, Annabelle Wallis, Peter Ferdinando, Kingsley, Ben Adir, Neil Maskell, Jeff Bell, Freddie Fox, Katie McGrath, Lorraine Bruce, Eline Powell, Hermione Corfield."
+      ],
+      "combined_context": [
+        "Charlie Hunnam and Jim Beaver Arview rises through the dark features of Allerdale Hall, burn Gorman, Leslie Hope, Jonathan Hyde, Doug Jones, a legendary pictures and Universal Pictures.",
+        "Remaining opening titles, Annabelle Wallis, Peter Ferdinando, Kingsley, Ben Adir, Neil Maskell, Jeff Bell, Freddie Fox, Katie McGrath, Lorraine Bruce, Eline Powell, Hermione Corfield.",
+        "Paul Anderson, Edward Ashley, Gary Beetle, Richard Bremmer, Frank Dillane, Michelle Fairley, OC Akili Sam Keeley Joseph Molly Charlotte Riley Jamie Sives Donald Sumter."
+      ],
+      "combined_distances": [
+        0.7497570872306825,
+        0.7499878764152528,
+        0.7510997295379639
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 3715,
+      "end_frame": 3728,
+      "start_time": 743.0,
+      "end_time": 745.6,
+      "duration": 2.6000000000000227,
+      "movie_id": "2873",
+      "generated_ad": "As the driver is urged to hurry, a person in the vehicle looks impatient or concerned, while the surroundings outside the car window are not clearly visible in this brief scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Margo rolls up her window and Edith pouts beside are Agnus sadly racer head on Margo's lap through Miss Hattie's rear windshield we see grew staring after the departing car he trudges back to his house.",
+        "Rosalie rubs the jacket she's wearing against a tree in the car. Alice and Jasper hold hands. They passed through desert scrubland, near towering cliffs."
+      ],
+      "combined_context": [
+        "Margo rolls up her window and Edith pouts beside are Agnus sadly racer head on Margo's lap through Miss Hattie's rear windshield we see grew staring after the departing car he trudges back to his house.",
+        "Rosalie rubs the jacket she's wearing against a tree in the car. Alice and Jasper hold hands. They passed through desert scrubland, near towering cliffs.",
+        "Wrapped up in the trunk of a car, costume designer Leo Carlson, Bridget in the body bag special makeup and creature effects. Paul Jones."
+      ],
+      "combined_distances": [
+        0.734305489063263,
+        0.7539927244186402,
+        0.7614619672298432
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Driver, hurry it up, will you?"
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 3728,
+      "end_frame": 3771,
+      "start_time": 745.6,
+      "end_time": 754.2,
+      "duration": 8.600000000000023,
+      "movie_id": "2873",
+      "generated_ad": "As the driver is urged to hurry, a person, likely a royalty given the context of Buckingham Palace, is present, and a car is visible, with the driver's actions and the vehicle itself being the central focus.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Hey Miss Carr SOMEONE flashes the victory sign in Buckingham Palace, a date appears 26 May.",
+        "He places a small bandage over the pinprick and returns the kid to the compartment."
+      ],
+      "cross_modal_context": [
+        "In the back seat, the man sits with his brow, furrowed his rakishly handsome face, now free of the scarf.",
+        "Wrapped up in the trunk of a car, costume designer Leo Carlson, Bridget in the body bag special makeup and creature effects. Paul Jones."
+      ],
+      "combined_context": [
+        "Hey Miss Carr SOMEONE flashes the victory sign in Buckingham Palace, a date appears 26 May.",
+        "He places a small bandage over the pinprick and returns the kid to the compartment.",
+        "He wearily covers his eyes with his hand before getting out of the car."
+      ],
+      "combined_distances": [
+        0.06459184885025024,
+        0.06641156673431396,
+        0.06641156673431396
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Driver, hurry it up, will you? We have a schedule to keep to."
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 3771,
+      "end_frame": 3794,
+      "start_time": 754.2,
+      "end_time": 758.8,
+      "duration": 4.599999999999909,
+      "movie_id": "2873",
+      "generated_ad": "As someone shouts \"Horn, man!\", a group of people, likely including soldiers and women, watch intently as objects, possibly aircraft, crash to the ground in the surrounding area.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        " SOMEONE Adams, his Lieutenant and Catherine, lead soldiers outside to watch the alien fighters crashing to the ground around the queen. Patty approaches the wreckage, obscured in billowing black smoke. Her flight suit lowered to her waist.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        " SOMEONE Adams, his Lieutenant and Catherine, lead soldiers outside to watch the alien fighters crashing to the ground around the queen. Patty approaches the wreckage, obscured in billowing black smoke. Her flight suit lowered to her waist.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher.",
+        "Paul Anderson, Edward Ashley, Gary Beetle, Richard Bremmer, Frank Dillane, Michelle Fairley, OC Akili Sam Keeley Joseph Molly Charlotte Riley Jamie Sives Donald Sumter."
+      ],
+      "combined_distances": [
+        0.7475679993629456,
+        0.7487674474716187,
+        0.7500752747058869
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Horn, man!"
+    }
+  ]
+}

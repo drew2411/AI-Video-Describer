@@ -1,0 +1,14 @@
+# 1. Verify your ChromaDB is correct
+python mad_ad_generator_final.py --verify_only
+
+# 2. Generate ADs for movie 10142 (first 20 shots)
+python mad_ad_generator_final.py --movie 10142 --max_shots 20
+
+# 3. Evaluate results
+python evaluate_ads.py --results ./mad_generated_ads/10142_results.json --detailed
+
+# 4. Process more shots
+python mad_ad_generator_final.py --movie 10142 --max_shots 100
+
+# 5. Try different movie
+python mad_ad_generator_final.py --movie 6656 --max_shots 50

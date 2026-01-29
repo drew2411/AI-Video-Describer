@@ -1,1 +1,13 @@
 venv/
+.env
+venvL/
+.venv/
+vllm/
+MAD/
+video_captions_db/
+core/chroma_db_mad/
+core/chroma_db_mad_joint/
+mad_groq_outputs/
+sample_videos/
+MODULE_DESIGN.md
+cache/

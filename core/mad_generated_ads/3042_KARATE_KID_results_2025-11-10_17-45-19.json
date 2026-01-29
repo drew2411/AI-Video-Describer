@@ -1,0 +1,1750 @@
+{
+  "movie_id": "3042_KARATE_KID",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 1798,
+      "end_frame": 1806,
+      "start_time": 359.6,
+      "end_time": 361.2,
+      "duration": 1.599999999999966,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A bright red drop of blood falls on the shiny tiled floor.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A bright red drop of blood falls on the shiny tiled floor.",
+        "A bright red drop of blood falls on the shiny tiled floor."
+      ],
+      "cross_modal_context": [
+        "Nikki navigates through traffic at an airport terminal. A man in a sleek sue stripes through the airport just behind him for Haddin. Lurid pink pants drags a suitcase.",
+        "Outside an airport terminal, SOMEONE  SOMEONE and Reachers scanned the many people passing by."
+      ],
+      "combined_context": [
+        "A bright red drop of blood falls on the shiny tiled floor.",
+        "A bright red drop of blood falls on the shiny tiled floor.",
+        "A pilot, his index finger sprinted, wipes his nose and his perturbed to find it bleeding."
+      ],
+      "combined_distances": [
+        0.09352855086326599,
+        0.10174314975738524,
+        0.10174314975738524
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 1806,
+      "end_frame": 1825,
+      "start_time": 361.2,
+      "end_time": 365.0,
+      "duration": 3.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Someone escorts Becca to the seat beside Jan.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Ok, you hold.",
+        "On come on."
+      ],
+      "cross_modal_context": [
+        "He leads danny and porter through the crowded airport terminal at his computer of any types, a framed picture of a grinning toddler on his desk.",
+        "Nikki navigates through traffic at an airport terminal. A man in a sleek sue stripes through the airport just behind him for Haddin. Lurid pink pants drags a suitcase."
+      ],
+      "combined_context": [
+        "Ok, you hold.",
+        "On come on.",
+        "Now, SOMEONE escorts, becca to the seat beside jan this."
+      ],
+      "combined_distances": [
+        0.1253271758556366,
+        0.12548334598541258,
+        0.129121071100235
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 1825,
+      "end_frame": 1834,
+      "start_time": 365.0,
+      "end_time": 366.8,
+      "duration": 1.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the camera view swirls, Chinese characters on an overhead sign move outward, revealing their English translation.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Inside the hospital, through SOMEONE s view, the Chinese characters of an overhead sign swirl outward, revealing the English translation. She heads toward the operation wing. The silenced pistol at her side.",
+        "A taxi pulls up to the front doors of the Regent Hotel."
+      ],
+      "cross_modal_context": [
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along.",
+        "Outside an airport terminal, SOMEONE  SOMEONE and Reachers scanned the many people passing by."
+      ],
+      "combined_context": [
+        "Inside the hospital, through SOMEONE s view, the Chinese characters of an overhead sign swirl outward, revealing the English translation. She heads toward the operation wing. The silenced pistol at her side.",
+        "A taxi pulls up to the front doors of the Regent Hotel.",
+        "A bright red drop of blood falls on the shiny tiled floor."
+      ],
+      "combined_distances": [
+        0.08864083886146545,
+        0.1096913456916809,
+        0.11914550065994262
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 1834,
+      "end_frame": 1849,
+      "start_time": 366.8,
+      "end_time": 369.8,
+      "duration": 3.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the scene unfolds, a man in lurid pink pants quickly moves through the airport terminal, weaving past other travelers.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Nikki navigates through traffic at an airport terminal. A man in a sleek sue stripes through the airport just behind him for Haddin. Lurid pink pants drags a suitcase.",
+        "At the airport, young Zach scans the waiting crowd. A sailor leans out."
+      ],
+      "combined_context": [
+        "Nikki navigates through traffic at an airport terminal. A man in a sleek sue stripes through the airport just behind him for Haddin. Lurid pink pants drags a suitcase.",
+        "At the airport, young Zach scans the waiting crowd. A sailor leans out.",
+        "To crash the plane, fahim blinks at riley, who faces each of them with a meaningful scowled in the front restroom SOMEONE "
+      ],
+      "combined_distances": [
+        0.7817859709262849,
+        0.7866404116153718,
+        0.7875770092010499
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 1849,
+      "end_frame": 1858,
+      "start_time": 369.8,
+      "end_time": 371.6,
+      "duration": 1.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production logo, \"We'Re here, for i\", appears on screen with simple text animation, followed by the company name in a clean, modern font.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "To shoo them away.",
+        "We'Re here, for i."
+      ],
+      "cross_modal_context": [
+        "She walks through crowds, passed a large sign proclaiming welcome to Los Angeles at arrivals men in suits, hold up cards bearing the Guilt Shield logo of Warner Brothers and the Roaring Lions.",
+        "The angry passenger notices a takeout box rising in the air. He gets out of the cab and sees the buildings behind him being sucked up off the ground."
+      ],
+      "combined_context": [
+        "To shoo them away.",
+        "We'Re here, for i.",
+        "The pursuers raced through the airport in the garage. SOMEONE finds a revolving metal door."
+      ],
+      "combined_distances": [
+        0.19019731879234314,
+        0.19479684829711913,
+        0.19483556747436523
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 1858,
+      "end_frame": 1868,
+      "start_time": 371.6,
+      "end_time": 373.6,
+      "duration": 2.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Cindy sits down near Avon.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The Asian student Cindy sits down near Avon.",
+        "Ok, you hold."
+      ],
+      "cross_modal_context": [
+        "At the airport, young Zach scans the waiting crowd. A sailor leans out.",
+        "He leads danny and porter through the crowded airport terminal at his computer of any types, a framed picture of a grinning toddler on his desk."
+      ],
+      "combined_context": [
+        "The Asian student Cindy sits down near Avon.",
+        "Ok, you hold.",
+        "At the airport, young Zach scans the waiting crowd. A sailor leans out."
+      ],
+      "combined_distances": [
+        0.09563557505607605,
+        0.0958846628665924,
+        0.7726689457893372
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 1868,
+      "end_frame": 1884,
+      "start_time": 373.6,
+      "end_time": 376.8,
+      "duration": 3.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The screen fades in to reveal the Guilt Shield logo, a stylized emblem displayed on cards held by men in suits, as the scene sets the tone for the production.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "She walks through crowds, passed a large sign proclaiming welcome to Los Angeles at arrivals men in suits, hold up cards bearing the Guilt Shield logo of Warner Brothers and the Roaring Lions.",
+        "Standing SOMEONE opens a locker and pulls out an assault rifle. She sets a white tote bag on the messy table and packed several handguns. She notices a leather strap and places it in the bag as well."
+      ],
+      "combined_context": [
+        "She walks through crowds, passed a large sign proclaiming welcome to Los Angeles at arrivals men in suits, hold up cards bearing the Guilt Shield logo of Warner Brothers and the Roaring Lions.",
+        "Standing SOMEONE opens a locker and pulls out an assault rifle. She sets a white tote bag on the messy table and packed several handguns. She notices a leather strap and places it in the bag as well.",
+        "She pulls laminated paperwork from her bag as he examines it."
+      ],
+      "combined_distances": [
+        0.7816879510879517,
+        0.7858256995677949,
+        0.786857432126999
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 1884,
+      "end_frame": 1910,
+      "start_time": 376.8,
+      "end_time": 382.0,
+      "duration": 5.199999999999989,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Two black sedans pull up to a modern building.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "2 black sedans pull up to a modern building.",
+        "The horsemen get out as a mustached man walks out to greet Hannah's in the driver's seat."
+      ],
+      "cross_modal_context": [
+        "An electronic billboard flashes overhead as he speeds off the pull out on the side of a road past the sign for El Paso, later parked by a convenience store, Logan retrieves a garment bag from his trunk.",
+        "Now Sam, Banks, Pastor, holographic pillar, rotating with advertisements, her speeder flies toward a mammoth building entering a tunnel in its center, and it consumes alongside the Flying City traffic and passes the tunnel building. Obi Wan looks back."
+      ],
+      "combined_context": [
+        "2 black sedans pull up to a modern building.",
+        "The horsemen get out as a mustached man walks out to greet Hannah's in the driver's seat.",
+        "Words appear Macao, Science Center."
+      ],
+      "combined_distances": [
+        0.06239933371543884,
+        0.06239933371543884,
+        0.06239933371543884
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 1910,
+      "end_frame": 1926,
+      "start_time": 382.0,
+      "end_time": 385.2,
+      "duration": 3.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As someone sits with their nose pressed against the glass, a bone scanner rests on their knee.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead."
+      ],
+      "cross_modal_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "In the car, SOMEONE Junior drools over Stewart, who tries to blow it away."
+      ],
+      "combined_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead.",
+        "The bone scanner, resting on his knee, SOMEONE sits with his nose pressed against the glass."
+      ],
+      "combined_distances": [
+        0.07358704805374144,
+        0.08527464866638183,
+        0.08527464866638183
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 1926,
+      "end_frame": 1944,
+      "start_time": 385.2,
+      "end_time": 388.8,
+      "duration": 3.6000000000000227,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the camera moves, it shows Bo standing in front of a white building lined with pillars.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A roving view crosses a bridge, then passes the Washington Monument.",
+        "Fog obscures the top of the tallest structure."
+      ],
+      "cross_modal_context": [
+        "Two other cranes call out silhouetted against the low sun in the sky. The panda cub yarns lolling its head towards its chest.",
+        " SOMEONE controls the crane arm. Moving the bus between skyscrapers and passed. The glowing digital billboard of a soldier that reads wicked wants you."
+      ],
+      "combined_context": [
+        "A roving view crosses a bridge, then passes the Washington Monument.",
+        "Fog obscures the top of the tallest structure.",
+        "We basically see Bo and a white building lined with pillars."
+      ],
+      "combined_distances": [
+        0.18020555973052976,
+        0.18020555973052976,
+        0.18020555973052976
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 1944,
+      "end_frame": 1952,
+      "start_time": 388.8,
+      "end_time": 390.4,
+      "duration": 1.599999999999966,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As they sit, one person gazes morosely ahead, their nose pressed against the glass.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead."
+      ],
+      "cross_modal_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "Suspicious a blind boy sits in the back seat. SOMEONE enters the post office with dogs, nephew."
+      ],
+      "combined_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead.",
+        "The bone scanner, resting on his knee, SOMEONE sits with his nose pressed against the glass."
+      ],
+      "combined_distances": [
+        0.06873037815093994,
+        0.09146946668624878,
+        0.09146946668624878
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 1952,
+      "end_frame": 1968,
+      "start_time": 390.4,
+      "end_time": 393.6,
+      "duration": 3.2000000000000455,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the SUV crashes to a sudden stop, the passengers jolt forward in their seats and bullet-shattered windows are visible.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Now in the city, dozens of merchants display their items on tables as buses and cars pass in the street.",
+        "For you, he gets in an s u v."
+      ],
+      "cross_modal_context": [
+        "In the truck, Hugo drives Aleta Tanji and Koyomi past the line of people waiting at the city gate.",
+        "People crowd around and hit the windows of the van. It passes a sign that reads Athens Hudson Ferry ahead 3 miles as Ray Drive slowly through the horde. A man tries to smash the windshield with his bag."
+      ],
+      "combined_context": [
+        "Now in the city, dozens of merchants display their items on tables as buses and cars pass in the street.",
+        "For you, he gets in an s u v.",
+        "The passengers jolt forward in their seats as the SUV crashes to a sudden stop bullet shattered the windows."
+      ],
+      "combined_distances": [
+        0.06670413017272948,
+        0.0692675232887268,
+        0.0696208357810974
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 1968,
+      "end_frame": 1974,
+      "start_time": 393.6,
+      "end_time": 394.8,
+      "duration": 1.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Bol's right arm is raised at the car, his open hand trembling.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "Out the window he stares down at the Capitol and the army far below."
+      ],
+      "combined_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "Out the window he stares down at the Capitol and the army far below.",
+        "Pulling up to his fathers house, SOMEONE sees Charlies cruiser sitting out front with a puzzled look."
+      ],
+      "combined_distances": [
+        0.7760158479213716,
+        0.7913306117057801,
+        0.7928508043289185
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 1974,
+      "end_frame": 1988,
+      "start_time": 394.8,
+      "end_time": 397.6,
+      "duration": 2.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As he tries to open her door, his lip quivers and she glares out the window.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He helps the driver with the bags pam faces her friend.",
+        "At the house, amy carries gifts."
+      ],
+      "cross_modal_context": [
+        "In her car, Tracy wipes away tears as she drives.",
+        "Riding along with SOMEONE  you speed down a motorway. The two women pass you by on their own bikes."
+      ],
+      "combined_context": [
+        "He helps the driver with the bags pam faces her friend.",
+        "At the house, amy carries gifts.",
+        "Are you and he tries to open her door and his lip quivers and she glares out the window in a hallway."
+      ],
+      "combined_distances": [
+        0.13097078800201414,
+        0.13097078800201414,
+        0.13528509736061095
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 1988,
+      "end_frame": 1997,
+      "start_time": 397.6,
+      "end_time": 399.4,
+      "duration": 1.7999999999999545,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Bol's right arm is raised at the car, his open hand trembling, as he is yanked forward by a magnetic force.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "Pulling up to his fathers house, SOMEONE sees Charlies cruiser sitting out front with a puzzled look."
+      ],
+      "combined_context": [
+        "Staring intently, Bol raises his right arm at the car again. His open hand trembles and a magnetic force Yanks him forward.",
+        "Pulling up to his fathers house, SOMEONE sees Charlies cruiser sitting out front with a puzzled look.",
+        "Out the window he stares down at the Capitol and the army far below."
+      ],
+      "combined_distances": [
+        0.7801496624946594,
+        0.7824264764785768,
+        0.7856033682823181
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 1997,
+      "end_frame": 2006,
+      "start_time": 399.4,
+      "end_time": 401.2,
+      "duration": 1.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A bespectacled woman in business attire steps through a door marked \"observatory\" as she turns into a building.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Beijing, China People watch on large screens as the spaceship destroys Hong Kong.",
+        "Now, of you descends from a domed roof on a sprawling brick building to take in a sign at St level, identifying it as the Chicago Neuro Psychiatric Learning Center."
+      ],
+      "cross_modal_context": [
+        "Comrade watches from arise as lobo leads to the rest of the migrants further ahead.",
+        "Later, a balding physician in spectacles escorts, Van SOMEONE through a garden of shade trees and flowers."
+      ],
+      "combined_context": [
+        "Beijing, China People watch on large screens as the spaceship destroys Hong Kong.",
+        "Now, of you descends from a domed roof on a sprawling brick building to take in a sign at St level, identifying it as the Chicago Neuro Psychiatric Learning Center.",
+        "I'll bespectacled woman in business attire, turns into the building, stepping through a door marked observatory."
+      ],
+      "combined_distances": [
+        0.15147576332092283,
+        0.1576162576675415,
+        0.1576162576675415
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 2006,
+      "end_frame": 2012,
+      "start_time": 401.2,
+      "end_time": 402.4,
+      "duration": 1.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the scene flashes by, a boy is seen tossing and catching a robot toy in an alley, surrounded by two buddies who stand watching him.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses."
+      ],
+      "cross_modal_context": [
+        "Tabang Motley's Child soldier 4 Belicia is child soldier five Sizwe Michaela as child soldiers, six Tyrone Keogh as a page, Winston and Shona as old men.",
+        "In slow motion, an adolescent boy repeatedly tosses and catches a robot toy. Two buddies stand with him in an alley, watching with menacing looks."
+      ],
+      "combined_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "Tabang Motley's Child soldier 4 Belicia is child soldier five Sizwe Michaela as child soldiers, six Tyrone Keogh as a page, Winston and Shona as old men.",
+        "In slow motion, an adolescent boy repeatedly tosses and catches a robot toy. Two buddies stand with him in an alley, watching with menacing looks."
+      ],
+      "combined_distances": [
+        0.09326727986335753,
+        0.7640205800533295,
+        0.7649452447891236
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 2012,
+      "end_frame": 2037,
+      "start_time": 402.4,
+      "end_time": 407.4,
+      "duration": 5.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production company logo, likely A24, appears on screen, possibly accompanied by simple text or a minimalist animation, as the scene transitions to the story's opening, showing the characters exiting the elevator or the sedans arriving at the building.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In the Pearl, SOMEONE and the Twins exit the elevator.",
+        "2 black sedans pull up to a modern building."
+      ],
+      "cross_modal_context": [
+        "Credits roll, Stephen McCaffrey, Kurt Russell, SOMEONE McCaffrey, William Baldwin, SOMEONE Rim, GAIL, Robert De Niro.",
+        "Titles appear among wireframe schematics directed by Marc Webb, screenplay by Alex Kurtzman and Roberto Orci and Jeff Pinkner."
+      ],
+      "combined_context": [
+        "In the Pearl, SOMEONE and the Twins exit the elevator.",
+        "2 black sedans pull up to a modern building.",
+        "The horsemen get out as a mustached man walks out to greet Hannah's in the driver's seat."
+      ],
+      "combined_distances": [
+        0.15597190260887145,
+        0.15668290853500366,
+        0.15668290853500366
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 2037,
+      "end_frame": 2042,
+      "start_time": 407.4,
+      "end_time": 408.4,
+      "duration": 1.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the officer gestures, someone rolls down the window of a vehicle that appears to be pulled over, with a police car visible on the shoulder of the road.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The officer gestures and SOMEONE rolls down the window.",
+        " SOMEONE notices, something how police car sits on the shoulder of the road."
+      ],
+      "cross_modal_context": [
+        "In her car, Tracy wipes away tears as she drives.",
+        "Morning an aerial view shows fog hanging over the town getting into her car. Keaton sets down her bag and stares ahead. The rearview mirror shows her shaky expression as she shuts her eyes."
+      ],
+      "combined_context": [
+        "The officer gestures and SOMEONE rolls down the window.",
+        " SOMEONE notices, something how police car sits on the shoulder of the road.",
+        "It with gold trim SOMEONE leans on a counter."
+      ],
+      "combined_distances": [
+        0.12489646673202513,
+        0.12581512928009034,
+        0.13014245629310608
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 2042,
+      "end_frame": 2053,
+      "start_time": 408.4,
+      "end_time": 410.6,
+      "duration": 2.2000000000000455,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As they sit, one person gazes morosely ahead, their nose pressed against the glass.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead."
+      ],
+      "cross_modal_context": [
+        "His sister shoots him, a glance, a motorcycle racist past the SUV in the next lane later at home, in the reflection of a dusty mirror, the young woman opens the door of her bedroom surrounded by photographs, trophies, and planetary models.",
+        "She rolls her window down and gazes at a group of African American neighbors, mingling a pair of men."
+      ],
+      "combined_context": [
+        "As they passed the manicured lawns and landscape front gardens of the large houses.",
+        "At the weekend, the two of them take a bus into a wealthy suburb, SOMEONE gazing, Morosely ahead.",
+        "The bone scanner, resting on his knee, SOMEONE sits with his nose pressed against the glass."
+      ],
+      "combined_distances": [
+        0.07607842683792114,
+        0.10634514093399047,
+        0.10634514093399047
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 2053,
+      "end_frame": 2088,
+      "start_time": 410.6,
+      "end_time": 417.6,
+      "duration": 7.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As he enters the scene, a character, likely Keanu's, crashes through a park bench and gets to his feet.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He enters an apartment building and slams an alien communicator against the mailboxes. He leans into them a light on the communicator pulsates."
+      ],
+      "cross_modal_context": [
+        "Second, as Keanu prances away, the cousins chase him Rel runs his focused eyes forward as Clarence returns fire at multiple guards.",
+        "Smith Bros Neo across the courtyard and he crashes through a park bench getting to his feet."
+      ],
+      "combined_context": [
+        "He enters an apartment building and slams an alien communicator against the mailboxes. He leans into them a light on the communicator pulsates.",
+        "Second, as Keanu prances away, the cousins chase him Rel runs his focused eyes forward as Clarence returns fire at multiple guards.",
+        "Smith Bros Neo across the courtyard and he crashes through a park bench getting to his feet."
+      ],
+      "combined_distances": [
+        0.06516863107681274,
+        0.7660452961921692,
+        0.7682200253009797
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 2088,
+      "end_frame": 2147,
+      "start_time": 417.6,
+      "end_time": 429.4,
+      "duration": 11.799999999999955,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A boy wearing a green T-shirt and carrying a soccer ball runs forward to join a group of children.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Silvio's wife escorts. The boy passed a rundown playground. He wears a green T shirt and carries a soccer ball. He runs forward to join a group of children divided into green and yellow teams.",
+        "A man on a medical scooter passes wearing a helmet and a vest with the word vietnam printed on the back. She stands at a table in front of a ponytailed man."
+      ],
+      "combined_context": [
+        "Silvio's wife escorts. The boy passed a rundown playground. He wears a green T shirt and carries a soccer ball. He runs forward to join a group of children divided into green and yellow teams.",
+        "A man on a medical scooter passes wearing a helmet and a vest with the word vietnam printed on the back. She stands at a table in front of a ponytailed man.",
+        "Later on his bike, SOMEONE passes Ciara and Marcia."
+      ],
+      "combined_distances": [
+        0.7706556379795075,
+        0.7740606307983399,
+        0.7787657141685487
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 2147,
+      "end_frame": 2170,
+      "start_time": 429.4,
+      "end_time": 434.0,
+      "duration": 4.600000000000023,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As he enters the apartment building, he slams an alien communicator against the mailboxes, and a light on the communicator pulsates.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He enters an apartment building and slams an alien communicator against the mailboxes. He leans into them a light on the communicator pulsates.",
+        "The henchman forced the four magicians out onto the busy St and load them into a vehicle. 3 black SUVs drive away on the narrow Rd."
+      ],
+      "cross_modal_context": [
+        "It shows the kidnapper leaving the apartment building. He sets his portfolio on a railing, puts on a wool cap and walks through the spilled trash on the sidewalk.",
+        "The woman pushes his arms back up against the substantial latticework headboard and secures them with a long white silk scarf, which she plays teasingly over his chest."
+      ],
+      "combined_context": [
+        "He enters an apartment building and slams an alien communicator against the mailboxes. He leans into them a light on the communicator pulsates.",
+        "The henchman forced the four magicians out onto the busy St and load them into a vehicle. 3 black SUVs drive away on the narrow Rd.",
+        "Elsewhere, pedestrians stopped to watch a news report on display."
+      ],
+      "combined_distances": [
+        0.09360636472702026,
+        0.09507460594177246,
+        0.09507460594177246
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 2170,
+      "end_frame": 2195,
+      "start_time": 434.0,
+      "end_time": 439.0,
+      "duration": 5.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The screen displays the text \"This film has been described by the Media Access Group at WGBH, with funding from Universal Pictures, read by Leilani Jones Wilmore\", in a straightforward and simple font.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "This film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones will more For more information about motion picture access, visit our website at accesswgbh.org.",
+        "Second, this film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones Wilmore For more information about motion Picture Access, visit our website at accesswgbh.org."
+      ],
+      "combined_context": [
+        "This film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones will more For more information about motion picture access, visit our website at accesswgbh.org.",
+        "Second, this film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones Wilmore For more information about motion Picture Access, visit our website at accesswgbh.org.",
+        "Motion pictures read by Leilani Jones Wilmore For more information about motion Picture access visit our website at access wgbh."
+      ],
+      "combined_distances": [
+        0.7893652319908143,
+        0.7913527727127075,
+        0.7937489151954652
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 2195,
+      "end_frame": 2205,
+      "start_time": 439.0,
+      "end_time": 441.0,
+      "duration": 2.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Hannigan, wearing a slinky dress, stands in front of a bedroom mirror, holding a blue spray bottle.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Outside the apartment. Hannigan slinks over to SOMEONE as SUV.",
+        "Now, printing at her bedroom mirror hannigan wears a slinky dress. She spreads herself with a blue spray bottle."
+      ],
+      "combined_context": [
+        "Outside the apartment. Hannigan slinks over to SOMEONE as SUV.",
+        "Now, printing at her bedroom mirror hannigan wears a slinky dress. She spreads herself with a blue spray bottle.",
+        "Good outside her hotel room, SOMEONE where's, the silver demon mask."
+      ],
+      "combined_distances": [
+        0.7801916241645813,
+        0.7890486180782319,
+        0.7985880136489869
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 2205,
+      "end_frame": 2218,
+      "start_time": 441.0,
+      "end_time": 443.6,
+      "duration": 2.6000000000000227,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A little girl with braided hair comes out and an informant points emphatically at her.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Walters daughter, with braided hair, looks at her jacked up car.",
+        "A little girl with braided hair comes out. The blonde man looks back at his informant who points emphatically at her."
+      ],
+      "combined_context": [
+        "Walters daughter, with braided hair, looks at her jacked up car.",
+        "A little girl with braided hair comes out. The blonde man looks back at his informant who points emphatically at her.",
+        "Cornrowed feathers protrude from his head."
+      ],
+      "combined_distances": [
+        0.7841423809528352,
+        0.8005663752555848,
+        0.8073731482028962
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 2218,
+      "end_frame": 2262,
+      "start_time": 443.6,
+      "end_time": 452.4,
+      "duration": 8.799999999999955,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A young boy is seen tossing and catching a robot toy in slow motion, as two buddies stand beside him with menacing expressions.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "In slow motion, an adolescent boy repeatedly tosses and catches a robot toy. Two buddies stand with him in an alley, watching with menacing looks.",
+        "In the movie, a preteen takes off her hockey helmet and shakes out her long hair."
+      ],
+      "combined_context": [
+        "In slow motion, an adolescent boy repeatedly tosses and catches a robot toy. Two buddies stand with him in an alley, watching with menacing looks.",
+        "In the movie, a preteen takes off her hockey helmet and shakes out her long hair.",
+        "A young boy and a man hold onto an overhead rope on the deck starring Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio, Robert Loggia."
+      ],
+      "combined_distances": [
+        0.7534265041351319,
+        0.7598236918449403,
+        0.7701900601387025
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 2262,
+      "end_frame": 2305,
+      "start_time": 452.4,
+      "end_time": 461.0,
+      "duration": 8.600000000000023,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the boy with blonde hair steps off the bus, he holds Alicia's hand, and Jaime looks at the child's face with a surprised expression.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "On the street she carries his suitcase and follows the doctor. Then it points up ahead, then takes her suitcase and carries it for her wind rustles her curly hair which she wears in a bun.",
+        "A boy with blonde hair steps off the bus holding Alicia's hand. Jaime wears a surprised expression as he gazes at the child's face."
+      ],
+      "combined_context": [
+        "On the street she carries his suitcase and follows the doctor. Then it points up ahead, then takes her suitcase and carries it for her wind rustles her curly hair which she wears in a bun.",
+        "A boy with blonde hair steps off the bus holding Alicia's hand. Jaime wears a surprised expression as he gazes at the child's face.",
+        "Carrying a basket at her side and balancing a small tub on her head, Fiona strides under an overpass with SOMEONE Women holding items on their heads. Walk above."
+      ],
+      "combined_distances": [
+        0.7622969388961792,
+        0.7682364821434021,
+        0.7710893511772157
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 2305,
+      "end_frame": 2313,
+      "start_time": 461.0,
+      "end_time": 462.6,
+      "duration": 1.6000000000000227,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "She walks into the closet, a mischievous smile on her face, and begins to look through the outfits.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "With a mischievous smile, she walks deeper into the closet and looks through the outfits. She bites her lip and smiles as she removes a golden garment bag. She unzips the bag to reveal a white suede outfit with.",
+        "Now she steps into her apartment and drops her keys and jacket in the entryway as she crosses into the main room. She reaches behind her neck for her zipper."
+      ],
+      "combined_context": [
+        "With a mischievous smile, she walks deeper into the closet and looks through the outfits. She bites her lip and smiles as she removes a golden garment bag. She unzips the bag to reveal a white suede outfit with.",
+        "Now she steps into her apartment and drops her keys and jacket in the entryway as she crosses into the main room. She reaches behind her neck for her zipper.",
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet."
+      ],
+      "combined_distances": [
+        0.8020453929901123,
+        0.8056577682495117,
+        0.8087027430534364
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 2313,
+      "end_frame": 2321,
+      "start_time": 462.6,
+      "end_time": 464.2,
+      "duration": 1.599999999999966,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production logo features the company name \"Hoeger\" in bold text, with a stylized animation of a door and subtle filtering effects in the background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The door as she tries to enter he got.",
+        "They carry them inside past hoeger and filter."
+      ],
+      "cross_modal_context": [
+        "Aaron Taylor Johnson is Dave Lizewski **** *** Chloë Grace Moretz as Mindy McCready hitgirl Morris chestnut as SOMEONE SOMEONE SOMEONE ",
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson."
+      ],
+      "combined_context": [
+        "The door as she tries to enter he got.",
+        "They carry them inside past hoeger and filter.",
+        "Outside a teen boy stands with the blonde call."
+      ],
+      "combined_distances": [
+        0.08858751654624938,
+        0.09228110909461974,
+        0.09695240259170532
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 2321,
+      "end_frame": 2409,
+      "start_time": 464.2,
+      "end_time": 481.8,
+      "duration": 17.600000000000023,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As they enter the child care center, someone helps a person remove their coat.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Hey, they come into the child care center. SOMEONE Nielsen helps SOMEONE off with his coat.",
+        "Someone has painted graffiti on the daycare wall."
+      ],
+      "cross_modal_context": [
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing.",
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet."
+      ],
+      "combined_context": [
+        "Hey, they come into the child care center. SOMEONE Nielsen helps SOMEONE off with his coat.",
+        "Someone has painted graffiti on the daycare wall.",
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing."
+      ],
+      "combined_distances": [
+        0.06536110043525696,
+        0.06536110043525696,
+        0.785399067401886
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 2409,
+      "end_frame": 2421,
+      "start_time": 481.8,
+      "end_time": 484.2,
+      "duration": 2.3999999999999773,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A person's hand reaches out as a father's curious face comes into view, and both men smile.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "His father squeezes junior shoulders, then follows after him. The teen lifts his worried gaze to his mother. Across the table, she stares at him somberly.",
+        "Second, a boy, teen and young man posed with basketballs near a church. A young man makes a basket as the sunsets."
+      ],
+      "combined_context": [
+        "His father squeezes junior shoulders, then follows after him. The teen lifts his worried gaze to his mother. Across the table, she stares at him somberly.",
+        "Second, a boy, teen and young man posed with basketballs near a church. A young man makes a basket as the sunsets.",
+        "His mom rubs his back and cradles the nape of his neck as SOMEONE s hand reaches out his father's curious face frames into his view. Both men smile."
+      ],
+      "combined_distances": [
+        0.7975461840629579,
+        0.8051438689231873,
+        0.8076680600643159
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 2421,
+      "end_frame": 2435,
+      "start_time": 484.2,
+      "end_time": 487.0,
+      "duration": 2.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As he stops, someone pedals up on a bike, and he then walks over to meet her.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Outside ellie aware, is the blue shirt, as he jogs across the.",
+        "He stops as SOMEONE pedals up on her bike."
+      ],
+      "cross_modal_context": [
+        "Yuri's father moves an ironing board away from the window and peers outside at the Parademons flying away.",
+        "The renter shuts window curtains, then notices Oscar entering as the boy takes off his jacket."
+      ],
+      "combined_context": [
+        "Outside ellie aware, is the blue shirt, as he jogs across the.",
+        "He stops as SOMEONE pedals up on her bike.",
+        "He walks over to meet her."
+      ],
+      "combined_distances": [
+        0.10192798376083373,
+        0.10192798376083373,
+        0.10192798376083373
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 2435,
+      "end_frame": 2446,
+      "start_time": 487.0,
+      "end_time": 489.2,
+      "duration": 2.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "He quickly puts on his jacket and exits the house, bumping into a table on his way out.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "He shuts the door, hangs his jacket on a hook, then stares at the rain. He takes the jacket and opens the door out on the street. He glances around, then walks down the street.",
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing."
+      ],
+      "combined_context": [
+        "He shuts the door, hangs his jacket on a hook, then stares at the rain. He takes the jacket and opens the door out on the street. He glances around, then walks down the street.",
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing.",
+        "Off the window and the little boy slams down the shade."
+      ],
+      "combined_distances": [
+        0.802463436126709,
+        0.8030057907104493,
+        0.8177429258823395
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 2446,
+      "end_frame": 2454,
+      "start_time": 489.2,
+      "end_time": 490.8,
+      "duration": 1.6000000000000227,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Maddie's jaw drops as she stares at someone, beaming, covering her mouth with her hand and tearing up.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Maddie's jaw drops SOMEONE stares at CP from the audience and beams covering her mouth with her hand and tearing up mister.",
+        "from his seat at the end of his table, Lee gets to his feet and walks over to the podium and watches him."
+      ],
+      "cross_modal_context": [
+        "Tip TI Harris as SOMEONE David Harbour as Dennis and Gabrielle Union as Dina. Octavius J Johnson as Thomas, Tim Connolly as Mcpheron, drew shear as Anderson Sala Baker as Bennett, Tim Rigby as Larry Elijah Everett as bathroom. Attendant.",
+        "Asmalyk Lara Grice is Bethany, Deborah Ahrendes, Simone Jannalyn, Condes Hazes print reporter Wayne while Dwayne Benjamin junior."
+      ],
+      "combined_context": [
+        "Maddie's jaw drops SOMEONE stares at CP from the audience and beams covering her mouth with her hand and tearing up mister.",
+        "from his seat at the end of his table, Lee gets to his feet and walks over to the podium and watches him.",
+        "Tip TI Harris as SOMEONE David Harbour as Dennis and Gabrielle Union as Dina. Octavius J Johnson as Thomas, Tim Connolly as Mcpheron, drew shear as Anderson Sala Baker as Bennett, Tim Rigby as Larry Elijah Everett as bathroom. Attendant."
+      ],
+      "combined_distances": [
+        0.09877245426177977,
+        0.09986405968666076,
+        0.7908241212368012
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 2454,
+      "end_frame": 2459,
+      "start_time": 490.8,
+      "end_time": 491.8,
+      "duration": 1.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production logo appears on screen, displaying the company name \"Giant Troll Productions\" in bold, playful text, surrounded by animated illustrations of trolls and hunting elements, setting the tone for the story.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "At school just tosses SOMEONE a note in the hall. She unfolds it to find an illustrated poster reading giant troll hunting season begins today.",
+        "The door as she tries to enter he got."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "Meyrick Murphy as marry George Takei as Joseito, Rooney Mara as the sisters, Matthew McConaughey as beetle Ray fines as moon king."
+      ],
+      "combined_context": [
+        "At school just tosses SOMEONE a note in the hall. She unfolds it to find an illustrated poster reading giant troll hunting season begins today.",
+        "The door as she tries to enter he got.",
+        "After school, Janice wades outside her bus, just takes a seat beside SOMEONE  They watch as Janice approaches some boys."
+      ],
+      "combined_distances": [
+        0.08053088188171387,
+        0.08238510489463806,
+        0.09061747789382935
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 2459,
+      "end_frame": 2473,
+      "start_time": 491.8,
+      "end_time": 494.6,
+      "duration": 2.8000000000000114,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production company logo, \"Someone Lies Here\", appears on screen with bold, white text against a dark background, as the words \"Someone Smiles\" fade in and out above it.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "OK, Kerry closes the closet door outside.",
+        " SOMEONE smiles at night SOMEONE lies with her."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "Natasha, Charles Parker as SOMEONE s mom Kat Altman as Lucinda Maribeth, Monroe's teacher, Missy Pyle as coach Webb Michael Shacket as Phos Feld Jameer and L as male gym teacher Marc Evan Jackson as principal Bentley car lease."
+      ],
+      "combined_context": [
+        "OK, Kerry closes the closet door outside.",
+        " SOMEONE smiles at night SOMEONE lies with her.",
+        " SOMEONE Izum then stares off daytime using a typewriter."
+      ],
+      "combined_distances": [
+        0.1543158233165741,
+        0.15664894580841063,
+        0.15942871570587158
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 2473,
+      "end_frame": 2483,
+      "start_time": 494.6,
+      "end_time": 496.6,
+      "duration": 2.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the door opens, someone glances anxiously, their eyes fixed on another person.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The door as she tries to enter he got.",
+        " SOMEONE glances at the teacher anxiously."
+      ],
+      "cross_modal_context": [
+        "Naomi Harris as Madeline Keira Knightley as Amy Jacob Latimore as Rafi and Dowd as Sally Price Lisa. Colognes IS as Trevor's mom.",
+        "Rosa Salazar as Brenda Giancarlo Esposito as Jorge, Patricia Clarkson as Eva Paige. Aidan Gillen."
+      ],
+      "combined_context": [
+        "The door as she tries to enter he got.",
+        " SOMEONE glances at the teacher anxiously.",
+        "After school, Janice wades outside her bus, just takes a seat beside SOMEONE  They watch as Janice approaches some boys."
+      ],
+      "combined_distances": [
+        0.09886699914932251,
+        0.1052905023097992,
+        0.1118385910987854
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 2483,
+      "end_frame": 2494,
+      "start_time": 496.6,
+      "end_time": 498.8,
+      "duration": 2.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "A person is carving on the table with a fork as another person approaches with two bowls.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "You SOMEONE shakes her head then carries over two bowls from the kitchen. She finds SOMEONE carving on the table with her fork.",
+        "To do outside his car has been clamped in a traffic. Warden is writing a ticket."
+      ],
+      "cross_modal_context": [
+        "She approaches the building, a sign out front reads New Orleans police third district inside filing cabinets and desks populate a squad room vacant except for one curly haired woman at a desk. She lights a candle on a cake.",
+        "Daytime at a hospital. Rota follows a nurse down a hallway inside a patient's room. The view rises to the women's faces. A blurry Ivy bag in the foreground partially obscures our vantage."
+      ],
+      "combined_context": [
+        "You SOMEONE shakes her head then carries over two bowls from the kitchen. She finds SOMEONE carving on the table with her fork.",
+        "To do outside his car has been clamped in a traffic. Warden is writing a ticket.",
+        "This she grabs a towel from a door and heads off and lays down his jacket concealing a pistol."
+      ],
+      "combined_distances": [
+        0.10874723196029662,
+        0.10935518145561218,
+        0.10973565578460692
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 2494,
+      "end_frame": 2500,
+      "start_time": 498.8,
+      "end_time": 500.0,
+      "duration": 1.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the scene unfolds, a young man is seen pulling out the door.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Gets out of his car.",
+        "Later, the young man walks down a residential street and stops in front of a metal picket fence."
+      ],
+      "combined_context": [
+        "Gets out of his car.",
+        "Later, the young man walks down a residential street and stops in front of a metal picket fence.",
+        "He pulls out the door."
+      ],
+      "combined_distances": [
+        0.8172446310520173,
+        0.8218532025814057,
+        0.8255978882312776
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 2500,
+      "end_frame": 2506,
+      "start_time": 500.0,
+      "end_time": 501.2,
+      "duration": 1.1999999999999886,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The boy, with short hair, quickly moves across the room, his actions and expression visible for a brief moment.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "The frustrated boy paces back and forth across his room, alternately, pushing himself off from the window and closet."
+      ],
+      "combined_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "The frustrated boy paces back and forth across his room, alternately, pushing himself off from the window and closet.",
+        "The short haired boy saunters into a kitchen and grabs a slice of pizza from the fridge."
+      ],
+      "combined_distances": [
+        0.7659624218940736,
+        0.7845296740531922,
+        0.7933386087417603
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 2506,
+      "end_frame": 2561,
+      "start_time": 501.2,
+      "end_time": 512.2,
+      "duration": 11.000000000000057,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the scene unfolds, a person walks along a street carrying a white plastic case.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "A film by Gabriele Muccino, starring Will Smith in the pursuit of happiness in the film title happiness is spelt with a Y Brian Hell, James, Karen, Dan, Cathy Lynetta, Kurt Fuller and introducing Jaden SOMEONE Syre Smith.",
+        "Produced by James Lassiter Will Smith. Written by Steven Conrad. SOMEONE walks along a street with a white plastic case. SOMEONE carrying his school bag and lunch box, struggles to keep up. Directed by Gabriel Maschino."
+      ],
+      "combined_context": [
+        "A film by Gabriele Muccino, starring Will Smith in the pursuit of happiness in the film title happiness is spelt with a Y Brian Hell, James, Karen, Dan, Cathy Lynetta, Kurt Fuller and introducing Jaden SOMEONE Syre Smith.",
+        "Produced by James Lassiter Will Smith. Written by Steven Conrad. SOMEONE walks along a street with a white plastic case. SOMEONE carrying his school bag and lunch box, struggles to keep up. Directed by Gabriel Maschino.",
+        "Naomi Harris as Madeline Keira Knightley as Amy Jacob Latimore as Rafi and Dowd as Sally Price Lisa. Colognes IS as Trevor's mom."
+      ],
+      "combined_distances": [
+        0.7477812170982362,
+        0.7623942375183106,
+        0.7710641086101533
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 2561,
+      "end_frame": 2578,
+      "start_time": 512.2,
+      "end_time": 515.6,
+      "duration": 3.3999999999999773,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The screen displays the text \"This film has been described by the Media Access Group at WGBH, with funding from Universal Pictures\", in a simple and straightforward visual presentation.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing.",
+        "This film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones will more For more information about motion picture access, visit our website at accesswgbh.org."
+      ],
+      "combined_context": [
+        "Then he puts on his jacket and bumps the table as he comes past it, knocking over a jar of honey. His focus concentrated on leaving the house in haste. He doesn't notice the pale yellow honey spreading across the drawing.",
+        "This film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones will more For more information about motion picture access, visit our website at accesswgbh.org.",
+        "All rights reserved. Nonstop this film has been described by the media access group at WGBH with funding from Universal Pictures read by Miles NAP. For more information about motion picture access, visit our website at accesswgbh.org."
+      ],
+      "combined_distances": [
+        0.8043412864208223,
+        0.8091340959072114,
+        0.8110394835472108
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 2578,
+      "end_frame": 2603,
+      "start_time": 515.6,
+      "end_time": 520.6,
+      "duration": 5.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "Cindy sits down near Avon.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The Asian student Cindy sits down near Avon.",
+        "Her concerned boyfriend meets her in the alley. SOMEONE stands half dazed, then runs back toward the restaurant. Her friend follows SOMEONE  hangs his head and sits motionless inside. SOMEONE marches purposefully up to Stanley."
+      ],
+      "cross_modal_context": [
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet.",
+        "Uzi says she rotates and fires back at the window, the agent advances through the office, firing his pistol, then leaps out the window."
+      ],
+      "combined_context": [
+        "The Asian student Cindy sits down near Avon.",
+        "Her concerned boyfriend meets her in the alley. SOMEONE stands half dazed, then runs back toward the restaurant. Her friend follows SOMEONE  hangs his head and sits motionless inside. SOMEONE marches purposefully up to Stanley.",
+        " SOMEONE carries her belongings out in."
+      ],
+      "combined_distances": [
+        0.05197452902793884,
+        0.06120717525482177,
+        0.06218683719635009
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 2603,
+      "end_frame": 2668,
+      "start_time": 520.6,
+      "end_time": 533.6,
+      "duration": 13.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the scene unfolds, a table is flipped and a person runs through a closet, with bullets whizzing through the air and riddling a door.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Naomi Harris as Madeline Keira Knightley as Amy Jacob Latimore as Rafi and Dowd as Sally Price Lisa. Colognes IS as Trevor's mom.",
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet."
+      ],
+      "combined_context": [
+        "Naomi Harris as Madeline Keira Knightley as Amy Jacob Latimore as Rafi and Dowd as Sally Price Lisa. Colognes IS as Trevor's mom.",
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet.",
+        "Was at Ramirez as man with Trey Daniel Best as front desk clerk Wanda Sykes as Ruth Joan Cusack as Barb Moani, Hara as hot woman."
+      ],
+      "combined_distances": [
+        0.7531204462051392,
+        0.7656635761260987,
+        0.765911477804184
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 2668,
+      "end_frame": 2673,
+      "start_time": 533.6,
+      "end_time": 534.6,
+      "duration": 1.0,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production logo or opening credits are not explicitly described in the given context, which instead appears to focus on a narrative scene involving a character named Jack and various objects, without mentioning any company names, logos, text, or animations.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Channel four on tv jack promotes a book.",
+        "Underneath he sees her bike lock key. Taking it he starts off, then pauses as he notices an envelope of photos in the box."
+      ],
+      "cross_modal_context": [
+        "Now SOMEONE takes out a cake server from a felt lined tray of silver Ware and holds it up to eye level it Glenn Stoli in the bright sunlight, she begins vigorously scrubbing it with a piece of cloth until its shine grows brighter.",
+        "He slips the disc into the TV and grabs the remote holding the knife loosely in his hand as he plops onto the couch."
+      ],
+      "combined_context": [
+        "Channel four on tv jack promotes a book.",
+        "Underneath he sees her bike lock key. Taking it he starts off, then pauses as he notices an envelope of photos in the box.",
+        "He sits at the edge of her bed as he wistfully flips through the pictures."
+      ],
+      "combined_distances": [
+        0.14886856079101562,
+        0.15040372610092162,
+        0.15040372610092162
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 2673,
+      "end_frame": 2684,
+      "start_time": 534.6,
+      "end_time": 536.8,
+      "duration": 2.199999999999932,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As he sits down in a small chair, he pulls out a gun from the back of his pants.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Then he pulls out the gun from the back of his pants as he takes a seat in a small chair.",
+        "As the kid examines his gun dread draws, the prisoner sidles closer to the rookie."
+      ],
+      "combined_context": [
+        "Then he pulls out the gun from the back of his pants as he takes a seat in a small chair.",
+        "As the kid examines his gun dread draws, the prisoner sidles closer to the rookie.",
+        "Holding the gun behind his back, he unlocks the door dancer pushes his way in hitting filament into the door."
+      ],
+      "combined_distances": [
+        0.811178743839264,
+        0.812489914894104,
+        0.8133501946926117
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 2684,
+      "end_frame": 2703,
+      "start_time": 536.8,
+      "end_time": 540.6,
+      "duration": 3.800000000000068,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The production logo or opening credits are not explicitly described in the provided context, but based on similar logos/credits, it likely features text or animation related to the company name, possibly with a simple and straightforward design.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE points at the cumbersome scanners. Now the pair of walking up stairs towards their apartment where SOMEONE is sitting at a desk looking through some bills.",
+        " SOMEONE puts down the two scanners later he presents SOMEONE with a gift."
+      ],
+      "cross_modal_context": [
+        "Naomi Harris as Madeline Keira Knightley as Amy Jacob Latimore as Rafi and Dowd as Sally Price Lisa. Colognes IS as Trevor's mom.",
+        "The boy continues eating as the mother watches him back in Kates apartment. Reggie sits calmly as SOMEONE steps out of her bathroom in jeans and a sports bra."
+      ],
+      "combined_context": [
+        " SOMEONE points at the cumbersome scanners. Now the pair of walking up stairs towards their apartment where SOMEONE is sitting at a desk looking through some bills.",
+        " SOMEONE puts down the two scanners later he presents SOMEONE with a gift.",
+        "Excitedly, SOMEONE rips off the wrapping paper. SOMEONE smiles at SOMEONE  She smiles back half heartedly."
+      ],
+      "combined_distances": [
+        0.10730001926422118,
+        0.10730001926422118,
+        0.10730001926422118
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 2703,
+      "end_frame": 2712,
+      "start_time": 540.6,
+      "end_time": 542.4,
+      "duration": 1.7999999999999545,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "The screen displays the text \"Media Access Group at WGBH\" and \"Funding provided by Sony Pictures Entertainment\" in a simple, static format, with additional acknowledgement of description by Brianna Layonne.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet.",
+        "This film has been described by the media access group at WGBH, with funding from Sony Pictures Entertainment and by Brianna Layonne For more information about motion picture access, visit our website at accesswgbh.org logos. Sony released by Screen Gems, a Sony company."
+      ],
+      "combined_context": [
+        "She flips the table and runs through the closet, willis bullets whizzed through salmon, riddled the door odame hides in the secret room, willy leaves and the sisters scourge of the closet.",
+        "This film has been described by the media access group at WGBH, with funding from Sony Pictures Entertainment and by Brianna Layonne For more information about motion picture access, visit our website at accesswgbh.org logos. Sony released by Screen Gems, a Sony company.",
+        "This film has been described by the media access group at WGBH, with funding from Universal Pictures read by Leilani Jones will more For more information about motion picture access, visit our website at accesswgbh.org."
+      ],
+      "combined_distances": [
+        0.7958455562591553,
+        0.8122285723686219,
+        0.8127989888191224
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 2712,
+      "end_frame": 2726,
+      "start_time": 542.4,
+      "end_time": 545.2,
+      "duration": 2.800000000000068,
+      "movie_id": "3042_KARATE_KID",
+      "generated_ad": "As the panic monsters scatter, the octopus dials the phone.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The panic monsters scattered the octopus dials the phone as the customers flee.",
+        "douche enters the cantina."
+      ],
+      "cross_modal_context": [
+        "Watching the tv, the doorman clutches, his brow and the shells apartment oscar takes a glass of yogurt from the refrigerator sets it on the table and retrieves a spoon.",
+        "In his living room, SOMEONE slides the desk and do a DVD player and plops onto his couch. The TV black screen reflects the outline of his body."
+      ],
+      "combined_context": [
+        "The panic monsters scattered the octopus dials the phone as the customers flee.",
+        "douche enters the cantina.",
+        "The car departs, a bumper sticker reads ***** are."
+      ],
+      "combined_distances": [
+        0.18569396138191221,
+        0.19687858819961546,
+        0.19781827926635742
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    }
+  ]
+}
