@@ -1,0 +1,1 @@
+"""Generation utilities for audio descriptions (LLM clients, prompts)."""

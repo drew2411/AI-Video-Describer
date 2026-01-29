@@ -1,0 +1,1757 @@
+{
+  "movie_id": "10142",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 74,
+      "start_time": 0.0,
+      "end_time": 14.8,
+      "duration": 14.8,
+      "generated_ad": "In a starry night sky, massive block letters of gold and Silver Orbit appear, set against the curvature of the Earth.",
+      "ground_truth": "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+      "ground_truth_id": "104108",
+      "visual_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+        "In a Black Star sprinkled sky, we saw backward over Earth as massive block letters of gold and Silver Orbit interview."
+      ],
+      "cross_modal_context": [
+        "Columbia Pictures presents our views speeds through space toward Earth, in association with Tencent Pictures and Amblin Entertainment production.",
+        "Now in space, light shines upon a Milky blue planet as spaceships jet over a vast city. At night, 2 black cloaked figures walk along a terrorist."
+      ],
+      "combined_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+        "In a Black Star sprinkled sky, we saw backward over Earth as massive block letters of gold and Silver Orbit interview.",
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities."
+      ],
+      "combined_distances": [
+        -2.503395080566406e-07,
+        0.002380019426345825,
+        0.002380019426345825
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 74,
+      "end_frame": 130,
+      "start_time": 14.8,
+      "end_time": 26.0,
+      "duration": 11.2,
+      "generated_ad": "The screen fades in to reveal the Earth, with the massive, golden words \"Silver Orbit\" emerging from the globe, as the camera pans out to show the company name in a starry night sky.",
+      "ground_truth": "The earth eclipses the sun and a massive word hovers front and center universal, a Comcast company.",
+      "ground_truth_id": "104109",
+      "visual_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+        "The earth eclipses the sun and a massive word hovers front and center universal, a Comcast company."
+      ],
+      "cross_modal_context": [
+        "Opening titles, Universal Pictures, and Emmett Furla films present a film 44 Spikings entertainment, single Berry production, and Emmett Furla films, Herrick Entertainment envisioned entertainment production.",
+        "Animated Universal Studios logo copyright 2013 Universal Studios cDNA Film Holdings 2 LLC is the author of this motion picture for purposes of the Bearing Convention and all national laws giving effect there to the characters and events depicted in this photo."
+      ],
+      "combined_context": [
+        "In a Black Star sprinkled sky, we saw backward over Earth, massive block letters of gold and Silver Orbit interview the Continents show the speckled electrified glow of hundreds of cities.",
+        "The earth eclipses the sun and a massive word hovers front and center universal, a Comcast company.",
+        "We passed to the dark side of the planet where the continents showed the speckled electrified glow of hundreds of cities."
+      ],
+      "combined_distances": [
+        -1.6689300537109374e-07,
+        -1.6689300537109374e-07,
+        0.0017240047454833982
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 130,
+      "end_frame": 138,
+      "start_time": 26.0,
+      "end_time": 27.6,
+      "duration": 1.6000000000000014,
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" appearing in bold text, followed by the presentation and production credits listing the producers, including Jason Blumenthal, Steve Tisch, and others.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.7950587749481202
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 138,
+      "end_frame": 214,
+      "start_time": 27.6,
+      "end_time": 42.8,
+      "duration": 15.199999999999996,
+      "generated_ad": "In a starry night sky, the company name \"Black Star\" emerges as glowing rays of light shoot off the continents of a three-dimensional world, set against a backdrop of twinkling celestial bodies.",
+      "ground_truth": "In another logo, four children waved sparklers, tracing out capital letters. The letters hover over a grassy hill at twilight as the kids run past. The first one, underlines the words. Good universe.",
+      "ground_truth_id": "104110",
+      "visual_context": [
+        "In another logo, four children waved sparklers, tracing out capital letters. The letters hover over a grassy hill at twilight as the kids run past. The first one, underlines the words. Good universe.",
+        "Now in a Black Star sprinkled sky, a sliver of sunlight crests the earth glowing rays of light shoot off the continents in a three dimensional world orbits the planet Universal."
+      ],
+      "cross_modal_context": [
+        "Opening titles, Universal Pictures, and Emmett Furla films present a film 44 Spikings entertainment, single Berry production, and Emmett Furla films, Herrick Entertainment envisioned entertainment production.",
+        "When the remaining opening titles Universal Pictures presents in association with Perfect World Pictures and Apatow Company Lonely Island production, a Lonely island film, Andy Samberg, Jorma Taccone, Akiva Schaffer, Sarah Silverman, Tim Meadows, Maya Rudolph Joan Cusack Imogen Poots Chris read Edgar Blackmon James Buckley."
+      ],
+      "combined_context": [
+        "In another logo, four children waved sparklers, tracing out capital letters. The letters hover over a grassy hill at twilight as the kids run past. The first one, underlines the words. Good universe.",
+        "Now in a Black Star sprinkled sky, a sliver of sunlight crests the earth glowing rays of light shoot off the continents in a three dimensional world orbits the planet Universal.",
+        "Words appear below a division of NBC Universal."
+      ],
+      "combined_distances": [
+        -3.337860107421875e-07,
+        0.07351528406143187,
+        0.07351528406143187
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 214,
+      "end_frame": 222,
+      "start_time": 42.8,
+      "end_time": 44.4,
+      "duration": 1.6000000000000014,
+      "generated_ad": "A person, possibly a leader, sits still at a table in a dining room as someone else is seated across from them, with Kraus entering the room in a wheelchair.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Tannishtha Chatterjee, Michelle Dockery, Steve Evets, holiday Grainger, Shirley Henderson Susanne Lothar Raphael personas.",
+        "The next day, kraus wheels into a dining room. SOMEONE is seated at a table with a leader who still."
+      ],
+      "cross_modal_context": [
+        "Iris is out into a view of the Star Destroyer as three TIE fighters saw toward it in a holding cell, the bloodied pilot awakes to find himself shackled to a torture rack.",
+        "In the shadows, Obi-wan watches the craft X at the top of the crater."
+      ],
+      "combined_context": [
+        "Tannishtha Chatterjee, Michelle Dockery, Steve Evets, holiday Grainger, Shirley Henderson Susanne Lothar Raphael personas.",
+        "The next day, kraus wheels into a dining room. SOMEONE is seated at a table with a leader who still.",
+        "Executive producer Lisa Chase and Co. Producer Alexandra Ferguson."
+      ],
+      "combined_distances": [
+        0.003090900182723999,
+        0.0052527904510498045,
+        0.005544310808181762
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 222,
+      "end_frame": 225,
+      "start_time": 44.4,
+      "end_time": 45.0,
+      "duration": 0.6000000000000014,
+      "generated_ad": "The production logo, likely for a film or television series, appears on screen with no distinctive visual elements, instead transitioning directly into a live-action sequence showing a character preparing for a potentially dangerous situation, with a person purchasing a revolver and ammunition from a clerk.",
+      "ground_truth": "The lid of a school desk closes and animated scene of card sketches and scribbled words appears on the wooden surface. Words in the center, Reed point grey.",
+      "ground_truth_id": "104111",
+      "visual_context": [
+        "Crossing her glasses on a counter she puts in contact lenses. She applies lipstick and adjusts her hair around her face.",
+        "Inside a man places a small revolver and ammo box on a counter. Knitting his brow. SOMEONE paced the clerk some cash and takes the weapon."
+      ],
+      "cross_modal_context": [
+        "Natasha, Charles Parker as SOMEONE s mom Kat Altman as Lucinda Maribeth, Monroe's teacher, Missy Pyle as coach Webb Michael Shacket as Phos Feld Jameer and L as male gym teacher Marc Evan Jackson as principal Bentley car lease.",
+        "Unit production managers Marcus Pacitti, Erica K first assistant director Steven X Apicella second assistant director Matt Power cast Dakota Johnson as SOMEONE Rebel Wilson as SOMEONE Leslie Mann as SOMEONE Damon Wayans junior as SOMEONE Anders Holm as SOMEONE Alison Brie as Lucy Nicholas Braun as Josh Jake Lacy as Ken Jason man Zukas as George."
+      ],
+      "combined_context": [
+        "Crossing her glasses on a counter she puts in contact lenses. She applies lipstick and adjusts her hair around her face.",
+        "Inside a man places a small revolver and ammo box on a counter. Knitting his brow. SOMEONE paced the clerk some cash and takes the weapon.",
+        "In here he dumps its contents out on the floor."
+      ],
+      "combined_distances": [
+        0.1958754777908325,
+        0.2039637804031372,
+        0.204836505651474
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 225,
+      "end_frame": 272,
+      "start_time": 45.0,
+      "end_time": 54.4,
+      "duration": 9.399999999999999,
+      "generated_ad": "The production logo appears on screen, featuring a simple text-based display of the company name, without any notable visual elements or animations, without providing further details about the company or production.",
+      "ground_truth": "The lid of a school desk closes and animated scene of card sketches and scribbled words appears on the wooden surface. Words in the center, Reed point grey.",
+      "ground_truth_id": "104111",
+      "visual_context": [
+        "The shabby student desks and chairs are marred with scratches and writing.",
+        "I was too harsh when I told him I thought he hated Bach. A breeze flips the page, revealing more writing. I thought he didn't like me. The name all of her graces, the sides of the page."
+      ],
+      "cross_modal_context": [
+        "Credits roll unit production manager Matthew Heart cast Stephen Lang as SOMEONE Jane Levy as SOMEONE Dylan Minnette as SOMEONE Daniels of Otto as SOMEONE Emma Bercovici as SOMEONE Francisca to cheek as Cindy Christians aghia as Raul, Katia Bokor as ginger Sergei Jobko as Trevor, Olivia jellies as SOMEONE man's daughter young Emma.",
+        "Credits roll cast andrew Garfield is Spiderman Peter Parker, Emma Stone as SOMEONE  Jamie Foxx, Electro Max Dillon, Dane de Haan as Green Goblin, Harry Osborn, Comfi or as Don mentioned, Felicity Jones is SOMEONE Paul Giamatti is Alexis, said Savage Sally Field as SOMEONE May and that dab it, says Mary Parker Campbell Scott is Richard Parker."
+      ],
+      "combined_context": [
+        "The shabby student desks and chairs are marred with scratches and writing.",
+        "I was too harsh when I told him I thought he hated Bach. A breeze flips the page, revealing more writing. I thought he didn't like me. The name all of her graces, the sides of the page.",
+        "Animated food items tumbled to the floor. Scribbled words appear on the desk point grey."
+      ],
+      "combined_distances": [
+        0.12297348380088806,
+        0.1381497323513031,
+        0.13867878317832946
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 272,
+      "end_frame": 278,
+      "start_time": 54.4,
+      "end_time": 55.6,
+      "duration": 1.2000000000000028,
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" prominently featured, followed by a list of production credits including producers Jason Blumenthal, Steve Tisch, and executive producers.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.7950587749481202
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 278,
+      "end_frame": 355,
+      "start_time": 55.6,
+      "end_time": 71.0,
+      "duration": 15.399999999999999,
+      "generated_ad": "The production logo appears on screen, displaying the text \"Universal Pictures\" and \"Amblin Entertainment\" is not shown, instead \"good universe\" and \"appoint grape production\" are presented in a straightforward, non-animated format.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In a boy's bedroom, a framed photo shows a baby in a swing, a model airplane and other items sit nearby.",
+        "Universal Pictures presents, in association with good universe, appoint grape production."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "Miller Wrecker on stereo supervisor John Rhe Benson, stereo compositing supervisor Baignoire Filippo, pipeline supervisors, Pierrick broke van dam Damien Belen Tang, head of technology Bruno Mahe illumination Macguff senior executive shockblade character animation and computer graphics provided by Illumination Mac Guff illumination Mac Guff had a production Crystal Balcone assistant computer graphics supervisors Jerome are threes."
+      ],
+      "combined_context": [
+        "In a boy's bedroom, a framed photo shows a baby in a swing, a model airplane and other items sit nearby.",
+        "Universal Pictures presents, in association with good universe, appoint grape production.",
+        "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed."
+      ],
+      "combined_distances": [
+        -1.6689300537109374e-07,
+        -1.6689300537109374e-07,
+        -1.6689300537109374e-07
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 355,
+      "end_frame": 398,
+      "start_time": 71.0,
+      "end_time": 79.6,
+      "duration": 8.599999999999994,
+      "generated_ad": "The production logo or opening credits feature a framed photo of three boys wearing sunglasses, with a model of a werewolf's head and arms on a stool lying on the bed, alongside a separate scene of a brown-haired boy playing a video game on his laptop.",
+      "ground_truth": "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed.",
+      "ground_truth_id": "104114",
+      "visual_context": [
+        "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed.",
+        "A brown haired boy plays a video game on his laptop."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "As Asterid Jonah Hill as snout loud Christopher Mintz, plasse as Fishlegs TJ Miller as Tuffnut, Kristen Wiig as Ruffnut and others description created by NCI described media. This is Carl nubile."
+      ],
+      "combined_context": [
+        "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed.",
+        "A brown haired boy plays a video game on his laptop.",
+        "He selects an axe wielding character avatar with glowing eyes."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        -8.344650268554687e-08
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 398,
+      "end_frame": 404,
+      "start_time": 79.6,
+      "end_time": 80.8,
+      "duration": 1.2000000000000028,
+      "generated_ad": "A character avatar is selected and appears on screen with an axe in hand and glowing eyes.",
+      "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
+      "ground_truth_id": "104116",
+      "visual_context": [
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "cross_modal_context": [
+        "His laptop with the paused video chase zooms in on his brother's face.",
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel."
+      ],
+      "combined_context": [
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "combined_distances": [
+        0.0018984079360961912,
+        0.006062346696853637,
+        0.017610299587249755
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 404,
+      "end_frame": 415,
+      "start_time": 80.8,
+      "end_time": 83.0,
+      "duration": 2.200000000000003,
+      "generated_ad": "The boy interacts with a character customization screen, modifying the appearance of a female character avatar by adjusting her body size and altering her breastplate to a more mesh-like design.",
+      "ground_truth": "He selects an axe wielding character avatar with glowing eyes.",
+      "ground_truth_id": "104116",
+      "visual_context": [
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "The boy switches to a green."
+      ],
+      "cross_modal_context": [
+        "Embers glow beneath set skin as he transforms into a giant dog man.",
+        "Gideon flickers and his image blinks like a bad television reception."
+      ],
+      "combined_context": [
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "The boy switches to a green.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "combined_distances": [
+        0.004283434152603149,
+        0.004283434152603149,
+        0.11444888114929198
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 415,
+      "end_frame": 419,
+      "start_time": 83.0,
+      "end_time": 83.8,
+      "duration": 0.7999999999999972,
+      "generated_ad": "The boy quickly shuts the door as it opens inward, with a laptop and a bed visible in the scene.",
+      "ground_truth": "The boy switches to a green.",
+      "ground_truth_id": "104117",
+      "visual_context": [
+        "The boy switches to a green.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is.",
+        "A boy awake in bed in his room in elf behind a curtain shuts off a night light."
+      ],
+      "combined_context": [
+        "The boy switches to a green.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "combined_distances": [
+        0.004296326637268066,
+        0.03935912847518921,
+        0.05998868942260742
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 419,
+      "end_frame": 426,
+      "start_time": 83.8,
+      "end_time": 85.2,
+      "duration": 1.4000000000000057,
+      "generated_ad": "The boy's hands move quickly over a digital interface, selecting and modifying a character avatar, as the on-screen figure's appearance changes, with alterations to its body and attire visible in rapid succession.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The boy switches to a green.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "cross_modal_context": [
+        "His fingers walk up the keys, he notices Hirota and beams.",
+        "His laptop with the paused video chase zooms in on his brother's face."
+      ],
+      "combined_context": [
+        "The boy switches to a green.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "He selects an axe wielding character avatar with glowing eyes."
+      ],
+      "combined_distances": [
+        0.001586318016052246,
+        0.04053514003753662,
+        0.044151210784912104
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 426,
+      "end_frame": 435,
+      "start_time": 85.2,
+      "end_time": 87.0,
+      "duration": 1.7999999999999972,
+      "generated_ad": "A figure ducks and dodges as guards approach, and a knife is thrown through the air towards one of the guards.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "The guards carrying Lauraline drop her the disguise duo, grab the guards, knife slashes his leg, then throws the knife right between an approaching guards.",
+        "Eyes as more guards attacked the impostor ducks and dodges there."
+      ],
+      "cross_modal_context": [
+        "Turns it off.",
+        "Turns from the SOMEONE "
+      ],
+      "combined_context": [
+        "The guards carrying Lauraline drop her the disguise duo, grab the guards, knife slashes his leg, then throws the knife right between an approaching guards.",
+        "Eyes as more guards attacked the impostor ducks and dodges there.",
+        "Lounging fears, then grabs the blades on each guards belts and stabs both of them."
+      ],
+      "combined_distances": [
+        0.21985967159271239,
+        0.21985967159271239,
+        0.21985967159271239
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 435,
+      "end_frame": 439,
+      "start_time": 87.0,
+      "end_time": 87.8,
+      "duration": 0.7999999999999972,
+      "generated_ad": "A female character's body is enlarged, with a focus on her breasts, and her breastplate is modified to a more mesh-like design.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "He selects an axe wielding character avatar with glowing eyes."
+      ],
+      "cross_modal_context": [
+        "Now, iview glides over a sun drenched corn field to the SOMEONE farm house. Movers carry items into the house and Clark approaches Bruce.",
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel."
+      ],
+      "combined_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "combined_distances": [
+        0.0009069383144378662,
+        0.014984071254730223,
+        0.016536927223205565
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 439,
+      "end_frame": 449,
+      "start_time": 87.8,
+      "end_time": 89.8,
+      "duration": 2.0,
+      "generated_ad": "A woman walks towards a gate, passing by guards who turn their heads to look at her as she moves by.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but."
+      ],
+      "cross_modal_context": [
+        "Turns it off.",
+        "Turns off the light."
+      ],
+      "combined_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but.",
+        "She passes guards who stare after her watching her slightly awkward gate."
+      ],
+      "combined_distances": [
+        0.20670620799064635,
+        0.20670620799064635,
+        0.20670620799064635
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 449,
+      "end_frame": 455,
+      "start_time": 89.8,
+      "end_time": 91.0,
+      "duration": 1.2000000000000028,
+      "generated_ad": "The boy quickly looks at his laptop, then turns his attention to the door as it opens inward, prompting him to shut it.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "Ty Simpkins as Dalton Lambert Rose Byrne as Renee Lambert, Patrick Wilson as Josh Lambert.",
+        "Ben O'Toole as Flynn, Jack Reynor as demmons, Jacob Latimore as Fred Ashley Richardson as elderly woman, Barton Bund as desk SOMEONE Justin main as SOMEONE SOMEONE number one Dennis sterile Selsky as Detective Jones Darren Goldstein as detective Tanchak Bensville as Nate Conyers, John Boyega."
+      ],
+      "combined_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "combined_distances": [
+        0.00530928373336792,
+        0.03745371103286743,
+        0.04807987213134765
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 455,
+      "end_frame": 459,
+      "start_time": 91.0,
+      "end_time": 91.8,
+      "duration": 0.7999999999999972,
+      "generated_ad": "A female character's body is briefly seen being enhanced, with her breasts enlarging and her breastplate changing to a more mesh-like appearance.",
+      "ground_truth": "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+      "ground_truth_id": "104118",
+      "visual_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "He selects an axe wielding character avatar with glowing eyes."
+      ],
+      "cross_modal_context": [
+        " SOMEONE Co, starring Ian Macdiarmid Pernilla, August Ahmed Best, Oliver Ford Davies tomorrow, Morrison Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku visual effects supervisors John Noel.",
+        "His laptop with the paused video chase zooms in on his brother's face."
+      ],
+      "combined_context": [
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh.",
+        "He selects an axe wielding character avatar with glowing eyes.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "combined_distances": [
+        0.0023016214370727536,
+        0.004063177108764649,
+        0.019251734018325806
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 459,
+      "end_frame": 470,
+      "start_time": 91.8,
+      "end_time": 94.0,
+      "duration": 2.200000000000003,
+      "generated_ad": "As she walks towards the gate, she slightly wavers and passes by guards who turn their heads to stare after her.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but."
+      ],
+      "cross_modal_context": [
+        "her clothes are gone. She checks under a footstool. Then darts into the next room, she rushes out to the waiting area and scours the floor.",
+        " SOMEONE removes her wig, revealing her bald head."
+      ],
+      "combined_context": [
+        "Meanwhile, SOMEONE wavers as she walks toward the gate.",
+        "She studies herself much but.",
+        "She passes guards who stare after her watching her slightly awkward gate."
+      ],
+      "combined_distances": [
+        0.19254408478736876,
+        0.19254408478736876,
+        0.19254408478736876
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 470,
+      "end_frame": 480,
+      "start_time": 94.0,
+      "end_time": 96.0,
+      "duration": 2.0,
+      "generated_ad": "A person's eyes appear to be welling up with tears as they slightly bite their bottom lip.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE studies the images in her hands.",
+        " SOMEONE s eyes look close to tears and he choose his bottom lip slightly."
+      ],
+      "cross_modal_context": [
+        "Quentin blows SOMEONE a kiss, closing her window. SOMEONE nods and draws the curtains as he gets back into the town car. Sam stands behind GAIL rubbing her shoulders.",
+        "As Theo drives off, Fiona watches her sister with a forlorn look sitting in a stand. SOMEONE gazes after SOMEONE and turns her eyes straight ahead."
+      ],
+      "combined_context": [
+        " SOMEONE studies the images in her hands.",
+        " SOMEONE s eyes look close to tears and he choose his bottom lip slightly.",
+        " SOMEONE pecks her cheek."
+      ],
+      "combined_distances": [
+        0.09615540504455566,
+        0.09615540504455566,
+        0.10120183229446411
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 480,
+      "end_frame": 507,
+      "start_time": 96.0,
+      "end_time": 101.4,
+      "duration": 5.400000000000006,
+      "generated_ad": "The brown-haired boy ties one end of his laptop power cord to his doorknob and the other end to his bed, then climbs back onto his bed, looks at his laptop, and smiles as the door opens inward.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "In his room, Spence plays video of the Brigsby movie on his laptop. That clip shows brigsby materializing in a grassy field.",
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "The boy switches to a green."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        0.021202963590621945,
+        0.034951734542846676
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 507,
+      "end_frame": 524,
+      "start_time": 101.4,
+      "end_time": 104.8,
+      "duration": 3.3999999999999915,
+      "generated_ad": "The production logo or opening credits are not visible, instead, the scene opens with a brown-haired boy in his room, interacting with his laptop power cord.",
+      "ground_truth": "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+      "ground_truth_id": "104119",
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "She pulls off the door lock. Nob SOMEONE hurries inside. He opens the door and closes it again. Noticing Sam's blanket caught in the door. He tugs it in, then looks up to see the failed woman at his window.",
+        "Man back at the artifact room door, she undoes a latch, then inserts a key into a deadbolt."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "In another logo, a close view shows a wooden door as it slams shut through the keyhole. A skull appears. Ghost House pictures."
+      ],
+      "combined_distances": [
+        4.1723251342773435e-08,
+        0.04585952758789062,
+        0.0463345468044281
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 524,
+      "end_frame": 527,
+      "start_time": 104.8,
+      "end_time": 105.4,
+      "duration": 0.6000000000000085,
+      "generated_ad": "The brown haired boy ties one end of his laptop power cord to his doorknob and the other end to his bed.",
+      "ground_truth": "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+      "ground_truth_id": "104119",
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "At her bedroom door, Maisie works a coat hanger into the keyhole. The key falls onto a piece of paper, which she pulls under the door.",
+        "She pulls off the door lock. Nob SOMEONE hurries inside. He opens the door and closes it again. Noticing Sam's blanket caught in the door. He tugs it in, then looks up to see the failed woman at his window."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Inside a tiny electronic device triggers an audio cassette labeled doorbell on a stereo."
+      ],
+      "combined_distances": [
+        0.022935688495635986,
+        0.06044113636016845,
+        0.08712428212165832
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 527,
+      "end_frame": 535,
+      "start_time": 105.4,
+      "end_time": 107.0,
+      "duration": 1.5999999999999943,
+      "generated_ad": "The boy quickly shuts the door as it opens inward, while he is on his bed with his laptop.",
+      "ground_truth": "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+      "ground_truth_id": "104119",
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "It hundreds of vhs tapes lined the bedroom decorated with brigsby bear items and toys, brigsby, bear action figures and a mug rest on shelves.",
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "combined_distances": [
+        0.00683985948562622,
+        0.00683985948562622,
+        0.03563833236694336
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 535,
+      "end_frame": 541,
+      "start_time": 107.0,
+      "end_time": 108.2,
+      "duration": 1.2000000000000028,
+      "generated_ad": "A dark-haired young man bends at the waist, while another person opens a closet, and various electronics are visible.",
+      "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+      "ground_truth_id": "104120",
+      "visual_context": [
+        "Come on, let's do this SOMEONE opens a closet, while the dark, haired young man steals electronics, their friend, a gruff young man with cornrows breaks, bases SOMEONE steel. Shoes then finds jewelry.",
+        "Mark bends at the waist everyday."
+      ],
+      "cross_modal_context": [
+        "In the living room, Connor touches several porcelain figurines hearings, a decorative bell, then rearranges small items on a table in his room. He continues to sketch the Prince sits on a throne with the pencil shaving as a crown.",
+        "Rosalie caresses Bella's hair and retrieves a brush on her way out."
+      ],
+      "combined_context": [
+        "Come on, let's do this SOMEONE opens a closet, while the dark, haired young man steals electronics, their friend, a gruff young man with cornrows breaks, bases SOMEONE steel. Shoes then finds jewelry.",
+        "Mark bends at the waist everyday.",
+        "Later, at the apartment, Leanne Hooks the external hard drive to her laptop."
+      ],
+      "combined_distances": [
+        0.09507761001586913,
+        0.09687029123306273,
+        0.09710598587989806
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 541,
+      "end_frame": 549,
+      "start_time": 108.2,
+      "end_time": 109.8,
+      "duration": 1.5999999999999943,
+      "generated_ad": "A person quickly gets out of bed and steps on a skateboard, causing a nearby beaker of milk to tip over.",
+      "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+      "ground_truth_id": "104120",
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "Brother SOMEONE throws it on the floor and breezes out."
+      ],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "While the boy smooths out a blanket over the mattress, gardner picks up a pillow from the stairs and plops it down on one end, he notices his sons. Downcast expression will be."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "Brother SOMEONE throws it on the floor and breezes out.",
+        " SOMEONE gets out of bed and steps on a skateboard causing him to knock over a beaker of milk."
+      ],
+      "combined_distances": [
+        0.03638321757316589,
+        0.0764553129673004,
+        0.0764553129673004
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 549,
+      "end_frame": 564,
+      "start_time": 109.8,
+      "end_time": 112.8,
+      "duration": 3.0,
+      "generated_ad": "The boy quickly shuts his laptop and turns his attention to the door as it opens inward, his movements swift in response to the sudden entrance.",
+      "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+      "ground_truth_id": "104120",
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "In his room, Spence plays video of the Brigsby movie on his laptop. That clip shows brigsby materializing in a grassy field.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Female character, he enhances the size of her body enlarging her breasts. He changes her breastplate to a more mesh."
+      ],
+      "combined_distances": [
+        -1.6689300537109374e-07,
+        0.021202921867370605,
+        0.035323196649551386
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 564,
+      "end_frame": 568,
+      "start_time": 112.8,
+      "end_time": 113.6,
+      "duration": 0.7999999999999972,
+      "generated_ad": "The boy quickly shuts the door as it opens inward while he is on his bed.",
+      "ground_truth": "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+      "ground_truth_id": "104120",
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "The teen spins in panicked circles with the room hazy around. Her items hang on the walls and sit on shelves. Marsha grab something off the shelf.",
+        "A boy awake in bed in his room in elf behind a curtain shuts off a night light."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "combined_distances": [
+        0.008421754837036131,
+        0.061962866783142084,
+        0.061962866783142084
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 568,
+      "end_frame": 575,
+      "start_time": 113.6,
+      "end_time": 115.0,
+      "duration": 1.4000000000000057,
+      "generated_ad": "The boy, with brown hair, is seen quickly shutting his door, which opens inward, as he sits on his bed with his laptop.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "Tech goggles, computer bedrooms, noisy toy count at 36 in slow motion, he falls high over the toys he scans the sleeping boy 56%.",
+        "With funding from Universal Pictures read by Miles Neff. For more information about motion picture access, visit our website. It access wgbh.org to our mom in a child's handwriting. Letters, spell SOMEONE "
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "A framed photo depicts three boys wearing sunglasses, a model of a werewolf's head and arms sits on a stool lying on the bed."
+      ],
+      "combined_distances": [
+        0.06537699699401855,
+        0.08852167725563048,
+        0.10245486497879028
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Where's your door closed, Maxie?"
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 575,
+      "end_frame": 581,
+      "start_time": 115.0,
+      "end_time": 116.2,
+      "duration": 1.2000000000000028,
+      "generated_ad": "As the dialogue is spoken, the father is seen standing in the doorway, looking at his daughter, with a power cord visibly tied between the bed and the doorknob.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully."
+      ],
+      "cross_modal_context": [
+        "The board of Baby Pictures is massive andy Samberg Katie Crown Kelsey Grammar Jennifer Aniston Ty Burrell Anton Starkman Keegan Michael Key Jordan Peele Danny Trejo Chris Smith. Stephen Kramer Glickman, a Warner Brothers pictures presentation.",
+        "Finn Wittrock and Marisa Tomei, Tracy Letts, Byron Mann at Apero Oduye."
+      ],
+      "combined_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully.",
+        " SOMEONE slowly crosses the room and sits beside her sister."
+      ],
+      "combined_distances": [
+        0.028721535205841062,
+        0.05003060102462768,
+        0.07909142971038818
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Where's your door closed, Maxie? Dad, I'm in sixth grade."
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 581,
+      "end_frame": 595,
+      "start_time": 116.2,
+      "end_time": 119.0,
+      "duration": 2.799999999999997,
+      "generated_ad": "As the boy, with brown hair, speaks, he ties one end of his laptop power cord to the doorknob and the other end to his bed, while standing in his room with a bed and a door visible in the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message.",
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        " SOMEONE gets out of bed and steps on a skateboard causing him to knock over a beaker of milk."
+      ],
+      "combined_distances": [
+        0.03842490315437316,
+        0.052475959062576294,
+        0.06107286810874939
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Where's your door closed, Maxie? Dad, I'm in sixth grade. I need privacy sometimes."
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 595,
+      "end_frame": 622,
+      "start_time": 119.0,
+      "end_time": 124.4,
+      "duration": 5.400000000000006,
+      "generated_ad": "As the boy speaks, he is shown tying a laptop power cord between the doorknob and his bed, while his father looks on, a brown-haired boy in the midst of preparing to leave, with a drone somehow visible in the scene.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "The board of Baby Pictures is massive andy Samberg Katie Crown Kelsey Grammar Jennifer Aniston Ty Burrell Anton Starkman Keegan Michael Key Jordan Peele Danny Trejo Chris Smith. Stephen Kramer Glickman, a Warner Brothers pictures presentation."
+      ],
+      "combined_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "combined_distances": [
+        0.015044569969177244,
+        0.02947743535041809,
+        0.050359463691711424
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Dad, I'm in sixth grade. I need privacy sometimes. Look, I'm heading to the airport. Be back in two days. Please be nice to your sister, help your mom, and do not touch the drone."
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 622,
+      "end_frame": 634,
+      "start_time": 124.4,
+      "end_time": 126.8,
+      "duration": 2.3999999999999915,
+      "generated_ad": "As the person speaks, they hold up a Christmas sweater with a reindeer on it, having just pulled it out of a dresser drawer.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in."
+      ],
+      "cross_modal_context": [
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door.",
+        "At home, Mark takes clothing out of a dresser drawer. He stops and stares down, pulling out a Christmas sweater adorned with a reindeer. He holds it up to his torso."
+      ],
+      "combined_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door.",
+        "At home, Mark takes clothing out of a dresser drawer. He stops and stares down, pulling out a Christmas sweater adorned with a reindeer. He holds it up to his torso."
+      ],
+      "combined_distances": [
+        0.10070924758911132,
+        0.805595350265503,
+        0.8183621883392335
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Be back in two days. Please be nice to your sister, help your mom, and do not touch the drone. I won't lie."
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 634,
+      "end_frame": 644,
+      "start_time": 126.8,
+      "end_time": 128.8,
+      "duration": 2.000000000000014,
+      "generated_ad": "A person holds out their hand and closes their eyes, as they speak directly to someone, likely a child, given the mention of a sister and a mom, in a brief, serious moment.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "In his room, Spence plays video of the Brigsby movie on his laptop. That clip shows brigsby materializing in a grassy field.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        " SOMEONE holds out his hand and closes his eyes."
+      ],
+      "combined_distances": [
+        0.04476804733276367,
+        0.04988231658935546,
+        0.06888421177864074
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Please be nice to your sister, help your mom, and do not touch the drone. I won't lie. I'm serious, okay?"
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 644,
+      "end_frame": 656,
+      "start_time": 128.8,
+      "end_time": 131.2,
+      "duration": 2.3999999999999773,
+      "generated_ad": "As the person speaks, they gesture and glance downward, while in the same room, a drone is visible, and the speaker's hand moves toward their pocket or possibly to emphasize a point.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in."
+      ],
+      "cross_modal_context": [
+        "At home, Mark takes clothing out of a dresser drawer. He stops and stares down, pulling out a Christmas sweater adorned with a reindeer. He holds it up to his torso.",
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door."
+      ],
+      "combined_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "At home, Mark takes clothing out of a dresser drawer. He stops and stares down, pulling out a Christmas sweater adorned with a reindeer. He holds it up to his torso.",
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door."
+      ],
+      "combined_distances": [
+        0.06318010091781616,
+        0.7951792836189271,
+        0.8012263536453248
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Please be nice to your sister, help your mom, and do not touch the drone. I won't lie. I'm serious, okay? It's not a toy, it's for my work. Yep, safe flight."
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 656,
+      "end_frame": 664,
+      "start_time": 131.2,
+      "end_time": 132.8,
+      "duration": 1.6000000000000227,
+      "generated_ad": "As the boy speaks, he stands in his room, near his bed, and interacts with his father, who is also present, while a laptop is visible nearby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway."
+      ],
+      "combined_distances": [
+        0.08548343181610107,
+        0.08720885515213012,
+        0.7742056608200074
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "I'm serious, okay? It's not a toy, it's for my work. Yep, safe flight. Bye, Dad. Love you."
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 664,
+      "end_frame": 681,
+      "start_time": 132.8,
+      "end_time": 136.2,
+      "duration": 3.3999999999999773,
+      "generated_ad": "As the boy speaks to his father, he gives him a hug, and the scene shows the boy's laptop and the power cord tied between the bed and the doorknob in the background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "In his room, Spence plays video of the Brigsby movie on his laptop. That clip shows brigsby materializing in a grassy field.",
+        "A boy awake in bed in his room in elf behind a curtain shuts off a night light."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob."
+      ],
+      "combined_distances": [
+        0.027855193614959715,
+        0.027855193614959715,
+        0.04690732359886169
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "It's not a toy, it's for my work. Yep, safe flight. Bye, Dad. Love you. Thank you. Hey, come give me a hug, bud."
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 681,
+      "end_frame": 692,
+      "start_time": 136.2,
+      "end_time": 138.4,
+      "duration": 2.200000000000017,
+      "generated_ad": "The boy's father guides him out of the room, holding him by the scruff of his neck, as they move towards the door.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway."
+      ],
+      "combined_distances": [
+        0.06694378852844238,
+        0.07881730794906616,
+        0.7601401746273041
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "Thank you. Hey, come give me a hug, bud. I'll give you two hugs when you get back."
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 692,
+      "end_frame": 730,
+      "start_time": 138.4,
+      "end_time": 146.0,
+      "duration": 7.599999999999994,
+      "generated_ad": "As the father speaks, he opens his arms for a hug and the brown-haired boy, smiling, approaches him, with a laptop power cord visibly tied between the bed and the doorknob in the background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully."
+      ],
+      "cross_modal_context": [
+        "The board of Baby Pictures is massive andy Samberg Katie Crown Kelsey Grammar Jennifer Aniston Ty Burrell Anton Starkman Keegan Michael Key Jordan Peele Danny Trejo Chris Smith. Stephen Kramer Glickman, a Warner Brothers pictures presentation.",
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson."
+      ],
+      "combined_context": [
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "The father shakes his head wistfully.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "combined_distances": [
+        -4.172325134277344e-07,
+        0.032420843839645386,
+        0.05323064923286438
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Hey, come give me a hug, bud. I'll give you two hugs when you get back. I get it. Why are you smiling?"
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 730,
+      "end_frame": 736,
+      "start_time": 146.0,
+      "end_time": 147.2,
+      "duration": 1.1999999999999886,
+      "generated_ad": "The boy, with brown hair, looks at someone, possibly smiling, as he lies on his bed, with his laptop nearby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message."
+      ],
+      "combined_distances": [
+        0.03928828239440918,
+        0.04994465112686157,
+        0.7738946199417115
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "I get it. Why are you smiling? You're just growing up."
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 736,
+      "end_frame": 754,
+      "start_time": 147.2,
+      "end_time": 150.8,
+      "duration": 3.6000000000000227,
+      "generated_ad": "As the mother walks into the room, the son looks down, his fingers poised over the electronic piano, and then he somberly taps a key, while his mother observes him with a gentle smile.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in."
+      ],
+      "cross_modal_context": [
+        "Peter sponsors father's briefcase in his closet, then gets out of bed and slams the closet door shot. He leans on his mattress, then turns back, pulls out the briefcase, and dumps its contents on the floor.",
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door."
+      ],
+      "combined_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "Peter sponsors father's briefcase in his closet, then gets out of bed and slams the closet door shot. He leans on his mattress, then turns back, pulls out the briefcase, and dumps its contents on the floor.",
+        "He closes the drawer and slides his hand toward his breast pocket. Upstairs, SOMEONE straightens the throw rug, but he kicked aside and walks toward the door."
+      ],
+      "combined_distances": [
+        0.0747913897037506,
+        0.7802333891391755,
+        0.7921859085559846
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I get it. Why are you smiling? You're just growing up. That's exciting to me. It's not."
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 754,
+      "end_frame": 762,
+      "start_time": 150.8,
+      "end_time": 152.4,
+      "duration": 1.5999999999999943,
+      "generated_ad": "The boy, with brown hair, looks at someone, smiles, and then stops smiling as he lies in his bed, surrounded by the familiar objects of his room, including his laptop and a night stand.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "cross_modal_context": [
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message.",
+        "On the bedside table, he finds a bottle of the green fluid and a syringe with a note that reads. Not all at once Richter."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message."
+      ],
+      "combined_distances": [
+        0.048585808277130126,
+        0.06653064489364624,
+        0.776200544834137
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "You're just growing up. That's exciting to me. It's not. Stop smiling."
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 762,
+      "end_frame": 789,
+      "start_time": 152.4,
+      "end_time": 157.8,
+      "duration": 5.400000000000006,
+      "generated_ad": "As the father sits on the bed, he looks around the room where a laptop power cord is tied between the bed and the doorknob.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The father shakes his head wistfully.",
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob."
+      ],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "Peter sponsors father's briefcase in his closet, then gets out of bed and slams the closet door shot. He leans on his mattress, then turns back, pulls out the briefcase, and dumps its contents on the floor."
+      ],
+      "combined_context": [
+        "The father shakes his head wistfully.",
+        " SOMEONE s father notices, the power cord tide between the bed and the doorknob.",
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's."
+      ],
+      "combined_distances": [
+        -5.006790161132812e-07,
+        0.032420843839645386,
+        0.0690596580505371
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "That's exciting to me. It's not. Stop smiling. He sits on the bed. I remember bringing you home from the hospital like it was yesterday."
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 789,
+      "end_frame": 804,
+      "start_time": 157.8,
+      "end_time": 160.8,
+      "duration": 3.0,
+      "generated_ad": "The boy sits on his bed as he speaks, surrounded by the familiar objects of his room, including his laptop and bed, with the door nearby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "The boy gets out of bed and his father guides him out of the room by the scruff of his neck. Nicky shoots a frightened look at the intruder as they pass him in the doorway.",
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "As she strokes his cheek with her thumb."
+      ],
+      "combined_distances": [
+        0.05085163116455078,
+        0.06190286874771118,
+        0.06313349604606629
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "He sits on the bed. I remember bringing you home from the hospital like it was yesterday."
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 804,
+      "end_frame": 823,
+      "start_time": 160.8,
+      "end_time": 164.6,
+      "duration": 3.799999999999983,
+      "generated_ad": "As the mother speaks, she stands in the room where her child sits, possibly near an electronic piano, with a somber atmosphere, while the child's gaze is directed downward.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in."
+      ],
+      "cross_modal_context": [
+        "As a father through a window, patty sees her dad boarding the tuck she races over.",
+        "Wearing a collared gingham smog in short, pants."
+      ],
+      "combined_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "As a father through a window, patty sees her dad boarding the tuck she races over.",
+        "Wearing a collared gingham smog in short, pants."
+      ],
+      "combined_distances": [
+        0.09074727892875671,
+        0.7997375667095185,
+        0.8051504254341126
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I remember bringing you home from the hospital like it was yesterday. Now, here you are, sexually masturbating yourself. Wait, I think it wasn't."
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 823,
+      "end_frame": 829,
+      "start_time": 164.6,
+      "end_time": 165.8,
+      "duration": 1.200000000000017,
+      "generated_ad": "The boy, with brown hair, is on his bed, looking at his laptop, as the door opens inward.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "On the bedside table, he finds a bottle of the green fluid and a syringe with a note that reads. Not all at once Richter.",
+        "He opens the drawer of his night stand and pulls out a pencil as he writes on a small notepad. Marie and gets under the sheet and clambers on top of him and max squeezes his eyes closed before continuing to take the message."
+      ],
+      "combined_context": [
+        "He looks around his room. The brown haired boy ties one end of his laptop power cord to his doorknob and the other end of his bed's.",
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "On the bedside table, he finds a bottle of the green fluid and a syringe with a note that reads. Not all at once Richter."
+      ],
+      "combined_distances": [
+        0.05263972282409668,
+        0.05973280072212219,
+        0.7738718032836914
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "Now, here you are, sexually masturbating yourself. Wait, I think it wasn't. Hey, it's cool, fool."
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 829,
+      "end_frame": 834,
+      "start_time": 165.8,
+      "end_time": 166.8,
+      "duration": 1.0,
+      "generated_ad": "The father is seen shaking his head, as he sits on the couch with his family, including Nora, who is wriggling excitedly beside her mom, while they all gather around the TV.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The father shakes his head wistfully.",
+        "The next day the family gathers at the tv, ladies and gentlemen."
+      ],
+      "cross_modal_context": [
+        "A man in his 40s wearing a Gray sweatshirt continues examining Dad flashing a light in his eyes, then unzipping his coat.",
+        "A man in khakis holds a starter pistol. The mcfarland boys look around them a tall runner with a centennial uniform turns where."
+      ],
+      "combined_context": [
+        "The father shakes his head wistfully.",
+        "The next day the family gathers at the tv, ladies and gentlemen.",
+        "He joins SOMEONE and the others on the couch. Nora wriggles excitedly beside her mom. Photos and home movie clips tell the Spears 20 year love story."
+      ],
+      "combined_distances": [
+        0.08725316524505615,
+        0.10582998394966125,
+        0.10582998394966125
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Now, here you are, sexually masturbating yourself. Wait, I think it wasn't. Hey, it's cool, fool."
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 834,
+      "end_frame": 842,
+      "start_time": 166.8,
+      "end_time": 168.4,
+      "duration": 1.5999999999999943,
+      "generated_ad": "As the dialogue begins, a boy is visible, and his actions and the scene's context are briefly shown, but the short duration only allows for a glimpse of him and possibly someone else, before the scene cuts.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the."
+      ],
+      "cross_modal_context": [
+        "The renter shuts window curtains, then notices Oscar entering as the boy takes off his jacket.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_context": [
+        "Footboard he climbs back onto his bed, looks at his laptop and smiles. The door opens inward and the boy quickly shuts the.",
+        "The renter shuts window curtains, then notices Oscar entering as the boy takes off his jacket.",
+        "Logan lies in a bed, while a boy with raised scaly patterns on his skin draws the green fluid from a bottle into a syringe. He turns to the dark. Haired boy is."
+      ],
+      "combined_distances": [
+        0.06393917202949524,
+        0.7800575435161591,
+        0.7804208397865297
+      ],
+      "combined_sources": [
+        "visual",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Now, here you are, sexually masturbating yourself. Wait, I think it wasn't. Hey, it's cool, fool. It's like you got a new toy, the best toy in the world, and you just wanna keep playing with it."
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 842,
+      "end_frame": 859,
+      "start_time": 168.4,
+      "end_time": 171.8,
+      "duration": 3.4000000000000057,
+      "generated_ad": "As the character speaks, he gazes downward, his fingers somberly tapping a key on his electronic piano, while his mother walks into the room.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "The father shakes his head wistfully."
+      ],
+      "cross_modal_context": [
+        "As a father through a window, patty sees her dad boarding the tuck she races over.",
+        "The dad smirks is SOMEONE pools SOMEONE along."
+      ],
+      "combined_context": [
+        "Like you SOMEONE fixes his gaze downward in his room, SOMEONE somberly taps a key on his electronic piano, his mother walks in.",
+        "The father shakes his head wistfully.",
+        "As a father through a window, patty sees her dad boarding the tuck she races over."
+      ],
+      "combined_distances": [
+        0.08159615993499755,
+        0.0941881537437439,
+        0.8050676822662354
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "Hey, it's cool, fool. It's like you got a new toy, the best toy in the world, and you just wanna keep playing with it."
+    }
+  ]
+}

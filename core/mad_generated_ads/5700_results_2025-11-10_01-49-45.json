@@ -1,0 +1,1059 @@
+{
+  "movie_id": "5700",
+  "total_shots": 30,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 14,
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "duration": 2.8,
+      "movie_id": "5700",
+      "generated_ad": "The screen fades in to display the production company logos, with \"Warner Brothers Pictures\" and \"Legendary Pictures\" appearing in bold text, followed by the presentation and production credits listing the producers and executive producers involved in the project.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe."
+      ],
+      "cross_modal_context": [
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping.",
+        "On a black background, horizontal neon lines cascade downward, forming a giant letter. A words appear Annapurna pictures. The lettering launches forward, forming an arch of light over our view."
+      ],
+      "combined_context": [
+        "Warner Brothers Pictures and Legendary Pictures present a legendary pictures production.",
+        "PGA Jason Blumenthal, PGA Steve Tisch, PGA executive producer David Householder, executive producers Jason Segel, Jake Kasdan, executive producers David Bloomfield, then Weissman director of photography Tim searched at ASC production designer Jefferson Sage edited by Tara Timpone, EAC E Steve Edwards, Cameron Diaz, Jason Segel, Rob Cordrey, Ellie Kemper, Rob Lowe.",
+        "Cut to black."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.0
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 14,
+      "end_frame": 116,
+      "start_time": 2.8,
+      "end_time": 23.2,
+      "duration": 20.4,
+      "movie_id": "5700",
+      "generated_ad": "As the dialogue mentions trials and tribulations, rays of light shoot off the continents and a three-dimensional word orbits the planet.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In a logo, a fishing bobber drops into a pool of blue water which reflects a Crescent moon.",
+        "Our view soars up into the sky where a boy sits on the moon's edge holding a fishing pole amid billowing clouds."
+      ],
+      "cross_modal_context": [
+        "This motion picture copyright 2001 DreamWorks LLC and Warner Brothers Screenplay copyright 2001 DreamWorks, LLC and Warner Brothers original Score Copyright 2001 DreamWorks LLC and Warner Brothers.",
+        "DreamWorks 2 Distribution Company LLC and 20th Century Fox Film Corporation are the authors and creators of this motion picture."
+      ],
+      "combined_context": [
+        "In a logo, a fishing bobber drops into a pool of blue water which reflects a Crescent moon.",
+        "Our view soars up into the sky where a boy sits on the moon's edge holding a fishing pole amid billowing clouds.",
+        "We float past giant block letters."
+      ],
+      "combined_distances": [
+        0.017715317010879514,
+        0.017715317010879514,
+        0.017715317010879514
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Life of pain, came something beautiful Rays of light shoot off the continents and a three-dimensional word orbits the planet, universal There have been trials and tribulations, and not just a few But we made it through Now the times that end In a logo, a fishing bobber drops into water reflecting a "
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 116,
+      "end_frame": 178,
+      "start_time": 23.2,
+      "end_time": 35.6,
+      "duration": 12.400000000000002,
+      "movie_id": "5700",
+      "generated_ad": "As the dialogue mentions \"Rays of light shoot off the continents\", a three-dimensional word \"universal\" orbits a planet, which is encircled by two rings, while light emanates from the continents.",
+      "ground_truth": "We're gonna get married in a logo. A fishing bobber drops into water reflecting a Crescent moon. A boy sits on the moon's edge holding a fishing pole. Amid billowing clouds, we float past giant block letters. DreamWorks SKG.",
+      "ground_truth_id": "281069",
+      "visual_context": [
+        "A planet spins interview in a vast Galaxy.",
+        "Two rings encircle it as words appear universal and MCA company Polygram Filmed Entertainment presents in association with working title films from Notting Hill, Pictures, a Duncan Kenworthy production, a Roger Mitchell film."
+      ],
+      "cross_modal_context": [
+        "Additional visual effects by Vision Global A Canada, Germany coproduction song Bassnectar HEXUS featuring Chino Moreno written by Bassnectar and Chino Moreno.",
+        "Executive producers Tsunekazu Ishihara, Kenji Okubo, Tokyo Miyahara executive producers, hero Matsuoka, Koji Ueda, director of photography John Mathieson, BSc production designer Nigel Phelps, film editors, mark singer, AC James Thomas, music by Henry Jackman, Pokémon Spring from the pages of Japanese manga visual effects supervisor Erik Nordby, costume designer Susie Harmon comic book pages illustrate Harris car crashing off the bridge casting by Sarah Halley, Finn, CSA, Gina J."
+      ],
+      "combined_context": [
+        "A planet spins interview in a vast Galaxy.",
+        "Two rings encircle it as words appear universal and MCA company Polygram Filmed Entertainment presents in association with working title films from Notting Hill, Pictures, a Duncan Kenworthy production, a Roger Mitchell film.",
+        "In a logo, a fishing bobber drops into a pool of blue water which reflects the Crescent moon."
+      ],
+      "combined_distances": [
+        0.014336401224136352,
+        0.014336401224136352,
+        0.016259050369262694
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Life of pain, came something beautiful Rays of light shoot off the continents and a three-dimensional word orbits the planet, universal There have been trials and tribulations, and not just a few But we made it through Now the times that end In a logo, a fishing bobber drops into water reflecting a "
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 178,
+      "end_frame": 227,
+      "start_time": 35.6,
+      "end_time": 45.4,
+      "duration": 9.799999999999997,
+      "movie_id": "5700",
+      "generated_ad": "As the planet spins, rays of light shoot up from the continents and a three-dimensional word \"universal\" orbits the Earth.",
+      "ground_truth": "We're gonna get married in a logo. A fishing bobber drops into water reflecting a Crescent moon. A boy sits on the moon's edge holding a fishing pole. Amid billowing clouds, we float past giant block letters. DreamWorks SKG.",
+      "ground_truth_id": "281069",
+      "visual_context": [
+        "Sunlight crests the Earth's surface as rays of light shoot up from the continents. The planet spins. Interview with the word across it universal. A web address appears www.universalstudios.com.",
+        "A web address appears www.universalstudios.com."
+      ],
+      "cross_modal_context": [
+        "Opening titles, Universal Pictures, and Emmett Furla films present a film 44 Spikings entertainment, single Berry production, and Emmett Furla films, Herrick Entertainment envisioned entertainment production.",
+        "Animated Universal Studios logo copyright 1997 Universal Studios Universal Studios is the author of this motion picture."
+      ],
+      "combined_context": [
+        "Sunlight crests the Earth's surface as rays of light shoot up from the continents. The planet spins. Interview with the word across it universal. A web address appears www.universalstudios.com.",
+        "A web address appears www.universalstudios.com.",
+        "Two rings encircle it as words appear universal and MCA company Polygram Filmed Entertainment presents in association with working title films from Notting Hill, Pictures, a Duncan Kenworthy production, a Roger Mitchell film."
+      ],
+      "combined_distances": [
+        0.012179309129714965,
+        0.01444408893585205,
+        0.01495753526687622
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Life of pain, came something beautiful Rays of light shoot off the continents and a three-dimensional word orbits the planet, universal There have been trials and tribulations, and not just a few But we made it through Now the times that end In a logo, a fishing bobber drops into water reflecting a "
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 227,
+      "end_frame": 255,
+      "start_time": 45.4,
+      "end_time": 51.0,
+      "duration": 5.600000000000001,
+      "movie_id": "5700",
+      "generated_ad": "The production company's logo, set against the backdrop of the Chicago city skyline, features a stylized text overlay with the company name, while reflective glass windows and steel architecture subtly animate in the background.",
+      "ground_truth": "Don't get married now. Review floats toward the city of Chicago in springtime, in a hospital emergency room. A man in scrubs reaches between a pregnant woman's legs.",
+      "ground_truth_id": "281070",
+      "visual_context": [
+        "The Chicago city skyline glitters under the sun.",
+        "Second rows of glass windows reflect the surrounding steel architecture."
+      ],
+      "cross_modal_context": [
+        "Co starring Jimmy Smits, Peter Mayhew, Ahmed Best, Oliver Ford, Davies, Tamira Morrison, Anthony Daniels, Silas Carson, Kenny Baker with Samuel L Jackson is SOMEONE and Christopher Lee is Count Dooku.",
+        "Credits appear over glimpses of the characters Eddie Murphy as Prince Akeem, Arsenio Hall as semi James Earl Jones as King, Jaffe Joffer, Madge Sinclair as queen alien, John Amos as Cleo McDowell, Shari Headley as Lisa McDowell."
+      ],
+      "combined_context": [
+        "The Chicago city skyline glitters under the sun.",
+        "Second rows of glass windows reflect the surrounding steel architecture.",
+        "Meanwhile, SOMEONE Sloan and SOMEONE looked down on the city from an observation deck."
+      ],
+      "combined_distances": [
+        0.05530191659927368,
+        0.05530191659927368,
+        0.05746693611145019
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 255,
+      "end_frame": 291,
+      "start_time": 51.0,
+      "end_time": 58.2,
+      "duration": 7.200000000000003,
+      "movie_id": "5700",
+      "generated_ad": "As the person exits the train with its red lights flicking on, they stride across the platform with a determined look.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The subway train barrels out of the tunnel. Later it slowly comes to a stop at a damp, shadowy platform.",
+        "On the side of the train, red lights flick on and the door is open."
+      ],
+      "cross_modal_context": [
+        "Approximate glances off and Scarlet Witch follows her gaze to the platform on the other side of the train and glides out of view to reveal the silhouette of a muscular figure on the platform.",
+        "Later buses and cars pass through the Lincoln Tunnel where SOMEONE sidesteps fearfully along a maintenance walkway with his back flat to the wall. Now he makes it into the sunlight."
+      ],
+      "combined_context": [
+        "The subway train barrels out of the tunnel. Later it slowly comes to a stop at a damp, shadowy platform.",
+        "On the side of the train, red lights flick on and the door is open.",
+        "The murderer exits and strides across the platform with a determined look."
+      ],
+      "combined_distances": [
+        0.06190424561500549,
+        0.06190424561500549,
+        0.06190424561500549
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "way to have seen You must do something!"
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 291,
+      "end_frame": 335,
+      "start_time": 58.2,
+      "end_time": 67.0,
+      "duration": 8.799999999999997,
+      "movie_id": "5700",
+      "generated_ad": "As the nurses and a midwife move around, one nurse rushes to get a doctor while another tends to a woman, likely in labor, who is being instructed to take deep breaths and stay calm.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "She holds baby freightos arms down, as the nurse ignites a small piece of cloth wrapped around a coin sized object.",
+        "The midwife George cradles a second baby."
+      ],
+      "combined_context": [
+        "She holds baby freightos arms down, as the nurse ignites a small piece of cloth wrapped around a coin sized object.",
+        "The midwife George cradles a second baby.",
+        "In a maternity ward, SOMEONE looks through the glass at babies in clear hospital cribs. 2 nurses in pink scrubs, 10 to the infants, one rocks a baby in her arms."
+      ],
+      "combined_distances": [
+        0.7730449616909028,
+        0.7731128215789795,
+        0.7751987099647523
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "way to have seen You must do something! Baby's coming! Yeah, I know Baby's coming. Miss, you have to stay calm and take deep breaths, okay? Lyra, I need a doctor here right now."
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 335,
+      "end_frame": 343,
+      "start_time": 67.0,
+      "end_time": 68.6,
+      "duration": 1.5999999999999943,
+      "movie_id": "5700",
+      "generated_ad": "A person, likely a medical professional, is shown speaking urgently as they attend to someone, possibly a woman in labor, while another individual, presumably Lyra, is nearby and being spoken to in a calming manner.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He puts his hands over his ears, he waves them, then rub them against the walls. Gritting his teeth, Mrs. Wilkinson storms out of their house.",
+        "They can't just close the and safety goggles filled the bow tie wearing SOMEONE whizzes towards the campus on an electric scooter in a classroom."
+      ],
+      "cross_modal_context": [
+        "A compassionate look now at antigen lab, subject two lines on the floor still in her hybrid vampire, like in state as she calls feebly, the door opens and two workers in gas masks in hospital, scrubs roll, a stretcher and meanwhile SOMEONE parks in front of the facilities. Outdoor lobby.",
+        "Doctor said her throws a curtain open and Joyce frowns slightly as she beholds the team of nurses standing around the bed. Its occupant hidden from view."
+      ],
+      "combined_context": [
+        "He puts his hands over his ears, he waves them, then rub them against the walls. Gritting his teeth, Mrs. Wilkinson storms out of their house.",
+        "They can't just close the and safety goggles filled the bow tie wearing SOMEONE whizzes towards the campus on an electric scooter in a classroom.",
+        "Grace leaves amused."
+      ],
+      "combined_distances": [
+        0.10704776048660278,
+        0.11290537118911742,
+        0.11515450477600096
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Miss, you have to stay calm and take deep breaths, okay? Lyra, I need a doctor here right now. I'm working on it. You're a mouse doctor?"
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 343,
+      "end_frame": 350,
+      "start_time": 68.6,
+      "end_time": 70.0,
+      "duration": 1.4000000000000057,
+      "movie_id": "5700",
+      "generated_ad": "A person, likely a nurse, is present and appears to be working on something, while another person, possibly a woman named Lyra, is in the scene, as a conversation about needing a doctor and the nurse's profession is taking place.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense."
+      ],
+      "cross_modal_context": [
+        "Later in a sanitarium room, SOMEONE removes Pembrokes file from inside his cast.",
+        "Later, Susanna, wearing a hospital gown and a skullcap with electrodes, sneaks out of her room. She tries the hallway door and finds it locked."
+      ],
+      "combined_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense.",
+        "Is my baby."
+      ],
+      "combined_distances": [
+        0.1214721143245697,
+        0.1214721143245697,
+        0.1214721143245697
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Lyra, I need a doctor here right now. I'm working on it. You're a mouse doctor? No, I'm a nurse."
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 350,
+      "end_frame": 359,
+      "start_time": 70.0,
+      "end_time": 71.8,
+      "duration": 1.7999999999999972,
+      "movie_id": "5700",
+      "generated_ad": "A man, likely a nurse, looks up from his work at a nurses station, making eye contact, as he responds to someone's question.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Noting the list of credited doctors beside an article, Bennett looks at SOMEONE s name, he finds his own name heading the list just above Dekosky. He turns the page, then looks up with bright eyes.",
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up."
+      ],
+      "combined_context": [
+        "Noting the list of credited doctors beside an article, Bennett looks at SOMEONE s name, he finds his own name heading the list just above Dekosky. He turns the page, then looks up with bright eyes.",
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "The middle aged man in a blue hospital gown winces as he stands bent over an examination table."
+      ],
+      "combined_distances": [
+        0.7959798336029054,
+        0.7960680842399598,
+        0.7999176740646363
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I'm working on it. You're a mouse doctor? No, I'm a nurse. You're a man and you're a nurse?"
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 359,
+      "end_frame": 370,
+      "start_time": 71.8,
+      "end_time": 74.0,
+      "duration": 2.200000000000003,
+      "movie_id": "5700",
+      "generated_ad": "A man, appearing to be a nurse based on the conversation, stands facing someone who looks at him with a mixture of surprise and curiosity, as they exchange words.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense."
+      ],
+      "cross_modal_context": [
+        "The midwife George cradles a second baby.",
+        "Patrick baby S Petite's father, Ben Kingsley as Papa Rudy, Marie Turgeon as petites mother Sharla Labonne as Annie Catherine Lemieux Aztecs and SOMEONE SOMEONE "
+      ],
+      "combined_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense.",
+        "Is my baby."
+      ],
+      "combined_distances": [
+        0.11709805727005004,
+        0.11709805727005004,
+        0.11709805727005004
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "You're a mouse doctor? No, I'm a nurse. You're a man and you're a nurse? What kind of man is nurse?"
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 370,
+      "end_frame": 385,
+      "start_time": 74.0,
+      "end_time": 77.0,
+      "duration": 3.0,
+      "movie_id": "5700",
+      "generated_ad": "A nurse, who is a man, stands at a location where he is being addressed by someone, as he responds defensively to a question about his profession.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "Next, another MRI later, the technician hands Doctor Ryan and Doctor Khan the results. They study them looking thoughtful. Steven lies next to Susanna while her parents meet with Doctor Khan."
+      ],
+      "combined_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "Next, another MRI later, the technician hands Doctor Ryan and Doctor Khan the results. They study them looking thoughtful. Steven lies next to Susanna while her parents meet with Doctor Khan.",
+        "A nurse approaches Eric's bedside and SOMEONE pulls himself from his thoughts."
+      ],
+      "combined_distances": [
+        0.7828272104263306,
+        0.792043697834015,
+        0.7936290621757508
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You're a man and you're a nurse? What kind of man is nurse? Folks, I'm a professional, okay?"
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 385,
+      "end_frame": 392,
+      "start_time": 77.0,
+      "end_time": 78.4,
+      "duration": 1.4000000000000057,
+      "movie_id": "5700",
+      "generated_ad": "Doctor Evans stands facing someone's parents, speaking directly to them with a professional demeanor as he says, \"Folks, I'm a professional, okay?\"",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense."
+      ],
+      "cross_modal_context": [
+        "Wendi Mclendon Covey as Carol Judy Kate Walsh as Pat SOMEONE  Brian D'Arcy James as Robert Kunkle, Micah Monroe as Joan SOMEONE ",
+        "Later, Susanna, wearing a hospital gown and a skullcap with electrodes, sneaks out of her room. She tries the hallway door and finds it locked."
+      ],
+      "combined_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense.",
+        "Is my baby."
+      ],
+      "combined_distances": [
+        0.14442536830902097,
+        0.14442536830902097,
+        0.14442536830902097
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Folks, I'm a professional, okay? I know exactly what I'm doing, so just trust me."
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 392,
+      "end_frame": 400,
+      "start_time": 78.4,
+      "end_time": 80.0,
+      "duration": 1.5999999999999943,
+      "movie_id": "5700",
+      "generated_ad": "As the person speaks, they stand confidently, gesturing with their hands to emphasize their words, while the surrounding environment and other characters' reactions are not clearly visible.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "Next, another MRI later, the technician hands Doctor Ryan and Doctor Khan the results. They study them looking thoughtful. Steven lies next to Susanna while her parents meet with Doctor Khan."
+      ],
+      "combined_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "Next, another MRI later, the technician hands Doctor Ryan and Doctor Khan the results. They study them looking thoughtful. Steven lies next to Susanna while her parents meet with Doctor Khan.",
+        "One fletcher backs away, and the nurse gives her patient and insincere looking smile later, doctor, fletcher and magna walked down a corridor, probably."
+      ],
+      "combined_distances": [
+        0.8102877140045167,
+        0.810854196548462,
+        0.8173644185066223
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Folks, I'm a professional, okay? I know exactly what I'm doing, so just trust me. Everything's gonna be fine, all right?"
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 400,
+      "end_frame": 406,
+      "start_time": 80.0,
+      "end_time": 81.2,
+      "duration": 1.2000000000000028,
+      "movie_id": "5700",
+      "generated_ad": "Doctor Evans stands facing someone's parents, speaking directly to them with a confident expression as he gestures to convey reassurance.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense."
+      ],
+      "cross_modal_context": [
+        "Later, Susanna, wearing a hospital gown and a skullcap with electrodes, sneaks out of her room. She tries the hallway door and finds it locked.",
+        "At a hospital, SOMEONE holds Sean as he and SOMEONE wait outside her room. A nurse comes out ahead of a man, pushing Michael on a Gurney."
+      ],
+      "combined_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense.",
+        "Is my baby."
+      ],
+      "combined_distances": [
+        0.12346769571304321,
+        0.12346769571304321,
+        0.12346769571304321
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Folks, I'm a professional, okay? I know exactly what I'm doing, so just trust me. Everything's gonna be fine, all right?"
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 406,
+      "end_frame": 418,
+      "start_time": 81.2,
+      "end_time": 83.6,
+      "duration": 2.3999999999999915,
+      "movie_id": "5700",
+      "generated_ad": "A nurse, seemingly busy, glances up as a person, likely a doctor, approaches, while a hospital setting with medical equipment is visible in the background.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "The middle aged man in a blue hospital gown winces as he stands bent over an examination table."
+      ],
+      "combined_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "The middle aged man in a blue hospital gown winces as he stands bent over an examination table.",
+        "Danny scowls in his office Greasy Hands Ben at a surgical mask with the plastic visor, and he slips it over his face. The doctor puts on his headphones."
+      ],
+      "combined_distances": [
+        0.8006643295288086,
+        0.8019688785076142,
+        0.8031083345413209
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "I know exactly what I'm doing, so just trust me. Everything's gonna be fine, all right? Yeah, you're fully dilated. Hey, I need that doctor right now there are no free doctors nurse."
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 418,
+      "end_frame": 429,
+      "start_time": 83.6,
+      "end_time": 85.8,
+      "duration": 2.200000000000003,
+      "movie_id": "5700",
+      "generated_ad": "A nurse, likely in a hospital setting, urgently calls for a doctor while tending to a patient, possibly a woman in labor, as indicated by the mention of being \"fully dilated\".",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Newborn animal struggles to walk in the hospital the baby stirs.",
+        "In a maternity ward, SOMEONE looks through the glass at babies in clear hospital cribs. 2 nurses in pink scrubs, 10 to the infants, one rocks a baby in her arms."
+      ],
+      "combined_context": [
+        "Newborn animal struggles to walk in the hospital the baby stirs.",
+        "In a maternity ward, SOMEONE looks through the glass at babies in clear hospital cribs. 2 nurses in pink scrubs, 10 to the infants, one rocks a baby in her arms.",
+        "As the baby floats gently away, the dogs charged across the water and attacked the midwife. The baby watches the dogs, knock her caregiver down as she floats away."
+      ],
+      "combined_distances": [
+        0.7932230830192567,
+        0.7941244721412659,
+        0.7957674026489259
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Yeah, you're fully dilated. Hey, I need that doctor right now there are no free doctors nurse."
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 429,
+      "end_frame": 436,
+      "start_time": 85.8,
+      "end_time": 87.2,
+      "duration": 1.4000000000000057,
+      "movie_id": "5700",
+      "generated_ad": "As the nurse speaks, Mira hands a swaddled newborn to a male nurse.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Now, Mr. SOMEONE marches through the house with a trash bag outside. He storms across the lawn reaches over the fence and deposits the bag with other garbage on the sidewalk.",
+        "Where is doris."
+      ],
+      "cross_modal_context": [
+        "A nurse heads away, and an orderly pushes a patient in a wheelchair in the distance in a large room, Rosa patients stand in a swimming pool.",
+        "Finds the blonde nurse pulling sheets off the empty bed while another mops, the."
+      ],
+      "combined_context": [
+        "Now, Mr. SOMEONE marches through the house with a trash bag outside. He storms across the lawn reaches over the fence and deposits the bag with other garbage on the sidewalk.",
+        "Where is doris.",
+        "The doctor answers a desk phone, yeah?"
+      ],
+      "combined_distances": [
+        0.1153465986251831,
+        0.12314788699150085,
+        0.1239995002746582
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Yeah, you're fully dilated. Hey, I need that doctor right now there are no free doctors nurse. You're gonna have to deliver that baby yourself Later Mira hands the swaddle newborn to the male nurse Check it out you did it the boy the mother gently takes her child boy you're my hero I name a baby May"
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 436,
+      "end_frame": 447,
+      "start_time": 87.2,
+      "end_time": 89.4,
+      "duration": 2.200000000000003,
+      "movie_id": "5700",
+      "generated_ad": "As the male nurse is handed a swaddled newborn, he looks at the baby with a noticeable expression, while Mira, likely a nurse, stands beside him, having just delivered the baby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense."
+      ],
+      "cross_modal_context": [
+        "A nurse heads away, and an orderly pushes a patient in a wheelchair in the distance in a large room, Rosa patients stand in a swimming pool.",
+        "One fletcher backs away, and the nurse gives her patient and insincere looking smile later, doctor, fletcher and magna walked down a corridor, probably."
+      ],
+      "combined_context": [
+        "Doctor Evans approaches SOMEONE s parents.",
+        "Behind them, mister valdez said he noticed his his wife staring off her lips stiff and tense.",
+        "Is my baby."
+      ],
+      "combined_distances": [
+        0.10857245326042175,
+        0.10857245326042175,
+        0.10857245326042175
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Hey, I need that doctor right now there are no free doctors nurse. You're gonna have to deliver that baby yourself Later Mira hands the swaddle newborn to the male nurse Check it out you did it the boy the mother gently takes her child boy you're my hero I name a baby Maybe for you!"
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 447,
+      "end_frame": 473,
+      "start_time": 89.4,
+      "end_time": 94.6,
+      "duration": 5.199999999999989,
+      "movie_id": "5700",
+      "generated_ad": "As the dialogue unfolds, a male nurse is handed a swaddled newborn by Mira, and he holds the baby, while nurses in pink scrubs are nearby, one of them rocking a baby.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "At the hospital, SOMEONE removes a bottle of Milky Liquid label propofol from a drawer and pockets it in his lab coat."
+      ],
+      "combined_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "At the hospital, SOMEONE removes a bottle of Milky Liquid label propofol from a drawer and pockets it in his lab coat.",
+        "In a maternity ward, SOMEONE looks through the glass at babies in clear hospital cribs. 2 nurses in pink scrubs, 10 to the infants, one rocks a baby in her arms."
+      ],
+      "combined_distances": [
+        0.7721918940544129,
+        0.7805606901645661,
+        0.7821493983268738
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Hey, I need that doctor right now there are no free doctors nurse. You're gonna have to deliver that baby yourself Later Mira hands the swaddle newborn to the male nurse Check it out you did it the boy the mother gently takes her child boy you're my hero I name a baby Maybe for you!"
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 473,
+      "end_frame": 484,
+      "start_time": 94.6,
+      "end_time": 96.8,
+      "duration": 2.200000000000003,
+      "movie_id": "5700",
+      "generated_ad": "Later, Mira hands a swaddled newborn to the male nurse, and the mother gently takes her child, smiling as she looks at the baby.",
+      "ground_truth": "Later, Mara hands the swaddled newborn to the male nurse.",
+      "ground_truth_id": "281071",
+      "visual_context": [
+        "From outside the open window, the yardstick swings down.",
+        "Miss Kettlewell scrapes at the blood stained linoleum floor."
+      ],
+      "cross_modal_context": [
+        "Later in a sanitarium room, SOMEONE removes Pembrokes file from inside his cast.",
+        "At night, robbins having another bleed SOMEONE attaches the ventilator tube to the port in his neck, her hands his pajamas and a pillow are soaked with blood. His contorted face finally stills as air reaches his lungs."
+      ],
+      "combined_context": [
+        "From outside the open window, the yardstick swings down.",
+        "Miss Kettlewell scrapes at the blood stained linoleum floor.",
+        "They pull poppers and streamers fly out."
+      ],
+      "combined_distances": [
+        0.11752234101295471,
+        0.11784811615943908,
+        0.12083754539489745
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "You're gonna have to deliver that baby yourself Later Mira hands the swaddle newborn to the male nurse Check it out you did it the boy the mother gently takes her child boy you're my hero I name a baby Maybe for you!"
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 484,
+      "end_frame": 594,
+      "start_time": 96.8,
+      "end_time": 118.8,
+      "duration": 22.0,
+      "movie_id": "5700",
+      "generated_ad": "As the dialogue celebrates the birth, Mira hands a swaddled newborn to a male nurse, who accepts the baby with a smile, while the mother gently takes her child, beaming with joy.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "The midwife George cradles a second baby."
+      ],
+      "combined_context": [
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "The midwife George cradles a second baby.",
+        "At the hospital, SOMEONE removes a bottle of Milky Liquid label propofol from a drawer and pockets it in his lab coat."
+      ],
+      "combined_distances": [
+        0.7637742519378663,
+        0.7679923176765443,
+        0.7783708810806275
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "You're gonna have to deliver that baby yourself Later Mira hands the swaddle newborn to the male nurse Check it out you did it the boy the mother gently takes her child boy you're my hero I name a baby Maybe for you! Oh, you don't have to do that."
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 594,
+      "end_frame": 602,
+      "start_time": 118.8,
+      "end_time": 120.4,
+      "duration": 1.6000000000000085,
+      "movie_id": "5700",
+      "generated_ad": "A surgeon stops and stares, then staggers backwards.",
+      "ground_truth": "He checks the nurses name tag.",
+      "ground_truth_id": "281073",
+      "visual_context": [
+        "Run out of theater one surgeon stops and stares staggers backwards.",
+        "Move off with the doctor, SOMEONE and SOMEONE follows slowly."
+      ],
+      "cross_modal_context": [
+        "Jodi wrestler as nurse. Rachel Lydia is Adele as nurse, Lydia Yardley Kavanaugh as nurse Judy, Audrey D LaRoche as nurse Audrey Robert Harrison, Juliet Boumans as paramedics.",
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up."
+      ],
+      "combined_context": [
+        "Run out of theater one surgeon stops and stares staggers backwards.",
+        "Move off with the doctor, SOMEONE and SOMEONE follows slowly.",
+        "What are doing."
+      ],
+      "combined_distances": [
+        0.3019891381263733,
+        0.3108590006828308,
+        0.3108590006828308
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 602,
+      "end_frame": 618,
+      "start_time": 120.4,
+      "end_time": 123.6,
+      "duration": 3.1999999999999886,
+      "movie_id": "5700",
+      "generated_ad": "A man, wearing a hospital gown and rolling an IV drip stand, walks over to a nurses station where a nurse looks up from her work.",
+      "ground_truth": "Gaylord SOMEONE RN the new father stairs later SOMEONE Bicycles to an apartment building inside he packs his suitcase while using a phone.",
+      "ground_truth_id": "281074",
+      "visual_context": [],
+      "cross_modal_context": [
+        "Carlos saldana, as screaming matadore, jeremy sisto as SOMEONE s SOMEONE bobby cannavale, as SOMEONE s SOMEONE  raul esparza as moreno luis, carlos de la lambana, as ranch.",
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up."
+      ],
+      "combined_context": [
+        "Carlos saldana, as screaming matadore, jeremy sisto as SOMEONE s SOMEONE bobby cannavale, as SOMEONE s SOMEONE  raul esparza as moreno luis, carlos de la lambana, as ranch.",
+        "Moments later, wearing his hospital gown and rolling an Ivy drip stand, he strolls over to a nurses station and working a nurse glances up.",
+        "At the hospital, SOMEONE removes a bottle of Milky Liquid label propofol from a drawer and pockets it in his lab coat."
+      ],
+      "combined_distances": [
+        0.7615814924240113,
+        0.7773425579071046,
+        0.7857642650604248
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 618,
+      "end_frame": 641,
+      "start_time": 123.6,
+      "end_time": 128.2,
+      "duration": 4.599999999999994,
+      "movie_id": "5700",
+      "generated_ad": "As the bus arrives, someone crosses the street toward it, and as they step on, a person's full lips curl up into a smile.",
+      "ground_truth": "Gaylord SOMEONE RN the new father stairs later SOMEONE Bicycles to an apartment building inside he packs his suitcase while using a phone.",
+      "ground_truth_id": "281074",
+      "visual_context": [
+        "Away outside SOMEONE stands at a corner. These are walks past him.",
+        "Crosses the street toward an arriving bus."
+      ],
+      "cross_modal_context": [
+        "A man on a medical scooter passes wearing a helmet and a vest with the word vietnam printed on the back. She stands at a table in front of a ponytailed man.",
+        " SOMEONE arrives at City Hall, checking his briefcase with security before walking through the metal detector. As SOMEONE walks up the stone staircase with a spring in his step, Dan is walking in the other direction on an upper level."
+      ],
+      "combined_context": [
+        "Away outside SOMEONE stands at a corner. These are walks past him.",
+        "Crosses the street toward an arriving bus.",
+        " SOMEONE s full lips curl up on the bus. Lisa takes a seat gazing out the window. She sees SOMEONE raising his hand and a perfectly timed wave."
+      ],
+      "combined_distances": [
+        0.10984455347061156,
+        0.10984455347061156,
+        0.10984455347061156
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 641,
+      "end_frame": 650,
+      "start_time": 128.2,
+      "end_time": 130.0,
+      "duration": 1.8000000000000114,
+      "movie_id": "5700",
+      "generated_ad": "A person wearing a black suit climbs out of the driver's seat of a limousine, walks around the front of the car, and opens the door.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The next day they hurry to join the line outside Bly.",
+        "The mailman watches her warily his mouth hanging slack."
+      ],
+      "cross_modal_context": [
+        "Purists worried lee lincoln plaza hotel washington dc two thousand nine, a shabbily dressed adrian exits, a cab on a balcony. A jolly man in a tux holds a glass of champagne.",
+        "Later, the suited Guillermo holds open Cartier's front door and two men wearing bulletproof vests exit 1, holding a silver case with a keypad on it."
+      ],
+      "combined_context": [
+        "The next day they hurry to join the line outside Bly.",
+        "The mailman watches her warily his mouth hanging slack.",
+        "Later a limo stops at a curb and SOMEONE climbs out from the driver seat wearing his black suit, he heads around the front of the car and opens the door for Hawley who gets out clutching a folder."
+      ],
+      "combined_distances": [
+        0.0733945369720459,
+        0.08593462705612182,
+        0.08593462705612182
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 650,
+      "end_frame": 664,
+      "start_time": 130.0,
+      "end_time": 132.8,
+      "duration": 2.8000000000000114,
+      "movie_id": "5700",
+      "generated_ad": "A person is tackled over a kitchen counter, landing on the dishwasher.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Ben tackles him over the kitchen counter. He lands on the dishwasher, grabs a knife, and attacks using a stovetop grate. SOMEONE knocks the tall man back.",
+        "Not SOMEONE shoves a lamp had been who fires and hits sawyers prosthetic ben drops. The gun then strikes SOMEONE repeatedly and shoves him through a bookshelf."
+      ],
+      "cross_modal_context": [
+        "He pauses, then quickly slides the red envelope through the vent in the locker. SOMEONE takes another look off to the side and quickly walks back the way he came.",
+        "He drops the transcript in front of the bespectacled man as Mac spaces away from the desk. The man removes his hand from a pistol inside a desk drawer, which he discreetly slides closed."
+      ],
+      "combined_context": [
+        "Ben tackles him over the kitchen counter. He lands on the dishwasher, grabs a knife, and attacks using a stovetop grate. SOMEONE knocks the tall man back.",
+        "Not SOMEONE shoves a lamp had been who fires and hits sawyers prosthetic ben drops. The gun then strikes SOMEONE repeatedly and shoves him through a bookshelf.",
+        "Now, she gingerly moves SOMEONE Thorns from his stomach and lifts his shirt to look at his abdomen. His bruised skin, now a dark red."
+      ],
+      "combined_distances": [
+        0.08214578032493591,
+        0.084194016456604,
+        0.08606109023094177
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 664,
+      "end_frame": 675,
+      "start_time": 132.8,
+      "end_time": 135.0,
+      "duration": 2.1999999999999886,
+      "movie_id": "5700",
+      "generated_ad": "A person, likely Hector, is seen holding a chainsaw in a menacing manner, as someone in the background has their hands bound to a shower curtain rod and their mouth taped.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Inside the bathroom, SOMEONE s trim friend stands with his hands bound to a shower curtain rod. His mouth taped as Hector holds the chainsaw menacingly toward SOMEONE ",
+        "In his apartment, SOMEONE carefully slides a transmitter out of his cast. He pulls the cast off his arm, listening to her recording device through headphones."
+      ],
+      "combined_context": [
+        "Inside the bathroom, SOMEONE s trim friend stands with his hands bound to a shower curtain rod. His mouth taped as Hector holds the chainsaw menacingly toward SOMEONE ",
+        "In his apartment, SOMEONE carefully slides a transmitter out of his cast. He pulls the cast off his arm, listening to her recording device through headphones.",
+        "In his bathroom, flat arrives at the scene. One of Johnny's brothers tries to save the female tentacle monster."
+      ],
+      "combined_distances": [
+        0.7981952130794526,
+        0.8000649333000184,
+        0.8111695647239686
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Roz, how the hell do you shut this thing off?"
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 675,
+      "end_frame": 727,
+      "start_time": 135.0,
+      "end_time": 145.4,
+      "duration": 10.400000000000006,
+      "movie_id": "5700",
+      "generated_ad": "As someone fiddles with an unspecified device, pressing buttons in an attempt to turn it off, they stand in a room with another person who is offering them a chimichanga.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [],
+      "cross_modal_context": [
+        "Peter sponsors father's briefcase in his closet, then gets out of bed and slams the closet door shot. He leans on his mattress, then turns back, pulls out the briefcase, and dumps its contents on the floor.",
+        "In Zacks Room, SOMEONE fills a garbage bag with clothes Zach sulks in and sits on the bed."
+      ],
+      "combined_context": [
+        "Peter sponsors father's briefcase in his closet, then gets out of bed and slams the closet door shot. He leans on his mattress, then turns back, pulls out the briefcase, and dumps its contents on the floor.",
+        "In Zacks Room, SOMEONE fills a garbage bag with clothes Zach sulks in and sits on the bed.",
+        "She leaves and Peter falls out of bed on his knees. He spots a leather briefcase, then picks it up and closes its flap to reveal the initials RP embroidered above a buckle."
+      ],
+      "combined_distances": [
+        0.7301608562469483,
+        0.7452422738075257,
+        0.7531614243984223
+      ],
+      "combined_sources": [
+        "cross_modal",
+        "cross_modal",
+        "cross_modal"
+      ],
+      "subtitle_context": "Roz, how the hell do you shut this thing off? I have no idea, I'm just pressing buttons. Alright, I'm pretty sure it's over. Honey, you want a chimichanga? I thought they gave you gas. A little bit, but it's worth it."
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 727,
+      "end_frame": 736,
+      "start_time": 145.4,
+      "end_time": 147.2,
+      "duration": 1.799999999999983,
+      "movie_id": "5700",
+      "generated_ad": "As the characters converse about food, one of them likely holds or handles a small bag or an object, but the scene is too brief to discern specific actions or objects beyond the speakers' everyday interaction.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Chance pulls a small bag holding the dog tag out of the file.",
+        "He examines it, then raises his eyes."
+      ],
+      "cross_modal_context": [
+        "A blurred image shows a dark haired girl with wide eyes and Samuel L Jackson, Kim Dickens, Olen Jones, a newspaper headline new foreign embassy opening in New York, Philly, McMillan, Lauren Macrostie, Georgia Pemberton, Milo Parker, Pixie Davies, Hayden Keeler, Stone Cameron King, Rafiella Chapman.",
+        "As Business woman's daughter Eva Kaminsky as security guard Christopher Hardwick as a state sale organizer Kate Levy as woman out of state sale Stephanie Kurt Soba as Elaine Black, Catherine Curtin as Leanne Black, Lola Palinski as Mona Black Clayton, James Mckay's boy Bailey Greys girl, stunt coordinators Steven Pope Blaze Corrigan SOMEONE Place Wade Eastwood, stunt performers Scott Burek Chris Cenatiempo John Cenatiempo Victor Chan Jeffrey Lee Gibson Don Hewitt senior Jason northgard."
+      ],
+      "combined_context": [
+        "Chance pulls a small bag holding the dog tag out of the file.",
+        "He examines it, then raises his eyes.",
+        "At a cabinet he browses through technical manuals. He finds one for the hibernation pods and pulls it out."
+      ],
+      "combined_distances": [
+        0.21534630060195922,
+        0.21534630060195922,
+        0.22088981866836546
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Honey, you want a chimichanga? I thought they gave you gas. A little bit, but it's worth it. Yeah, worth it for you, but I'm the one that gets the fumes."
+    }
+  ]
+}

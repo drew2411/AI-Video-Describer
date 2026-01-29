@@ -1,0 +1,1762 @@
+{
+  "movie_id": "5950",
+  "total_shots": 50,
+  "config": {
+    "sim_threshold": 0.8,
+    "min_shot_len": 3,
+    "text_context_k": 5,
+    "groq_model": "llama-3.3-70b-versatile"
+  },
+  "results": [
+    {
+      "shot_id": 0,
+      "start_frame": 0,
+      "end_frame": 56,
+      "start_time": 0.0,
+      "end_time": 11.2,
+      "duration": 11.2,
+      "generated_ad": "A serene landscape unfolds as a pinpoint of light expands behind the silhouette of mountain tops, filling the screen with a radiant blaze that gradually fades into a majestic snow-capped mountain, revealing the company name.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Sunlight crests the earth surface as rays of light shoot up from the continents. The planet spins into view with the word across it universal.",
+        "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze. It fades into a snow capped mountain, sketched within a Blue Square."
+      ],
+      "cross_modal_context": [
+        "In another logo, a blue light trails over a black background, tracing out a cursive R block. Letters spell out Regency titles appear Fox Searchlight Pictures and Regency Enterprises present a new Regency. M Productions Legras peak production.",
+        "Chorus and Obi-wan strolls across a vast blue carpeted lobby, passing a statue of a Jedi levitating an orb."
+      ],
+      "combined_context": [
+        "Sunlight crests the earth surface as rays of light shoot up from the continents. The planet spins into view with the word across it universal.",
+        "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze. It fades into a snow capped mountain, sketched within a Blue Square.",
+        "Fluffy white clouds float beneath a starry night sky. Dream works SKG."
+      ],
+      "combined_distances": [
+        0.06282173991203308,
+        0.0630277693271637,
+        0.06424804925918579
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 1,
+      "start_frame": 56,
+      "end_frame": 68,
+      "start_time": 11.2,
+      "end_time": 13.6,
+      "duration": 2.4000000000000004,
+      "generated_ad": "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze, fading into a snow-capped mountain as the company name appears on screen.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "LD Entertainment 2 bursts of light pulsate, light sparklers as they each write out a letter they combined.",
+        "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze. It fades into a snow capped mountain, sketched within a Blue Square."
+      ],
+      "cross_modal_context": [
+        "In another logo, a blue light trails over a black background, tracing out a cursive R block. Letters spell out Regency titles appear Fox Searchlight Pictures and Regency Enterprises present a new Regency. M Productions Legras peak production.",
+        "The K Entertainment Company on a story background, a blue planet with rings encircling its equator rotates shadows of letters passed over the planet, reading Nickelodeon, zooming out 3D text of Nickelodeon drifts in front of a large orange planet nearby."
+      ],
+      "combined_context": [
+        "LD Entertainment 2 bursts of light pulsate, light sparklers as they each write out a letter they combined.",
+        "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze. It fades into a snow capped mountain, sketched within a Blue Square.",
+        "A pinpoint of blue light grows behind the silhouette of mountain tops and fills the screen with a white blaze."
+      ],
+      "combined_distances": [
+        0.04076365828514099,
+        0.04220995306968689,
+        0.043219071626663205
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 2,
+      "start_frame": 68,
+      "end_frame": 104,
+      "start_time": 13.6,
+      "end_time": 20.8,
+      "duration": 7.200000000000001,
+      "generated_ad": "A blue bar crosses a black background and condenses into a circle, forming the basis of the Touchstone Pictures logo.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A blue bar crosses a black background and condenses into a circle. Touchstone Pictures a golden light, slides along the letters and flashes into a lightning bolt through the circle.",
+        "A blue bar crosses a black background and condenses into a circle. Touchstone pictures."
+      ],
+      "cross_modal_context": [
+        "Tosses it a couple yards to the side and it lands heavily. The tortured ghost lowers into a chair facing scrooge.",
+        "He throws chips onto the oblong ring painted on the black table as the long haired man turns to him, taking off his sunglasses, the long haired man glares his dark eyes holding the robbers."
+      ],
+      "combined_context": [
+        "A blue bar crosses a black background and condenses into a circle. Touchstone Pictures a golden light, slides along the letters and flashes into a lightning bolt through the circle.",
+        "A blue bar crosses a black background and condenses into a circle. Touchstone pictures.",
+        "A golden light slides along the letters and flashes into a lightning bolt through the circle Touchstone pictures presents."
+      ],
+      "combined_distances": [
+        0.013865470886230467,
+        0.03204249739646912,
+        0.03204249739646912
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 3,
+      "start_frame": 104,
+      "end_frame": 112,
+      "start_time": 20.8,
+      "end_time": 22.4,
+      "duration": 1.5999999999999979,
+      "generated_ad": "The production company logos, including those of the producers Lawrence Gordon, Boyd, Levin, and Colin Wilson, appear on screen, accompanied by the executive producer credits for Jeremy Heath Smith and Stuart Baird.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes."
+      ],
+      "cross_modal_context": [
+        "elsewhere. A clock reads 926. A silhouetted patient walks through the dark ward, where the others sit and lie in their beds. The female patient with long braids sits up and addresses SOMEONE ",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes.",
+        "Dad fucked a black credits, roll beside a tv segment after."
+      ],
+      "combined_distances": [
+        0.0033077359199523925,
+        0.00394781231880188,
+        0.005052685737609863
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 4,
+      "start_frame": 112,
+      "end_frame": 128,
+      "start_time": 22.4,
+      "end_time": 25.6,
+      "duration": 3.200000000000003,
+      "generated_ad": "The screen fades in to a black background where a bright orange goldfish swims by, followed by the appearance of blue overlapping letters that form the company name as \"Touchstone Pictures presents\" is displayed.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A bright orange goldfish swims along the black screen. Blue overlapping letters appear. Touchstone Pictures presents.",
+        "A golden light slides along the letters and flashes into a lightning bolt through the circle Touchstone pictures presents."
+      ],
+      "cross_modal_context": [
+        "Titles appear DreamWorks Pictures and Reliance Entertainment present a 21 laps Montford Murphy production, a Shawn Levy film.",
+        "Remaining opening credits. Marisa Tomei, Mark Feuerstein, Lauren Holly, Ashley Johnson, Judy Greer, and Alan Alda. Delta Burke, Valerie Perrine, Lisa Adelstein, Sarah Paulson."
+      ],
+      "combined_context": [
+        "A bright orange goldfish swims along the black screen. Blue overlapping letters appear. Touchstone Pictures presents.",
+        "A golden light slides along the letters and flashes into a lightning bolt through the circle Touchstone pictures presents.",
+        "Second, here we go. Here we go."
+      ],
+      "combined_distances": [
+        0.07418402433395385,
+        0.07804346680641173,
+        0.08480313420295715
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 5,
+      "start_frame": 128,
+      "end_frame": 134,
+      "start_time": 25.6,
+      "end_time": 26.8,
+      "duration": 1.1999999999999993,
+      "generated_ad": "The production company logos, including those of the producers Lawrence Gordon, Boyd, Levin, and Colin Wilson, appear on screen, accompanied by the names of executive producers Jeremy Heath Smith and Stuart Baird, as the opening credits roll.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes."
+      ],
+      "cross_modal_context": [
+        "elsewhere. A clock reads 926. A silhouetted patient walks through the dark ward, where the others sit and lie in their beds. The female patient with long braids sits up and addresses SOMEONE ",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes.",
+        "Dad fucked a black credits, roll beside a tv segment after."
+      ],
+      "combined_distances": [
+        0.0033064842224121093,
+        0.003943973779678344,
+        0.005052059888839722
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 6,
+      "start_frame": 134,
+      "end_frame": 150,
+      "start_time": 26.8,
+      "end_time": 30.0,
+      "duration": 3.1999999999999993,
+      "generated_ad": "The production logo and opening credits feature the names \"International RT\", \"MYR, a entertainment\", \"Lawson if Acteur Co\", and \"Morato Pane SPAD\", presented in a sequence that likely includes text and possibly simple animations.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "International RT features MYR, a entertainment present a fantasy film Lawson if Acteur Co production in association with Morato Pane SPAD under tax credit laws in association with from 1957 SPA under tax credit laws in association with Armando Dangelis SRL under tax credit laws, in association with Cindy Finance Italia SRL, under tax credit laws film produced thanks to the tax.",
+        "International RT features MYR, a entertainment present a fantasy film Lawson if Acteur Co production in association with Morato Pane SPAD under tax credit laws in association with from 1957 SPA under tax credit laws in association with Armando Dangelis SRL under tax credit laws, in association with Cindy Finance Italia SRL, under tax credit laws film produced thanks to the tax."
+      ],
+      "cross_modal_context": [
+        "Drugs animation director Lionel Gelotte, animation supervisor Lauren did Lachapelle on the blank white screen. The minion silhouette waves at us. He makes shadow puppets forming a duck with his fingers.",
+        "Credits directed by Bennett Miller."
+      ],
+      "combined_context": [
+        "International RT features MYR, a entertainment present a fantasy film Lawson if Acteur Co production in association with Morato Pane SPAD under tax credit laws in association with from 1957 SPA under tax credit laws in association with Armando Dangelis SRL under tax credit laws, in association with Cindy Finance Italia SRL, under tax credit laws film produced thanks to the tax.",
+        "International RT features MYR, a entertainment present a fantasy film Lawson if Acteur Co production in association with Morato Pane SPAD under tax credit laws in association with from 1957 SPA under tax credit laws in association with Armando Dangelis SRL under tax credit laws, in association with Cindy Finance Italia SRL, under tax credit laws film produced thanks to the tax.",
+        "Imagine Films Entertainment presents a trilogy Entertainment Group SOMEONE Grazer production, a Ron Howard film."
+      ],
+      "combined_distances": [
+        0.09937681555747985,
+        0.11313305497169494,
+        0.11956431865692138
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 7,
+      "start_frame": 150,
+      "end_frame": 155,
+      "start_time": 30.0,
+      "end_time": 31.0,
+      "duration": 1.0,
+      "generated_ad": "The production company logo appears on screen, displaying the names of the producers, including Lawrence Gordon, and executive producers Jeremy Heath Smith and Stuart Baird, against a backdrop of a scene showing a tall girl with a long braid and a blonde girl interacting.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes."
+      ],
+      "cross_modal_context": [
+        "elsewhere. A clock reads 926. A silhouetted patient walks through the dark ward, where the others sit and lie in their beds. The female patient with long braids sits up and addresses SOMEONE ",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes.",
+        "Dad fucked a black credits, roll beside a tv segment after."
+      ],
+      "combined_distances": [
+        0.0032900452613830564,
+        0.003947561979293823,
+        0.005020058155059814
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 8,
+      "start_frame": 155,
+      "end_frame": 172,
+      "start_time": 31.0,
+      "end_time": 34.4,
+      "duration": 3.3999999999999986,
+      "generated_ad": "The production logo or opening credits are not explicitly described, but the scene fades to black after showing a photo of Max gazing at Marion on their wedding day.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "You the view returns to the table, stopping on a photo of max gazing at marion on their wedding day. I'Ve.",
+        "Fade to black."
+      ],
+      "cross_modal_context": [
+        "Credits appear over blueprint style drawings of Nats Diner value town, the pet shop, and other locations going in style directed by Zach Braff, screenplay by Theodore Melfi, based on the story by Edward Cannon produced by Donald de Line, PGA executive producers Toby Emmerich, Samuel J Brown, Michael Disco, executive producer Steven Mnuchin.",
+        "Designed by Edith Head orchestration, Edward Powell, makeup artist and non special photographic effects spread sersen sound, WD flick, Roger Heyman."
+      ],
+      "combined_context": [
+        "You the view returns to the table, stopping on a photo of max gazing at marion on their wedding day. I'Ve.",
+        "Fade to black.",
+        "Credits appear directed by Roberts Immekus."
+      ],
+      "combined_distances": [
+        0.16332812905311583,
+        0.16332812905311583,
+        0.16332812905311583
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 9,
+      "start_frame": 172,
+      "end_frame": 178,
+      "start_time": 34.4,
+      "end_time": 35.6,
+      "duration": 1.2000000000000028,
+      "generated_ad": "The production company logos, including those of the producers Lawrence Gordon, Boyd, Levin, and Colin Wilson, appear on screen, accompanied by the names of executive producers Jeremy Heath Smith and Stuart Baird.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes."
+      ],
+      "cross_modal_context": [
+        "elsewhere. A clock reads 926. A silhouetted patient walks through the dark ward, where the others sit and lie in their beds. The female patient with long braids sits up and addresses SOMEONE ",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes.",
+        "Dad fucked a black credits, roll beside a tv segment after."
+      ],
+      "combined_distances": [
+        0.003305232524871826,
+        0.003943556547164917,
+        0.005042630434036254
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 10,
+      "start_frame": 178,
+      "end_frame": 194,
+      "start_time": 35.6,
+      "end_time": 38.8,
+      "duration": 3.1999999999999957,
+      "generated_ad": "The production logo and opening credits display the names of key personnel, including producers James Cameron and Jon Landau, and director of photography Bill Pope, in a sequence of text overlays.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In order of appearance Chua tell Ejiofor as SOMEONE Dwight Henry as SOMEONE SOMEONE Dickey, grab wise SOMEONE Brian Bad as SOMEONE Ashley Dykas SOMEONE ",
+        "Produced by James Cameron, Jon Landau, executive producer David Valdez, director of photography bill Pope, ASC production designer Steve Joyner."
+      ],
+      "cross_modal_context": [
+        "In slow motion, Reeves bleeding face hits the tarmac for the last time SOMEONE in the middle of shaving is inconsolable and barges out of the bathroom past his friends.",
+        "In slow motion, the five women sashay straight to SOMEONE SOMEONE and plumber SOMEONE smirks and steps forward."
+      ],
+      "combined_context": [
+        "In order of appearance Chua tell Ejiofor as SOMEONE Dwight Henry as SOMEONE SOMEONE Dickey, grab wise SOMEONE Brian Bad as SOMEONE Ashley Dykas SOMEONE ",
+        "Produced by James Cameron, Jon Landau, executive producer David Valdez, director of photography bill Pope, ASC production designer Steve Joyner.",
+        "Screenplay by John Ridley, produced by Brad Pitt, Dede Gardner."
+      ],
+      "combined_distances": [
+        0.15092355608940122,
+        0.1517707884311676,
+        0.16478573083877562
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 11,
+      "start_frame": 194,
+      "end_frame": 203,
+      "start_time": 38.8,
+      "end_time": 40.6,
+      "duration": 1.8000000000000043,
+      "generated_ad": "The production company logos, including those of the producers Lawrence Gordon, Boyd, Levin, and Colin Wilson, appear on screen, accompanied by the executive producer credits for Jeremy Heath Smith and Stuart Baird.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes."
+      ],
+      "cross_modal_context": [
+        "elsewhere. A clock reads 926. A silhouetted patient walks through the dark ward, where the others sit and lie in their beds. The female patient with long braids sits up and addresses SOMEONE ",
+        "On a black background, an animated chalk drawing of a man canoeing down a river through a forest appears. Then the words no trace camping."
+      ],
+      "combined_context": [
+        "Produced by Lawrence Gordon, Boyd, Levin, Colin Wilson, executive producers Jeremy Heath Smith and Stuart Baird.",
+        "A tall girl with a long braid mockingly chants as the blonde girl rolls her eyes.",
+        "Dad fucked a black credits, roll beside a tv segment after."
+      ],
+      "combined_distances": [
+        0.0032832443714141844,
+        0.0039460182189941405,
+        0.005045300722122192
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 12,
+      "start_frame": 203,
+      "end_frame": 242,
+      "start_time": 40.6,
+      "end_time": 48.4,
+      "duration": 7.799999999999997,
+      "generated_ad": "A jet with a distinctive beak-like nose and wedge-shaped wings tilted upward lowers from a gray sky and touches down, sending up smoke from its wheels as it comes to a stop in front of a row of symmetrical tan buildings.",
+      "ground_truth": "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward.",
+      "ground_truth_id": "292297",
+      "visual_context": [
+        "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward.",
+        "A title appears. My father the hero."
+      ],
+      "cross_modal_context": [
+        "The plane clears the Bellagio, domann, Sasha, beans, the ash cloud purse to reveal the Eiffel Tower shaped Paris Las Vegas straight ahead. The landing gear knocks off its fire in the cargo hold the lights flash.",
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off."
+      ],
+      "combined_context": [
+        "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward.",
+        "A title appears. My father the hero.",
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        -8.344650268554687e-08,
+        0.061402899026870725
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 13,
+      "start_frame": 242,
+      "end_frame": 268,
+      "start_time": 48.4,
+      "end_time": 53.6,
+      "duration": 5.200000000000003,
+      "generated_ad": "As the scene unfolds, an aeroplane taxis along the blacktop pavement.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "cross_modal_context": [
+        "Brianna as SOMEONE  Ethan Hawke as SOMEONE Herbie Hancock as defense minister Kris Wu as SOMEONE Neza Sam Spruell as general Oktobar Elaine Shabbat as Bob the pirate Rutger Hauer as president of the World State Federation.",
+        "Leedle, Sanjeev, Bhaskar, Robbie Coltrane, Joan Cusack, restart, Jane Horrocks, Ian McKee, Andy Serkis, Dominic West."
+      ],
+      "combined_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along."
+      ],
+      "combined_distances": [
+        0.11905729770660399,
+        0.12354233860969542,
+        0.12354233860969542
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 14,
+      "start_frame": 268,
+      "end_frame": 279,
+      "start_time": 53.6,
+      "end_time": 55.8,
+      "duration": 2.1999999999999957,
+      "generated_ad": "A plane, with smoke rising from its wheels, is visible on the ground in front of a row of symmetrical tan buildings, as foggy condensation surrounds its wings.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward."
+      ],
+      "cross_modal_context": [
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off.",
+        "On an airfield, a Buffalo minesweeper zooms forward. Subtitles read Bonecrusher rolling."
+      ],
+      "combined_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward.",
+        "A title appears. My father the hero."
+      ],
+      "combined_distances": [
+        0.06316537261009215,
+        0.07046256065368652,
+        0.07046256065368652
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 15,
+      "start_frame": 279,
+      "end_frame": 297,
+      "start_time": 55.8,
+      "end_time": 59.4,
+      "duration": 3.6000000000000014,
+      "generated_ad": "The plane taxis along the blacktop pavement, surrounded by foggy condensation, with smoke rising from its wheels as it moves past symmetrical tan buildings.",
+      "ground_truth": "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+      "ground_truth_id": "292299",
+      "visual_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "cross_modal_context": [
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off.",
+        "Daytime, SOMEONE and other pilots across the tarmac lined with F22 aircrafts. She shakes hands with a man in fatigues, then ascends the ladder to a cockpit, pausing briefly to stare off before climbing inside."
+      ],
+      "combined_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "combined_distances": [
+        2.086162567138672e-07,
+        0.09217951297760009,
+        0.09742591977119446
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 16,
+      "start_frame": 297,
+      "end_frame": 329,
+      "start_time": 59.4,
+      "end_time": 65.8,
+      "duration": 6.399999999999999,
+      "generated_ad": "As the plane touches down on the blacktop pavement, smoke rises from its wheels, and it taxis forward, set against a backdrop of symmetrical tan buildings standing in a row beyond the pale grass surrounding the airfield.",
+      "ground_truth": "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+      "ground_truth_id": "292299",
+      "visual_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "cross_modal_context": [
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off.",
+        "On an airfield, a Buffalo minesweeper zooms forward. Subtitles read Bonecrusher rolling."
+      ],
+      "combined_context": [
+        "The plane touches down and smoke wafts up from the wheels to join with foggy condensation around the wings. Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield.",
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "A jet lowers from a Gray sky with its beak like nose and wedge shaped wings tilted upward."
+      ],
+      "combined_distances": [
+        -5.006790161132812e-07,
+        0.04433929920196533,
+        0.061402940750122065
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield."
+    },
+    {
+      "shot_id": 17,
+      "start_frame": 329,
+      "end_frame": 354,
+      "start_time": 65.8,
+      "end_time": 70.8,
+      "duration": 5.0,
+      "generated_ad": "As the camera pans out, a row of symmetrical tan buildings comes into view, standing beyond the pale grass that surrounds the airfield.",
+      "ground_truth": "Second then aeroplane taxis along the blacktop pavement.",
+      "ground_truth_id": "292300",
+      "visual_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "cross_modal_context": [
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off.",
+        "He pulls turning in for a manly hug. A huge military cargo plane lands on the tarmac in EU. S. The sun shines brightly on the airport runway where Pepon Burley driver Hogan wait by SOMEONE s black Roller."
+      ],
+      "combined_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        0.042313551902770995,
+        0.042313551902770995
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield."
+    },
+    {
+      "shot_id": 18,
+      "start_frame": 354,
+      "end_frame": 445,
+      "start_time": 70.8,
+      "end_time": 89.0,
+      "duration": 18.200000000000003,
+      "generated_ad": "As the camera pans out, a row of symmetrical tan buildings comes into view, standing beyond the pale grass that surrounds the airfield, with an aeroplane taxiing along the blacktop pavement in the foreground.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along."
+      ],
+      "cross_modal_context": [
+        "In aircraft sitting in this cockpit power shakes hands with his blonde squad later, the U two spy plane takes off.",
+        "She finds a photo of a jet on an airfield with SOMEONE Lawson and others. Veers is in the background, a partial name on her jet reads Danvers. Flashbacks to jets take off."
+      ],
+      "combined_context": [
+        "Second then aeroplane taxis along the blacktop pavement.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along.",
+        "Second then aeroplane taxis along the blacktop pavement."
+      ],
+      "combined_distances": [
+        -3.337860107421875e-07,
+        -3.337860107421875e-07,
+        0.042313593626022335
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Symmetrical tan buildings stand in a row beyond the pale grass surrounding the airfield."
+    },
+    {
+      "shot_id": 19,
+      "start_frame": 445,
+      "end_frame": 496,
+      "start_time": 89.0,
+      "end_time": 99.2,
+      "duration": 10.200000000000003,
+      "generated_ad": "As the Husky man with shoulder-length hair walks, he checks inside a small gift bag before rounding a corner, a gentle smile on his face.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along.",
+        "He checks inside a small gift bag before rounding a corner."
+      ],
+      "cross_modal_context": [
+        "Nikki navigates through traffic at an airport terminal. A man in a sleek sue stripes through the airport just behind him for Haddin. Lurid pink pants drags a suitcase.",
+        "He leads danny and porter through the crowded airport terminal at his computer of any types, a framed picture of a grinning toddler on his desk."
+      ],
+      "combined_context": [
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along.",
+        "He checks inside a small gift bag before rounding a corner.",
+        "I get to cook SOMEONE returns to the surface bar with the Shirley Temple. SOMEONE scowls as she watches her father trade bright smiles with the bartender SOMEONE returns to his daughter with a fresh drink SOMEONE chases her through the airport."
+      ],
+      "combined_distances": [
+        2.503395080566406e-07,
+        2.503395080566406e-07,
+        0.06785544157028198
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 20,
+      "start_frame": 496,
+      "end_frame": 518,
+      "start_time": 99.2,
+      "end_time": 103.6,
+      "duration": 4.3999999999999915,
+      "generated_ad": "A man, wearing glasses and holding a large cell phone, stands outside, carrying a large duffel bag and a folded suit bag, as he hails a cab and checks his watch.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch."
+      ],
+      "cross_modal_context": [
+        "Elizabeth Pena as Carla Colleen camp as Bonobo customer Sam Elliott as Carl Moa bull, sell off as Ian Marcia Gay, Harden as Judy Missy Doty as mom Don McManus as dad William Miller as Kid Sky ashana.",
+        "Louie Anderson as Maurice Sheila Johnson as lady in waiting feather. Stephanie Simon, Garcelle Beauvais Wah as SOMEONE bearers Frankie Faison as landlord Jake Steinfeld as cab driver Bondy. Curtis Hall is basketball game vendor Elaine Kagan's Telegraph, lady."
+      ],
+      "combined_context": [
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+        "A man with glasses holds a large cell phone."
+      ],
+      "combined_distances": [
+        -1.6689300537109374e-07,
+        0.08652029633522033,
+        0.10476908683776855
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 21,
+      "start_frame": 518,
+      "end_frame": 541,
+      "start_time": 103.6,
+      "end_time": 108.2,
+      "duration": 4.6000000000000085,
+      "generated_ad": "The production logo or opening credits are not described in the provided context, which instead appears to depict scenes from a story, so no description of a logo or credits can be generated.",
+      "ground_truth": "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+      "ground_truth_id": "292303",
+      "visual_context": [
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along."
+      ],
+      "cross_modal_context": [
+        " SOMEONE arrives at City Hall, checking his briefcase with security before walking through the metal detector. As SOMEONE walks up the stone staircase with a spring in his step, Dan is walking in the other direction on an upper level.",
+        "Production designer Rick Heinrichs Sparky jumps on a stool and watches SOMEONE work, director of photography Peter Sorg. SOMEONE splices the split reel together. Sparky licks his face and the boy scratches the dogs head. Executive producer Don Hahn."
+      ],
+      "combined_context": [
+        "Outside he carries a large duffel bag in a folded suit bag to the curb. He urgently hails a cab, checking his watch.",
+        "In the terminal, a Husky man with shoulder length hair, whereas a gentle smile as he strides along.",
+        "He checks inside a small gift bag before rounding a corner."
+      ],
+      "combined_distances": [
+        -5.006790161132812e-07,
+        0.07418352365493774,
+        0.07418352365493774
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 22,
+      "start_frame": 541,
+      "end_frame": 548,
+      "start_time": 108.2,
+      "end_time": 109.6,
+      "duration": 1.3999999999999915,
+      "generated_ad": "The production logo and opening credits display the names of key crew members, including costume designer Susan Lyle and production designer April Lasky, against a simple background featuring a person sitting in a chair.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Costume designer Susan Lyle production design April Lasky.",
+        " SOMEONE is sitting in a chair."
+      ],
+      "cross_modal_context": [
+        "Now Jackie and SOMEONE in Orange coveralls and white hard hats file into a lift cage with several other minors. A minor secures the door.",
+        "Wearing a sheer yellow plastic raincoat joy wraps her arms around him. I."
+      ],
+      "combined_context": [
+        "Costume designer Susan Lyle production design April Lasky.",
+        " SOMEONE is sitting in a chair.",
+        "He's operating his sewing machine and running a tiger blue tracksuit through it."
+      ],
+      "combined_distances": [
+        0.23741927742958066,
+        0.24456108808517454,
+        0.24456108808517454
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 23,
+      "start_frame": 548,
+      "end_frame": 554,
+      "start_time": 109.6,
+      "end_time": 110.8,
+      "duration": 1.2000000000000028,
+      "generated_ad": "The production logo or opening credits feature a montage of scenes, including characters embracing, scanning crowds, and interacting with illustrations, set against a backdrop of people in period clothing, with the company name or title not explicitly shown.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Laurence embraces his wife. SOMEONE scans the crowd. Peggy Pierce between the women and bonnets, and men in top hats. SOMEONE smiles and picks up his pace. Peggy runs to him, leading a blonde, curly haired toddler.",
+        "Kaylie spins around and smiles at SOMEONE who updates the display with an illustration of a parachute."
+      ],
+      "cross_modal_context": [
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson.",
+        "First Assistant director Donald L Sparks, second assistant director Karen Davis cast Emily Blunt as SOMEONE  Benicio del Toro as SOMEONE Josh Brolin as SOMEONE "
+      ],
+      "combined_context": [
+        "Laurence embraces his wife. SOMEONE scans the crowd. Peggy Pierce between the women and bonnets, and men in top hats. SOMEONE smiles and picks up his pace. Peggy runs to him, leading a blonde, curly haired toddler.",
+        "Kaylie spins around and smiles at SOMEONE who updates the display with an illustration of a parachute.",
+        "She sells to the back, Maybelle turns to SOMEONE and SOMEONE with a questioning look. They both nod at the young girl."
+      ],
+      "combined_distances": [
+        0.019660329818725585,
+        0.024031925201416015,
+        0.024282264709472656
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 24,
+      "start_frame": 554,
+      "end_frame": 567,
+      "start_time": 110.8,
+      "end_time": 113.4,
+      "duration": 2.6000000000000085,
+      "generated_ad": "A trim man is shown being presented with a file containing his photo by an official.",
+      "ground_truth": "He tosses his bags into the trunk and hops into the back seat.",
+      "ground_truth_id": "292304",
+      "visual_context": [
+        "He tosses his bags into the trunk and hops into the back seat.",
+        "Shows a trim man, a file with his photo."
+      ],
+      "cross_modal_context": [
+        "Taxi driver leaves the dude on the side of the road.",
+        "Now SOMEONE drives a Humvee down the street as passing lights cast flickering shadows on his face."
+      ],
+      "combined_context": [
+        "He tosses his bags into the trunk and hops into the back seat.",
+        "Shows a trim man, a file with his photo.",
+        "The official shows the young man a file with his photos."
+      ],
+      "combined_distances": [
+        0.007032954692840576,
+        0.21831833124160765,
+        0.2320084810256958
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 25,
+      "start_frame": 567,
+      "end_frame": 581,
+      "start_time": 113.4,
+      "end_time": 116.2,
+      "duration": 2.799999999999997,
+      "generated_ad": "A person, dressed in traditional Indian attire, climbs out of a vehicle with \"Sally Mott, Indian Cuisine\" written on its side.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He leans up to the driver.",
+        "He slides behind the wheel and shuts the door behind him. His hand trembles as he moves keys to the ignition. The **** of a shotgun smashes the window."
+      ],
+      "cross_modal_context": [
+        "A passing taxi clips and losing its side mirror. But he remains undaunted as Peter approaches. SOMEONE meets his gaze. The young man glances aside, smiling bashfully.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "combined_context": [
+        "He leans up to the driver.",
+        "He slides behind the wheel and shuts the door behind him. His hand trembles as he moves keys to the ignition. The **** of a shotgun smashes the window.",
+        "To a stop its side read sally mott, indian cuisine, SOMEONE climbs out wearing indian traditional dress."
+      ],
+      "combined_distances": [
+        0.013913118839263916,
+        0.0874630331993103,
+        0.09953803420066833
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 26,
+      "start_frame": 581,
+      "end_frame": 613,
+      "start_time": 116.2,
+      "end_time": 122.6,
+      "duration": 6.3999999999999915,
+      "generated_ad": "As the person speaks, they lean forward towards the driver, while a classic yellow taxi is visible, likely at a standstill, given the context of an airport and an impending journey to Central Park West.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "He leans up to the driver.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "cross_modal_context": [
+        "Johnny K Salima as pit ball Anderson Cooper's himself Maurice car payday is police chief Jason Kobyz lead mechanic Kevin Otto is interviewer.",
+        "This cab driver, David Collins is medical technician John Carvalho as plant manager Robin."
+      ],
+      "combined_context": [
+        "He leans up to the driver.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Cold at night."
+      ],
+      "combined_distances": [
+        -3.337860107421875e-07,
+        -3.337860107421875e-07,
+        0.07298481464385986
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "3-5-3 Central Park West. How do you want to get there? My taxi?"
+    },
+    {
+      "shot_id": 27,
+      "start_frame": 613,
+      "end_frame": 660,
+      "start_time": 122.6,
+      "end_time": 132.0,
+      "duration": 9.400000000000006,
+      "generated_ad": "As the taxi, a classic yellow cab, crosses over a river, the Manhattan skyline comes into view, filled with skyscrapers and apartment buildings, before the cab pulls to the curb.",
+      "ground_truth": "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+      "ground_truth_id": "292306",
+      "visual_context": [
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side."
+      ],
+      "cross_modal_context": [
+        "In Cab Agnus dei Newswoman in cab, Emily Beecham is Deirdre, Benjamin Beatty as Clapper, boy in lazy Old Moon Jr.",
+        "David Webb Post production supervisor Tina Anderson cast Ben Affleck as SOMEONE  Elle Fanning as SOMEONE remote Jerome as muscle piscatory Brendan Gleeson."
+      ],
+      "combined_context": [
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag."
+      ],
+      "combined_distances": [
+        -3.337860107421875e-07,
+        -3.337860107421875e-07,
+        0.06299322247505187
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "How do you want to get there? My taxi? It crosses over a river into Manhattan."
+    },
+    {
+      "shot_id": 28,
+      "start_frame": 660,
+      "end_frame": 686,
+      "start_time": 132.0,
+      "end_time": 137.2,
+      "duration": 5.199999999999989,
+      "generated_ad": "As the taxi, a classic yellow cab, pulls away, it crosses over a river and enters Manhattan, where skyscrapers and apartment buildings crowd the skyline.",
+      "ground_truth": "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+      "ground_truth_id": "292307",
+      "visual_context": [
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "cross_modal_context": [
+        "Caution with the majestic manhattan skyline in the background, the jefferson speeds toward the plane in his uniform code.",
+        "Later he drives along the Riverside overlooking the Brooklyn Bridge and heads into the Midtown Tunnel and now he arrives at a parking lot outside a warehouse."
+      ],
+      "combined_context": [
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side."
+      ],
+      "combined_distances": [
+        8.344650268554687e-08,
+        0.12530881762504578,
+        0.12530881762504578
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "It crosses over a river into Manhattan."
+    },
+    {
+      "shot_id": 29,
+      "start_frame": 686,
+      "end_frame": 705,
+      "start_time": 137.2,
+      "end_time": 141.0,
+      "duration": 3.8000000000000114,
+      "generated_ad": "The production logo features a cityscape with skyscrapers and square squat apartment buildings crowding the skyline.",
+      "ground_truth": "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+      "ground_truth_id": "292307",
+      "visual_context": [
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side."
+      ],
+      "cross_modal_context": [
+        "The chopper rises out of the mist beside the bridge and the apes scatter as a machine gun opens up will takes cover behind the bus tape, Simone, down in the hail of bullets.",
+        "Later he drives along the Riverside overlooking the Brooklyn Bridge and heads into the Midtown Tunnel and now he arrives at a parking lot outside a warehouse."
+      ],
+      "combined_context": [
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side.",
+        "Stephen P Wagner music supervisor Mary Ramos, costume designer Cindy Evans, film editor David Morris production designer Shepherd Frankel director of photography."
+      ],
+      "combined_distances": [
+        -3.337860107421875e-07,
+        0.16673274636268615,
+        0.17143011689186094
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 30,
+      "start_frame": 705,
+      "end_frame": 709,
+      "start_time": 141.0,
+      "end_time": 141.8,
+      "duration": 0.8000000000000114,
+      "generated_ad": "A helicopter lowers toward a dock by the Queensboro Bridge as someone is visible.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Look at you now now a helicopter lowers toward a doc by the queensboro bridge. SOMEONE talks.",
+        "Just hit me in the face, as the sun rises, the bus drives down an empty freeway out of the city."
+      ],
+      "cross_modal_context": [
+        "Caution with the majestic manhattan skyline in the background, the jefferson speeds toward the plane in his uniform code.",
+        "A tramcar follows a cable over the East River, gliding past the white trestles of the Queensboro Bridge on the tram."
+      ],
+      "combined_context": [
+        "Look at you now now a helicopter lowers toward a doc by the queensboro bridge. SOMEONE talks.",
+        "Just hit me in the face, as the sun rises, the bus drives down an empty freeway out of the city.",
+        "Leo's family car is parked outside of Lake Winnipesaukee's general store."
+      ],
+      "combined_distances": [
+        0.06704238057136536,
+        0.07182006835937499,
+        0.07182006835937499
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 31,
+      "start_frame": 709,
+      "end_frame": 718,
+      "start_time": 141.8,
+      "end_time": 143.6,
+      "duration": 1.799999999999983,
+      "generated_ad": "The production logo features the Marvel logo, with the camera panning over a cityscape before zooming in on the Spider-Man logo, as the words \"Marvel Studios\" and \"Sony Pictures\" appear on screen in a bold, animated font.",
+      "ground_truth": "Second, moving along with thick traffic, the taxi pass is a museum.",
+      "ground_truth_id": "292308",
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "They swing over a building and MJ dangles from Peter's hand."
+      ],
+      "cross_modal_context": [
+        "Billboards atop a forest of skyscrapers announced the opening credits Mr Magoo's SOMEONE Carol A Henry J Saperstein Production copyright 1962.",
+        "King Kong loses his grip and falls backward off the skyscraper, striking the buildings tears as he falls."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "They swing over a building and MJ dangles from Peter's hand.",
+        "Wet day in Chicago. With the cloud hanging low over the city skyscrapers, a huge funeral cortege led by a Pipe Band makes its way along a city street."
+      ],
+      "combined_distances": [
+        0.004800635576248168,
+        0.0868671417236328,
+        0.09662061929702759
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 32,
+      "start_frame": 718,
+      "end_frame": 739,
+      "start_time": 143.6,
+      "end_time": 147.8,
+      "duration": 4.200000000000017,
+      "generated_ad": "The camera fades to black.",
+      "ground_truth": "Second, moving along with thick traffic, the taxi pass is a museum.",
+      "ground_truth_id": "292308",
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "You the view returns to the table, stopping on a photo of max gazing at marion on their wedding day. I'Ve."
+      ],
+      "cross_modal_context": [
+        "Director of Photography Bradford Young, ASC.",
+        "Remaining opening titles Martinc Okash Ike Barenholtz, Tony Goldwyn, Bruce Greenwood, Michael C Hall Brian D'Arcy James Josh Lucas Eddie Marsan Wendi Mclendon Covey Micah Monroe Tom Sizemore Kate Walsh Noah Wylie."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "You the view returns to the table, stopping on a photo of max gazing at marion on their wedding day. I'Ve.",
+        "Fade to black."
+      ],
+      "combined_distances": [
+        0.0,
+        0.24533922672271727,
+        0.24533922672271727
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 33,
+      "start_frame": 739,
+      "end_frame": 768,
+      "start_time": 147.8,
+      "end_time": 153.6,
+      "duration": 5.799999999999983,
+      "generated_ad": "The production logo features a taxi moving through heavy traffic, passing by a museum, with no explicit company name or text visible in the sequence.",
+      "ground_truth": "Second, moving along with thick traffic, the taxi pass is a museum.",
+      "ground_truth_id": "292308",
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Second, moving along with thick traffic, the taxi pass is a museum."
+      ],
+      "cross_modal_context": [
+        "Executive producers, Georgia Candace, Alexandra Milczyn, Rick Yorn, Irwin Winkler, Danny Dim Board and Joel Gotler, director of photography Rodrigo Prieto, ASC AMC production designer Bob Shaw.",
+        "Credits appear over glimpses of the characters Eddie Murphy as Prince Akeem, Arsenio Hall as semi James Earl Jones as King, Jaffe Joffer, Madge Sinclair as queen alien, John Amos as Cleo McDowell, Shari Headley as Lisa McDowell."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "combined_distances": [
+        1.6689300537109374e-07,
+        0.07108423709869384,
+        0.0946950078010559
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 34,
+      "start_frame": 768,
+      "end_frame": 774,
+      "start_time": 153.6,
+      "end_time": 154.8,
+      "duration": 1.200000000000017,
+      "generated_ad": "A taxi moves along a congested urban street amidst thick traffic.",
+      "ground_truth": "Second, moving along with thick traffic, the taxi pass is a museum.",
+      "ground_truth_id": "292308",
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Traffic congests and urban street the way."
+      ],
+      "cross_modal_context": [
+        "In new york city traffic creeps along an avenue in an office. Al watches, a tv interview.",
+        "On the other side of the truck, the limousine reverses to the canopy entryway of Hampshire is apartment building. The schoolgirl gets out, runs back inside and up the stairs."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Traffic congests and urban street the way.",
+        "Second, moving along with thick traffic, the taxi pass is a museum."
+      ],
+      "combined_distances": [
+        0.005445843935012817,
+        0.07881864309310913,
+        0.07960996627807616
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 35,
+      "start_frame": 774,
+      "end_frame": 779,
+      "start_time": 154.8,
+      "end_time": 155.8,
+      "duration": 1.0,
+      "generated_ad": "As the taxi moves, a museum passes by outside, with people in formal clothing visible through the windows or outside the vehicle, mingling near a table or walking alongside a glass case.",
+      "ground_truth": "Second, moving along with thick traffic, the taxi pass is a museum.",
+      "ground_truth_id": "292308",
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Pincus passes a glass case holding an Egyptian sarcophagus."
+      ],
+      "cross_modal_context": [
+        "Now lisa walks through the park carrying a brown paper lunch bag. She stops in her tracks and grins.",
+        "Later, wearing a Gray headscarf, Kim makes her way through the crowded Kabul International Airport."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Pincus passes a glass case holding an Egyptian sarcophagus.",
+        "He enters another exhibit space where people in formal clothing mingle with one another and check in at a table."
+      ],
+      "combined_distances": [
+        0.0017802894115447998,
+        0.10892213582992553,
+        0.10892213582992553
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 36,
+      "start_frame": 779,
+      "end_frame": 798,
+      "start_time": 155.8,
+      "end_time": 159.6,
+      "duration": 3.799999999999983,
+      "generated_ad": "A slim woman's hand reaches out and receives a gift bag from someone, as they stand in a crowded area with colorful hanging banners visible in the background.",
+      "ground_truth": "Guests crowd the steps beneath its colorful hanging banners.",
+      "ground_truth_id": "292309",
+      "visual_context": [
+        "Guests crowd the steps beneath its colorful hanging banners.",
+        "In the lobby, he presses the gift bag into a slim woman's hand."
+      ],
+      "cross_modal_context": [
+        "Later, as she shuttles SOMEONE on her bike, he grips his crutches atop his lap.",
+        "Later, SOMEONE walks with a throng of pedestrians that includes the woman a few yards behind him at the office."
+      ],
+      "combined_context": [
+        "Guests crowd the steps beneath its colorful hanging banners.",
+        "In the lobby, he presses the gift bag into a slim woman's hand.",
+        "Second, moving along with thick traffic, the taxi pass is a museum."
+      ],
+      "combined_distances": [
+        -8.344650268554687e-08,
+        0.17060266137123106,
+        0.18837234377861023
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 37,
+      "start_frame": 798,
+      "end_frame": 802,
+      "start_time": 159.6,
+      "end_time": 160.4,
+      "duration": 0.8000000000000114,
+      "generated_ad": "As Pincus moves through the crowded exhibit space, he walks past a table where people in formal attire are checking in, surrounded by other museum patrons mingling and interacting with one another.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Pincus passes a glass case holding an Egyptian sarcophagus."
+      ],
+      "cross_modal_context": [
+        "Now lisa walks through the park carrying a brown paper lunch bag. She stops in her tracks and grins.",
+        "Later, SOMEONE walks with a throng of pedestrians that includes the woman a few yards behind him at the office."
+      ],
+      "combined_context": [
+        "Second, moving along with thick traffic, the taxi pass is a museum.",
+        "Pincus passes a glass case holding an Egyptian sarcophagus.",
+        "He enters another exhibit space where people in formal clothing mingle with one another and check in at a table."
+      ],
+      "combined_distances": [
+        0.005559289455413818,
+        0.12085565328598022,
+        0.12085565328598022
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 38,
+      "start_frame": 802,
+      "end_frame": 813,
+      "start_time": 160.4,
+      "end_time": 162.6,
+      "duration": 2.1999999999999886,
+      "generated_ad": "A taxi slows down alongside Central Park as it navigates through congested urban traffic.",
+      "ground_truth": "The taxi slows as it drives alongside Central Park.",
+      "ground_truth_id": "292310",
+      "visual_context": [
+        "The taxi slows as it drives alongside Central Park.",
+        "Traffic congests and urban street the way."
+      ],
+      "cross_modal_context": [
+        "Now SOMEONE pedals his bike down the center of a New York Ave riding against traffic.",
+        "Later he pedals down the middle of an empty street in a middle class suburb."
+      ],
+      "combined_context": [
+        "The taxi slows as it drives alongside Central Park.",
+        "Traffic congests and urban street the way.",
+        "The car pulls away from the apartment building SOMEONE drives and follows after it."
+      ],
+      "combined_distances": [
+        0.009131258726119994,
+        0.08573673367500305,
+        0.08606446981430053
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 39,
+      "start_frame": 813,
+      "end_frame": 836,
+      "start_time": 162.6,
+      "end_time": 167.2,
+      "duration": 4.599999999999994,
+      "generated_ad": "As the taxi pulls to the curb alongside Central Park, a man quickly exits the cab, holding a gift bag.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The taxi slows as it drives alongside Central Park.",
+        "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag."
+      ],
+      "cross_modal_context": [
+        "She pauses on the sidewalk to straighten her pink tone mini skirt, blouse and blazer and blows a lock of her unruly blonde hair out of her face.",
+        "Street cars drive by a stately building, a banner reading the Golden Quill, National Spelling bee hangs over a window in a bustling lobby guy and SOMEONE Paso trophy on a 4 foot pedestal."
+      ],
+      "combined_context": [
+        "The taxi slows as it drives alongside Central Park.",
+        "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag.",
+        "In the lobby, he presses the gift bag into a slim woman's hand."
+      ],
+      "combined_distances": [
+        -6.67572021484375e-07,
+        -6.67572021484375e-07,
+        0.11122997403144835
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 40,
+      "start_frame": 836,
+      "end_frame": 852,
+      "start_time": 167.2,
+      "end_time": 170.4,
+      "duration": 3.200000000000017,
+      "generated_ad": "As the taxi pulls to the curb, a man, possibly the Husky man, quickly exits the vehicle while holding a gift bag.",
+      "ground_truth": "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag.",
+      "ground_truth_id": "292311",
+      "visual_context": [
+        "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "cross_modal_context": [
+        "A passing taxi clips and losing its side mirror. But he remains undaunted as Peter approaches. SOMEONE meets his gaze. The young man glances aside, smiling bashfully.",
+        "The taxi pulls away a couple of years, older than SOMEONE jamie starts filing her nails."
+      ],
+      "combined_context": [
+        "As the cab pulls to the curb, the Husky man quickly hops out, holding the gift bag.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side."
+      ],
+      "combined_distances": [
+        -1.6689300537109374e-07,
+        0.06299309730529785,
+        0.06299309730529785
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 41,
+      "start_frame": 852,
+      "end_frame": 880,
+      "start_time": 170.4,
+      "end_time": 176.0,
+      "duration": 5.599999999999994,
+      "generated_ad": "As the elevator doors close, the slim woman, still holding the gift bag, smiles, and she and the man disappear from view.",
+      "ground_truth": "In the lobby, he presses the gift bag into a slim woman's hand.",
+      "ground_truth_id": "292312",
+      "visual_context": [
+        "In the lobby, he presses the gift bag into a slim woman's hand.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan."
+      ],
+      "cross_modal_context": [
+        "Jerks the wheel, sending the taxi into a one eighty spin, before driving off.",
+        "The taxi pulls away a couple of years, older than SOMEONE jamie starts filing her nails."
+      ],
+      "combined_context": [
+        "In the lobby, he presses the gift bag into a slim woman's hand.",
+        "Taxi, the classic, antique yellow cab pulls away from the airport curve it crosses over a river into manhattan.",
+        "Second, skyscrapers and square squat apartment buildings crowd the skyline on the other side."
+      ],
+      "combined_distances": [
+        -2.503395080566406e-07,
+        0.08333472609519958,
+        0.08333472609519958
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "The slim woman smiles as elevator doors close before them."
+    },
+    {
+      "shot_id": 42,
+      "start_frame": 880,
+      "end_frame": 1007,
+      "start_time": 176.0,
+      "end_time": 201.4,
+      "duration": 25.400000000000006,
+      "generated_ad": "As the elevator doors close, the slim woman smiles, and then she and the husky man exit the elevator into a penthouse, where a small terrier jumps onto the husky man's leg.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "So the slim woman smiles as elevator doors closed before them.",
+        "The exit, the elevator into."
+      ],
+      "cross_modal_context": [
+        "Loretta Tupper Jamesburg Shelley hack, Albert Ottenheimer and Paula Trueman as St Strangers Beverly D'Angelo as actress and robs TV show Tracey Walter as actor and SOMEONE s TV show.",
+        "In order of appearance Renee Zellweger as SOMEONE  Gemma Jones as SOMEONE  Jim Broadbent as SOMEONE  Sally Phillips as shazar, Julian Rhind Tutt as SOMEONE  Shirley Henderson as Jude, Ben Willbond as Giles, Paul Bentall as minister, Colin Firth as Mark, Agni Scott as Camilla, Katia Elisor OVA as glamorous looking woman, Tom Rosenthal as Josh researcher."
+      ],
+      "combined_context": [
+        "So the slim woman smiles as elevator doors closed before them.",
+        "The exit, the elevator into.",
+        "A small terrier hops on the husky."
+      ],
+      "combined_distances": [
+        -2.503395080566406e-07,
+        -2.503395080566406e-07,
+        -2.503395080566406e-07
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "The slim woman smiles as elevator doors close before them. They exit the elevator into a penthouse. A small terrier hops on the husky man's leg."
+    },
+    {
+      "shot_id": 43,
+      "start_frame": 1007,
+      "end_frame": 1016,
+      "start_time": 201.4,
+      "end_time": 203.2,
+      "duration": 1.799999999999983,
+      "generated_ad": "A small dog is seen quickly dragging or interacting with an article of clothing, possibly pants, in a brief and swift motion.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A small terrier hops on the husky.",
+        "Angus sits on a piano bench wearing a printed shirt and Ottoman lies in Magoos path. Angus sprints to shove it out of the way."
+      ],
+      "cross_modal_context": [
+        "Later, Teddy opens the master bedroom door and walks in.",
+        "Bernardo Di Paola as animal control officer Belita Moreno as shopkeeper Naasz Houma has police officer number two Kate McKinnon as Lupe Anthony Anderson as SOMEONE  Peyton Manning as SOMEONE David Tennant as Angus, Tim Nordquist as machina Bobby Cannavale as SOMEONE  Gina Rodriguez."
+      ],
+      "combined_context": [
+        "A small terrier hops on the husky.",
+        "Angus sits on a piano bench wearing a printed shirt and Ottoman lies in Magoos path. Angus sprints to shove it out of the way.",
+        "The dog returns to the closet and drags a pair of khaki pants alongside the shirt. The dog places a pair of pale green socks on the pants. A fishing vest follows."
+      ],
+      "combined_distances": [
+        0.010681653022766113,
+        0.06201343536376953,
+        0.06897758841514587
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": ""
+    },
+    {
+      "shot_id": 44,
+      "start_frame": 1016,
+      "end_frame": 1054,
+      "start_time": 203.2,
+      "end_time": 210.8,
+      "duration": 7.600000000000023,
+      "generated_ad": "As the woman speaks, she gestures downward with her hand, and a person, likely a child, is visible, responding to her instruction to \"get down\" near an elevator.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The woman tosses the gift bag in the trash.",
+        "So the slim woman smiles as elevator doors closed before them."
+      ],
+      "cross_modal_context": [
+        "Loretta Tupper Jamesburg Shelley hack, Albert Ottenheimer and Paula Trueman as St Strangers Beverly D'Angelo as actress and robs TV show Tracey Walter as actor and SOMEONE s TV show.",
+        "Julian Tepper as Delhi waiter, Caleb Reynolds as schoolboy John Goodman's stand the doorman Max von Sydow as the renter Stephen McKinley Henderson as Walt the locksmith Lorna Guity Preuss's locksmith customer Viola Davis is Abby black."
+      ],
+      "combined_context": [
+        "The woman tosses the gift bag in the trash.",
+        "So the slim woman smiles as elevator doors closed before them.",
+        "The exit, the elevator into."
+      ],
+      "combined_distances": [
+        0.018949782848358153,
+        0.03957775831222534,
+        0.03957775831222534
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Not really yet, the taxi's waiting. He's going to cost more than the airplanes. Get down. Be nice to him."
+    },
+    {
+      "shot_id": 45,
+      "start_frame": 1054,
+      "end_frame": 1061,
+      "start_time": 210.8,
+      "end_time": 212.2,
+      "duration": 1.3999999999999773,
+      "generated_ad": "As someone, likely Angus, wearing a printed shirt, possibly sitting on a surface, extends their arm to interact with a small dog, the dog jumps down towards the person, while another person stands nearby, possibly holding or standing near an object, such as a bike or a piano.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A small terrier hops on the husky.",
+        "The newspaper boy sits on his bike on his bed. Buddy sits up, then jumps down in pads toward the buddies room. He discovers the puppies gone, then notices the open window."
+      ],
+      "cross_modal_context": [
+        "Walter motions to Phyllis and she goes in the apartment.",
+        "That walter starts to get up."
+      ],
+      "combined_context": [
+        "A small terrier hops on the husky.",
+        "The newspaper boy sits on his bike on his bed. Buddy sits up, then jumps down in pads toward the buddies room. He discovers the puppies gone, then notices the open window.",
+        "Angus sits on a piano bench wearing a printed shirt and Ottoman lies in Magoos path. Angus sprints to shove it out of the way."
+      ],
+      "combined_distances": [
+        0.03067076206207275,
+        0.08530656695365905,
+        0.08815359473228454
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "He's going to cost more than the airplanes. Get down. Be nice to him."
+    },
+    {
+      "shot_id": 46,
+      "start_frame": 1061,
+      "end_frame": 1074,
+      "start_time": 212.2,
+      "end_time": 214.8,
+      "duration": 2.6000000000000227,
+      "generated_ad": "As she speaks, someone crouches down, and she hands a dalmatian-inspired drawing to this person, who is near her, amidst the surroundings of an unfinished room.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "This is why she hands SOMEONE the dalmatian inspired drawing.",
+        "Up at the curb."
+      ],
+      "cross_modal_context": [
+        "In her room, SOMEONE leaves the adjoining bathroom in a sleeveless white nightie with a ruffled scoop neck and a demure floral pattern.",
+        "Padding over to her bedroom door on a pauses to listen. Her brow creased. She opens the door to find Petra and Sonia having a threesome with a bearded man."
+      ],
+      "combined_context": [
+        "This is why she hands SOMEONE the dalmatian inspired drawing.",
+        "Up at the curb.",
+        "Grinning SOMEONE turns on a light. She goes to the center of the unfinished room and looks at SOMEONE "
+      ],
+      "combined_distances": [
+        0.11842819452285766,
+        0.13179006576538085,
+        0.13534830808639525
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Get down. Be nice to him. He's been through a lot lately."
+    },
+    {
+      "shot_id": 47,
+      "start_frame": 1074,
+      "end_frame": 1083,
+      "start_time": 214.8,
+      "end_time": 216.6,
+      "duration": 1.799999999999983,
+      "generated_ad": "As the woman speaks, she is visible, and a phone is present on a nearby cluttered desk.",
+      "ground_truth": "The woman tosses the gift bag in the trash.",
+      "ground_truth_id": "292316",
+      "visual_context": [
+        "The woman tosses the gift bag in the trash.",
+        "He picks up a phone and dials."
+      ],
+      "cross_modal_context": [
+        "Julian Tepper as Delhi waiter, Caleb Reynolds as schoolboy John Goodman's stand the doorman Max von Sydow as the renter Stephen McKinley Henderson as Walt the locksmith Lorna Guity Preuss's locksmith customer Viola Davis is Abby black.",
+        "Nancy Sorrell is Ringo's owner Alan Costa not a as man and elevator stunt coordinator Marni Ang stunt drivers Dwayne Dickinson, Ryan Ennis, Dave Hospice, Mike Mitchell Gerald Paytes Jeff Sanka Rick Skene stunt doubles Horry Glass Shannon GAIL Hardy leave half Dale stunt players Sean Skene Grant Smith Chris Webb Dave Dunaway art director Larry Spittle assistant art director Vincent Tang."
+      ],
+      "combined_context": [
+        "The woman tosses the gift bag in the trash.",
+        "He picks up a phone and dials.",
+        "In an elegant apartment, another phone rests on a cluttered desk."
+      ],
+      "combined_distances": [
+        0.00857471227645874,
+        0.06519203782081603,
+        0.06519203782081603
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "Be nice to him. He's been through a lot lately."
+    },
+    {
+      "shot_id": 48,
+      "start_frame": 1083,
+      "end_frame": 1095,
+      "start_time": 216.6,
+      "end_time": 219.0,
+      "duration": 2.4000000000000057,
+      "generated_ad": "As the character speaks, Angus is seen sprinting towards something, his printed shirt visible as he moves, while a small dog, likely the terrier, is present in the scene, near a larger dog, possibly the husky.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "A small terrier hops on the husky.",
+        "Angus sits on a piano bench wearing a printed shirt and Ottoman lies in Magoos path. Angus sprints to shove it out of the way."
+      ],
+      "cross_modal_context": [
+        "Edward Zwick Marshall Herskovitz, produced by Gram King Gilliam Garfield executive producers Len Amato, Kevin Illinois, Benjamin Way, spring director of photography Eduardo Serra, AFC AFC production designer Dan we'll edited by Steven Rosenblum, ASCE.",
+        "Production designer Howard Cummings, director of photography Fred Murphy, ASC executive producers Roger Birnbaum, Gary Barber, executive producer as Riskware, though produced by Gavin Pallone, written by David Koepp and John Camps."
+      ],
+      "combined_context": [
+        "A small terrier hops on the husky.",
+        "Angus sits on a piano bench wearing a printed shirt and Ottoman lies in Magoos path. Angus sprints to shove it out of the way.",
+        "Edward Zwick Marshall Herskovitz, produced by Gram King Gilliam Garfield executive producers Len Amato, Kevin Illinois, Benjamin Way, spring director of photography Eduardo Serra, AFC AFC production designer Dan we'll edited by Steven Rosenblum, ASCE."
+      ],
+      "combined_distances": [
+        0.04268726706504822,
+        0.0916526734828949,
+        0.7713095843791963
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "cross_modal"
+      ],
+      "subtitle_context": "He's been through a lot lately. He doesn't remember me."
+    },
+    {
+      "shot_id": 49,
+      "start_frame": 1095,
+      "end_frame": 1106,
+      "start_time": 219.0,
+      "end_time": 221.2,
+      "duration": 2.1999999999999886,
+      "generated_ad": "A tearful woman sits in front of a man, who appears unaffected, as she speaks, with a trash can visible in the background, containing a discarded gift bag.",
+      "ground_truth": null,
+      "ground_truth_id": null,
+      "visual_context": [
+        "The woman tosses the gift bag in the trash.",
+        "With SOMEONE steals herself SOMEONE sits before his tearful daughter."
+      ],
+      "cross_modal_context": [
+        "Len Cariou as Ben Jaccuzi as the fish Ronnie Gene Blevins as Joe Kirby Bliss Blanton as Bethany andrea so pale as belligerent dad.",
+        "Later in his apartment, he and Hoffman stare at the telephone."
+      ],
+      "combined_context": [
+        "The woman tosses the gift bag in the trash.",
+        "With SOMEONE steals herself SOMEONE sits before his tearful daughter.",
+        "With SOMEONE steals herself SOMEONE sits before his tearful daughter."
+      ],
+      "combined_distances": [
+        0.043685078620910645,
+        0.07453103661537169,
+        0.0808534026145935
+      ],
+      "combined_sources": [
+        "visual",
+        "visual",
+        "visual"
+      ],
+      "subtitle_context": "He doesn't remember me. He's beaten me."
+    }
+  ]
+}
