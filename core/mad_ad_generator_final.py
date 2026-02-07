@@ -479,9 +479,10 @@ def generate_ad(
     context_sources: List[str],
     subtitle_text: str = "",
     movie_name: str = "",
-    movie_synopsis: str = ""
+    movie_synopsis: str = "",
+    previous_ad: str = ""
 ) -> str:
-    """Generate AD using Groq LLM with improved prompting."""
+    """Generate AD using Groq LLM with improved prompting and continuity."""
     
     shot_type = classify_shot_type(context_ads, subtitle_text)
     
@@ -504,6 +505,7 @@ Generate one sentence describing this logo or credit sequence."""
 Generate ONE vivid, factual sentence describing the visual content of a movie scene.
 Focus on: visible actions, key objects, character appearances, emotional expressions.
 CRITICAL: Only describe what is CLEARLY indicated in the context. DO NOT invent specific details.
+Maintain narrative continuity with the previous shot if provided.
 Before writing, silently decide which provided context items are actually relevant (some may be off-topic). Do NOT output your reasoning; only output the final description."""
         
         # Build context with source indicators
@@ -522,6 +524,9 @@ Before writing, silently decide which provided context items are actually releva
                 meta_line += f" | Synopsis: {movie_synopsis}"
             context_parts.append(meta_line)
         
+        if previous_ad:
+            context_parts.append(f"\nPrevious Shot AD: {previous_ad}")
+        
         context_text = "\n".join(context_parts) if context_parts else "No context available."
         
         user_prompt = f"""Scene duration: {shot_info['duration']:.1f} seconds
@@ -531,6 +536,7 @@ Before writing, silently decide which provided context items are actually releva
 Instructions:
 - The provided context ADs might include irrelevant or misleading items. First, internally choose the 1-2 most relevant items (if any) and ignore the rest.
 - Give priority to items marked with 🎬 (visual) over 📝 (cross-modal) if relevance is similar.
+- Consider the 'Previous Shot AD' for continuity (e.g. use "He" if the character was just introduced), but focus on the CURRENT shot's action.
 - Then generate ONE sentence describing what happens visually, grounded in the chosen context and the dialogue.
 - Focus on observable actions and objects, not interpretations.
 - Do NOT include your reasoning in the output."""
@@ -611,6 +617,7 @@ def process_movie(
     results = []
     failed_retrievals = 0
     low_confidence_skips = 0
+    last_valid_ad = ""
     
     for shot_idx, (start_frame, end_frame) in enumerate(tqdm(shots, desc="Generating ADs")):
         # Shot metadata
@@ -672,8 +679,13 @@ def process_movie(
                 sources,
                 subtitle_text,
                 movie_ctx.get("movie_name", ""),
-                movie_ctx.get("movie_synopsis", "")
+                movie_ctx.get("movie_synopsis", ""),
+                previous_ad=last_valid_ad
             )
+            
+            # Update history if generation was successful and not a failure message
+            if generated_ad and not generated_ad.startswith("["):
+                 last_valid_ad = generated_ad
         else:
             generated_ad = f"[Skipped: {reason}]"
             low_confidence_skips += 1
